@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --app --no-eslint --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(command -v node)",
+      "Bash(cmd.exe /c \"where node npm npx 2>&1\")",
+      "Bash(cmd.exe /c \"node --version && npm --version && npx --version\")",
+      "Bash(powershell -Command \"node --version; npm --version; \\(Get-Command node -ErrorAction SilentlyContinue\\).Source\")"
+    ]
+  }
+}

@@ -1,0 +1,456 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   VARIABILE GLOBALE
+   ============================================================ */
+:root {
+  --cream: #F5F0E6;
+  --cream-dark: #EDE6D6;
+  --forest: #2D6A4F;
+  --forest-light: #52B788;
+  --forest-dark: #1B4332;
+  --forest-deep: #0D2B1F;
+  --gold: #C9A84C;
+  --gold-light: #E2C97E;
+  --bark: #8B7355;
+  --bark-light: #D4C5A9;
+  --offwhite: #FDFAF5;
+}
+
+/* ============================================================
+   RESET ȘI BASE
+   ============================================================ */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--forest-dark);
+  font-family: var(--font-jost), system-ui, sans-serif;
+  cursor: none; /* cursor-ul custom va fi afișat via JS */
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Grain texture overlay — simulează paper art din logo */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.04;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='1'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: 256px 256px;
+}
+
+/* ============================================================
+   CURSOR CUSTOM
+   ============================================================ */
+.cursor-dot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--forest);
+  pointer-events: none;
+  z-index: 10000;
+  transform: translate(-50%, -50%);
+  transition: width 0.2s ease, height 0.2s ease, background-color 0.2s ease, border 0.2s ease;
+}
+
+.cursor-dot.cursor-hover {
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  border: 1.5px solid var(--forest);
+}
+
+/* Pe mobil, cursor nativ */
+@media (hover: none) {
+  body {
+    cursor: auto;
+  }
+  .cursor-dot {
+    display: none;
+  }
+}
+
+/* ============================================================
+   SCROLL BAR STYLING
+   ============================================================ */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--cream-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--forest);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--forest-dark);
+}
+
+/* ============================================================
+   SELECȚIE TEXT
+   ============================================================ */
+::selection {
+  background-color: rgba(45, 106, 79, 0.2);
+  color: var(--forest-dark);
+}
+
+/* ============================================================
+   UTILITARE TIPOGRAFIE
+   ============================================================ */
+.font-playfair {
+  font-family: var(--font-playfair), Georgia, serif;
+}
+
+.font-jost {
+  font-family: var(--font-jost), system-ui, sans-serif;
+}
+
+/* Fluid typography pentru hero */
+.text-fluid-hero {
+  font-size: clamp(2.375rem, 5vw + 1rem, 4.25rem);
+}
+
+.text-fluid-section {
+  font-size: clamp(1.75rem, 3vw + 0.75rem, 3rem);
+}
+
+/* ============================================================
+   ANIMAȚII CSS (fallback pentru Framer Motion)
+   ============================================================ */
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  33% { transform: translateY(-12px) rotate(2deg); }
+  66% { transform: translateY(-6px) rotate(-1.5deg); }
+}
+
+@keyframes floatAlt {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  33% { transform: translateY(-8px) rotate(-2deg); }
+  66% { transform: translateY(-14px) rotate(1deg); }
+}
+
+@keyframes scaleInX {
+  from { transform: scaleX(0); }
+  to { transform: scaleX(1); }
+}
+
+.animate-float {
+  animation: float 10s ease-in-out infinite;
+}
+
+.animate-float-alt {
+  animation: floatAlt 12s ease-in-out infinite;
+}
+
+/* ============================================================
+   PREFERS REDUCED MOTION
+   ============================================================ */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .animate-float,
+  .animate-float-alt {
+    animation: none;
+  }
+}
+
+/* ============================================================
+   UTILITARE LAYOUT
+   ============================================================ */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Section padding standard */
+.section-padding {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+@media (min-width: 1024px) {
+  .section-padding {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
+/* Container standard */
+.container-site {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .container-site {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-site {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+/* ============================================================
+   GOLD UNDERLINE HOVER (utilizat în Footer linkuri)
+   ============================================================ */
+.hover-gold-underline {
+  position: relative;
+  display: inline-block;
+}
+
+.hover-gold-underline::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: var(--gold);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.hover-gold-underline:hover::after {
+  transform: scaleX(1);
+}
+
+/* ============================================
+   ARA DENT STUDIO — CSS Keyframes & Animations
+   ============================================ */
+
+@keyframes float {
+  0%   { transform: translateY(0px) rotate(0deg); }
+  50%  { transform: translateY(-18px) rotate(3deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
+
+@keyframes floatSubtle {
+  0%   { transform: translateY(0px); }
+  50%  { transform: translateY(-8px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0px); animation-timing-function: ease-in; }
+  50%       { transform: translateY(-24px); animation-timing-function: ease-out; }
+}
+
+@keyframes bounceSoft {
+  0%, 100% { transform: translateY(0px); }
+  40%       { transform: translateY(-12px); }
+  60%       { transform: translateY(-8px); }
+}
+
+@keyframes pulseGold {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(201, 168, 76, 0.4); }
+  50%       { box-shadow: 0 0 0 12px rgba(201, 168, 76, 0); }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.animate-float {
+  animation: float 8s ease-in-out infinite;
+}
+
+.animate-float-subtle {
+  animation: floatSubtle 6s ease-in-out infinite;
+}
+
+.animate-bounce-soft {
+  animation: bounceSoft 3s ease-in-out infinite;
+}
+
+.animate-pulse-gold {
+  animation: pulseGold 2s ease-in-out infinite;
+}
+
+.animation-delay-2 { animation-delay: 2s; }
+.animation-delay-4 { animation-delay: 4s; }
+.animation-delay-6 { animation-delay: 6s; }
+.animation-delay-8 { animation-delay: 8s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-float,
+  .animate-float-subtle,
+  .animate-bounce-soft,
+  .animate-pulse-gold {
+    animation: none;
+  }
+}
+
+/* ============================================
+   FADE UP ON SCROLL — ARA DENT STUDIO
+   ============================================ */
+
+/* Ascunde elementele înainte ca JS să le anime */
+[data-animate] {
+  opacity: 0;
+}
+
+@keyframes fadeUp {
+  0%   { opacity: 0; transform: translateY(40px); }
+  100% { opacity: 1; transform: translateY(0px); }
+}
+
+@keyframes fadeUpSlow {
+  0%   { opacity: 0; transform: translateY(60px); }
+  100% { opacity: 1; transform: translateY(0px); }
+}
+
+@keyframes fadeUpSubtle {
+  0%   { opacity: 0; transform: translateY(20px); }
+  100% { opacity: 1; transform: translateY(0px); }
+}
+
+@keyframes fadeLeft {
+  0%   { opacity: 0; transform: translateX(-40px); }
+  100% { opacity: 1; transform: translateX(0px); }
+}
+
+@keyframes fadeRight {
+  0%   { opacity: 0; transform: translateX(40px); }
+  100% { opacity: 1; transform: translateX(0px); }
+}
+
+/* Clase utilitare */
+.fade-up {
+  opacity: 0;
+  animation: fadeUp 0.7s ease-out forwards;
+}
+
+.fade-up-slow {
+  opacity: 0;
+  animation: fadeUpSlow 1s ease-out forwards;
+}
+
+.fade-up-subtle {
+  opacity: 0;
+  animation: fadeUpSubtle 0.5s ease-out forwards;
+}
+
+.fade-left {
+  opacity: 0;
+  animation: fadeLeft 0.7s ease-out forwards;
+}
+
+.fade-right {
+  opacity: 0;
+  animation: fadeRight 0.7s ease-out forwards;
+}
+
+/* Delay-uri stagger */
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; }
+.delay-600 { animation-delay: 0.6s; }
+.delay-700 { animation-delay: 0.7s; }
+.delay-800 { animation-delay: 0.8s; }
+
+/* Clasa care declanșează animația —
+   adăugată de JavaScript la scroll */
+.is-visible {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [data-animate] {
+    opacity: 1;
+  }
+  .fade-up,
+  .fade-up-slow,
+  .fade-up-subtle,
+  .fade-left,
+  .fade-right {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+/* ============================================
+   PARALLAX UTILITIES — ARA DENT STUDIO
+   ============================================ */
+
+.parallax-bg {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  will-change: transform;
+}
+
+.parallax-element {
+  will-change: transform;
+  transition: transform 0.1s linear;
+}
+
+/* Dezactivează parallax pe mobil */
+@media (max-width: 768px) {
+  .parallax-bg {
+    background-attachment: scroll;
+  }
+  [data-parallax-mouse] {
+    transform: none !important;
+  }
+}
+
+/* Respectă prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  .parallax-element,
+  [data-parallax-mouse] {
+    transform: none !important;
+    transition: none !important;
+  }
+}

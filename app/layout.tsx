@@ -1,0 +1,171 @@
+import type { Metadata } from 'next'
+import { Playfair_Display, Jost } from 'next/font/google'
+import './globals.css'
+import CustomCursor from './components/CustomCursor'
+import ScrollAnimationInit from './components/ScrollAnimationInit'
+import LenisProvider from './components/LenisProvider'
+
+// ============================================================
+// FONTURI
+// ============================================================
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  weight: ['400', '600', '700'],
+  style: ['normal', 'italic'],
+  variable: '--font-playfair',
+  display: 'swap',
+  preload: true,
+})
+
+const jost = Jost({
+  subsets: ['latin'],
+  weight: ['300', '400', '500'],
+  style: ['normal'],
+  variable: '--font-jost',
+  display: 'swap',
+  preload: true,
+})
+
+// ============================================================
+// METADATA SEO
+// ============================================================
+export const metadata: Metadata = {
+  metadataBase: new URL('https://aradent.ro'),
+  title: {
+    default: 'ARA DENT STUDIO | Clinică Dentară Premium Pitești',
+    template: '%s | ARA DENT STUDIO Pitești',
+  },
+  description:
+    'Implantologie, chirurgie orală, protetică și endodonție de înaltă precizie în Pitești. Dr. Robert Lungu. Prima consultație gratuită pentru cazurile de implantologie.',
+  keywords: [
+    'implant dentar pitesti',
+    'stomatologie premium pitesti',
+    'clinica dentara arges',
+    'implantologie pitesti',
+    'ara dent studio',
+    'dr robert lungu',
+    'chirurgie orala pitesti',
+    'protetica dentara pitesti',
+    'endodontie pitesti',
+  ],
+  authors: [{ name: 'ARA DENT STUDIO' }],
+  creator: 'ARA DENT STUDIO',
+  publisher: 'ARA DENT STUDIO',
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'ro_RO',
+    url: 'https://aradent.ro',
+    siteName: 'ARA DENT STUDIO',
+    title: 'ARA DENT STUDIO | Clinică Dentară Premium Pitești',
+    description:
+      'Implantologie, chirurgie orală, protetică și endodonție de înaltă precizie în Pitești. Dr. Robert Lungu.',
+    images: [
+      {
+        url: '/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'ARA DENT STUDIO — Clinică Dentară Premium Pitești',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ARA DENT STUDIO | Clinică Dentară Premium Pitești',
+    description:
+      'Implantologie, chirurgie orală, protetică și endodonție de înaltă precizie în Pitești.',
+    images: ['/og-image.jpg'],
+  },
+  alternates: {
+    canonical: 'https://aradent.ro',
+  },
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+  },
+}
+
+// ============================================================
+// JSON-LD STRUCTURED DATA
+// ============================================================
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Dentist',
+  name: 'ARA DENT STUDIO',
+  description:
+    'Clinică dentară premium în Pitești — implantologie, chirurgie orală, protetică și endodonție.',
+  url: 'https://aradent.ro',
+  telephone: '+40754219011',
+  email: 'aradentstudio@gmail.com',
+  priceRange: '$$',
+  currenciesAccepted: 'RON',
+  paymentAccepted: 'Cash, Card',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Bd. Republicii nr. 19',
+    addressLocality: 'Pitești',
+    addressRegion: 'Argeș',
+    postalCode: '110017',
+    addressCountry: 'RO',
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: '44.8565',
+    longitude: '24.8692',
+  },
+  openingHoursSpecification: [
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
+  ],
+  medicalSpecialty: ['Dentistry', 'OralSurgery'],
+  founder: {
+    '@type': 'Person',
+    name: 'Dr. Robert Lungu',
+    jobTitle: 'Medic Stomatolog · Specialist Implantologie',
+  },
+  sameAs: [
+    'https://instagram.com/aradentstudio',
+    'https://facebook.com/aradentstudio',
+  ],
+}
+
+// ============================================================
+// LAYOUT
+// ============================================================
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode
+}>) {
+  return (
+    <html lang="ro" className={`${playfair.variable} ${jost.variable}`}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
+      <body className="bg-cream font-jost antialiased">
+        <LenisProvider>
+          <CustomCursor />
+          <ScrollAnimationInit />
+          {children}
+        </LenisProvider>
+      </body>
+    </html>
+  )
+}
