@@ -61,44 +61,28 @@ const AboutDoctor = () => {
                 aria-hidden="true"
               />
 
-              {/* Fotografie clinică */}
+              {/* Fotografie doctor */}
               <div style={{
                 position: 'relative',
                 width: '100%',
                 maxWidth: '480px',
-                aspectRatio: '4/5',
+                height: '560px',
                 borderRadius: '4px',
                 overflow: 'hidden',
                 border: '2px solid #C9A84C',
                 boxShadow: '0 20px 60px rgba(45, 106, 79, 0.15)',
+                flexShrink: 0,
               }}>
                 <Image
-                  src="/images/AT2A3840.jpg"
-                  alt="ARA DENT STUDIO — Cabinet stomatologic Pitești"
+                  src="/images/pozadoctor.jpg"
+                  alt="Dr. Robert Lungu — ARA DENT STUDIO Pitești"
                   fill
-                  style={{ objectFit: 'cover', objectPosition: 'center' }}
-                  quality={100}
+                  style={{
+                    objectFit: 'cover',
+                    objectPosition: 'center top',
+                  }}
                   priority
                 />
-                <div style={{
-                  position: 'absolute',
-                  bottom: 0,
-                  left: 0,
-                  right: 0,
-                  padding: '24px',
-                  background: 'linear-gradient(transparent, rgba(13, 43, 31, 0.85))',
-                }}>
-                  <p style={{
-                    fontFamily: 'var(--font-display)',
-                    fontSize: '14px',
-                    color: '#C9A84C',
-                    textTransform: 'uppercase',
-                    letterSpacing: '0.2em',
-                    margin: 0,
-                  }}>
-                    ARA DENT STUDIO · Pitești
-                  </p>
-                </div>
               </div>
 
               {/* Frunza mare */}
