@@ -5,9 +5,17 @@ import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
-  title: 'Obturații Dentare Pitești | Tratament Carie | ARA DENT STUDIO',
+  title: 'Obturații Dentare Pitești | ARA DENT STUDIO',
   description: 'Tratament carie și obturații dentare în Pitești. Dr. Robert Lungu, ARA DENT STUDIO. Materiale premium, rezultate estetice.',
   alternates: { canonical: 'https://aradentpitesti.ro/servicii/obturatii' },
+  openGraph: {
+    title: 'Obturații Dentare Pitești | ARA DENT STUDIO',
+    description: 'Tratament carie și obturații dentare în Pitești. Dr. Robert Lungu. Materiale premium, rezultate estetice.',
+    url: 'https://aradentpitesti.ro/servicii/obturatii',
+    siteName: 'ARA DENT STUDIO',
+    locale: 'ro_RO',
+    type: 'website',
+  },
 }
 
 const BENEFITS = [

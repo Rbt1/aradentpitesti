@@ -5,9 +5,17 @@ import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
-  title: 'Endodonție Pitești | Tratament Canal | ARA DENT STUDIO',
+  title: 'Endodonție Pitești | Tratament Canal',
   description: 'Tratament de canal în Pitești la ARA DENT STUDIO. Dr. Robert Lungu. Procedură nedureroasă, microscop dentar, rezultate durabile.',
   alternates: { canonical: 'https://aradentpitesti.ro/servicii/endodontie' },
+  openGraph: {
+    title: 'Endodonție Pitești | Tratament Canal',
+    description: 'Tratament de canal în Pitești. Dr. Robert Lungu. Procedură nedureroasă, microscop dentar, rezultate durabile.',
+    url: 'https://aradentpitesti.ro/servicii/endodontie',
+    siteName: 'ARA DENT STUDIO',
+    locale: 'ro_RO',
+    type: 'website',
+  },
 }
 
 const BENEFITS = [

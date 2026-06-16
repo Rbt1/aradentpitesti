@@ -55,8 +55,6 @@ const SmallLeafSVG = () => (
   </svg>
 )
 
-const titleWords = CONTENT.title.split(' ')
-
 const Hero = () => {
   // Scroll parallax refs
   const parallaxLeaf1 = useParallax(0.15)
@@ -161,25 +159,16 @@ const Hero = () => {
 
         {/* Titlu + subtitlu — scroll parallax 0.08 */}
         <div ref={parallaxText} className="parallax-element">
-          {/* Titlu — word by word, mouse parallax */}
+          {/* Titlu */}
           <div data-parallax-mouse="5">
-            <h1 className="font-playfair italic text-fluid-hero text-forest-dark leading-tight mb-6">
-              {titleWords.map((word, i) => (
-                <motion.span
-                  key={i}
-                  className="inline-block mr-[0.25em]"
-                  initial={{ opacity: 0, y: 16 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{
-                    delay: 0.8 + i * 0.12,
-                    duration: 0.6,
-                    ease: [0.25, 0.46, 0.45, 0.94],
-                  }}
-                >
-                  {word}
-                </motion.span>
-              ))}
-            </h1>
+            <motion.h1
+              className="font-playfair italic text-fluid-hero text-forest-dark leading-tight mb-6"
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.8, duration: 0.7, ease: [0.25, 0.46, 0.45, 0.94] }}
+            >
+              {CONTENT.title}
+            </motion.h1>
           </div>
 
           {/* Subtitlu — mouse parallax mai lent */}

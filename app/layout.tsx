@@ -30,13 +30,13 @@ const jost = Jost({
 // METADATA SEO
 // ============================================================
 export const metadata: Metadata = {
-  metadataBase: new URL('https://aradent.ro'),
+  metadataBase: new URL('https://aradentpitesti.ro'),
   title: {
     default: 'ARA DENT STUDIO | Clinică Dentară Premium Pitești',
     template: '%s | ARA DENT STUDIO Pitești',
   },
   description:
-    'Implantologie, chirurgie orală, protetică și endodonție de înaltă precizie în Pitești. Dr. Robert Lungu. Prima consultație gratuită pentru cazurile de implantologie.',
+    'Implantologie, chirurgie orală, protetică și endodonție în Pitești. Dr. Robert Lungu, specialist. Prima consultație gratuită.',
   keywords: [
     'implant dentar pitesti',
     'stomatologie premium pitesti',
@@ -74,31 +74,29 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    type: 'website',
-    locale: 'ro_RO',
-    url: 'https://aradent.ro',
-    siteName: 'ARA DENT STUDIO',
     title: 'ARA DENT STUDIO | Clinică Dentară Premium Pitești',
-    description:
-      'Implantologie, chirurgie orală, protetică și endodonție de înaltă precizie în Pitești. Dr. Robert Lungu.',
+    description: 'Implantologie, chirurgie orală, protetică și endodonție în Pitești. Dr. Robert Lungu. Prima consultație gratuită.',
+    url: 'https://aradentpitesti.ro',
+    siteName: 'ARA DENT STUDIO',
+    locale: 'ro_RO',
+    type: 'website',
     images: [
       {
-        url: '/og-image.jpg',
+        url: 'https://aradentpitesti.ro/logo/logo.png',
         width: 1200,
         height: 630,
-        alt: 'ARA DENT STUDIO — Clinică Dentară Premium Pitești',
+        alt: 'ARA DENT STUDIO Pitești',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ARA DENT STUDIO | Clinică Dentară Premium Pitești',
-    description:
-      'Implantologie, chirurgie orală, protetică și endodonție de înaltă precizie în Pitești.',
-    images: ['/og-image.jpg'],
+    title: 'ARA DENT STUDIO | Clinică Dentară Pitești',
+    description: 'Implantologie și chirurgie orală în Pitești. Dr. Robert Lungu.',
+    images: ['https://aradentpitesti.ro/logo/logo.png'],
   },
   alternates: {
-    canonical: 'https://aradent.ro',
+    canonical: 'https://aradentpitesti.ro',
   },
   icons: {
     icon: '/favicon.ico',
@@ -115,7 +113,7 @@ const jsonLd = {
   name: 'ARA DENT STUDIO',
   description:
     'Clinică dentară premium în Pitești — implantologie, chirurgie orală, protetică și endodonție.',
-  url: 'https://aradent.ro',
+  url: 'https://aradentpitesti.ro',
   telephone: '+40754219011',
   email: 'aradentstudio@gmail.com',
   priceRange: '$$',

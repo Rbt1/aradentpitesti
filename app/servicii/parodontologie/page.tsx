@@ -5,9 +5,17 @@ import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
-  title: 'Parodontologie Pitești | Tratament Boală Parodontală | ARA DENT STUDIO',
+  title: 'Parodontologie Pitești | ARA DENT STUDIO',
   description: 'Tratament parodontal în Pitești. Boala parodontală oprită la timp salvează dinții. Dr. Robert Lungu, ARA DENT STUDIO.',
   alternates: { canonical: 'https://aradentpitesti.ro/servicii/parodontologie' },
+  openGraph: {
+    title: 'Parodontologie Pitești | ARA DENT STUDIO',
+    description: 'Tratament parodontal în Pitești. Boala parodontală oprită la timp salvează dinții. Dr. Robert Lungu.',
+    url: 'https://aradentpitesti.ro/servicii/parodontologie',
+    siteName: 'ARA DENT STUDIO',
+    locale: 'ro_RO',
+    type: 'website',
+  },
 }
 
 const BENEFITS = [

@@ -5,9 +5,17 @@ import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
-  title: 'Chirurgie Orală Pitești | Dr. Robert Lungu | ARA DENT STUDIO',
+  title: 'Chirurgie Orală Pitești | Dr. Robert Lungu',
   description: 'Chirurgie orală și chirurgie dento-alveolară în Pitești. Dr. Robert Lungu, medic specialist. Extracții, rezecții, proceduri complexe.',
   alternates: { canonical: 'https://aradentpitesti.ro/servicii/chirurgie-orala' },
+  openGraph: {
+    title: 'Chirurgie Orală Pitești | Dr. Robert Lungu',
+    description: 'Chirurgie orală și chirurgie dento-alveolară în Pitești. Dr. Robert Lungu, medic specialist. Extracții, rezecții, proceduri complexe.',
+    url: 'https://aradentpitesti.ro/servicii/chirurgie-orala',
+    siteName: 'ARA DENT STUDIO',
+    locale: 'ro_RO',
+    type: 'website',
+  },
 }
 
 const BENEFITS = [

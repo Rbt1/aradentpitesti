@@ -5,9 +5,17 @@ import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
-  title: 'Implant Dentar Pitești | Dr. Robert Lungu | ARA DENT STUDIO',
+  title: 'Implant Dentar Pitești | Dr. Robert Lungu',
   description: 'Implant dentar în Pitești cu Dr. Robert Lungu, specialist chirurgie dento-alveolară. Prima consultație gratuită. Programează-te online.',
   alternates: { canonical: 'https://aradentpitesti.ro/servicii/implantologie' },
+  openGraph: {
+    title: 'Implant Dentar Pitești | Dr. Robert Lungu',
+    description: 'Implant dentar în Pitești cu Dr. Robert Lungu, specialist chirurgie dento-alveolară. Prima consultație gratuită.',
+    url: 'https://aradentpitesti.ro/servicii/implantologie',
+    siteName: 'ARA DENT STUDIO',
+    locale: 'ro_RO',
+    type: 'website',
+  },
 }
 
 const BENEFITS = [
