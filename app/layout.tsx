@@ -4,6 +4,7 @@ import './globals.css'
 import CustomCursor from './components/CustomCursor'
 import ScrollAnimationInit from './components/ScrollAnimationInit'
 import LenisProvider from './components/LenisProvider'
+import Script from 'next/script'
 
 // ============================================================
 // FONTURI
@@ -169,6 +170,18 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-cream font-jost antialiased">
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-MV0DF1E3LC"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-MV0DF1E3LC');
+          `}
+        </Script>
         <LenisProvider>
           <CustomCursor />
           <ScrollAnimationInit />
