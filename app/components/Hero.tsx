@@ -7,7 +7,7 @@ import { useMouseParallax } from '../hooks/useMouseParallax'
 
 const CONTENT = {
   title: 'Zâmbetul tău înflorește aici.',
-  subtitle: 'Implantologie · Chirurgie · Protetică · Endodonție',
+  subtitle: 'Stomatologie premium în Pitești · Implantologie · Chirurgie · Protetică · Endodonție',
   ctaPrimary: 'Programează-te',
   ctaSecondary: 'Descoperă clinica',
   scrollLabel: 'Descoperă',
