@@ -11,6 +11,7 @@ const NAV_LINKS = [
   { label: 'Testimoniale', href: '#testimoniale' },
   { label: 'Programare', href: '#programare' },
   { label: 'Ghiduri Gratuite', href: '/resurse' },
+  { label: 'Blog', href: '/blog' },
 ]
 
 const InstagramIcon = () => (

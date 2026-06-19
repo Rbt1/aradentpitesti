@@ -8,6 +8,7 @@ const NAV_LINKS = [
   { label: 'Tehnologie', href: '/#tehnologie' },
   { label: 'Dr. Robert Lungu', href: '/#doctor' },
   { label: 'Resurse', href: '/resurse' },
+  { label: 'Blog', href: '/blog' },
 ]
 
 const SERVICII_LINKS = [
