@@ -271,26 +271,19 @@ Cum am aflat: ${sursa || 'nespecificat'}`
       <AnimatePresence>
         {modalOpen && (
           <>
-            {/* Overlay */}
+            {/* Overlay + scroll container */}
             <motion.div
-              className="fixed inset-0 z-50"
+              className="fixed inset-0 z-50 overflow-y-auto"
               style={{ background: 'rgba(13,43,31,0.7)' }}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.25 }}
               onClick={inchideModal}
-            />
-
-            {/* Modal panel */}
-            <motion.div
-              className="fixed inset-0 z-50 flex items-center justify-center p-4"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
             >
+              <div className="min-h-full flex items-center justify-center p-4 py-8">
               <motion.div
-                className="relative bg-cream rounded-lg w-full max-w-[520px] max-h-[90vh] overflow-y-auto p-10"
+                className="relative bg-cream rounded-lg w-full max-w-[520px] pb-6"
                 style={{ boxShadow: '0 24px 80px rgba(13,43,31,0.3)' }}
                 initial={{ scale: 0.95, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
@@ -298,6 +291,7 @@ Cum am aflat: ${sursa || 'nespecificat'}`
                 transition={{ duration: 0.3, ease: [0.25, 0.46, 0.45, 0.94] }}
                 onClick={(e) => e.stopPropagation()}
               >
+              <div className="p-10">
                 {/* X buton */}
                 <button
                   onClick={inchideModal}
@@ -443,7 +437,9 @@ Cum am aflat: ${sursa || 'nespecificat'}`
                     </form>
                   </>
                 )}
+              </div>
               </motion.div>
+              </div>
             </motion.div>
           </>
         )}
