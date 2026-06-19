@@ -10,6 +10,7 @@ const NAV_LINKS = [
   { label: 'Înainte / După', href: '#inainte-dupa' },
   { label: 'Testimoniale', href: '#testimoniale' },
   { label: 'Programare', href: '#programare' },
+  { label: 'Ghiduri Gratuite', href: '/resurse' },
 ]
 
 const InstagramIcon = () => (

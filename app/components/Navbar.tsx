@@ -7,6 +7,7 @@ import Link from 'next/link'
 const NAV_LINKS = [
   { label: 'Tehnologie', href: '/#tehnologie' },
   { label: 'Dr. Robert Lungu', href: '/#doctor' },
+  { label: 'Resurse', href: '/resurse' },
 ]
 
 const SERVICII_LINKS = [

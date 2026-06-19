@@ -12,5 +12,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/servicii/parodontologie`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/servicii/obturatii`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/servicii/protetica-dentara`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/resurse`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
   ]
 }
