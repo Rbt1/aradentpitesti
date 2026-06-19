@@ -1,6 +1,5 @@
 import { Metadata } from 'next'
 import Image from 'next/image'
-import Link from 'next/link'
 import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
 
@@ -44,80 +43,20 @@ const WA_LINK = 'https://wa.me/40754219011?text=' + encodeURIComponent('Bună zi
 
 const FORMARE = [
   {
-    perioada: 'Formare universitară',
-    titlu: 'Facultatea de Medicină Dentară',
-    detaliu: '[Universitate — Robert va completa]',
+    titlu: 'Formare universitară',
+    continut: 'Facultatea de Medicină Dentară, Universitatea de Medicină și Farmacie Carol Davila, București — 2012–2018',
   },
   {
-    perioada: 'Specializare',
-    titlu: 'Medic Specialist Chirurgie Dento-Alveolară',
-    detaliu: 'Specialitate principală, acreditare oficială',
+    titlu: 'Specializare',
+    continut: 'Medic Specialist Chirurgie Dento-Alveolară — Rezidențiat, Sibiu, 2020–2023. Specialitate medicală acreditată.',
   },
   {
-    perioada: 'Certificare implantologie',
-    titlu: 'Dentium SuperLine II — Implant System',
-    detaliu: 'Cursuri și certificări avansate de implantologie',
+    titlu: 'Certificare implantologie',
+    continut: 'Sistem Dentium SuperLine II — implantologie cu un sistem premium, documentat clinic internațional, peste 25 de ani de date clinice.',
   },
   {
-    perioada: 'Practică clinică',
-    titlu: 'Peste [X] implanturi plasate',
-    detaliu: 'Robert va completa cifra reală din activitatea sa',
-  },
-]
-
-const TEHNOLOGII = [
-  {
-    icon: (
-      <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-9 h-9 text-forest" aria-hidden="true">
-        <rect x="6" y="10" width="36" height="28" rx="3" />
-        <circle cx="24" cy="24" r="8" />
-        <circle cx="24" cy="24" r="3" />
-        <line x1="6" y1="18" x2="2" y2="18" />
-        <line x1="42" y1="18" x2="46" y2="18" />
-      </svg>
-    ),
-    titlu: 'CBCT Rainbow Dentium 2-in-1',
-    text: 'Tomografie computerizată dentară și radiografie panoramică într-un singur aparat. Planificare chirurgicală precisă, cu expunere minimă la radiații.',
-  },
-  {
-    icon: (
-      <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-9 h-9 text-forest" aria-hidden="true">
-        <path d="M8 36 L20 20 L28 28 L36 14" />
-        <circle cx="36" cy="14" r="3" />
-        <rect x="4" y="38" width="40" height="4" rx="1" />
-        <line x1="14" y1="38" x2="14" y2="42" />
-        <line x1="34" y1="38" x2="34" y2="42" />
-      </svg>
-    ),
-    titlu: 'Scanner intraoral digital',
-    text: 'Amprentă digitală precisă — fără materiale de amprentă tradiționale. Confort maxim pentru pacient, acuratețe superioară pentru lucrări protetice.',
-  },
-  {
-    icon: (
-      <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-9 h-9 text-forest" aria-hidden="true">
-        <path d="M20 38 C20 38 10 30 10 20 C10 13 14 8 20 8 C23 8 25.5 9.5 27 12" />
-        <path d="M28 8 C34 8 38 13 38 20 C38 30 28 38 28 38" />
-        <line x1="24" y1="8" x2="24" y2="38" />
-        <line x1="14" y1="22" x2="10" y2="28" />
-        <line x1="34" y1="22" x2="38" y2="28" />
-      </svg>
-    ),
-    titlu: 'Implanturi Dentium SuperLine II',
-    text: 'Sistem de implantologie cu rată documentată de succes și design optimizat pentru oseointegrare rapidă. Calitate premium la cost accesibil.',
-  },
-  {
-    icon: (
-      <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-9 h-9 text-forest" aria-hidden="true">
-        <circle cx="24" cy="20" r="10" />
-        <circle cx="24" cy="20" r="4" />
-        <line x1="24" y1="30" x2="24" y2="42" />
-        <line x1="18" y1="42" x2="30" y2="42" />
-        <line x1="14" y1="10" x2="8" y2="6" />
-        <line x1="34" y1="10" x2="40" y2="6" />
-      </svg>
-    ),
-    titlu: 'Microscop endodontic',
-    text: 'Vizualizare mărită pentru tratamente de canal precise. Identificăm toate canalele radiculare și lucrăm cu acuratețe chirurgicală.',
+    titlu: 'Investiție în tehnologie',
+    continut: 'Tomograf computerizat (CBCT) propriu în cabinet, pentru planificare chirurgicală precisă și diagnostic complet înainte de orice intervenție.',
   },
 ]
 
@@ -199,30 +138,20 @@ export default function DrRobertLunguPage() {
 
         {/* Formare profesională */}
         <section className="py-20 px-6 bg-offwhite">
-          <div className="container-site max-w-3xl">
-            <h2 className="font-playfair text-3xl text-forest-dark mb-12">
+          <div className="container-site max-w-4xl">
+            <h2 className="font-playfair text-3xl text-forest-dark mb-12 text-center">
               Formare profesională
             </h2>
-            <div className="space-y-0">
-              {FORMARE.map((item, i) => (
-                <div key={i} className="flex gap-6 pb-10 relative">
-                  {/* Linie verticală */}
-                  {i < FORMARE.length - 1 && (
-                    <div className="absolute left-[11px] top-6 bottom-0 w-[1px] bg-bark-light/40" />
-                  )}
-                  {/* Punct */}
-                  <div className="flex-shrink-0 w-6 h-6 rounded-full border-2 border-gold bg-offwhite mt-1 z-10" />
-                  <div>
-                    <p className="font-jost text-[11px] uppercase tracking-wider text-gold mb-1">
-                      {item.perioada}
-                    </p>
-                    <h3 className="font-playfair text-lg text-forest-dark mb-1">
-                      {item.titlu}
-                    </h3>
-                    <p className="font-jost font-light text-[14px] text-bark">
-                      {item.detaliu}
-                    </p>
-                  </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {FORMARE.map((item) => (
+                <div key={item.titlu} className="bg-cream border border-bark-light/30 rounded-sm p-8" style={{ boxShadow: '0 4px 20px rgba(45,106,79,0.07)' }}>
+                  <div className="w-8 h-[2px] bg-gold mb-5" />
+                  <h3 className="font-playfair font-bold text-lg text-forest-dark mb-3">
+                    {item.titlu}
+                  </h3>
+                  <p className="font-jost font-light text-[14px] text-bark-dark leading-relaxed">
+                    {item.continut}
+                  </p>
                 </div>
               ))}
             </div>
@@ -240,35 +169,6 @@ export default function DrRobertLunguPage() {
               Dr. Robert Lungu
             </cite>
             <div className="w-8 h-[1px] bg-gold mx-auto mt-8" />
-          </div>
-        </section>
-
-        {/* Tehnologie */}
-        <section className="py-20 px-6 bg-cream">
-          <div className="container-site">
-            <h2 className="font-playfair text-3xl text-forest-dark mb-3 text-center">
-              Tehnologia din spatele tratamentelor
-            </h2>
-            <p className="font-jost font-light text-[15px] text-bark text-center mb-12">
-              Echipamente moderne pentru diagnostic precis și tratamente predictibile
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
-              {TEHNOLOGII.map((t, i) => (
-                <div
-                  key={i}
-                  className="bg-offwhite border border-bark-light/30 rounded-sm p-7"
-                  style={{ boxShadow: '0 4px 20px rgba(45,106,79,0.07)' }}
-                >
-                  <div className="mb-4">{t.icon}</div>
-                  <h3 className="font-playfair text-[17px] text-forest-dark mb-2 leading-snug">
-                    {t.titlu}
-                  </h3>
-                  <p className="font-jost font-light text-[13px] text-bark-dark leading-relaxed">
-                    {t.text}
-                  </p>
-                </div>
-              ))}
-            </div>
           </div>
         </section>
 
