@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 const NAV_LINKS = [
   { label: 'Servicii', href: '#servicii' },
   { label: 'Tehnologie', href: '#tehnologie' },
-  { label: 'Dr. Robert Lungu', href: '#doctor' },
+  { label: 'Dr. Robert Lungu', href: '/dr-robert-lungu' },
   { label: 'Înainte / După', href: '#inainte-dupa' },
   { label: 'Testimoniale', href: '#testimoniale' },
   { label: 'Programare', href: '#programare' },

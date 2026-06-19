@@ -33,7 +33,7 @@ const jost = Jost({
 export const metadata: Metadata = {
   metadataBase: new URL('https://aradentpitesti.ro'),
   title: {
-    default: 'Stomatologie Pitești | ARA DENT STUDIO — Clinică Dentară Premium',
+    default: 'Stomatologie Pitești | Dr. Robert Lungu | ARA DENT STUDIO',
     template: '%s | ARA DENT STUDIO Pitești',
   },
   description:
@@ -75,7 +75,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Stomatologie Pitești | ARA DENT STUDIO — Clinică Dentară Premium',
+    title: 'Stomatologie Pitești | Dr. Robert Lungu | ARA DENT STUDIO',
     description: 'Stomatologie Pitești — implantologie, chirurgie orală și endodonție. Dr. Robert Lungu. Consultație gratuită.',
     url: 'https://aradentpitesti.ro',
     siteName: 'ARA DENT STUDIO',

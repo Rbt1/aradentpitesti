@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const NAV_LINKS = [
   { label: 'Tehnologie', href: '/#tehnologie' },
-  { label: 'Dr. Robert Lungu', href: '/#doctor' },
+  { label: 'Dr. Robert Lungu', href: '/dr-robert-lungu' },
   { label: 'Resurse', href: '/resurse' },
   { label: 'Blog', href: '/blog' },
 ]
