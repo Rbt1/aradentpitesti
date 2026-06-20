@@ -99,10 +99,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: 'https://aradentpitesti.ro',
   },
-  icons: {
-    icon: '/favicon.ico',
-    apple: '/apple-touch-icon.png',
-  },
 }
 
 // ============================================================
