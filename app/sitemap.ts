@@ -17,5 +17,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog`, lastModified: now, changeFrequency: 'weekly', priority: 0.7 },
     { url: `${base}/blog/cat-costa-implant-dentar-romania-2026`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/implant-dentar-sau-proteza-mobila`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/preturi`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
   ]
 }

@@ -6,15 +6,32 @@ import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
   title: 'Obturații Dentare Pitești | ARA DENT STUDIO',
-  description: 'Tratament carie și obturații dentare în Pitești. Dr. Robert Lungu, ARA DENT STUDIO. Materiale premium, rezultate estetice.',
+  description: 'Obturații dentare Pitești de la 200 lei. Materiale premium. Consultație gratuită.',
   alternates: { canonical: 'https://aradentpitesti.ro/servicii/obturatii' },
   openGraph: {
     title: 'Obturații Dentare Pitești | ARA DENT STUDIO',
-    description: 'Tratament carie și obturații dentare în Pitești. Dr. Robert Lungu. Materiale premium, rezultate estetice.',
+    description: 'Obturații dentare Pitești de la 200 lei. Materiale premium. Consultație gratuită.',
     url: 'https://aradentpitesti.ro/servicii/obturatii',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
     type: 'website',
+  },
+}
+
+const jsonLdService = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'Obturație Dentară',
+  provider: {
+    '@type': 'Dentist',
+    name: 'ARA DENT STUDIO',
+  },
+  areaServed: 'Pitești',
+  offers: {
+    '@type': 'Offer',
+    priceCurrency: 'RON',
+    price: '200',
+    description: 'Obturație simplă, 1 suprafață',
   },
 }
 
@@ -34,6 +51,10 @@ const BENEFITS = [
 ]
 
 const FAQ_ITEMS = [
+  {
+    q: 'Cât costă o obturație dentară?',
+    a: 'O obturație simplă, pe o suprafață, costă 200 lei. Pentru obturații pe mai multe suprafețe, prețul crește — se stabilește la consultație.',
+  },
   {
     q: 'Cât durează o obturație dentară?',
     a: 'O obturație simplă durează 30-45 minute. Cariile mai extinse pot necesita mai mult timp, dar Dr. Robert Lungu lucrează eficient fără să sacrifice calitatea.',
@@ -59,6 +80,10 @@ const FAQ_ITEMS = [
 export default function OburatiiPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdService) }}
+      />
       <Navbar />
       <main className="bg-cream">
 

@@ -6,15 +6,32 @@ import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
   title: 'Parodontologie Pitești | ARA DENT STUDIO',
-  description: 'Tratament parodontal în Pitești. Boala parodontală oprită la timp salvează dinții. Dr. Robert Lungu, ARA DENT STUDIO.',
+  description: 'Tratament parodontal Pitești de la 200 lei. Detartraj și chiuretaj subgingival. Consultație gratuită.',
   alternates: { canonical: 'https://aradentpitesti.ro/servicii/parodontologie' },
   openGraph: {
     title: 'Parodontologie Pitești | ARA DENT STUDIO',
-    description: 'Tratament parodontal în Pitești. Boala parodontală oprită la timp salvează dinții. Dr. Robert Lungu.',
+    description: 'Tratament parodontal Pitești de la 200 lei. Detartraj și chiuretaj subgingival. Consultație gratuită.',
     url: 'https://aradentpitesti.ro/servicii/parodontologie',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
     type: 'website',
+  },
+}
+
+const jsonLdService = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'Tratament Parodontal',
+  provider: {
+    '@type': 'Dentist',
+    name: 'ARA DENT STUDIO',
+  },
+  areaServed: 'Pitești',
+  offers: {
+    '@type': 'Offer',
+    priceCurrency: 'RON',
+    price: '200',
+    description: 'Chiuretaj câmp închis, per ședință',
   },
 }
 
@@ -34,6 +51,10 @@ const BENEFITS = [
 ]
 
 const FAQ_ITEMS = [
+  {
+    q: 'Cât costă tratamentul parodontal?',
+    a: 'Chiuretajul în câmp închis costă 200 lei per ședință. Tratamentul complet variază în funcție de severitatea bolii parodontale și numărul de ședințe necesare.',
+  },
   {
     q: 'Cum știu că am boală parodontală?',
     a: 'Sângerarea gingiilor, retracția gingivală, mobilitatea dentară sau spații între dinți sunt semne clare. Vino la consultație pentru evaluare.',
@@ -59,6 +80,10 @@ const FAQ_ITEMS = [
 export default function ParodontologiePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdService) }}
+      />
       <Navbar />
       <main className="bg-cream">
 

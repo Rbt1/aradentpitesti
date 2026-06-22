@@ -6,15 +6,39 @@ import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
   title: 'Implant Dentar Pitești | Dr. Robert Lungu',
-  description: 'Implant dentar în Pitești cu Dr. Robert Lungu, specialist chirurgie dento-alveolară. Prima consultație gratuită. Programează-te online.',
+  description: 'Implant dentar Pitești — 1.200 lei. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație gratuită.',
   alternates: { canonical: 'https://aradentpitesti.ro/servicii/implantologie' },
   openGraph: {
     title: 'Implant Dentar Pitești | Dr. Robert Lungu',
-    description: 'Implant dentar în Pitești cu Dr. Robert Lungu, specialist chirurgie dento-alveolară. Prima consultație gratuită.',
+    description: 'Implant dentar Pitești — 1.200 lei. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație gratuită.',
     url: 'https://aradentpitesti.ro/servicii/implantologie',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
     type: 'website',
+  },
+}
+
+const jsonLdService = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'Implant Dentar',
+  provider: {
+    '@type': 'Dentist',
+    name: 'ARA DENT STUDIO',
+    telephone: '+40754219011',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'Bd. Republicii nr. 19',
+      addressLocality: 'Pitești',
+      addressCountry: 'RO',
+    },
+  },
+  areaServed: 'Pitești',
+  offers: {
+    '@type': 'Offer',
+    priceCurrency: 'RON',
+    price: '1200',
+    description: 'Implant (șurub), fără bont și coroană',
   },
 }
 
@@ -40,7 +64,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Cât costă un implant dentar în Pitești?',
-    a: 'Prețul variază în funcție de complexitatea cazului. Vă invităm la o consultație gratuită pentru o evaluare exactă și un plan de tratament personalizat.',
+    a: 'Implantul (șurubul Dentium) costă 1.200 lei, bontul protetic 300 lei, iar capa de vindecare 150 lei. Coroana finală se stabilește separat, la consultația gratuită, în funcție de materialul ales.',
   },
   {
     q: 'Implantul dentar doare?',
@@ -59,6 +83,10 @@ const FAQ_ITEMS = [
 export default function ImplantologiePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdService) }}
+      />
       <Navbar />
       <main className="bg-cream">
 

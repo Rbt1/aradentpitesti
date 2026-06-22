@@ -6,15 +6,32 @@ import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
   title: 'Chirurgie Orală Pitești | Dr. Robert Lungu',
-  description: 'Chirurgie orală și chirurgie dento-alveolară în Pitești. Dr. Robert Lungu, medic specialist. Extracții, rezecții, proceduri complexe.',
+  description: 'Chirurgie orală Pitești, extracții de la 250 lei. Dr. Robert Lungu. Consultație gratuită.',
   alternates: { canonical: 'https://aradentpitesti.ro/servicii/chirurgie-orala' },
   openGraph: {
     title: 'Chirurgie Orală Pitești | Dr. Robert Lungu',
-    description: 'Chirurgie orală și chirurgie dento-alveolară în Pitești. Dr. Robert Lungu, medic specialist. Extracții, rezecții, proceduri complexe.',
+    description: 'Chirurgie orală Pitești, extracții de la 250 lei. Dr. Robert Lungu. Consultație gratuită.',
     url: 'https://aradentpitesti.ro/servicii/chirurgie-orala',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
     type: 'website',
+  },
+}
+
+const jsonLdService = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'Chirurgie Orală - Extracție',
+  provider: {
+    '@type': 'Dentist',
+    name: 'ARA DENT STUDIO',
+  },
+  areaServed: 'Pitești',
+  offers: {
+    '@type': 'Offer',
+    priceCurrency: 'RON',
+    price: '250',
+    description: 'Extracție simplă',
   },
 }
 
@@ -34,6 +51,10 @@ const BENEFITS = [
 ]
 
 const FAQ_ITEMS = [
+  {
+    q: 'Cât costă o extracție dentară?',
+    a: 'O extracție simplă costă 250 lei. Extracțiile chirurgicale complexe au preț diferit, stabilit la consultație.',
+  },
   {
     q: 'Ce tipuri de extracții realizați?',
     a: 'Realizăm extracții simple, extracții chirurgicale, extracții ale măselelor de minte și ale dinților incluși.',
@@ -59,6 +80,10 @@ const FAQ_ITEMS = [
 export default function ChirurgieOralaPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdService) }}
+      />
       <Navbar />
       <main className="bg-cream">
 

@@ -6,15 +6,32 @@ import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
   title: 'Endodonție Pitești | Tratament Canal',
-  description: 'Tratament de canal în Pitești la ARA DENT STUDIO. Dr. Robert Lungu. Procedură nedureroasă, microscop dentar, rezultate durabile.',
+  description: 'Tratament canal Pitești de la 400 lei. Endodonție cu microscop dentar. Consultație gratuită.',
   alternates: { canonical: 'https://aradentpitesti.ro/servicii/endodontie' },
   openGraph: {
     title: 'Endodonție Pitești | Tratament Canal',
-    description: 'Tratament de canal în Pitești. Dr. Robert Lungu. Procedură nedureroasă, microscop dentar, rezultate durabile.',
+    description: 'Tratament canal Pitești de la 400 lei. Endodonție cu microscop dentar. Consultație gratuită.',
     url: 'https://aradentpitesti.ro/servicii/endodontie',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
     type: 'website',
+  },
+}
+
+const jsonLdService = {
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: 'Tratament de Canal',
+  provider: {
+    '@type': 'Dentist',
+    name: 'ARA DENT STUDIO',
+  },
+  areaServed: 'Pitești',
+  offers: {
+    '@type': 'Offer',
+    priceCurrency: 'RON',
+    price: '400',
+    description: 'Dinte monoradicular',
   },
 }
 
@@ -34,6 +51,10 @@ const BENEFITS = [
 ]
 
 const FAQ_ITEMS = [
+  {
+    q: 'Cât costă un tratament de canal?',
+    a: 'Tratamentul de canal pentru un dinte monoradicular costă 400 lei. Pentru dinți multiradiculari (premolari, molari), prețul este mai mare, în funcție de numărul de canale — se stabilește exact la consultație.',
+  },
   {
     q: 'Tratamentul de canal doare?',
     a: 'Nu — se realizează sub anestezie locală. Mulți pacienți sunt surprinși cât de confortabil este tratamentul modern.',
@@ -59,6 +80,10 @@ const FAQ_ITEMS = [
 export default function EndodontiePage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdService) }}
+      />
       <Navbar />
       <main className="bg-cream">
 

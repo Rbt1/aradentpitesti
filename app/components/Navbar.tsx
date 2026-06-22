@@ -9,6 +9,7 @@ const NAV_LINKS = [
   { label: 'Dr. Robert Lungu', href: '/dr-robert-lungu' },
   { label: 'Resurse', href: '/resurse' },
   { label: 'Blog', href: '/blog' },
+  { label: 'Prețuri', href: '/preturi' },
 ]
 
 const SERVICII_LINKS = [
