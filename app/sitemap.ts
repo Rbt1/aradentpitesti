@@ -21,5 +21,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/servicii/all-on-4-all-on-6`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/contact`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/all-on-4-pitesti-cat-costa`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/cat-costa-implant-dentar-ara-dent-pitesti`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
   ]
 }

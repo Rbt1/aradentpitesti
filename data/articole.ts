@@ -19,7 +19,7 @@ export const articole: Articol[] = [
     title: 'Cat costa un implant dentar in Romania in 2026? Tot adevarul',
     metaDescription: 'Afla ce factori influenteaza pretul unui implant dentar in Romania in 2026 si cum sa eviti sa platesti de doua ori pentru un implant esuat.',
     excerpt: 'Pretul unui implant dentar variaza in functie de brand, complexitate si etape incluse. Iata ce trebuie sa intelegi inainte sa te decizi.',
-    date: '2026-06-20',
+    date: '2026-06-18',
     continut: `
       <p>Daca ai cautat pe Google "pret implant dentar", probabil ai gasit cifre diferite la fiecare clinica — si asta e confuz. Hai sa clarificam exact de ce variaza preturile si ce ar trebui sa te intereseze cu adevarat.</p>
 
@@ -74,7 +74,7 @@ export const articole: Articol[] = [
     title: 'Implant dentar sau proteza mobila? Ghid complet 2026',
     metaDescription: 'Compara implantul dentar cu proteza mobila: avantaje, dezavantaje, resorbtia osoasa si solutia All-on-4/6 pentru edentatia totala.',
     excerpt: 'Proteza mobila si implantul dentar nu sunt echivalente. Afla diferentele esentiale, inclusiv solutia pentru edentatia totala.',
-    date: '2026-06-27',
+    date: '2026-06-20',
     continut: `
     <p>Cand lipseste un dinte, ai practic doua optiuni serioase: implant dentar sau proteza mobila. Multe persoane aleg proteza pentru ca pare mai simpla si mai accesibila — dar decizia merita analizata cu atentie, pentru ca diferentele pe termen lung sunt semnificative.</p>
 
@@ -162,11 +162,55 @@ export const articole: Articol[] = [
   `,
   },
   {
+    slug: 'cat-costa-implant-dentar-ara-dent-pitesti',
+    title: 'Cat costa un implant dentar la ARA DENT STUDIO Pitesti in 2026',
+    metaDescription: 'Preturi reale pentru implant dentar la ARA DENT STUDIO Pitesti: 1.200 lei implant, 300 lei bont, 150 lei capa de vindecare. Consultatie gratuita.',
+    excerpt: 'Iata exact cat costa un implant dentar la ARA DENT STUDIO, pe componente, fara costuri ascunse.',
+    date: '2026-06-21',
+    continut: `
+      <p>Daca cauti "implant dentar Pitesti" si vrei un raspuns direct, fara sa mai cauti pe 10 site-uri diferite — iata exact cat costa la noi, fara costuri ascunse.</p>
+
+      <h2>Preturile exacte</h2>
+      <p>La ARA DENT STUDIO, tratamentul cu implant dentar este structurat transparent, pe componente:</p>
+      <ul>
+        <li><strong>Implant dentar (Dentium SuperLine II)</strong> — 1.200 lei</li>
+        <li><strong>Bont protetic</strong> — 300 lei</li>
+        <li><strong>Capa de vindecare</strong> — 150 lei</li>
+        <li><strong>Coroana finala</strong> — stabilita la consultatie, in functie de material</li>
+      </ul>
+      <p><strong>Total pentru implant + bont + capa de vindecare: 1.650 lei</strong>, plus coroana finala.</p>
+
+      <h2>Ce este inclus in acest pret</h2>
+      <ul>
+        <li>Implantul propriu-zis — sistemul Dentium SuperLine II, cu peste 25 de ani de date clinice</li>
+        <li>Bontul protetic — piesa care conecteaza implantul de coroana</li>
+        <li>Capa de vindecare — protejeaza zona in perioada de oseointegrare</li>
+      </ul>
+
+      <h2>Ce NU este inclus si de ce</h2>
+      <p>Coroana finala se stabileste separat, pentru ca pretul ei variaza in functie de materialul ales (zirconiu, ceramica etc.) si de cazul specific. Preferam sa fim transparenti si sa-ti spunem exact ce alegi, nu sa ascundem acest cost intr-un pret "pachet" care apoi creste la fata locului.</p>
+
+      <h2>De ce nu vezi un pret mai mic in alta parte</h2>
+      <p>Unele clinici din Pitesti afiseaza preturi foarte mici pentru a atrage clicuri, dar pretul final creste semnificativ cand afli ce nu era inclus initial. La ARA DENT STUDIO preferam sa-ti aratam pretul real al fiecarei componente, ca sa poti compara corect.</p>
+
+      <h2>Ce este inclus gratuit, indiferent de tratament</h2>
+      <ul>
+        <li>Consultatia initiala</li>
+        <li>Radiografia panoramica</li>
+        <li>CT-ul dentar — esential pentru planificarea implantului</li>
+      </ul>
+      <p>Acestea sunt gratuite la ARA DENT STUDIO pentru toti pacientii, indiferent daca alegi sa continui cu tratamentul sau nu.</p>
+
+      <h2>De ce conteaza evaluarea inainte de pret</h2>
+      <p>Pretul final depinde de cazul tau — daca ai nevoie de tratament pregatitor (tratarea cariilor, igienizare profesionala) inainte de implant, sau daca osul disponibil necesita o evaluare suplimentara. De aceea, consultatia gratuita cu radiografie si CT este pasul corect inainte de orice decizie de pret.</p>
+    `,
+  },
+  {
     slug: 'all-on-4-pitesti-cat-costa',
     title: 'All-on-4 in Pitesti - Ce este, cat costa si cand e solutia potrivita',
     metaDescription: 'All-on-4 Pitesti: ce este, cand se recomanda si cat costa la ARA DENT STUDIO. Incarcare imediata, consultatie gratuita cu scanare si CT 3D.',
     excerpt: 'Daca lipsesc toti dintii de pe o arcada, All-on-4 ofera o lucrare fixa, stabila, cu recuperare rapida. Afla cat costa si cum decurge tratamentul.',
-    date: '2026-07-18',
+    date: '2026-06-23',
     continut: `
       <p>Daca lipsesc toti dintii de pe o arcada si esti in cautarea unei solutii permanente, All-on-4 este una dintre cele mai eficiente optiuni disponibile astazi in implantologie. Hai sa vedem exact ce inseamna, cum decurge tratamentul si cat costa la ARA DENT STUDIO Pitesti.</p>
 

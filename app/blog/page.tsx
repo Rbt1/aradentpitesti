@@ -18,6 +18,10 @@ export const metadata: Metadata = {
   },
 }
 
+const articoleSortate = [...articole].sort(
+  (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+)
+
 export default function BlogPage() {
   return (
     <>
@@ -43,7 +47,7 @@ export default function BlogPage() {
         <section className="py-20 px-6 bg-cream">
           <div className="container-site max-w-4xl">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {articole.map((articol) => (
+              {articoleSortate.map((articol) => (
                 <article
                   key={articol.slug}
                   className="bg-offwhite border border-bark-light/30 rounded-sm p-8 flex flex-col hover:shadow-[0_8px_32px_rgba(45,106,79,0.12)] transition-shadow duration-300"
