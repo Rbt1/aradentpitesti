@@ -19,6 +19,7 @@ const SERVICII_LINKS = [
   { label: 'Endodonție', href: '/servicii/endodontie' },
   { label: 'Parodontologie', href: '/servicii/parodontologie' },
   { label: 'Obturații', href: '/servicii/obturatii' },
+  { label: 'All-on-4 / All-on-6', href: '/servicii/all-on-4-all-on-6' },
 ]
 
 const Navbar = () => {
