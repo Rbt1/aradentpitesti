@@ -1,7 +1,6 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Script from 'next/script'
 
 const LeafDecor = ({ className }: { className?: string }) => (
   <svg viewBox="0 0 120 200" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className={className} aria-hidden="true">
@@ -9,22 +8,47 @@ const LeafDecor = ({ className }: { className?: string }) => (
   </svg>
 )
 
+const StarIcon = () => (
+  <svg viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 text-gold" aria-hidden="true">
+    <path d="M10 1.5l2.6 5.8 6.2.6-4.7 4.2 1.4 6.2L10 15.1l-5.5 3.2 1.4-6.2-4.7-4.2 6.2-.6L10 1.5z" />
+  </svg>
+)
+
 const GOOGLE_REVIEW_URL = 'https://g.page/r/CXJUUxp2i-GYEBM/review'
+
+const REVIEWS = [
+  {
+    nume: 'Amalia Nicolae',
+    text: 'Am avut o experiență excelentă la acest cabinet stomatologic! Cabinetul este nou, modern, foarte curat și dotat cu aparatură de ultimă generație. Atmosfera este plăcută și primitoare, iar personalul este amabil și atent la nevoile pacienților. Doctorul este un adevărat profesionist: răbdător, empatic și foarte atent la detalii. Mi-a explicat fiecare etapă a tratamentului și m-a făcut să mă simt în siguranță și confort pe tot parcursul vizitei.',
+  },
+  {
+    nume: 'Jeni Florea',
+    text: 'Un medic profesionist. Oferă servicii de calitate. Recomand cu încredere.',
+  },
+  {
+    nume: 'Marian Alexandru Diaconu',
+    text: 'Cu adevărat o experiență premium, aparatură de ultimă generație, iar medicul stomatolog și întregul personal, absolut genial! Lucrările decurg super fin, eu de fel sensibil și cu puțină teamă de lucrările legate de dinți, dar acești oameni lucrează super bine! Mi-am schimbat percepția legată de dentist și implicit frica de aceștia.',
+  },
+  {
+    nume: 'Andrada Bostina',
+    text: 'Dr. Robert Lungu — recomand cu încredere.',
+  },
+]
 
 const Testimonials = () => {
   return (
-    <section className="relative bg-offwhite py-24 px-6 overflow-hidden">
+    <section className="relative bg-cream py-24 px-6 overflow-hidden">
       {/* Frunze decorative fundal */}
       <LeafDecor className="absolute top-8 left-8 text-forest opacity-[0.04] w-32 h-48 pointer-events-none" />
       <LeafDecor className="absolute bottom-12 right-6 text-forest opacity-[0.03] w-40 h-60 pointer-events-none" />
       <LeafDecor className="absolute top-1/2 -left-8 text-forest opacity-[0.03] w-24 h-36 pointer-events-none" />
 
       <div className="container-site relative z-10">
-        <div className="max-w-[560px] mx-auto text-center">
+        <div className="max-w-2xl mx-auto text-center mb-14">
 
           {/* Titlu */}
           <motion.h2
-            className="font-playfair italic text-4xl lg:text-[48px] text-forest-dark leading-tight mb-6"
+            className="font-playfair font-bold text-4xl lg:text-[40px] text-forest-dark leading-tight mb-6"
             initial={{ opacity: 0, y: 24 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -35,7 +59,7 @@ const Testimonials = () => {
 
           {/* Linie gold animată */}
           <motion.div
-            className="h-[1px] bg-gold mx-auto mb-10 origin-center"
+            className="h-[1px] bg-gold mx-auto mb-6 origin-center"
             style={{ width: '60px' }}
             initial={{ scaleX: 0 }}
             whileInView={{ scaleX: 1 }}
@@ -45,57 +69,81 @@ const Testimonials = () => {
 
           {/* Subtitlu */}
           <motion.p
-            className="font-jost font-light text-[16px] text-bark leading-relaxed mb-10"
+            className="font-jost italic font-light text-[15px] text-bark leading-relaxed"
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.3 }}
           >
-            Recenzii reale de la pacienții ARA DENT STUDIO
+            4,8 din 5 stele — 26 de recenzii pe Google
           </motion.p>
+        </div>
 
-          {/* Widget Elfsight Google Reviews */}
-          <motion.div
-            className="py-10"
-            initial={{ opacity: 0, y: 16 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7, delay: 0.4 }}
-          >
-            <Script src="https://elfsightcdn.com/platform.js" strategy="lazyOnload" />
-            <div
-              className="elfsight-app-3113dd71-daa4-48da-8e91-f19e74dfd84c"
-              data-elfsight-app-lazy
-            />
-          </motion.div>
+        {/* Grid recenzii */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          {REVIEWS.map((review, i) => (
+            <motion.div
+              key={review.nume}
+              className="bg-offwhite border border-bark-light rounded-sm p-8"
+              style={{ boxShadow: '0 8px 32px rgba(45,106,79,0.10)' }}
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: i * 0.15, duration: 0.6, ease: 'easeOut' }}
+              whileHover={{ y: -4, boxShadow: '0 16px 44px rgba(45,106,79,0.16)' }}
+            >
+              {/* Stelute */}
+              <div className="flex gap-1 mb-4">
+                {Array.from({ length: 5 }).map((_, idx) => (
+                  <StarIcon key={idx} />
+                ))}
+              </div>
 
-          {/* Buton Google Reviews */}
-          <motion.a
+              {/* Text recenzie */}
+              <p
+                className="font-jost italic text-[15px] text-forest-dark leading-[1.7] mb-4"
+                style={{
+                  display: '-webkit-box',
+                  WebkitLineClamp: 5,
+                  WebkitBoxOrient: 'vertical',
+                  overflow: 'hidden',
+                }}
+              >
+                {review.text}
+              </p>
+
+              {/* Separator */}
+              <div className="h-[1px] bg-bark-light my-4" />
+
+              {/* Nume */}
+              <p className="font-jost font-bold text-[14px] text-forest-dark">
+                — {review.nume}
+              </p>
+              <p className="font-jost text-[11px] uppercase tracking-wide text-bark mt-1">
+                Recenzie Google Verificată
+              </p>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* Buton toate recenziile */}
+        <motion.div
+          className="text-center mt-10"
+          initial={{ opacity: 0, y: 16 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6, delay: 0.3 }}
+        >
+          <a
             href={GOOGLE_REVIEW_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block font-jost text-xs uppercase tracking-widest bg-gold text-forest-dark px-8 py-4 rounded-sm hover:bg-gold-dark transition-all duration-300 shadow-md hover:shadow-lg mb-6"
-            initial={{ opacity: 0, y: 16 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.7, delay: 0.45 }}
-            whileHover={{ scale: 1.03 }}
+            className="hover-gold-underline font-jost text-xs uppercase tracking-widest text-gold hover:text-forest-dark transition-colors duration-200"
           >
-            Lasă o recenzie pe Google
-          </motion.a>
+            Vezi toate recenziile pe Google →
+          </a>
+        </motion.div>
 
-          {/* Mesaj */}
-          <motion.p
-            className="font-jost text-[13px] text-bark italic"
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.6 }}
-          >
-            Mulțumim că ne ești alături.
-          </motion.p>
-
-        </div>
       </div>
     </section>
   )
