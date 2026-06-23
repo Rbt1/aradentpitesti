@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Script from 'next/script'
 
 const LeafDecor = ({ className }: { className?: string }) => (
   <svg viewBox="0 0 120 200" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className={className} aria-hidden="true">
@@ -42,16 +43,31 @@ const Testimonials = () => {
             transition={{ duration: 0.8, delay: 0.2, ease: [0.25, 0.46, 0.45, 0.94] }}
           />
 
-          {/* Text provizoriu */}
+          {/* Subtitlu */}
           <motion.p
-            className="font-jost font-light text-[18px] text-bark-dark leading-[1.8] mb-10"
+            className="font-jost font-light text-[16px] text-bark leading-relaxed mb-10"
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.3 }}
           >
-            Părerile pacienților noștri vor apărea în curând. Fiecare recenzie ne ajută să creștem și să îmbunătățim experiența în cabinet.
+            Recenzii reale de la pacienții ARA DENT STUDIO
           </motion.p>
+
+          {/* Widget Elfsight Google Reviews */}
+          <motion.div
+            className="py-10"
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7, delay: 0.4 }}
+          >
+            <Script src="https://elfsightcdn.com/platform.js" strategy="lazyOnload" />
+            <div
+              className="elfsight-app-3113dd71-daa4-48da-8e91-f19e74dfd84c"
+              data-elfsight-app-lazy
+            />
+          </motion.div>
 
           {/* Buton Google Reviews */}
           <motion.a
