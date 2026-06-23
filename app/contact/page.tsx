@@ -99,7 +99,7 @@ const SOCIAL = [
   { Icon: TikTokIcon, label: 'TikTok ARA DENT STUDIO', href: 'https://tiktok.com/@aradentstudio' },
 ]
 
-const MAPS_EMBED_SRC = 'https://www.google.com/maps?q=Bd.+Republicii+nr.+19,+Pite%C8%99ti,+ARA+DENT+STUDIO&output=embed'
+const MAPS_EMBED_SRC = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2828.1342359908676!2d24.864895376166313!3d44.85956197357772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b2bd388931fecd%3A0x98e18b761a535472!2sARA%20DENT%20STUDIO!5e0!3m2!1sro!2sro!4v1782238051069!5m2!1sro!2sro'
 
 export default function ContactPage() {
   return (
