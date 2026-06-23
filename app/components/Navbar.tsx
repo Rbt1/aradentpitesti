@@ -5,8 +5,6 @@ import { motion, AnimatePresence } from 'framer-motion'
 import Link from 'next/link'
 
 const NAV_LINKS = [
-  { label: 'Tehnologie', href: '/#tehnologie' },
-  { label: 'Dr. Robert Lungu', href: '/dr-robert-lungu' },
   { label: 'Resurse', href: '/resurse' },
   { label: 'Blog', href: '/blog' },
   { label: 'Prețuri', href: '/preturi' },
@@ -22,16 +20,40 @@ const SERVICII_LINKS = [
   { label: 'All-on-4 / All-on-6', href: '/servicii/all-on-4-all-on-6' },
 ]
 
+const DESPRE_LINKS = [
+  { label: 'Tehnologie', href: '/#tehnologie', external: false },
+  { label: 'Dr. Robert Lungu', href: '/dr-robert-lungu', external: false },
+  { label: 'Recenzii Google', href: 'https://g.page/r/CXJUUxp2i-GYEBM/review', external: true },
+]
+
+const ChevronIcon = ({ open }: { open: boolean }) => (
+  <motion.svg
+    width="10" height="6" viewBox="0 0 10 6" fill="none"
+    animate={{ rotate: open ? 180 : 0 }}
+    transition={{ duration: 0.2 }}
+    className="text-forest-dark"
+  >
+    <path d="M1 1l4 4 4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+  </motion.svg>
+)
+
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
   const [servicesOpen, setServicesOpen] = useState(false)
-  const dropdownRef = useRef<HTMLDivElement>(null)
+  const [desproOpen, setDesproOpen] = useState(false)
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false)
+  const [mobileDesproOpen, setMobileDesproOpen] = useState(false)
+  const servicesRef = useRef<HTMLDivElement>(null)
+  const desproRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
+      if (servicesRef.current && !servicesRef.current.contains(e.target as Node)) {
         setServicesOpen(false)
+      }
+      if (desproRef.current && !desproRef.current.contains(e.target as Node)) {
+        setDesproOpen(false)
       }
     }
     document.addEventListener('mousedown', handleClickOutside)
@@ -79,21 +101,14 @@ const Navbar = () => {
           {/* Navigare desktop */}
           <div className="hidden lg:flex items-center gap-8">
             {/* Dropdown Servicii */}
-            <div ref={dropdownRef} className="relative">
+            <div ref={servicesRef} className="relative">
               <button
                 onClick={() => setServicesOpen(!servicesOpen)}
                 className="font-jost text-xs uppercase tracking-wider text-forest-dark hover:text-forest transition-colors duration-200 flex items-center gap-1"
                 aria-expanded={servicesOpen}
               >
                 Servicii
-                <motion.svg
-                  width="10" height="6" viewBox="0 0 10 6" fill="none"
-                  animate={{ rotate: servicesOpen ? 180 : 0 }}
-                  transition={{ duration: 0.2 }}
-                  className="text-forest-dark"
-                >
-                  <path d="M1 1l4 4 4-4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                </motion.svg>
+                <ChevronIcon open={servicesOpen} />
               </button>
               <AnimatePresence>
                 {servicesOpen && (
@@ -119,6 +134,53 @@ const Navbar = () => {
               </AnimatePresence>
             </div>
 
+            {/* Dropdown Despre noi */}
+            <div ref={desproRef} className="relative">
+              <button
+                onClick={() => setDesproOpen(!desproOpen)}
+                className="font-jost text-xs uppercase tracking-wider text-forest-dark hover:text-forest transition-colors duration-200 flex items-center gap-1"
+                aria-expanded={desproOpen}
+              >
+                Despre noi
+                <ChevronIcon open={desproOpen} />
+              </button>
+              <AnimatePresence>
+                {desproOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: 8 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: 8 }}
+                    transition={{ duration: 0.2, ease: 'easeOut' }}
+                    className="absolute top-full left-0 mt-3 bg-cream border border-bark-light/30 rounded-sm shadow-forest py-2 min-w-[200px] z-50"
+                  >
+                    {DESPRE_LINKS.map((d) =>
+                      d.external ? (
+                        <a
+                          key={d.href}
+                          href={d.href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          onClick={() => setDesproOpen(false)}
+                          className="block px-5 py-2.5 font-jost text-[12px] text-forest-dark hover:bg-offwhite hover:text-forest transition-colors duration-150"
+                        >
+                          {d.label}
+                        </a>
+                      ) : (
+                        <Link
+                          key={d.href}
+                          href={d.href}
+                          onClick={() => setDesproOpen(false)}
+                          className="block px-5 py-2.5 font-jost text-[12px] text-forest-dark hover:bg-offwhite hover:text-forest transition-colors duration-150"
+                        >
+                          {d.label}
+                        </Link>
+                      )
+                    )}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
             {NAV_LINKS.map((link) => (
               <Link
                 key={link.href}
@@ -128,25 +190,11 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
-            <a
-              href="https://g.page/r/CXJUUxp2i-GYEBM/review"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-jost text-xs uppercase tracking-widest text-gold hover:text-gold-dark transition-colors duration-200"
-            >
-              Recenzii Google ★
-            </a>
             <Link
               href="/#programare"
               className="font-jost text-xs uppercase tracking-wider bg-forest text-cream px-6 py-3 rounded-sm hover:bg-gold hover:text-forest-dark transition-all duration-300"
             >
               Programare
-            </Link>
-            <Link
-              href="/contact"
-              className="font-jost text-xs uppercase tracking-wider text-forest-dark hover:text-forest transition-colors duration-200"
-            >
-              Contact
             </Link>
           </div>
 
@@ -180,39 +228,120 @@ const Navbar = () => {
       <AnimatePresence>
         {mobileOpen && (
           <motion.div
-            className="fixed inset-0 z-40 bg-cream flex flex-col items-center justify-center"
+            className="fixed inset-0 z-40 bg-cream flex flex-col items-center justify-center overflow-y-auto py-24"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
           >
             <nav className="flex flex-col items-center gap-6 w-full px-8">
-              {/* Servicii mobile */}
-              {SERVICII_LINKS.map((link, i) => (
-                <motion.div
-                  key={link.href}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  exit={{ opacity: 0, y: 10 }}
-                  transition={{ delay: i * 0.06, duration: 0.4, ease: 'easeOut' }}
+
+              {/* Sectiune expandabila Servicii */}
+              <motion.div
+                className="w-full max-w-xs"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: 10 }}
+                transition={{ delay: 0.05, duration: 0.4, ease: 'easeOut' }}
+              >
+                <button
+                  onClick={() => setMobileServicesOpen(!mobileServicesOpen)}
+                  className="w-full flex items-center justify-center gap-2 font-playfair text-2xl text-forest-dark hover:text-forest transition-colors duration-200"
+                  aria-expanded={mobileServicesOpen}
                 >
-                  <Link
-                    href={link.href}
-                    onClick={() => setMobileOpen(false)}
-                    className="font-playfair text-2xl text-forest-dark hover:text-forest transition-colors duration-200"
-                  >
-                    {link.label}
-                  </Link>
-                </motion.div>
-              ))}
+                  Servicii
+                  <ChevronIcon open={mobileServicesOpen} />
+                </button>
+                <AnimatePresence>
+                  {mobileServicesOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, height: 0 }}
+                      animate={{ opacity: 1, height: 'auto' }}
+                      exit={{ opacity: 0, height: 0 }}
+                      transition={{ duration: 0.3, ease: 'easeOut' }}
+                      className="overflow-hidden"
+                    >
+                      <div className="flex flex-col items-center gap-4 pt-5">
+                        {SERVICII_LINKS.map((link) => (
+                          <Link
+                            key={link.href}
+                            href={link.href}
+                            onClick={() => setMobileOpen(false)}
+                            className="font-jost text-sm uppercase tracking-wider text-bark-dark hover:text-forest transition-colors duration-200"
+                          >
+                            {link.label}
+                          </Link>
+                        ))}
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </motion.div>
+
+              {/* Sectiune expandabila Despre noi */}
+              <motion.div
+                className="w-full max-w-xs"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: 10 }}
+                transition={{ delay: 0.1, duration: 0.4, ease: 'easeOut' }}
+              >
+                <button
+                  onClick={() => setMobileDesproOpen(!mobileDesproOpen)}
+                  className="w-full flex items-center justify-center gap-2 font-playfair text-2xl text-forest-dark hover:text-forest transition-colors duration-200"
+                  aria-expanded={mobileDesproOpen}
+                >
+                  Despre noi
+                  <ChevronIcon open={mobileDesproOpen} />
+                </button>
+                <AnimatePresence>
+                  {mobileDesproOpen && (
+                    <motion.div
+                      initial={{ opacity: 0, height: 0 }}
+                      animate={{ opacity: 1, height: 'auto' }}
+                      exit={{ opacity: 0, height: 0 }}
+                      transition={{ duration: 0.3, ease: 'easeOut' }}
+                      className="overflow-hidden"
+                    >
+                      <div className="flex flex-col items-center gap-4 pt-5">
+                        {DESPRE_LINKS.map((d) =>
+                          d.external ? (
+                            <a
+                              key={d.href}
+                              href={d.href}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              onClick={() => setMobileOpen(false)}
+                              className="font-jost text-sm uppercase tracking-wider text-bark-dark hover:text-forest transition-colors duration-200"
+                            >
+                              {d.label}
+                            </a>
+                          ) : (
+                            <Link
+                              key={d.href}
+                              href={d.href}
+                              onClick={() => setMobileOpen(false)}
+                              className="font-jost text-sm uppercase tracking-wider text-bark-dark hover:text-forest transition-colors duration-200"
+                            >
+                              {d.label}
+                            </Link>
+                          )
+                        )}
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </motion.div>
+
               <div className="w-12 h-[1px] bg-bark-light/40 my-2" />
+
               {NAV_LINKS.map((link, i) => (
                 <motion.div
                   key={link.href}
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: 10 }}
-                  transition={{ delay: (SERVICII_LINKS.length + i) * 0.06, duration: 0.4, ease: 'easeOut' }}
+                  transition={{ delay: (i + 2) * 0.06, duration: 0.4, ease: 'easeOut' }}
                 >
                   <Link
                     href={link.href}
@@ -223,11 +352,12 @@ const Navbar = () => {
                   </Link>
                 </motion.div>
               ))}
+
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: 10 }}
-                transition={{ delay: (SERVICII_LINKS.length + NAV_LINKS.length) * 0.06, duration: 0.4, ease: 'easeOut' }}
+                transition={{ delay: (NAV_LINKS.length + 2) * 0.06, duration: 0.4, ease: 'easeOut' }}
               >
                 <Link
                   href="/#programare"
@@ -235,20 +365,6 @@ const Navbar = () => {
                   className="font-jost text-sm uppercase tracking-wider bg-forest text-cream px-8 py-4 rounded-sm hover:bg-gold hover:text-forest-dark transition-all duration-300 inline-block mt-2"
                 >
                   Programare
-                </Link>
-              </motion.div>
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: 10 }}
-                transition={{ delay: (SERVICII_LINKS.length + NAV_LINKS.length + 1) * 0.06, duration: 0.4, ease: 'easeOut' }}
-              >
-                <Link
-                  href="/contact"
-                  onClick={() => setMobileOpen(false)}
-                  className="font-jost text-sm uppercase tracking-wider text-bark-dark hover:text-forest transition-colors duration-200"
-                >
-                  Contact
                 </Link>
               </motion.div>
             </nav>
