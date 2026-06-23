@@ -142,6 +142,12 @@ const Navbar = () => {
             >
               Programare
             </Link>
+            <Link
+              href="/contact"
+              className="font-jost text-xs uppercase tracking-wider text-forest-dark hover:text-forest transition-colors duration-200"
+            >
+              Contact
+            </Link>
           </div>
 
           {/* Hamburger mobil */}
@@ -229,6 +235,20 @@ const Navbar = () => {
                   className="font-jost text-sm uppercase tracking-wider bg-forest text-cream px-8 py-4 rounded-sm hover:bg-gold hover:text-forest-dark transition-all duration-300 inline-block mt-2"
                 >
                   Programare
+                </Link>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: 10 }}
+                transition={{ delay: (SERVICII_LINKS.length + NAV_LINKS.length + 1) * 0.06, duration: 0.4, ease: 'easeOut' }}
+              >
+                <Link
+                  href="/contact"
+                  onClick={() => setMobileOpen(false)}
+                  className="font-jost text-sm uppercase tracking-wider text-bark-dark hover:text-forest transition-colors duration-200"
+                >
+                  Contact
                 </Link>
               </motion.div>
             </nav>

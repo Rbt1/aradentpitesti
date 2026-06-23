@@ -13,6 +13,7 @@ const NAV_LINKS = [
   { label: 'Ghiduri Gratuite', href: '/resurse' },
   { label: 'Blog', href: '/blog' },
   { label: 'Prețuri', href: '/preturi' },
+  { label: 'Contact', href: '/contact' },
 ]
 
 const InstagramIcon = () => (
