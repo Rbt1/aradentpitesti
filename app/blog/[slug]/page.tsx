@@ -40,8 +40,29 @@ export default function ArticolPage({ params }: Props) {
   const articol = articole.find((a) => a.slug === params.slug)
   if (!articol) notFound()
 
+  const jsonLdFaq = articol.faq
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: articol.faq.map((item) => ({
+          '@type': 'Question',
+          name: item.q,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: item.a,
+          },
+        })),
+      }
+    : null
+
   return (
     <>
+      {jsonLdFaq && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFaq) }}
+        />
+      )}
       <Navbar />
       <main className="bg-cream">
 

@@ -496,3 +496,28 @@ body::before {
   font-weight: 600;
   color: var(--forest-dark);
 }
+
+.prose-blog table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 24px;
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 14px;
+}
+
+.prose-blog th,
+.prose-blog td {
+  padding: 10px 14px;
+  border: 1px solid var(--bark-light);
+  text-align: left;
+  color: var(--forest-dark);
+}
+
+.prose-blog th {
+  background-color: var(--cream-dark);
+  font-weight: 600;
+}
+
+.prose-blog tbody tr:nth-child(even) {
+  background-color: rgba(212, 197, 169, 0.12);
+}

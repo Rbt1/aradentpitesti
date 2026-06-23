@@ -1,3 +1,8 @@
+export interface ArticolFAQ {
+  q: string
+  a: string
+}
+
 export interface Articol {
   slug: string
   title: string
@@ -5,6 +10,7 @@ export interface Articol {
   excerpt: string
   date: string
   continut: string
+  faq?: ArticolFAQ[]
 }
 
 export const articole: Articol[] = [
@@ -154,6 +160,86 @@ export const articole: Articol[] = [
     <p>Decizia corecta depinde de situatia ta specifica — sanatate generala, starea osului, buget si preferinte personale. De aceea, cel mai bun pas este o evaluare clinica reala, nu o decizie luata doar din comparatii online.</p>
     <p>La consultatia gratuita, Dr. Robert Lungu evalueaza osul tau, starea generala orala si iti recomanda solutia potrivita situatiei tale — fara presiune, cu toate optiunile explicate clar.</p>
   `,
+  },
+  {
+    slug: 'all-on-4-pitesti-cat-costa',
+    title: 'All-on-4 in Pitesti - Ce este, cat costa si cand e solutia potrivita',
+    metaDescription: 'All-on-4 Pitesti: ce este, cand se recomanda si cat costa la ARA DENT STUDIO. Incarcare imediata, consultatie gratuita cu scanare si CT 3D.',
+    excerpt: 'Daca lipsesc toti dintii de pe o arcada, All-on-4 ofera o lucrare fixa, stabila, cu recuperare rapida. Afla cat costa si cum decurge tratamentul.',
+    date: '2026-07-18',
+    continut: `
+      <p>Daca lipsesc toti dintii de pe o arcada si esti in cautarea unei solutii permanente, All-on-4 este una dintre cele mai eficiente optiuni disponibile astazi in implantologie. Hai sa vedem exact ce inseamna, cum decurge tratamentul si cat costa la ARA DENT STUDIO Pitesti.</p>
+
+      <h2>Ce este sistemul All-on-4?</h2>
+      <p>All-on-4 este o tehnica de reabilitare orala completa, prin care o arcada intreaga de dinti lipsa este inlocuita cu o lucrare fixa, sustinuta de doar 4 implanturi strategic pozitionate. Spre deosebire de o proteza mobila, lucrarea All-on-4 nu se scoate, nu se misca si functioneaza ca o dantura naturala.</p>
+      <p>Numele vine exact din principiul tehnicii: "toti dintii pe 4 implanturi". Cele 4 implanturi sunt pozitionate cu unghiuri precise, calculate prin scanare si CT 3D, pentru a distribui optim fortele de masticatie pe toata arcada — chiar si atunci cand osul disponibil este limitat.</p>
+
+      <h2>Cand se recomanda All-on-4?</h2>
+      <p>All-on-4 este indicat pentru:</p>
+      <ul>
+        <li>Pacienti cu edentatie totala (lipsesc toti dintii de pe o arcada)</li>
+        <li>Pacienti care vor sa renunte definitiv la proteza mobila</li>
+        <li>Cazuri in care osul disponibil este suficient pentru 4 implanturi bine pozitionate, dar nu neaparat pentru mai multe</li>
+        <li>Pacienti care vor o recuperare rapida — All-on-4 permite adesea incarcare imediata</li>
+      </ul>
+      <p>La consultatia gratuita, cu scanare si CT 3D, Dr. Robert Lungu evalueaza exact cantitatea de os disponibila si recomanda varianta potrivita — All-on-4 sau All-on-6 — in functie de caz.</p>
+
+      <h2>All-on-4 vs proteza mobila — diferentele esentiale</h2>
+      <table>
+        <thead>
+          <tr><th>Criteriu</th><th>Proteza totala mobila</th><th>All-on-4</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Stabilitate</td><td>Variabila, necesita adeziv</td><td>Fixa, ca dantura naturala</td></tr>
+          <tr><td>Forta de masticatie</td><td>Redusa semnificativ</td><td>Apropiata de cea naturala</td></tr>
+          <tr><td>Resorbtia osoasa</td><td>Continua nestopat</td><td>Se opreste</td></tr>
+          <tr><td>Confort zilnic</td><td>Scoatere/punere zilnica</td><td>Nu se scoate</td></tr>
+          <tr><td>Recuperare</td><td>Imediata, dar limitari functionale</td><td>Provizorie fixa in 24-48h sau aceeasi zi</td></tr>
+        </tbody>
+      </table>
+      <p>Diferenta practica pentru pacient este uriasa: cei care vin cu o proteza totala veche, instabila, descopera ca All-on-4 schimba radical calitatea vietii — pot manca normal, vorbesc fara emotii legate de proteza care s-ar putea misca.</p>
+
+      <h2>Cat costa All-on-4 in Pitesti?</h2>
+      <p>La ARA DENT STUDIO, tratamentul complet All-on-4 costa <strong>12.000 lei per arcada</strong>. Pretul include implanturile si lucrarea provizorie fixa.</p>
+      <p>Pentru cazurile care necesita 6 implanturi (All-on-6), pretul este de <strong>14.000 lei per arcada</strong>. Decizia intre 4 sau 6 implanturi se stabileste la consultatie, in functie de osul disponibil si distributia optima a fortelor de masticatie pentru cazul tau specific.</p>
+
+      <h2>Cum decurge tratamentul la ARA DENT STUDIO?</h2>
+      <p><strong>1. Consultatie si evaluare completa</strong> — gratuita, include scanare intraorala si CT 3D pentru planificarea exacta a pozitiei implanturilor.</p>
+      <p><strong>2. Inserarea implanturilor</strong> — interventie chirurgicala sub anestezie locala. In functie de caz, lucrarea provizorie fixa poate fi montata chiar in aceeasi zi sau in 24-48 ore.</p>
+      <p><strong>3. Perioada de oseointegrare</strong> — 3-6 luni, timp in care lucrarea provizorie fixa functioneaza normal, fara disconfortul unei proteze mobile.</p>
+      <p><strong>4. Lucrarea definitiva</strong> — dupa oseointegrare completa, se monteaza lucrarea finala, realizata din materiale durabile precum zirconiul.</p>
+
+      <h2>Intrebari frecvente</h2>
+      <p><strong>All-on-4 doare?</strong><br/>
+      Interventia se realizeaza sub anestezie locala. Disconfortul post-operator este similar cu cel de la o extractie chirurgicala si se gestioneaza cu medicatie antialgica obisnuita.</p>
+      <p><strong>Cat dureaza procedura?</strong><br/>
+      Inserarea celor 4 implanturi dureaza de obicei 2-3 ore. Lucrarea provizorie fixa se monteaza in aceeasi zi sau in 24-48 ore, in functie de caz.</p>
+      <p><strong>Pot face All-on-4 daca am diabet?</strong><br/>
+      Depinde de nivelul de control al bolii. Evaluam situatia ta specifica la consultatia gratuita.</p>
+      <p><strong>Care e diferenta fata de All-on-6?</strong><br/>
+      Diferenta este numarul de implanturi — 4 versus 6. All-on-6 se recomanda atunci cand distributia fortelor de masticatie sau cantitatea de os disponibila justifica implanturi suplimentare pentru stabilitate maxima pe termen lung.</p>
+
+      <h2>Programeaza consultatie gratuita</h2>
+      <p>Consultatia, scanarea si CT-ul 3D sunt complet gratuite la ARA DENT STUDIO.</p>
+    `,
+    faq: [
+      {
+        q: 'All-on-4 doare?',
+        a: 'Interventia se realizeaza sub anestezie locala. Disconfortul post-operator este similar cu cel de la o extractie chirurgicala si se gestioneaza cu medicatie antialgica obisnuita.',
+      },
+      {
+        q: 'Cat dureaza procedura?',
+        a: 'Inserarea celor 4 implanturi dureaza de obicei 2-3 ore. Lucrarea provizorie fixa se monteaza in aceeasi zi sau in 24-48 ore, in functie de caz.',
+      },
+      {
+        q: 'Pot face All-on-4 daca am diabet?',
+        a: 'Depinde de nivelul de control al bolii. Evaluam situatia specifica la consultatia gratuita.',
+      },
+      {
+        q: 'Care e diferenta fata de All-on-6?',
+        a: 'Diferenta este numarul de implanturi — 4 versus 6. All-on-6 se recomanda atunci cand distributia fortelor de masticatie sau cantitatea de os disponibila justifica implanturi suplimentare pentru stabilitate maxima pe termen lung.',
+      },
+    ],
   },
 ]
 
