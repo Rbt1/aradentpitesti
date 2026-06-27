@@ -285,6 +285,56 @@ export const articole: Articol[] = [
       },
     ],
   },
+  {
+    slug: 'semnele-bolii-parodontale-de-nu-ignorat',
+    title: 'Semnele bolii parodontale pe care nu trebuie sa le ignori',
+    metaDescription: 'Boala parodontala (parodontoza) se poate preveni si trata, dar osul pierdut nu se mai reface. Afla cele 6 semne de alarma si cum se trateaza la ARA DENT STUDIO Pitesti.',
+    excerpt: 'Sangerarea gingiilor, retractia gingivala si mobilitatea dentara sunt semne ale bolii parodontale. Afla de ce tratamentul precoce este esential.',
+    date: '2026-06-30',
+    continut: `
+      <p>Multi pacienti cauta informatii despre "parodontoza" — termenul popular pentru ceea ce este, din punct de vedere medical corect, <strong>boala parodontala</strong> (cu formele sale: gingivita, parodontita marginala cronica superficiala si profunda). Indiferent de nume, mesajul important e acelasi: boala se poate preveni si trata, dar osul pierdut nu se mai reface.</p>
+
+      <h2>De ce nu trebuie ignorate semnele</h2>
+      <p>Boala parodontala evolueaza lent si, in fazele incipiente, nu doare. De aceea majoritatea pacientilor o ignora — pana cand apar simptome avansate, cand tratamentul devine mai complex.</p>
+
+      <h2>Cele 6 semne de alarma</h2>
+      <p><strong>1. Sangerare gingivala la periaj sau spontana</strong><br/>
+      Cel mai frecvent semn precoce. O gingie sanatoasa nu sangereaza niciodata. Sangerarea inseamna inflamatie activa — bacteriile sunt deja prezente.</p>
+      <p><strong>2. Retractie gingivala — "dintii par mai lungi"</strong><br/>
+      Gingia se retrage si expune radacina dintelui. Odata retrasa, gingia nu mai revine la pozitia initiala fara interventie chirurgicala.</p>
+      <p><strong>3. Mobilitate dentara</strong><br/>
+      Dintele se misca la atingere sau masticatie. Semn de distrugere osoasa avansata — cu cat mobilitatea e mai mare, cu atat osul pierdut e mai mult.</p>
+      <p><strong>4. Spatii aparute intre dinti</strong><br/>
+      Dintii par sa se "departeze" unul de altul. Osul care ii tinea impreuna s-a resorbit.</p>
+      <p><strong>5. Miros urat persistent (halena)</strong><br/>
+      Bacteriile din pungile parodontale produc compusi cu miros caracteristic, greu de mascat cu pasta de dinti sau apa de gura.</p>
+      <p><strong>6. Durere sau disconfort la masticatie</strong><br/>
+      Semn ca infectia este activa si afecteaza structurile de sustinere ale dintelui.</p>
+
+      <h2>De ce conteaza tratamentul precoce</h2>
+      <p>Aceasta este diferenta fundamentala dintre boala parodontala si o carie: o carie tratata face dintele sa revina la normal. In boala parodontala, odata ce osul s-a resorbit, acel os nu mai creste la loc. Tratamentul opreste distrugerea — dar nu o inverseaza.</p>
+      <ul>
+        <li>Gingivita — reversibila complet, tratament simplu</li>
+        <li>Parodontita superficiala — distrugere osoasa incipienta, ireversibila</li>
+        <li>Parodontita profunda — distrugere severa, mobilitate dentara</li>
+      </ul>
+
+      <h2>Cine e mai expus</h2>
+      <p><strong>Factori modificabili:</strong> igiena orala deficitara, fumat, stres cronic, bruxism (scrasnitul dintilor), alimentatie saraca in vitamina C si D.</p>
+      <p><strong>Factori nemodificabili:</strong> predispozitie genetica, diabet, sarcina, anumite medicamente.</p>
+      <p>Diabetul si boala parodontala se influenteaza reciproc — diabetul agraveza boala parodontala, si invers.</p>
+
+      <h2>Cum se trateaza la ARA DENT STUDIO</h2>
+      <p>1. <strong>Consultatie si evaluare completa</strong> — gratuita, cu sondaj parodontal si radiografie</p>
+      <p>2. <strong>Detartraj supragingival</strong> — indepartarea tartrului de deasupra gingiei, cu ultrasunete si Air-Flow</p>
+      <p>3. <strong>Chiuretaj subgingival</strong> — curatarea radacinilor sub gingie, sub anestezie locala, de la 200 lei per sedinta</p>
+      <p>4. <strong>Reevaluare</strong> — dupa 6-8 saptamani</p>
+      <p>5. <strong>Mentinere pe termen lung</strong> — control la 3-6 luni, pe toata viata</p>
+
+      <h2>Programeaza-te pentru evaluare</h2>
+      <p>Daca ai observat orice semn din lista de mai sus, nu astepta. Consultatia si evaluarea parodontala sunt gratuite la ARA DENT STUDIO.</p>
+    `,
+  },
 ]
 
 const MONTHS_RO = [
