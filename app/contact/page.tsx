@@ -5,11 +5,11 @@ import Footer from '@/app/components/Footer'
 export const metadata: Metadata = {
   title: 'Contact | ARA DENT STUDIO Pitești',
   description: 'Contactează ARA DENT STUDIO Pitești. Adresă, telefon, program și hartă. Programează-te pentru o consultație gratuită.',
-  alternates: { canonical: 'https://aradentpitesti.ro/contact' },
+  alternates: { canonical: 'https://www.aradentpitesti.ro/contact' },
   openGraph: {
     title: 'Contact | ARA DENT STUDIO Pitești',
     description: 'Contactează ARA DENT STUDIO Pitești. Adresă, telefon, program și hartă. Programează-te pentru o consultație gratuită.',
-    url: 'https://aradentpitesti.ro/contact',
+    url: 'https://www.aradentpitesti.ro/contact',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
     type: 'website',
@@ -20,7 +20,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Dentist',
   name: 'ARA DENT STUDIO',
-  image: 'https://aradentpitesti.ro/logo-circular-600.png',
+  image: 'https://www.aradentpitesti.ro/logo-circular-600.png',
   telephone: '+40754219011',
   email: 'aradentstudio@gmail.com',
   address: {
@@ -35,7 +35,7 @@ const jsonLd = {
     opens: '09:00',
     closes: '18:00',
   },
-  url: 'https://aradentpitesti.ro',
+  url: 'https://www.aradentpitesti.ro',
 }
 
 const WA_LINK = 'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Doresc să programez o consultație gratuită.')

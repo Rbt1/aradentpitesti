@@ -7,11 +7,11 @@ import FAQ from '@/app/servicii/components/FAQ'
 export const metadata: Metadata = {
   title: 'Chirurgie Orală Pitești | Dr. Robert Lungu',
   description: 'Chirurgie orală Pitești, extracții de la 250 lei. Dr. Robert Lungu. Consultație gratuită.',
-  alternates: { canonical: 'https://aradentpitesti.ro/servicii/chirurgie-orala' },
+  alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/chirurgie-orala' },
   openGraph: {
     title: 'Chirurgie Orală Pitești | Dr. Robert Lungu',
     description: 'Chirurgie orală Pitești, extracții de la 250 lei. Dr. Robert Lungu. Consultație gratuită.',
-    url: 'https://aradentpitesti.ro/servicii/chirurgie-orala',
+    url: 'https://www.aradentpitesti.ro/servicii/chirurgie-orala',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
     type: 'website',

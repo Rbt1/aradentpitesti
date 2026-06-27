@@ -20,11 +20,11 @@ export function generateMetadata({ params }: Props): Metadata {
   return {
     title: `${articol.title} | ARA DENT STUDIO`,
     description: articol.metaDescription,
-    alternates: { canonical: `https://aradentpitesti.ro/blog/${articol.slug}` },
+    alternates: { canonical: `https://www.aradentpitesti.ro/blog/${articol.slug}` },
     openGraph: {
       title: `${articol.title} | ARA DENT STUDIO`,
       description: articol.metaDescription,
-      url: `https://aradentpitesti.ro/blog/${articol.slug}`,
+      url: `https://www.aradentpitesti.ro/blog/${articol.slug}`,
       siteName: 'ARA DENT STUDIO',
       locale: 'ro_RO',
       type: 'article',

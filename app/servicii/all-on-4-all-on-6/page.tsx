@@ -7,11 +7,11 @@ import FAQ from '@/app/servicii/components/FAQ'
 export const metadata: Metadata = {
   title: 'All-on-4 și All-on-6 Pitești | Dinți Fixi pe Implanturi | ARA DENT STUDIO',
   description: 'Reabilitare totală pe implanturi All-on-4 și All-on-6 în Pitești. Încărcare imediată, Dr. Robert Lungu. Prețuri de la 12.000 lei.',
-  alternates: { canonical: 'https://aradentpitesti.ro/servicii/all-on-4-all-on-6' },
+  alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/all-on-4-all-on-6' },
   openGraph: {
     title: 'All-on-4 și All-on-6 Pitești | Dinți Fixi pe Implanturi',
     description: 'Reabilitare totală pe implanturi All-on-4 și All-on-6 în Pitești. Încărcare imediată, Dr. Robert Lungu. Prețuri de la 12.000 lei.',
-    url: 'https://aradentpitesti.ro/servicii/all-on-4-all-on-6',
+    url: 'https://www.aradentpitesti.ro/servicii/all-on-4-all-on-6',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
     type: 'website',

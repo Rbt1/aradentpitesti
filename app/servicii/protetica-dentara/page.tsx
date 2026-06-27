@@ -7,11 +7,11 @@ import FAQ from '@/app/servicii/components/FAQ'
 export const metadata: Metadata = {
   title: 'Protetică Dentară Pitești | Coroane și Punți',
   description: 'Protetică dentară în Pitești. Coroane, punți și proteze din materiale premium. Dr. Robert Lungu, ARA DENT STUDIO. Estetică și durabilitate garantate.',
-  alternates: { canonical: 'https://aradentpitesti.ro/servicii/protetica-dentara' },
+  alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/protetica-dentara' },
   openGraph: {
     title: 'Protetică Dentară Pitești | Coroane și Punți',
     description: 'Coroane, punți și proteze din materiale premium în Pitești. Dr. Robert Lungu, ARA DENT STUDIO.',
-    url: 'https://aradentpitesti.ro/servicii/protetica-dentara',
+    url: 'https://www.aradentpitesti.ro/servicii/protetica-dentara',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
     type: 'website',

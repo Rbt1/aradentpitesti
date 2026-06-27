@@ -7,11 +7,11 @@ import { articole, formatDate } from '@/data/articole'
 export const metadata: Metadata = {
   title: 'Blog | ARA DENT STUDIO Pitesti',
   description: 'Articole utile despre implantologie, chirurgie orala si sanatate dentara. Dr. Robert Lungu, ARA DENT STUDIO.',
-  alternates: { canonical: 'https://aradentpitesti.ro/blog' },
+  alternates: { canonical: 'https://www.aradentpitesti.ro/blog' },
   openGraph: {
     title: 'Blog | ARA DENT STUDIO Pitesti',
     description: 'Articole utile despre implantologie, chirurgie orala si sanatate dentara. Dr. Robert Lungu, ARA DENT STUDIO.',
-    url: 'https://aradentpitesti.ro/blog',
+    url: 'https://www.aradentpitesti.ro/blog',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
     type: 'website',
