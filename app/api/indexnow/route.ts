@@ -16,5 +16,6 @@ export async function GET() {
     indexNowStatus: result.status,
     indexNowStatusText: result.statusText,
     indexNowBody: result.body,
+    keyFileVerification: result.verify,
   })
 }
