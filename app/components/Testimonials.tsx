@@ -14,12 +14,12 @@ const StarIcon = () => (
   </svg>
 )
 
-const GOOGLE_REVIEW_URL = 'https://g.page/r/CXJUUxp2i-GYEBM/review'
+const GOOGLE_REVIEW_URL = 'https://www.google.com/maps/place/ARA+DENT+STUDIO'
 
 const REVIEWS = [
   {
     nume: 'Amalia Nicolae',
-    text: 'Am avut o experiență excelentă la acest cabinet stomatologic! Cabinetul este nou, modern, foarte curat și dotat cu aparatură de ultimă generație. Atmosfera este plăcută și primitoare, iar personalul este amabil și atent la nevoile pacienților. Doctorul este un adevărat profesionist: răbdător, empatic și foarte atent la detalii. Mi-a explicat fiecare etapă a tratamentului și m-a făcut să mă simt în siguranță și confort pe tot parcursul vizitei.',
+    text: 'Am avut o experiență excelentă la acest cabinet stomatologic! Cabinetul este nou, modern, foarte curat și dotat cu aparatură de ultimă generație. Doctorul este un adevărat profesionist: răbdător, empatic și foarte atent la detalii.',
   },
   {
     nume: 'Jeni Florea',
@@ -27,7 +27,7 @@ const REVIEWS = [
   },
   {
     nume: 'Marian Alexandru Diaconu',
-    text: 'Cu adevărat o experiență premium, aparatură de ultimă generație, iar medicul stomatolog și întregul personal, absolut genial! Lucrările decurg super fin, eu de fel sensibil și cu puțină teamă de lucrările legate de dinți, dar acești oameni lucrează super bine! Mi-am schimbat percepția legată de dentist și implicit frica de aceștia.',
+    text: 'Cu adevărat o experiență premium, aparatură de ultimă generație, iar medicul stomatolog și întregul personal, absolut genial! Mi-am schimbat percepția legată de dentist și implicit frica de aceștia.',
   },
   {
     nume: 'Andrada Bostina',
