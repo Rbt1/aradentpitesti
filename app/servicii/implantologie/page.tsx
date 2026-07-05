@@ -42,6 +42,53 @@ const jsonLdService = {
   },
 }
 
+const jsonLdFaq = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Cat dureaza procedura de implant dentar?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Inserarea implantului dureaza 30-60 de minute per implant, sub anestezie locala. Oseointegrarea dureaza 3-6 luni, dupa care se monteaza coroana definitiva.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Cat costa un implant dentar in Pitesti la ARA DENT STUDIO?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'La ARA DENT STUDIO, implantul dentar (surub Dentium) costa 1.200 lei. Bontul protetic este 300 lei, iar capa de vindecare 150 lei. Consultatia, radiografia panoramica si CT-ul sunt gratuite.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Implantul dentar doare?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Procedura se realizeaza sub anestezie locala si nu provoaca durere in timpul interventiei. Post-operator pot aparea cateva zile de disconfort usor, gestionabil cu antiinflamatoare standard.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Pot face implant daca am diabet?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Diabetul bine controlat nu este o contraindicatie absoluta pentru implant. Dr. Robert Lungu evalueaza fiecare caz individual la consultatia gratuita.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Care e diferenta dintre implant si proteza mobila?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Implantul este fix, integrat in os, identic functional cu un dinte natural. Proteza mobila se scoate zilnic, nu opreste resorbtia osoasa si poate fi inconfortabila. Implantul este singura solutie permanenta care inlocuieste si radacina dintelui.',
+      },
+    },
+  ],
+}
+
 const BENEFITS = [
   {
     title: 'Durată de viață',
@@ -86,6 +133,10 @@ export default function ImplantologiePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdService) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFaq) }}
       />
       <Navbar />
       <main className="bg-cream">
