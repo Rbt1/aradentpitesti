@@ -3,7 +3,7 @@ import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Contact | ARA DENT STUDIO Pitești',
+  title: { absolute: 'Contact | ARA DENT STUDIO Pitești' },
   description: 'Contactează ARA DENT STUDIO Pitești. Adresă, telefon, program și hartă. Programează-te pentru o consultație gratuită.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/contact' },
   openGraph: {

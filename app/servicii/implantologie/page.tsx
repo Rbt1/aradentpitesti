@@ -5,7 +5,7 @@ import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
-  title: 'Implant Dentar Pitești | Dr. Robert Lungu',
+  title: { absolute: 'Implant Dentar Pitești | Dr. Robert Lungu' },
   description: 'Implant dentar Pitești — 1.200 lei. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație gratuită.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/implantologie' },
   openGraph: {

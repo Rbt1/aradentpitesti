@@ -5,7 +5,7 @@ import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
-  title: 'Endodonție Pitești, Argeș | Tratament Canal | ARA DENT STUDIO',
+  title: { absolute: 'Endodonție Pitești | Tratament Canal | ARA DENT STUDIO' },
   description: 'Tratament endodonție în Pitești și județul Argeș. Tratament canal cu microscop dentar, de la 400 lei. Consultație gratuită.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/endodontie' },
   openGraph: {

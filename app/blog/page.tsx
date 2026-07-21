@@ -5,7 +5,7 @@ import Footer from '@/app/components/Footer'
 import { articole, formatDate } from '@/data/articole'
 
 export const metadata: Metadata = {
-  title: 'Blog | ARA DENT STUDIO Pitesti',
+  title: { absolute: 'Blog Stomatologie | ARA DENT STUDIO Pitești' },
   description: 'Articole utile despre implantologie, chirurgie orala si sanatate dentara. Dr. Robert Lungu, ARA DENT STUDIO.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/blog' },
   openGraph: {

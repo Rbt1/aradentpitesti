@@ -1,7 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Ghiduri Gratuite | ARA DENT STUDIO Pitesti',
+  title: { absolute: 'Ghiduri Gratuite | ARA DENT STUDIO Pitești' },
   description: 'Descarca gratuit ghidurile dentare ARA DENT STUDIO. Implantologie, urgente dentare, boala parodontala. Dr. Robert Lungu, Pitesti.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/resurse' },
   openGraph: {

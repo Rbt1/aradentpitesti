@@ -18,7 +18,7 @@ export function generateMetadata({ params }: Props): Metadata {
   if (!articol) return {}
 
   return {
-    title: `${articol.title} | ARA DENT STUDIO`,
+    title: { absolute: `${articol.title} | ARA DENT STUDIO` },
     description: articol.metaDescription,
     alternates: { canonical: `https://www.aradentpitesti.ro/blog/${articol.slug}` },
     openGraph: {

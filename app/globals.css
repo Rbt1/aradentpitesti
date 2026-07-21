@@ -521,3 +521,14 @@ body::before {
 .prose-blog tbody tr:nth-child(even) {
   background-color: rgba(212, 197, 169, 0.12);
 }
+
+.prose-blog a {
+  color: #2D6A4F;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+}
+
+.prose-blog a:hover {
+  color: #C9A84C;
+}

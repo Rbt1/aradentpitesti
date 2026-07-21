@@ -5,7 +5,7 @@ import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
-  title: 'Protetică Dentară Pitești | Coroane și Punți',
+  title: { absolute: 'Protetică Dentară Pitești | ARA DENT STUDIO' },
   description: 'Protetică dentară în Pitești. Coroane, punți și proteze din materiale premium. Dr. Robert Lungu, ARA DENT STUDIO. Estetică și durabilitate garantate.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/protetica-dentara' },
   openGraph: {

@@ -4,7 +4,7 @@ import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
 
 export const metadata: Metadata = {
-  title: 'Prețuri Stomatologie Pitești | ARA DENT STUDIO',
+  title: { absolute: 'Prețuri Stomatologie Pitești | ARA DENT STUDIO' },
   description: 'Prețuri transparente pentru implant dentar, tratament canal, detartraj și alte servicii la ARA DENT STUDIO Pitești. Consultație gratuită.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/preturi' },
   openGraph: {

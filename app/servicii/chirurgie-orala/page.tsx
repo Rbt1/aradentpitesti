@@ -5,7 +5,7 @@ import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
-  title: 'Chirurgie Orală Pitești | Dr. Robert Lungu',
+  title: { absolute: 'Chirurgie Orală Pitești | ARA DENT STUDIO' },
   description: 'Chirurgie orală Pitești, extracții de la 250 lei. Dr. Robert Lungu. Consultație gratuită.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/chirurgie-orala' },
   openGraph: {

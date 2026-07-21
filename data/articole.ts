@@ -24,7 +24,7 @@ export const articole: Articol[] = [
       <p>Daca ai cautat pe Google "pret implant dentar", probabil ai gasit cifre diferite la fiecare clinica — si asta e confuz. Hai sa clarificam exact de ce variaza preturile si ce ar trebui sa te intereseze cu adevarat.</p>
 
       <h2>De ce nu exista un pret fix</h2>
-      <p>Implantul dentar nu este un produs standard, ca un telefon cu pret afisat pe eticheta. Costul final depinde de mai multi factori care difera de la pacient la pacient.</p>
+      <p><a href="/servicii/implantologie">Implantul dentar</a> nu este un produs standard, ca un telefon cu pret afisat pe eticheta. Costul final depinde de mai multi factori care difera de la pacient la pacient.</p>
 
       <h2>1. Brandul implantului</h2>
       <p>Exista implanturi standard, medii si premium. Diferenta de pret intre un implant de baza si unul premium poate fi semnificativa — dar brandul mai scump nu inseamna automat rezultat mai bun pentru cazul tau specific. Sistemul folosit trebuie sa fie potrivit situatiei tale clinice, nu neaparat cel mai costisitor.</p>
@@ -76,7 +76,7 @@ export const articole: Articol[] = [
     excerpt: 'Proteza mobila si implantul dentar nu sunt echivalente. Afla diferentele esentiale, inclusiv solutia pentru edentatia totala.',
     date: '2026-06-20',
     continut: `
-    <p>Cand lipseste un dinte, ai practic doua optiuni serioase: implant dentar sau proteza mobila. Multe persoane aleg proteza pentru ca pare mai simpla si mai accesibila — dar decizia merita analizata cu atentie, pentru ca diferentele pe termen lung sunt semnificative.</p>
+    <p>Cand lipseste un dinte, ai practic doua optiuni serioase: <a href="/servicii/implantologie">implant dentar</a> sau proteza mobila. Multe persoane aleg proteza pentru ca pare mai simpla si mai accesibila — dar decizia merita analizata cu atentie, pentru ca diferentele pe termen lung sunt semnificative.</p>
 
     <h2>Ce este proteza mobila</h2>
     <p>Proteza mobila este o lucrare dentara detasabila, care se sprijina pe gingie si pe dintii vecini (daca exista) sau direct pe creasta osoasa (in cazul protezelor totale). Se poate scoate si pune zilnic.</p>
@@ -108,7 +108,7 @@ export const articole: Articol[] = [
     <p><strong>Dezavantaje:</strong></p>
     <ul>
       <li>Necesita o mica interventie chirurgicala</li>
-      <li>Cost initial mai mare decat proteza</li>
+      <li><a href="/preturi">Cost initial mai mare</a> decat proteza</li>
       <li>Necesita o perioada de oseointegrare (3-6 luni) inainte de coroana finala</li>
     </ul>
 

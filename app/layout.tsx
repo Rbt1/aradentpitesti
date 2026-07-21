@@ -143,6 +143,13 @@ const jsonLd = {
     name: 'Dr. Robert Lungu',
     jobTitle: 'Medic Stomatolog · Specialist Implantologie',
   },
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.9',
+    reviewCount: '29',
+    bestRating: '5',
+    worstRating: '1',
+  },
   sameAs: [
     'https://instagram.com/aradentstudio',
     'https://facebook.com/aradentstudio',

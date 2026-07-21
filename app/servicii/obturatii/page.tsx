@@ -5,7 +5,7 @@ import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
-  title: 'Obturații Dentare Pitești | ARA DENT STUDIO',
+  title: { absolute: 'Obturații Dentare Pitești | ARA DENT STUDIO' },
   description: 'Obturații dentare Pitești de la 200 lei. Materiale premium. Consultație gratuită.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/obturatii' },
   openGraph: {
