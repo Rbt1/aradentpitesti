@@ -323,6 +323,7 @@ export const articole: Articol[] = [
 
     <h2>Consultatie gratuita — si pentru tine</h2>
     <p>Fie ca esti acasa o saptamana sau o luna, consultatia si radiografia sunt gratuite. Fara obligatii, fara surprize.</p>
+    <p>Afla mai multe despre serviciile noastre dedicate pacientilor din diaspora pe <a href="/diaspora">pagina dedicata pacientilor din strainatate</a>.</p>
   `,
   },
   {
