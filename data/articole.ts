@@ -286,6 +286,46 @@ export const articole: Articol[] = [
     ],
   },
   {
+    slug: 'implant-dentar-romania-diaspora',
+    title: 'Implant dentar in Romania: ghidul pacientului din diaspora',
+    metaDescription: 'Romani din Germania, Spania sau Italia care vor implant dentar acasa. Etapizare speciala, programare flexibila, consultatie gratuita la ARA DENT STUDIO Pitesti.',
+    excerpt: 'Mii de romani aleg sa isi faca tratamentele dentare acasa, in vacanta. Afla cum planificam tratamentul pentru pacientii din diaspora la ARA DENT STUDIO.',
+    date: '2026-07-07',
+    continut: `
+    <p>Daca locuiesti in Germania, Spania, Italia sau oriunde in afara tarii si ai amanat un tratament dentar, nu esti singur. Mii de romani aleg sa isi faca tratamentele acasa, in vacanta — si motivele sunt clare.</p>
+
+    <h2>De ce aleg romanii din diaspora sa se trateze acasa</h2>
+    <p>Diferenta de cost intre Romania si tarile din vest este semnificativa — pentru acelasi tip de tratament, cu aceleasi materiale certificate international. Implanturile folosite in Romania sunt identice cu cele din Germania sau Spania — certificate FDA, CE si ISO 13485. Diferenta vine exclusiv din costurile de operare locale.</p>
+
+    <h2>Ce poti rezolva intr-o singura vizita acasa</h2>
+    <p>Depinde de complexitatea cazului, dar in general:</p>
+    <ul>
+      <li>Consultatie si evaluare completa cu radiografie panoramica gratuita</li>
+      <li>Extractii si pregatire pre-implantara</li>
+      <li>Inserarea implantului — 30-60 minute per implant</li>
+      <li>Tratamente multiple planificate eficient pentru a folosi fiecare zi din vacanta</li>
+    </ul>
+
+    <h2>Etapizare speciala pentru pacientii din diaspora</h2>
+    <p>Tratamentul cu implant are doua faze separate de 3-6 luni — perioada de oseointegrare. Asta se potriveste perfect cu ritmul vizitelor acasa:</p>
+    <p><strong>Vizita 1 (vara / Craciun / Paste):</strong><br/>
+    Consultatie gratuita si evaluare completa, extractie daca e necesara, inserarea implantului. Pleci fara durere, cu implantul in curs de integrare.</p>
+    <p><strong>Vizita 2 (urmatoarea vacanta):</strong><br/>
+    Montarea coroanei definitive, control final, tratament complet finalizat.</p>
+
+    <h2>Programare flexibila</h2>
+    <p>Intelegem ca zilele acasa sunt limitate. La ARA DENT STUDIO oferim:</p>
+    <ul>
+      <li>Programari devreme dimineata sau seara</li>
+      <li>Planificare pe mai multe zile consecutive</li>
+      <li>Comunicare directa pe WhatsApp cu Dr. Robert Lungu pentru orice intrebare</li>
+    </ul>
+
+    <h2>Consultatie gratuita — si pentru tine</h2>
+    <p>Fie ca esti acasa o saptamana sau o luna, consultatia si radiografia sunt gratuite. Fara obligatii, fara surprize.</p>
+  `,
+  },
+  {
     slug: 'semnele-bolii-parodontale-de-nu-ignorat',
     title: 'Semnele bolii parodontale pe care nu trebuie sa le ignori',
     metaDescription: 'Boala parodontala (parodontoza) se poate preveni si trata, dar osul pierdut nu se mai reface. Afla cele 6 semne de alarma si cum se trateaza la ARA DENT STUDIO Pitesti.',
