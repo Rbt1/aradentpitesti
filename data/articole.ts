@@ -327,6 +327,52 @@ export const articole: Articol[] = [
   `,
   },
   {
+    slug: 'cum-alegi-clinica-implant-dentar-pitesti',
+    title: 'Ce trebuie sa stii inainte sa alegi o clinica de implant dentar in Pitesti',
+    metaDescription: 'Cum alegi o clinica de implant dentar in Pitesti? Specializarea medicului, evaluarea pre-chirurgicala, sistemul de implanturi — ghid complet 2026.',
+    excerpt: 'Sunt mai multe clinici de implant dentar in Pitesti — si nu toate sunt echivalente. Iata ce conteaza cu adevarat inainte sa iei o decizie.',
+    date: '2026-07-22',
+    continut: `
+    <p>Daca ai ajuns pe aceasta pagina, probabil cauti o clinica de implant dentar in Pitesti si nu stii exact ce sa urmaresti. Sunt mai multe optiuni in oras — si nu toate sunt echivalente. Iata ce conteaza cu adevarat.</p>
+
+    <h2>1. Specializarea medicului conteaza mai mult decat pretul</h2>
+    <p>Implantul dentar este o procedura chirurgicala — nu un simplu tratament stomatologic. Exista o diferenta importanta intre un medic generalist care face implanturi ocazional si un medic specialist in chirurgie dento-alveolara, pentru care implantologia reprezinta domeniul principal de activitate.</p>
+    <p>Inainte sa alegi o clinica, intreaba: medicul care iti pune implantul are specializare in chirurgie orala sau dento-alveolara, sau face implanturi printre alte zeci de proceduri?</p>
+    <p>La ARA DENT STUDIO, Dr. Robert Lungu este medic specialist in chirurgie dento-alveolara, cu cursuri avansate de implantologie — implantologia nu este o procedura secundara, ci domeniul sau central de activitate.</p>
+
+    <h2>2. Evaluarea pre-chirurgicala este obligatorie — nu optionala</h2>
+    <p>Un implant plasat fara radiografie panoramica si CT dentar este un implant plasat fara informatiile necesare. CT-ul 3D arata exact densitatea si cantitatea de os disponibila, pozitia nervilor si sinusurilor — informatii esentiale pentru plasarea corecta.</p>
+    <p>Orice clinica serioasa face aceasta evaluare inainte de a stabili un plan de tratament. Daca ti se propune un plan de tratament si un pret fara sa fi facut un CT, ridica un semnal de alarma.</p>
+    <p>La ARA DENT STUDIO, consultatia si radiografia panoramica sunt gratuite. CT-ul dentar este disponibil in cabinet — nu trebuie sa mergi in alta parte pentru investigatii.</p>
+
+    <h2>3. Pregatirea pre-chirurgicala face diferenta intre succes si esec</h2>
+    <p>Un lucru pe care putini pacienti il stiu: bacteriile prezente in cavitatea orala in momentul interventiei pot compromite oseointegrearea implantului. De aceea, inainte de orice inserare de implant, este esential sa fie tratate cariile active si sa fie realizata o igienizare profesionala completa.</p>
+    <p>O clinica serioasa include aceasta etapa in planul de tratament — nu sare direct la chirurgie pentru a reduce numarul de vizite.</p>
+
+    <h2>4. Sistemul de implanturi folosit</h2>
+    <p>Nu toate implanturile sunt identice. Exista sisteme ieftine, fara date clinice solide, si sisteme premium cu zeci de ani de studii si certificari internationale (FDA, CE, ISO 13485).</p>
+    <p>Intreaba ce sistem de implanturi foloseste clinica si verifica daca are certificari internationale. Un implant de calitate, bine plasat, dureaza toata viata — unul ieftin sau prost plasat poate esua in primul an.</p>
+
+    <h2>5. Suportul post-operator</h2>
+    <p>Implantul nu se termina la iesirea din cabinet. Perioada de oseointegrare (3-6 luni) necesita monitorizare, iar pacientul trebuie sa aiba acces direct la medic daca apar intrebari sau disconfort.</p>
+    <p>Intreaba inainte: cine raspunde dupa interventie daca am o problema? Exista un numar direct sau trebuie sa astept o programare normala?</p>
+    <p>La ARA DENT STUDIO, Dr. Robert Lungu este disponibil direct pe WhatsApp pentru orice intrebare post-operatorie.</p>
+
+    <h2>Ce sa verifici concret inainte sa alegi</h2>
+    <ul>
+      <li>Medicul are specializare in chirurgie dento-alveolara sau orala?</li>
+      <li>Clinica are CT propriu sau te trimite in alta parte?</li>
+      <li>Planul de tratament include evaluare pre-chirurgicala completa?</li>
+      <li>Ce sistem de implanturi folosesc si ce certificari are?</li>
+      <li>Exista suport direct post-operator?</li>
+    </ul>
+
+    <h2>Consultatie gratuita la ARA DENT STUDIO Pitesti</h2>
+    <p>Daca vrei sa evaluezi situatia ta specific — fara presiune si fara obligatii — consultatia si radiografia panoramica sunt gratuite la ARA DENT STUDIO.</p>
+    <p>Dr. Robert Lungu iti explica exact ce ai nevoie, ce pasi urmeaza si ce sa te astepti — inainte sa iei orice decizie.</p>
+  `,
+  },
+  {
     slug: 'semnele-bolii-parodontale-de-nu-ignorat',
     title: 'Semnele bolii parodontale pe care nu trebuie sa le ignori',
     metaDescription: 'Boala parodontala (parodontoza) se poate preveni si trata, dar osul pierdut nu se mai reface. Afla cele 6 semne de alarma si cum se trateaza la ARA DENT STUDIO Pitesti.',

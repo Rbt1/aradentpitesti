@@ -24,6 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/cat-costa-implant-dentar-ara-dent-pitesti`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/semnele-bolii-parodontale-de-nu-ignorat`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/implant-dentar-romania-diaspora`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/cum-alegi-clinica-implant-dentar-pitesti`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/diaspora`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
   ]
 }
