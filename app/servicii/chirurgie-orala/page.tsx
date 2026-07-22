@@ -5,12 +5,12 @@ import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
-  title: { absolute: 'Chirurgie Orală Pitești | ARA DENT STUDIO' },
-  description: 'Chirurgie orală Pitești, extracții de la 250 lei. Dr. Robert Lungu. Consultație gratuită.',
+  title: { absolute: 'Chirurgie Orală Pitești | Extracții de la 250 lei | ARA DENT STUDIO' },
+  description: 'Chirurgie dento-alveolară în Pitești. Extracții de la 250 lei, specialist Dr. Robert Lungu. Recuperare rapidă. Consultație gratuită.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/chirurgie-orala' },
   openGraph: {
-    title: 'Chirurgie Orală Pitești | Dr. Robert Lungu',
-    description: 'Chirurgie orală Pitești, extracții de la 250 lei. Dr. Robert Lungu. Consultație gratuită.',
+    title: 'Chirurgie Orală Pitești | Extracții de la 250 lei | ARA DENT STUDIO',
+    description: 'Chirurgie dento-alveolară în Pitești. Extracții de la 250 lei, specialist Dr. Robert Lungu. Recuperare rapidă. Consultație gratuită.',
     url: 'https://www.aradentpitesti.ro/servicii/chirurgie-orala',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',

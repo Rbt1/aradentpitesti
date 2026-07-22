@@ -5,12 +5,12 @@ import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
-  title: { absolute: 'Obturații Dentare Pitești | ARA DENT STUDIO' },
-  description: 'Obturații dentare Pitești de la 200 lei. Materiale premium. Consultație gratuită.',
+  title: { absolute: 'Plombe și Obturații Dentare Pitești | de la 200 lei | ARA DENT STUDIO' },
+  description: 'Obturații dentare estetice în Pitești de la 200 lei. Material compozit premium, nedureros, rezultat imediat. Consultație gratuită.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/obturatii' },
   openGraph: {
-    title: 'Obturații Dentare Pitești | ARA DENT STUDIO',
-    description: 'Obturații dentare Pitești de la 200 lei. Materiale premium. Consultație gratuită.',
+    title: 'Plombe și Obturații Dentare Pitești | de la 200 lei | ARA DENT STUDIO',
+    description: 'Obturații dentare estetice în Pitești de la 200 lei. Material compozit premium, nedureros, rezultat imediat. Consultație gratuită.',
     url: 'https://www.aradentpitesti.ro/servicii/obturatii',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',

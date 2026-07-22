@@ -5,12 +5,12 @@ import Footer from '@/app/components/Footer'
 import { articole, formatDate } from '@/data/articole'
 
 export const metadata: Metadata = {
-  title: { absolute: 'Blog Stomatologie | ARA DENT STUDIO Pitești' },
-  description: 'Articole utile despre implantologie, chirurgie orala si sanatate dentara. Dr. Robert Lungu, ARA DENT STUDIO.',
+  title: { absolute: 'Blog Stomatologie Pitești | Sfaturi și Informații | ARA DENT STUDIO' },
+  description: 'Articole despre implant dentar, boala parodontală și tratamente stomatologice în Pitești. Scrise de Dr. Robert Lungu, specialist chirurgie dento-alveolară.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/blog' },
   openGraph: {
-    title: 'Blog | ARA DENT STUDIO Pitesti',
-    description: 'Articole utile despre implantologie, chirurgie orala si sanatate dentara. Dr. Robert Lungu, ARA DENT STUDIO.',
+    title: 'Blog Stomatologie Pitești | Sfaturi și Informații | ARA DENT STUDIO',
+    description: 'Articole despre implant dentar, boala parodontală și tratamente stomatologice în Pitești. Scrise de Dr. Robert Lungu, specialist chirurgie dento-alveolară.',
     url: 'https://www.aradentpitesti.ro/blog',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',

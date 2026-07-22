@@ -5,12 +5,12 @@ import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
-  title: { absolute: 'Parodontologie Pitești | ARA DENT STUDIO' },
-  description: 'Tratament parodontal în Pitești și județul Argeș. Detartraj și chiuretaj subgingival, de la 200 lei. Consultație gratuită.',
+  title: { absolute: 'Parodontologie Pitești | Tratament Boală Parodontală | ARA DENT STUDIO' },
+  description: 'Tratament parodontal în Pitești de la 200 lei/ședință. Detartraj, chiuretaj subgingival. Osul pierdut nu se reface — tratează din timp.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/parodontologie' },
   openGraph: {
-    title: 'Parodontologie Pitești, Argeș | Tratament Boală Parodontală | ARA DENT STUDIO',
-    description: 'Tratament parodontal în Pitești și județul Argeș. Detartraj și chiuretaj subgingival, de la 200 lei. Consultație gratuită.',
+    title: 'Parodontologie Pitești | Tratament Boală Parodontală | ARA DENT STUDIO',
+    description: 'Tratament parodontal în Pitești de la 200 lei/ședință. Detartraj, chiuretaj subgingival. Osul pierdut nu se reface — tratează din timp.',
     url: 'https://www.aradentpitesti.ro/servicii/parodontologie',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
