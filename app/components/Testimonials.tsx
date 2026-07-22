@@ -75,7 +75,7 @@ const Testimonials = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.3 }}
           >
-            4,8 din 5 stele — 26 de recenzii pe Google
+            4,9 din 5 stele — 29 de recenzii pe Google
           </motion.p>
         </div>
 
