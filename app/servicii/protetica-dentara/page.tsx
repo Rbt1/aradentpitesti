@@ -6,11 +6,11 @@ import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
   title: { absolute: 'Protetică Dentară Pitești | ARA DENT STUDIO' },
-  description: 'Protetică dentară în Pitești. Coroane, punți și proteze din materiale premium. Dr. Robert Lungu, ARA DENT STUDIO. Estetică și durabilitate garantate.',
+  description: 'Coroane dentare, punți fixe și lucrări pe implanturi în Pitești. Dr. Robert Lungu, ARA DENT STUDIO. Consultație gratuită.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/protetica-dentara' },
   openGraph: {
-    title: 'Protetică Dentară Pitești | Coroane și Punți',
-    description: 'Coroane, punți și proteze din materiale premium în Pitești. Dr. Robert Lungu, ARA DENT STUDIO.',
+    title: 'Protetică Dentară Pitești | ARA DENT STUDIO',
+    description: 'Coroane dentare, punți fixe și lucrări pe implanturi în Pitești. Dr. Robert Lungu, ARA DENT STUDIO. Consultație gratuită.',
     url: 'https://www.aradentpitesti.ro/servicii/protetica-dentara',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
@@ -18,47 +18,86 @@ export const metadata: Metadata = {
   },
 }
 
+const jsonLdFaq = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'Cât durează realizarea unei coroane?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'De obicei 2 ședințe — una pentru amprentare și una pentru montare. Durata totală depinde de complexitatea cazului.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Coroana dentară doare?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Nu — procedura se realizează sub anestezie locală. După montare poate apărea o sensibilitate ușoară care dispare în câteva zile.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Cât rezistă o coroană dentară?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Cu îngrijire corespunzătoare, o coroană din materiale premium rezistă 10–15 ani sau mai mult.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Pot face o coroană pe implant?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Da — coroana pe implant este etapa finală a tratamentului cu implant și se montează după osteointegrarea completă (3–6 luni).',
+      },
+    },
+  ],
+}
+
 const BENEFITS = [
   {
     title: 'Materiale premium',
-    text: 'Coroane din zirconiu sau ceramică integral — estetice, biocompatibile și durabile. Identice vizual cu dinții naturali.',
+    text: 'Lucrări protetice din materiale de ultimă generație — estetice, durabile și biocompatibile.',
   },
   {
-    title: 'Potrivire perfectă',
-    text: 'Fiecare lucrare protetică este realizată individual, adaptată ocluziei și culorii dinților tăi naturali.',
+    title: 'Precizie și estetică',
+    text: 'Fiecare lucrare este personalizată individual pentru a se integra perfect cu dinții naturali.',
   },
   {
     title: 'Soluții complete',
-    text: 'De la o singură coroană până la restaurări complete — oferim soluția potrivită pentru fiecare situație.',
+    text: 'De la o singură coroană până la reabilitări complete — planificăm împreună soluția potrivită.',
   },
 ]
 
 const FAQ_ITEMS = [
   {
-    q: 'Cât durează o coroană dentară?',
-    a: 'O coroană din zirconiu sau ceramică durează 10-15 ani sau mai mult cu îngrijire corectă. Materialele pe care le folosim sunt de ultimă generație.',
-  },
-  {
-    q: 'Ce este o coroană dentară și când e necesară?',
-    a: 'O coroană este o „căciulă" care acoperă complet dintele deteriorat, refăcând forma, funcția și estetica. Este necesară după tratament de canal, fracturi sau carii extinse.',
-  },
-  {
-    q: 'Care e diferența dintre coroană și fațetă?',
-    a: 'Coroana acoperă tot dintele, fațeta doar suprafața frontală. Fațetele sunt pentru corecturi estetice minore; coroanele pentru restaurare structurală.',
-  },
-  {
     q: 'Cât durează realizarea unei coroane?',
-    a: 'De obicei 2 ședințe la interval de 1-2 săptămâni. Prima ședință — prepararea dintelui și amprenta; a doua — cimentarea coroanei finale.',
+    a: 'De obicei 2 ședințe — una pentru amprentare și una pentru montare. Durata totală depinde de complexitatea cazului.',
   },
   {
-    q: 'Punte sau implant — ce aleg?',
-    a: 'Implantul este soluția superioară pe termen lung: nu afectează dinții vecini și menține osul. Puntea este o alternativă când implantul nu e posibil. La consultație evaluăm ce se potrivește cel mai bine situației tale.',
+    q: 'Coroana dentară doare?',
+    a: 'Nu — procedura se realizează sub anestezie locală. După montare poate apărea o sensibilitate ușoară care dispare în câteva zile.',
+  },
+  {
+    q: 'Cât rezistă o coroană dentară?',
+    a: 'Cu îngrijire corespunzătoare, o coroană din materiale premium rezistă 10–15 ani sau mai mult.',
+  },
+  {
+    q: 'Pot face o coroană pe implant?',
+    a: 'Da — coroana pe implant este etapa finală a tratamentului cu implant și se montează după osteointegrarea completă (3–6 luni).',
   },
 ]
 
 export default function ProteticaDentaraPage() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLdFaq) }}
+      />
       <Navbar />
       <main className="bg-cream">
 
@@ -72,13 +111,13 @@ export default function ProteticaDentaraPage() {
               Protetică Dentară în Pitești
             </h1>
             <p className="font-jost font-light text-lg text-bark-dark mb-10">
-              Coroane, punți și proteze — estetice, durabile, personalizate
+              Restaurări dentare fixe și mobile pentru un zâmbet complet
             </p>
             <Link
               href="#programare"
               className="inline-block font-jost text-sm uppercase tracking-wider bg-forest text-cream px-8 py-4 rounded-sm hover:bg-forest-dark transition-all duration-300 shadow-forest"
             >
-              Programează consultație
+              Programează consultație gratuită
             </Link>
           </div>
         </section>
@@ -88,16 +127,22 @@ export default function ProteticaDentaraPage() {
           <div className="container-site max-w-3xl">
             <div className="space-y-5 font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
               <p>
-                Protetică dentară înseamnă refacerea dinților deteriorați sau înlocuirea celor lipsă cu lucrări fixe sau mobilizabile — coroane, punți, proteze totale sau parțiale.
+                Protetica dentară cuprinde toate soluțiile de restaurare a dinților lipsă sau afectați — coroane dentare, punți fixe, proteze mobile și lucrări pe implanturi.
               </p>
               <p>
-                La ARA DENT STUDIO folosim materiale de înaltă calitate — zirconiu, ceramică integral și compozite premium. Fiecare lucrare protetică este realizată individual: adaptată culorii dinților tăi, ocluziei și fizionomiei feței.
+                La ARA DENT STUDIO, lucrările protetice sunt realizate din materiale premium, cu rezultate estetice și funcționale pe termen lung.
               </p>
               <p>
-                Dr. Robert Lungu planifică fiecare restaurare cu atenție la detaliu — de la prepararea corectă a dintelui, la amprentă precisă, până la adaptarea finală a lucrării. Rezultatul trebuie să fie invizibil: nimeni nu ar trebui să-și dea seama că ai o coroană.
+                <strong>Coroana dentară</strong> este o calotă care acoperă complet un dinte afectat, restaurându-i forma, funcția și aspectul. Se indică după tratamente de canal, fracturi sau distrucții mari de substanță dură dentară.
               </p>
               <p>
-                Indiferent dacă ai nevoie de o singură coroană după un tratament de canal sau de o restaurare completă a arcadei, îți oferim o soluție adaptată nevoilor și bugetului tău. Vino la o consultație și stabilim împreună planul optim.
+                <strong>Puntea dentară</strong> este o lucrare fixă care înlocuiește unul sau mai mulți dinți lipsă, sprijinindu-se pe dinții vecini șlefuiți sau pe implanturi.
+              </p>
+              <p>
+                <strong>Coroana pe implant</strong> reprezintă componenta finală a tratamentului cu implant — identică vizual cu un dinte natural, montată după perioada de osteointegrare.
+              </p>
+              <p>
+                La ARA DENT STUDIO, Dr. Robert Lungu colaborează cu laboratoare de tehnică dentară de încredere pentru a asigura lucrări protetice precise, estetice și durabile.
               </p>
             </div>
           </div>
@@ -138,10 +183,10 @@ export default function ProteticaDentaraPage() {
               Refă-ți zâmbetul
             </h2>
             <p className="font-jost font-light text-forest-light mb-10">
-              Consultație pentru stabilirea planului de tratament protetic. Evaluăm situația ta și îți propunem soluția optimă.
+              Consultație gratuită pentru stabilirea planului de tratament protetic.
             </p>
             <a
-              href="https://wa.me/40754219011?text=Bun%C4%83%20ziua!%20Doresc%20o%20consulta%C8%9Bie%20pentru%20protetic%C4%83%20dentar%C4%83."
+              href="https://wa.me/40754219011"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 font-jost text-sm uppercase tracking-wider bg-[#25D366] text-white px-8 py-4 rounded-sm hover:bg-[#1ebe5d] transition-all duration-300"

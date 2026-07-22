@@ -6,6 +6,7 @@ import Services from './components/Services'
 import Technology from './components/Technology'
 import DentalJourney from './components/DentalJourney'
 import AboutDoctor from './components/AboutDoctor'
+import DiasporaBanner from './components/DiasporaBanner'
 import Testimonials from './components/Testimonials'
 import Footer from './components/Footer'
 import WhatsAppButton from './components/WhatsAppButton'
@@ -41,6 +42,7 @@ export default function HomePage() {
         <Technology />
         <AboutDoctor />
         {/* <BeforeAfter /> */}
+        <DiasporaBanner />
         <Testimonials />
         <Booking />
       </main>

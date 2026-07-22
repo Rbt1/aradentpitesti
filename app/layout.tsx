@@ -83,9 +83,9 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://www.aradentpitesti.ro/logo/logo.png',
-        width: 1200,
-        height: 630,
+        url: 'https://www.aradentpitesti.ro/logo-circular-600.png',
+        width: 600,
+        height: 600,
         alt: 'ARA DENT STUDIO Pitești',
       },
     ],
