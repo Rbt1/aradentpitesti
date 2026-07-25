@@ -107,7 +107,7 @@ const jsonLdFaq = {
       name: 'Cat timp dureaza un implant dentar?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Ingrijit corect, un implant dentar dureaza toata viata. Titanul nu carizeaza si nu se degradeaza — este singura solutie permanenta pentru un dinte lipsa.',
+        text: 'Rata de succes a implanturilor dentare pe termen lung este foarte ridicata. Ingrijit corect si cu controale periodice, un implant poate functiona excelent zeci de ani. Durata depinde de igiena orala, sanatatea generala si controalele regulate la medicul dentist.',
       },
     },
   ],
@@ -116,7 +116,7 @@ const jsonLdFaq = {
 const BENEFITS = [
   {
     title: 'Durată de viață',
-    text: 'Îngrijit corect, implantul durează toată viața. O investiție o singură dată.',
+    text: 'Rata de succes pe termen lung este foarte ridicată. Îngrijit corect și cu controale periodice, un implant poate funcționa excelent zeci de ani.',
   },
   {
     title: 'Aspect natural',
@@ -159,7 +159,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Cât timp durează un implant dentar?',
-    a: 'Îngrijit corect, un implant dentar durează toată viața. Titanul nu cariază și nu se degradează — este singura soluție permanentă pentru un dinte lipsă.',
+    a: 'Rata de succes a implanturilor dentare pe termen lung este foarte ridicată. Îngrijit corect și cu controale periodice, un implant poate funcționa excelent zeci de ani. Durata depinde de igiena orală, sănătatea generală și controalele regulate la medicul dentist.',
   },
 ]
 
