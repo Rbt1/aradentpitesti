@@ -6,11 +6,11 @@ import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
   title: { absolute: 'Implant Dentar Pitești | Dr. Robert Lungu' },
-  description: 'Implant dentar Pitești — 1.200 lei. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație gratuită.',
+  description: 'Implant dentar în Pitești cu Dr. Robert Lungu, specialist chirurgie dento-alveolară. Protocol complet, pregătire pre-chirurgicală, consultație gratuită. Află mai multe.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/implantologie' },
   openGraph: {
     title: 'Implant Dentar Pitești | Dr. Robert Lungu',
-    description: 'Implant dentar Pitești — 1.200 lei. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație gratuită.',
+    description: 'Implant dentar în Pitești cu Dr. Robert Lungu, specialist chirurgie dento-alveolară. Protocol complet, pregătire pre-chirurgicală, consultație gratuită. Află mai multe.',
     url: 'https://www.aradentpitesti.ro/servicii/implantologie',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
@@ -86,6 +86,30 @@ const jsonLdFaq = {
         text: 'Implantul este fix, integrat in os, identic functional cu un dinte natural. Proteza mobila se scoate zilnic, nu opreste resorbtia osoasa si poate fi inconfortabila. Implantul este singura solutie permanenta care inlocuieste si radacina dintelui.',
       },
     },
+    {
+      '@type': 'Question',
+      name: 'Ce se intampla daca nu fac implant?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Dintii vecini migreaza spre spatiul gol, osul se resoarbe, iar masticatia si estetica sunt afectate. Cu cat astepti mai mult, cu atat tratamentul devine mai complex. Consultati un specialist cat mai curand.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Pot face mai multe implanturi odata?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Da — planificam in functie de situatia specifica. In unele cazuri, mai multe implanturi pot fi inserate in aceeasi sedinta, reducand numarul total de vizite.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Cat timp dureaza un implant dentar?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Ingrijit corect, un implant dentar dureaza toata viata. Titanul nu carizeaza si nu se degradeaza — este singura solutie permanenta pentru un dinte lipsa.',
+      },
+    },
   ],
 }
 
@@ -125,6 +149,37 @@ const FAQ_ITEMS = [
     q: 'Care e diferența între implant și proteză?',
     a: 'Implantul e fix, integrat în os, identic cu un dinte natural. Proteza e mobilă, poate fi inconfortabilă și nu oprește resorbția osoasă. Implantul e soluția permanentă și superioară pe termen lung.',
   },
+  {
+    q: 'Ce se întâmplă dacă nu fac implant?',
+    a: 'Dinții vecini migrează spre spațiul gol, osul se resoarbe, iar masticația și estetica sunt afectate. Cu cât aștepți mai mult, cu atât tratamentul devine mai complex. Consultați un specialist cât mai curând.',
+  },
+  {
+    q: 'Pot face mai multe implanturi odată?',
+    a: 'Da — planificăm în funcție de situația ta specifică. În unele cazuri, mai multe implanturi pot fi inserate în aceeași ședință, reducând numărul total de vizite.',
+  },
+  {
+    q: 'Cât timp durează un implant dentar?',
+    a: 'Îngrijit corect, un implant dentar durează toată viața. Titanul nu cariază și nu se degradează — este singura soluție permanentă pentru un dinte lipsă.',
+  },
+]
+
+const BLOG_LINKS = [
+  {
+    href: '/blog/cat-costa-implant-dentar-romania-2026',
+    text: 'Cât costă un implant dentar în România în 2026? Tot adevărul',
+  },
+  {
+    href: '/blog/implant-dentar-sau-proteza-mobila',
+    text: 'Implant dentar sau proteză mobilă? Ghid complet 2026',
+  },
+  {
+    href: '/blog/cat-costa-implant-dentar-ara-dent-pitesti',
+    text: 'Cât costă un implant dentar la ARA DENT STUDIO Pitești în 2026',
+  },
+  {
+    href: '/blog/cum-alegi-clinica-implant-dentar-pitesti',
+    text: 'Ce trebuie să știi înainte să alegi o clinică de implant dentar în Pitești',
+  },
 ]
 
 export default function ImplantologiePage() {
@@ -162,7 +217,7 @@ export default function ImplantologiePage() {
           </div>
         </section>
 
-        {/* Descriere */}
+        {/* Descriere principală */}
         <section className="py-20 px-6 bg-cream">
           <div className="container-site max-w-3xl">
             <div className="space-y-5 font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
@@ -170,15 +225,70 @@ export default function ImplantologiePage() {
                 Implantul dentar este cea mai apropiată alternativă a unui dinte natural. Se inserează în osul maxilar, se integrează biologic și suportă o coroană identică vizual cu dinții naturali.
               </p>
               <p>
-                La ARA DENT STUDIO, Dr. Robert Lungu planifică fiecare implant individual, folosind tehnologie modernă pentru rezultate predictibile și durabile. Fiecare caz este evaluat atent — radiografie panoramică, CBCT dacă e necesar, și un plan de tratament personalizat.
+                La ARA DENT STUDIO, <Link href="/dr-robert-lungu" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">Dr. Robert Lungu</Link> planifică fiecare implant individual, folosind tehnologie modernă pentru rezultate predictibile și durabile. Fiecare caz este evaluat atent — radiografie panoramică, CBCT dacă e necesar, și un plan de tratament personalizat.
               </p>
               <p>
                 Spre deosebire de punte sau proteză, implantul nu afectează dinții vecini și menține osul maxilar sănătos pe termen lung. Când un dinte lipsește, osul din zona respectivă se resoarbe treptat. Implantul oprește acest proces și păstrează structura feței.
               </p>
               <p>
-                Procesul de implantare este realizat sub anestezie locală — confortabil și fără durere. Recuperarea este rapidă, iar rezultatul final este un zâmbet complet și natural. Îngrijit corect, un implant dentar durează toată viața.
+                Procesul de implantare este realizat sub anestezie locală — confortabil și fără durere. Recuperarea este rapidă, iar rezultatul final este un zâmbet complet și natural. Îngrijit corect, un implant dentar durează toată viața. Pentru detalii despre costuri, <Link href="/preturi" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">vezi lista completă de prețuri</Link>.
               </p>
             </div>
+          </div>
+        </section>
+
+        {/* Sectiune noua: De ce sa nu amani */}
+        <section className="py-16 px-6 bg-cream-dark">
+          <div className="container-site max-w-3xl">
+            <h2 className="font-playfair text-3xl text-forest-dark mb-6">
+              De ce să nu amâni un dinte lipsă
+            </h2>
+            <p className="font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
+              Când un dinte lipsește, dinții vecini încep să migreze spre spațiul gol, iar osul din zona respectivă se resoarbe progresiv. Cu cât aștepți mai mult, cu atât tratamentul devine mai complex și mai costisitor. Un implant plasat la timp oprește acest proces și protejează structura osoasă pe termen lung.
+            </p>
+          </div>
+        </section>
+
+        {/* Sectiune noua: Cum decurge tratamentul */}
+        <section className="py-16 px-6 bg-offwhite">
+          <div className="container-site max-w-3xl">
+            <h2 className="font-playfair text-3xl text-forest-dark mb-8">
+              Cum decurge tratamentul la ARA DENT STUDIO
+            </h2>
+            <ol className="space-y-5">
+              {[
+                { nr: '1', titlu: 'Consultație gratuită', text: 'Evaluare clinică completă — radiografie panoramică, CBCT dacă e necesar, plan de tratament personalizat.' },
+                { nr: '2', titlu: 'Pregătire pre-chirurgicală', text: 'Tratament carii active și igienizare profesională pentru reducerea bacteriilor din cavitatea orală înainte de intervenție.' },
+                { nr: '3', titlu: 'Inserarea implantului', text: 'Intervenție sub anestezie locală, 30–60 minute per implant. Recuperare rapidă, fără durere în timpul procedurii.' },
+                { nr: '4', titlu: 'Osteointegrare', text: '3–6 luni în care implantul se integrează biologic în os — perioada în care titanul devine parte din structura ta osoasă.' },
+                { nr: '5', titlu: 'Coroana definitivă', text: 'Rezultat final identic vizual cu un dinte natural — funcțional, estetic și durabil pe toată viața.' },
+              ].map((step) => (
+                <li key={step.nr} className="flex gap-5 items-start">
+                  <span className="flex-shrink-0 w-9 h-9 rounded-full bg-forest flex items-center justify-center font-jost font-bold text-cream text-sm">
+                    {step.nr}
+                  </span>
+                  <div className="pt-1">
+                    <p className="font-playfair text-[17px] text-forest-dark mb-1">{step.titlu}</p>
+                    <p className="font-jost font-light text-[15px] text-bark-dark leading-relaxed">{step.text}</p>
+                  </div>
+                </li>
+              ))}
+            </ol>
+          </div>
+        </section>
+
+        {/* Sectiune noua: Diaspora */}
+        <section className="py-16 px-6 bg-cream">
+          <div className="container-site max-w-3xl">
+            <h2 className="font-playfair text-3xl text-forest-dark mb-6">
+              Implant dentar pentru pacienții din diaspora
+            </h2>
+            <p className="font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
+              Dacă locuiești în străinătate și vii acasă în vacanță, putem planifica tratamentul în funcție de zilele tale disponibile. Inserarea implantului se face într-o primă vizită, iar coroana definitivă se montează la următoarea vizită — după perioada de osteointegrare de 3–6 luni. Intervalul dintre vizite se potrivește perfect cu ritmul natural al vacanțelor acasă.{' '}
+              <Link href="/diaspora" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">
+                Află mai multe despre programarea pentru pacienții din diaspora.
+              </Link>
+            </p>
           </div>
         </section>
 
@@ -207,6 +317,28 @@ export default function ImplantologiePage() {
               Întrebări frecvente
             </h2>
             <FAQ items={FAQ_ITEMS} />
+          </div>
+        </section>
+
+        {/* Articole utile */}
+        <section className="py-16 px-6 bg-cream-dark">
+          <div className="container-site max-w-3xl">
+            <h2 className="font-playfair text-2xl text-forest-dark mb-8">
+              Articole utile despre implant dentar
+            </h2>
+            <ul className="space-y-4">
+              {BLOG_LINKS.map((link) => (
+                <li key={link.href} className="flex items-start gap-3">
+                  <span className="mt-[6px] w-[6px] h-[6px] rounded-full bg-gold flex-shrink-0" />
+                  <Link
+                    href={link.href}
+                    className="font-jost font-light text-[15px] text-forest-dark underline underline-offset-2 hover:text-gold transition-colors duration-200 leading-snug"
+                  >
+                    {link.text}
+                  </Link>
+                </li>
+              ))}
+            </ul>
           </div>
         </section>
 
