@@ -25,6 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/semnele-bolii-parodontale-de-nu-ignorat`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/implant-dentar-romania-diaspora`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/cum-alegi-clinica-implant-dentar-pitesti`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/urgente-dentare-pitesti`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/diaspora`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
   ]
 }

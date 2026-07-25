@@ -22,21 +22,27 @@ const jsonLd = {
   '@type': 'Person',
   name: 'Dr. Robert Lungu',
   alternateName: 'Dr. Robert Florentin Lungu',
-  jobTitle: 'Medic Specialist Chirurgie Dento-Alveolară',
+  jobTitle: 'Medic Specialist Chirurgie Dento-Alveolara',
+  description: 'Dr. Robert Lungu este fondatorul si medicul principal al ARA DENT STUDIO Pitesti, specializat in implantologie si chirurgie dento-alveolara.',
   worksFor: {
     '@type': 'Dentist',
     name: 'ARA DENT STUDIO',
+    '@id': 'https://www.aradentpitesti.ro/#dentist',
+    url: 'https://www.aradentpitesti.ro',
+    telephone: '+40754219011',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'Bd. Republicii nr. 19',
-      addressLocality: 'Pitești',
+      addressLocality: 'Pitesti',
+      addressRegion: 'Arges',
       addressCountry: 'RO',
     },
-    telephone: '+40754219011',
-    url: 'https://www.aradentpitesti.ro',
   },
   url: 'https://www.aradentpitesti.ro/dr-robert-lungu',
-  sameAs: [],
+  sameAs: [
+    'https://www.linkedin.com/in/drrobertlungu',
+    'https://www.aradentpitesti.ro/dr-robert-lungu',
+  ],
 }
 
 const WA_LINK = 'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Doresc să programez o consultație gratuită cu Dr. Robert Lungu.')

@@ -373,6 +373,50 @@ export const articole: Articol[] = [
   `,
   },
   {
+    slug: 'urgente-dentare-pitesti',
+    title: 'Urgente dentare in Pitesti — ARA DENT STUDIO primeste fara programare',
+    metaDescription: 'Urgenta stomatologica in Pitesti? La ARA DENT STUDIO gasim loc pentru tine oricand in timpul programului, fara programare in avans. Dr. Robert Lungu.',
+    excerpt: 'Cand te doare dintele sau apare o problema dentara brusca, nu trebuie sa astepti zile pentru o programare. La ARA DENT STUDIO, urgentele au intaietate.',
+    date: '2026-07-25',
+    continut: `
+    <p>Cand te doare dintele sau apare o problema dentara brusca, ultimul lucru de care ai nevoie e sa astepti zile pentru o programare. La ARA DENT STUDIO Pitesti, urgentele au intaietate — gasim loc pentru tine oricand in timpul programului, fara sa fi sunat in avans.</p>
+
+    <h2>Ce inseamna o urgenta dentara reala</h2>
+    <p>Nu orice disconfort dentar e o urgenta. Dar exista situatii in care fiecare ora conteaza — si in care sa astepti pana a doua zi poate agrava semnificativ situatia.</p>
+    <p><strong>Urgente care necesita consult in aceeasi zi:</strong></p>
+    <ul>
+      <li><strong>Durere acuta spontana</strong> — durere intensa care apare fara motiv, mai ales noaptea. Semn de pulpita acuta — nervul e afectat si nu se amelioreaza fara tratament.</li>
+      <li><strong>Abces dentar localizat</strong> — umflatura dureroasa la nivel gingival sau facial, cu sau fara febra. Necesita drenaj si tratament urgent.</li>
+      <li><strong>Dinte cazut complet</strong> — in urma unui traumatism. Fiecare minut conteaza — cu cat ajungi mai repede, cu atat sansele de reimplantare sunt mai mari.</li>
+      <li><strong>Fractura dentara cu expunerea nervului</strong> — dinte spart cu durere intensa la aer, rece sau atingere.</li>
+      <li><strong>Sangerare post-extractie care nu se opreste</strong> — dupa o extractie recenta, sangerarea abundenta care persista peste 2-3 ore necesita consult urgent.</li>
+    </ul>
+
+    <h2>Ce poate astepta pana a doua zi</h2>
+    <p>Exista si situatii mai putin urgente, unde poti programa o vizita in 24-48 ore fara risc major:</p>
+    <ul>
+      <li>Sensibilitate la rece sau dulce — carie incipienta sau dentina expusa</li>
+      <li>Coroana sau lucrare protetica desprinsa — pastreaza lucrarea si vino la programare</li>
+      <li>Obturatie cazuta — protejeaza zona, evita masticatia pe partea respectiva</li>
+      <li>Sangerare gingivala usoara — semn de gingivita, nu urgenta imediata</li>
+    </ul>
+
+    <h2>Cand mergi direct la spital</h2>
+    <p>Exista situatii care depasesc competenta unui cabinet stomatologic si necesita interventie de urgenta la spital:</p>
+    <ul>
+      <li>Umflatura care se extinde rapid pe fata sau gat</li>
+      <li>Dificultate la inghitit sau la deschiderea gurii</li>
+      <li>Febra peste 38,5 grade asociata cu durere dentara</li>
+      <li>Umflatura calda, rosie, fluctuenta pe obraz sau sub mandibula</li>
+    </ul>
+    <p>Acestea sunt semne ca infectia a ajuns in spatiile fasciale — o situatie care necesita chirurgie maxilo-faciala (BMF) sau UPU. Suna la 112 sau mergi direct la camera de garda.</p>
+
+    <h2>La ARA DENT STUDIO — urgentele au intaietate</h2>
+    <p>Dr. Robert Lungu, medic specialist in chirurgie dento-alveolara, trateaza toate tipurile de urgente stomatologice in cabinet — fara sa fie nevoie de programare in avans.</p>
+    <p>Suni, ne spui situatia, si gasim loc pentru tine in aceeasi zi, oricand in timpul programului.</p>
+  `,
+  },
+  {
     slug: 'semnele-bolii-parodontale-de-nu-ignorat',
     title: 'Semnele bolii parodontale pe care nu trebuie sa le ignori',
     metaDescription: 'Boala parodontala (parodontoza) se poate preveni si trata, dar osul pierdut nu se mai reface. Afla cele 6 semne de alarma si cum se trateaza la ARA DENT STUDIO Pitesti.',

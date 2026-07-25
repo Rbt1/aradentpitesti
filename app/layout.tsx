@@ -141,7 +141,13 @@ const jsonLd = {
   founder: {
     '@type': 'Person',
     name: 'Dr. Robert Lungu',
-    jobTitle: 'Medic Stomatolog · Specialist Implantologie',
+    jobTitle: 'Medic Specialist Chirurgie Dento-Alveolara',
+    url: 'https://www.aradentpitesti.ro/dr-robert-lungu',
+  },
+  employee: {
+    '@type': 'Person',
+    name: 'Dr. Robert Lungu',
+    url: 'https://www.aradentpitesti.ro/dr-robert-lungu',
   },
   aggregateRating: {
     '@type': 'AggregateRating',
