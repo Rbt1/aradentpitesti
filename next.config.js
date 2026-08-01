@@ -6,14 +6,15 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: '/:path*',
-        has: [
-          {
-            type: 'host',
-            value: 'aradentpitesti.ro',
-          },
-        ],
-        destination: 'https://www.aradentpitesti.ro/:path*',
+        source: '/',
+        has: [{ type: 'host', value: 'aradentpitesti.ro' }],
+        destination: 'https://www.aradentpitesti.ro/',
+        permanent: true,
+      },
+      {
+        source: '/:path+',
+        has: [{ type: 'host', value: 'aradentpitesti.ro' }],
+        destination: 'https://www.aradentpitesti.ro/:path+',
         permanent: true,
       },
     ]

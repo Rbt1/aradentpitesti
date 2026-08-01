@@ -14,6 +14,7 @@ export const metadata: Metadata = {
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
     type: 'website',
+    images: [{ url: 'https://www.aradentpitesti.ro/logo-circular-600.png', width: 600, height: 600, alt: 'ARA DENT STUDIO Pitesti' }],
   },
 }
 
