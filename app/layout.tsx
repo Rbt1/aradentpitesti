@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     template: '%s | ARA DENT STUDIO Pitești',
   },
   description:
-    'Stomatologie Pitești — implantologie, chirurgie orală și endodonție. Dr. Robert Lungu. Consultație gratuită.',
+    'Clinica stomatologica premium in Pitesti. Implantologie, chirurgie orala, urgente. Dr. Robert Lungu, specialist. Consultatie gratuita.',
   keywords: [
     'implant dentar pitesti',
     'stomatologie premium pitesti',
@@ -76,7 +76,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: 'Stomatologie Pitești | Dr. Robert Lungu | ARA DENT STUDIO',
-    description: 'Stomatologie Pitești — implantologie, chirurgie orală și endodonție. Dr. Robert Lungu. Consultație gratuită.',
+    description: 'Clinica stomatologica premium in Pitesti. Implantologie, chirurgie orala, urgente. Dr. Robert Lungu, specialist. Consultatie gratuita.',
     url: 'https://www.aradentpitesti.ro',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
