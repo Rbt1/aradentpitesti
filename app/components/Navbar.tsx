@@ -18,6 +18,7 @@ const SERVICII_LINKS = [
   { label: 'Parodontologie', href: '/servicii/parodontologie' },
   { label: 'Obturații', href: '/servicii/obturatii' },
   { label: 'All-on-4 / All-on-6', href: '/servicii/all-on-4-all-on-6' },
+  { label: 'Urgențe Stomatologice', href: '/servicii/urgente-stomatologice' },
 ]
 
 const DESPRE_LINKS = [
