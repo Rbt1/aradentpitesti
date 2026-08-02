@@ -137,6 +137,13 @@ const jsonLd = {
       closes: '18:00',
     },
   ],
+  legalName: 'SC TRIVALE DENTAL YOUNG SRL',
+  foundingDate: '2026-04',
+  hasMap: 'https://maps.google.com/?q=ARA+DENT+STUDIO+Pitesti+Bd+Republicii+19',
+  logo: {
+    '@type': 'ImageObject',
+    url: 'https://www.aradentpitesti.ro/logo-circular-600.png',
+  },
   medicalSpecialty: ['Dentistry', 'OralSurgery'],
   founder: {
     '@type': 'Person',

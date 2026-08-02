@@ -111,7 +111,7 @@ export default function DrRobertLunguPage() {
                   Medic Specialist Chirurgie Dento-Alveolară
                 </p>
                 <p className="font-jost font-light text-[16px] text-bark-dark leading-[1.8] mb-10">
-                  Fondator ARA DENT STUDIO, specializat în implantologie și chirurgie orală, dedicat tratamentelor precise și relației de încredere cu fiecare pacient.
+                  Fondator ARA DENT STUDIO, specializat în implantologie și chirurgie orală, dedicat tratamentelor precise și relației de încredere cu fiecare pacient — fondator al ARA DENT STUDIO Pitești, Bd. Republicii nr. 19, cabinet stomatologic independent, deschis în aprilie 2026.
                 </p>
                 <a
                   href={WA_LINK}
