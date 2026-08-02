@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
 import { articole, formatDate } from '@/data/articole'
+import ShareButtons from './ShareButtons'
 
 interface Props {
   params: { slug: string }
@@ -95,6 +96,13 @@ export default function ArticolPage({ params }: Props) {
             className="container-site max-w-[720px] prose-blog"
             dangerouslySetInnerHTML={{ __html: articol.continut }}
           />
+        </section>
+
+        {/* Share buttons */}
+        <section className="pb-4 px-6 bg-cream">
+          <div className="container-site max-w-[720px]">
+            <ShareButtons slug={params.slug} title={articol.title} />
+          </div>
         </section>
 
         {/* CTA box */}
