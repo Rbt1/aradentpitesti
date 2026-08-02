@@ -1,9 +1,11 @@
 'use client'
 
+import { usePathname } from 'next/navigation'
 import { useScrollAnimation } from '../hooks/useScrollAnimation'
 
 const ScrollAnimationInit = () => {
-  useScrollAnimation()
+  const pathname = usePathname()
+  useScrollAnimation(pathname)
   return null
 }
 
