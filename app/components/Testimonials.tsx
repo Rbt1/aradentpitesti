@@ -1,8 +1,6 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ReactGoogleReviews } from 'react-google-reviews'
-import 'react-google-reviews/dist/index.css'
 
 const LeafDecor = ({ className }: { className?: string }) => (
   <svg viewBox="0 0 120 200" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className={className} aria-hidden="true">
@@ -10,33 +8,51 @@ const LeafDecor = ({ className }: { className?: string }) => (
   </svg>
 )
 
-// Static reviews kept as fallback (not rendered — widget above is primary)
-// const StarIcon = () => (
-//   <svg viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 text-gold" aria-hidden="true">
-//     <path d="M10 1.5l2.6 5.8 6.2.6-4.7 4.2 1.4 6.2L10 15.1l-5.5 3.2 1.4-6.2-4.7-4.2 6.2-.6L10 1.5z" />
-//   </svg>
-// )
-//
-// const REVIEWS = [
-//   {
-//     nume: 'Amalia Nicolae',
-//     text: 'Am avut o experiență excelentă la acest cabinet stomatologic! Cabinetul este nou, modern, foarte curat și dotat cu aparatură de ultimă generație. Doctorul este un adevărat profesionist: răbdător, empatic și foarte atent la detalii.',
-//   },
-//   {
-//     nume: 'Jeni Florea',
-//     text: 'Un medic profesionist. Oferă servicii de calitate. Recomand cu încredere.',
-//   },
-//   {
-//     nume: 'Marian Alexandru Diaconu',
-//     text: 'Cu adevărat o experiență premium, aparatură de ultimă generație, iar medicul stomatolog și întregul personal, absolut genial! Mi-am schimbat percepția legată de dentist și implicit frica de aceștia.',
-//   },
-//   {
-//     nume: 'Andrada Bostina',
-//     text: 'Dr. Robert Lungu — recomand cu încredere.',
-//   },
-// ]
+const StarIcon = () => (
+  <svg viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 text-gold" aria-hidden="true">
+    <path d="M10 1.5l2.6 5.8 6.2.6-4.7 4.2 1.4 6.2L10 15.1l-5.5 3.2 1.4-6.2-4.7-4.2 6.2-.6L10 1.5z" />
+  </svg>
+)
 
-const FEATURABLE_ID = '825956ec-551e-45c4-8a97-65f12363a0f2'
+const GOOGLE_REVIEW_URL = 'https://www.google.com/maps/place/ARA+DENT+STUDIO'
+
+interface Review {
+  nume: string
+  data: string
+  text?: string
+}
+
+const REVIEWS: Review[] = [
+  {
+    nume: 'Andreea Matei',
+    data: 'acum o oră',
+  },
+  {
+    nume: 'Constantin Demene',
+    data: 'acum 3 zile',
+    text: 'Totul SUPER! Super profesionisti. Multumesc pentru tot.',
+  },
+  {
+    nume: 'Cristina',
+    data: 'acum 6 zile',
+    text: 'Foarte multumita de experienta la Ara Dent Studio! Personal profesionist, atent si prietenos, iar serviciile sunt de top. M-am simtit in siguranta si bine ingrijita pe tot parcursul. Recomand cu incredere!',
+  },
+  {
+    nume: 'Cata S.',
+    data: 'acum 4 saptamani',
+    text: 'Personal profesionist, aparatura moderna. Medicul lucreaza cu grija si empatie, ofera informatii si raspunde cu rabdare intrebarilor.',
+  },
+  {
+    nume: 'Catalin Penescu',
+    data: 'acum 6 saptamani',
+    text: 'Recomand cu incredere!',
+  },
+  {
+    nume: 'Roxana Rox',
+    data: 'acum 6 saptamani',
+    text: 'Am avut o experienta foarte buna la aceasta clinica stomatologica. Personalul este amabil si profesionist, iar medicii sunt atenti si de incredere.',
+  },
+]
 
 const Testimonials = () => {
   return (
@@ -47,9 +63,9 @@ const Testimonials = () => {
       <LeafDecor className="absolute top-1/2 -left-8 text-forest opacity-[0.03] w-24 h-36 pointer-events-none" />
 
       <div className="container-site relative z-10">
-        <div className="max-w-2xl mx-auto text-center mb-14">
 
-          {/* Titlu */}
+        {/* Header */}
+        <div className="max-w-2xl mx-auto text-center mb-14">
           <motion.h2
             className="font-playfair font-bold text-4xl lg:text-[40px] text-forest-dark leading-tight mb-6"
             initial={{ opacity: 0, y: 24 }}
@@ -60,7 +76,6 @@ const Testimonials = () => {
             Ce spun pacienții noștri
           </motion.h2>
 
-          {/* Linie gold animată */}
           <motion.div
             className="h-[1px] bg-gold mx-auto mb-6 origin-center"
             style={{ width: '60px' }}
@@ -70,7 +85,6 @@ const Testimonials = () => {
             transition={{ duration: 0.8, delay: 0.2, ease: [0.25, 0.46, 0.45, 0.94] }}
           />
 
-          {/* Subtitlu */}
           <motion.p
             className="font-jost italic font-light text-[15px] text-bark leading-relaxed"
             initial={{ opacity: 0, y: 16 }}
@@ -78,25 +92,55 @@ const Testimonials = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.3 }}
           >
-            Recenzii reale de pe Google
+            4,9 din 5 stele — 31 de recenzii pe Google
           </motion.p>
         </div>
 
-        {/* Widget recenzii Google — izolat în wrapper pentru a evita conflicte CSS */}
-        <div className="max-w-5xl mx-auto [&_.featurable-widget]:font-jost">
-          <ReactGoogleReviews
-            layout="carousel"
-            featurableId={FEATURABLE_ID}
-            disableTranslation={true}
-            hideEmptyReviews={true}
-            theme="light"
-            nameDisplay="firstNamesOnly"
-            dateDisplay="relative"
-            structuredData={true}
-            brandName="ARA DENT STUDIO"
-            totalReviewCount={31}
-            averageRating={4.9}
-          />
+        {/* Grid recenzii — 2 coloane desktop, 1 coloana mobil */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          {REVIEWS.map((review, i) => (
+            <motion.div
+              key={review.nume}
+              className="bg-offwhite border border-bark-light rounded-sm p-8"
+              style={{ boxShadow: '0 8px 32px rgba(45,106,79,0.10)' }}
+              initial={{ opacity: 0, y: 24 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: i * 0.15, duration: 0.6, ease: 'easeOut' }}
+              whileHover={{ y: -4, boxShadow: '0 16px 44px rgba(45,106,79,0.16)' }}
+            >
+              {/* Stele */}
+              <div className="flex gap-1 mb-4">
+                {Array.from({ length: 5 }).map((_, idx) => (
+                  <StarIcon key={idx} />
+                ))}
+              </div>
+
+              {/* Text recenzie (optional) */}
+              {review.text && (
+                <p className="font-jost italic text-[15px] text-forest-dark leading-[1.7] mb-4">
+                  {review.text}
+                </p>
+              )}
+
+              {/* Separator */}
+              <div className="h-[1px] bg-bark-light my-4" />
+
+              {/* Nume */}
+              <p className="font-jost font-bold text-[14px] text-forest-dark">
+                — {review.nume}
+              </p>
+
+              {/* Data */}
+              <p className="font-jost italic text-[12px] text-bark mt-1">
+                {review.data}
+              </p>
+
+              <p className="font-jost text-[11px] uppercase tracking-wide text-bark mt-1">
+                Recenzie Google Verificată
+              </p>
+            </motion.div>
+          ))}
         </div>
 
         {/* Buton toate recenziile */}
@@ -108,7 +152,7 @@ const Testimonials = () => {
           transition={{ duration: 0.6, delay: 0.3 }}
         >
           <a
-            href="https://g.page/r/CXJUUxp2i-GYEBM/review"
+            href={GOOGLE_REVIEW_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="hover-gold-underline font-jost text-xs uppercase tracking-widest text-gold hover:text-forest-dark transition-colors duration-200"
