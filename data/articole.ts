@@ -417,6 +417,69 @@ export const articole: Articol[] = [
   `,
   },
   {
+    slug: 'cat-costa-tratament-canal-pitesti-2026',
+    title: 'Cat costa un tratament de canal in Pitesti in 2026',
+    metaDescription: 'Preturi reale pentru tratament de canal in Pitesti: monoradicular 400 lei, premolar 500 lei, molar 600 lei. Microscop dentar. Consultatie gratuita la ARA DENT STUDIO.',
+    excerpt: 'Iata exact cat costa un tratament de canal la ARA DENT STUDIO Pitesti, cu microscop dentar, fara costuri ascunse.',
+    date: '2026-08-02',
+    continut: `
+    <p>Daca te-ai trezit cu o durere acuta de dinte sau medicul ti-a recomandat un tratament de canal, primul lucru pe care il cauti e probabil pretul. Iata raspunsul direct, fara sa mai cauti pe alte site-uri.</p>
+
+    <h2>Ce este tratamentul de canal</h2>
+    <p>Tratamentul de canal (endodontie) inseamna indepartarea tesutului infectat din interiorul dintelui — pulpa dentara si nervul — urmata de curatarea, dezinfectarea si sigilarea canalelor radiculare. Scopul e sa salveze dintele, nu sa il extragi.</p>
+    <p>Fara tratament de canal, infectia se extinde, poate duce la abces si, in final, la pierderea dintelui.</p>
+
+    <h2>Preturile exacte la ARA DENT STUDIO Pitesti</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Tratament</th>
+          <th>Pret</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Tratament canal dinte monoradicular (1 canal)</td><td>400 lei</td></tr>
+        <tr><td>Tratament canal premolar (2 canale)</td><td>500 lei</td></tr>
+        <tr><td>Tratament canal molar (3+ canale)</td><td>600 lei</td></tr>
+        <tr><td>Retratament monoradicular</td><td>500 lei</td></tr>
+        <tr><td>Retratament premolar</td><td>600 lei</td></tr>
+        <tr><td>Retratament molar</td><td>700 lei</td></tr>
+      </tbody>
+    </table>
+    <p><strong>Consultatia este gratuita</strong> — inclusiv pentru evaluarea necesitatii unui tratament de canal.</p>
+
+    <h2>De ce conteaza microscopul dentar</h2>
+    <p>La ARA DENT STUDIO, tratamentele de canal se realizeaza cu <strong>microscop dentar</strong> — o diferenta importanta fata de tratamentul clasic.</p>
+    <p>Microscopul dentar permite:</p>
+    <ul>
+      <li>Vizualizarea exacta a canalelor radiculare, inclusiv a celor foarte inguste sau curbate</li>
+      <li>Identificarea canalelor suplimentare pe care ochiul liber nu le vede</li>
+      <li>Precizie mult mai mare in curatarea si sigilarea completa</li>
+      <li>Rata de succes semnificativ mai mare pe termen lung</li>
+    </ul>
+    <p>Un tratament de canal realizat fara microscop si fara curatare completa poate esua — ceea ce duce la retratament sau, in cel mai rau caz, la extractie.</p>
+
+    <h2>Cate sedinte necesita</h2>
+    <p>In majoritatea cazurilor, tratamentul de canal se poate realiza <strong>intr-o singura sedinta</strong> de 60-90 minute. Cazurile complexe (infectii active, canale calcificate, retratamente) pot necesita 2 sedinte.</p>
+
+    <h2>Cand ai nevoie de tratament de canal</h2>
+    <ul>
+      <li>Durere spontana intensa, mai ales noaptea</li>
+      <li>Sensibilitate persistenta la cald sau rece</li>
+      <li>Durere la masticatie sau la atingerea dintelui</li>
+      <li>Modificarea culorii dintelui</li>
+      <li>Umflatura sau fistula la nivelul gingiei</li>
+    </ul>
+    <p><strong>Important:</strong> nu toate durerile de dinte necesita tratament de canal. Consultatia gratuita stabileste exact ce ai nevoie.</p>
+
+    <h2>Ce urmeaza dupa tratamentul de canal</h2>
+    <p>Un dinte tratat endodontic devine mai fragil in timp — de aceea, in majoritatea cazurilor, se recomanda acoperirea lui cu o coroana dentara pentru protectie pe termen lung.</p>
+
+    <h2>Programeaza-te</h2>
+    <p>Consultatie gratuita la ARA DENT STUDIO Pitesti.</p>
+  `,
+  },
+  {
     slug: 'semnele-bolii-parodontale-de-nu-ignorat',
     title: 'Semnele bolii parodontale pe care nu trebuie sa le ignori',
     metaDescription: 'Boala parodontala (parodontoza) se poate preveni si trata, dar osul pierdut nu se mai reface. Afla cele 6 semne de alarma si cum se trateaza la ARA DENT STUDIO Pitesti.',

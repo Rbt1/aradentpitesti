@@ -26,6 +26,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/implant-dentar-romania-diaspora`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/cum-alegi-clinica-implant-dentar-pitesti`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/urgente-dentare-pitesti`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/cat-costa-tratament-canal-pitesti-2026`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/diaspora`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/servicii/urgente-stomatologice`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
   ]
