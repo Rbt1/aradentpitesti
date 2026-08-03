@@ -480,6 +480,69 @@ export const articole: Articol[] = [
   `,
   },
   {
+    slug: 'detartraj-igienizare-dentara-pitesti',
+    title: 'Detartraj si igienizare dentara in Pitesti — ce trebuie sa stii',
+    metaDescription: 'Detartraj in Pitesti de la 200 lei. Igienizare profesionala (detartraj + periaj + Air-Flow) 250 lei. Consultatie gratuita la ARA DENT STUDIO Pitesti.',
+    excerpt: 'Detartrajul e cel mai simplu tratament stomatologic si cel mai des amanat. Afla cat costa si de ce conteaza mai mult decat crezi.',
+    date: '2026-08-03',
+    continut: `
+    <p>Detartrajul e cel mai simplu si mai ieftin tratament stomatologic — si cel mai des amanat. Iata ce inseamna, cat costa si de ce conteaza mai mult decat crezi.</p>
+
+    <h2>Ce este detartrajul</h2>
+    <p>Detartrajul este indepartarea tartrului — depunerile mineralizate de bacterii si resturi alimentare care se acumuleaza pe dinti si sub gingie, si pe care periajul normal nu le poate elimina.</p>
+    <p>Tartrul nu e o problema estetica — e o problema medicala. Bacteriile din tartru produc toxine care inflamaeza gingia, distrug osul si duc, in timp, la boala parodontala si pierderea dintilor.</p>
+
+    <h2>Detartraj vs igienizare profesionala — care e diferenta</h2>
+    <ul>
+      <li><strong>Detartraj simplu</strong> — indepartarea tartrului supragingival cu ultrasunete</li>
+      <li><strong>Igienizare profesionala completa</strong> — detartraj + periaj profesional + Air-Flow (jet de apa si bicarbonat care indeparteaza petele si coloratiile de cafea, tutun, vin rosu)</li>
+    </ul>
+
+    <h2>Preturile la ARA DENT STUDIO Pitesti</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Serviciu</th>
+          <th>Pret</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Detartraj simplu</td><td>200 lei</td></tr>
+        <tr><td>Igienizare profesionala (detartraj + periaj + Air-Flow)</td><td>250 lei</td></tr>
+        <tr><td>Consultatie</td><td>Gratuita</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Cat de des trebuie facut detartrajul</h2>
+    <p>Recomandarea standard este <strong>o data la 6 luni</strong>. Unii pacienti — fumatori, persoane cu gingivita activa sau aparat dentar — pot necesita igienizare la 3-4 luni.</p>
+    <p>Daca nu ai mai facut detartraj de peste un an, e momentul.</p>
+
+    <h2>Semnele ca ai nevoie de detartraj acum</h2>
+    <ul>
+      <li>Gingii care sangereaza la periaj</li>
+      <li>Miros urat persistent</li>
+      <li>Depuneri galbene sau maro vizibile pe dinti</li>
+      <li>Gingie retrasa sau sensibila</li>
+      <li>Pata de cafea, tutun sau vin care nu dispare la periaj</li>
+    </ul>
+
+    <h2>Ce se intampla daca amanati</h2>
+    <p>Tartrul netratat duce la:</p>
+    <ul>
+      <li>Gingivita — inflamatie reversibila</li>
+      <li>Parodontita — distructie osoasa ireversibila</li>
+      <li>Pierderea dintilor in stadii avansate</li>
+    </ul>
+    <p>Osul distrus de boala parodontala <strong>nu se mai reface</strong>. De aceea igienizarea regulata e tratament preventiv, nu lux.</p>
+
+    <h2>Detartrajul doare?</h2>
+    <p>Procedura este nedureroasa in majoritatea cazurilor. Daca ai gingie inflamata sau sensibila, poate aparea un disconfort minor — care dispare dupa cateva zile, odata cu reducerea inflamatiei.</p>
+
+    <h2>Programeaza-te</h2>
+    <p>Consultatie gratuita la ARA DENT STUDIO Pitesti.</p>
+  `,
+  },
+  {
     slug: 'semnele-bolii-parodontale-de-nu-ignorat',
     title: 'Semnele bolii parodontale pe care nu trebuie sa le ignori',
     metaDescription: 'Boala parodontala (parodontoza) se poate preveni si trata, dar osul pierdut nu se mai reface. Afla cele 6 semne de alarma si cum se trateaza la ARA DENT STUDIO Pitesti.',
