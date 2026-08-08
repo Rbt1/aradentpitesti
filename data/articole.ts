@@ -544,6 +544,42 @@ export const articole: Articol[] = [
   `,
   },
   {
+    slug: 'implant-dentar-rate-pitesti',
+    title: 'Implant dentar in rate la Pitesti — platesti in 12 luni, fara dobanda',
+    metaDescription: 'Implant dentar in rate la ARA DENT STUDIO Pitesti. 12 rate lunare, dobanda 0%, prin TBI Bank. Aplicare direct la cabinet. Consultatie gratuita.',
+    excerpt: 'Acum poti face implant dentar in rate la ARA DENT STUDIO Pitesti — 12 rate lunare, fara dobanda, prin TBI Bank. Aplicare direct la cabinet.',
+    date: '2026-08-09',
+    continut: `
+    <p>Unul dintre motivele pentru care pacientii amana un implant dentar nu e lipsa dorintei — e suma de platit dintr-o data. La ARA DENT STUDIO Pitesti, ai acum posibilitatea sa faci implantul dentar in rate lunare, fara dobanda.</p>
+
+    <h2>Cum functioneaza ratele la ARA DENT STUDIO</h2>
+    <p>Colaboram cu <strong>TBI Bank</strong> pentru finantarea tratamentelor stomatologice. Procesul e simplu si se face direct la cabinet:</p>
+    <ol>
+      <li>Vii la consultatia gratuita si stabilim planul de tratament</li>
+      <li>Alegi sa platesti in rate — completezi dosarul direct la cabinet</li>
+      <li>Primesti aprobarea rapid</li>
+      <li>Incepi tratamentul imediat</li>
+    </ol>
+    <p><strong>12 rate lunare, dobanda 0%</strong> — platesti exact pretul tratamentului, fara costuri suplimentare.</p>
+
+    <h2>Ce tratamente poti face in rate</h2>
+    <p>Practic orice tratament de la ARA DENT STUDIO poate fi finantat prin TBI Bank:</p>
+    <ul>
+      <li><strong>Implant dentar</strong> — de la 1.200 lei (surubul de implant)</li>
+      <li><strong>All-on-4</strong> — 12.000 lei per arcada</li>
+      <li><strong>All-on-6</strong> — 14.000 lei per arcada</li>
+      <li><strong>Tratament de canal</strong> — de la 400 lei</li>
+      <li><strong>Lucrari protetice</strong> — coroane, punti</li>
+    </ul>
+
+    <h2>De ce rate fara dobanda schimba decizia</h2>
+    <p>Un implant dentar costă intre 1.200 si cateva mii de lei in functie de complexitatea cazului. Impartit in 12 rate egale, devine o suma lunara gestionabila — fara sa amanati un tratament care devine mai complex si mai scump cu fiecare luna de asteptare.</p>
+
+    <h2>Consultatie gratuita — primul pas fara costuri</h2>
+    <p>Inainte sa te gandesti la finantare, trebuie sa stii exact de ce ai nevoie si cat costa cazul tau specific. Consultatia la ARA DENT STUDIO e gratuita — vii, evaluam situatia ta, stabilim planul de tratament si costul exact, si abia apoi decizi cum platesti.</p>
+  `,
+  },
+  {
     slug: 'semnele-bolii-parodontale-de-nu-ignorat',
     title: 'Semnele bolii parodontale pe care nu trebuie sa le ignori',
     metaDescription: 'Boala parodontala (parodontoza) se poate preveni si trata, dar osul pierdut nu se mai reface. Afla cele 6 semne de alarma si cum se trateaza la ARA DENT STUDIO Pitesti.',
