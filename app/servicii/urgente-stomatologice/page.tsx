@@ -4,12 +4,12 @@ import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
-  title: { absolute: 'Urgențe Stomatologice Pitești | Fără Programare | ARA DENT STUDIO' },
-  description: 'Urgente stomatologice in Pitesti — gasim loc pentru tine oricand in programul de lucru, fara programare in avans. Dr. Robert Lungu. Suna acum.',
+  title: { absolute: 'Urgente Stomatologice Pitesti | Suna 0754 219 011 | ARA DENT STUDIO' },
+  description: 'Urgenta stomatologica in Pitesti? Suna acum: 0754 219 011. Gasim loc pentru tine in aceeasi zi, fara programare in avans. Dr. Robert Lungu, specialist chirurgie dento-alveolara.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/urgente-stomatologice' },
   openGraph: {
-    title: 'Urgențe Stomatologice Pitești | Fără Programare | ARA DENT STUDIO',
-    description: 'Urgente stomatologice in Pitesti — gasim loc pentru tine oricand in programul de lucru, fara programare in avans. Dr. Robert Lungu. Suna acum.',
+    title: 'Urgente Stomatologice Pitesti | Suna 0754 219 011 | ARA DENT STUDIO',
+    description: 'Urgenta stomatologica in Pitesti? Suna acum: 0754 219 011. Gasim loc pentru tine in aceeasi zi, fara programare in avans. Dr. Robert Lungu, specialist chirurgie dento-alveolara.',
     url: 'https://www.aradentpitesti.ro/servicii/urgente-stomatologice',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
@@ -152,9 +152,24 @@ export default function UrgenteStomatologicePage() {
             <h1 className="font-playfair font-bold text-[40px] lg:text-[48px] text-cream leading-tight mb-5">
               Urgențe Stomatologice în Pitești
             </h1>
-            <p className="font-jost font-light text-lg text-cream/80 mb-10">
+            <p className="font-jost font-light text-lg text-cream/80 mb-8">
               Găsim loc pentru tine oricând — fără programare în avans
             </p>
+
+            {/* Banner telefon prominent */}
+            <a
+              href="tel:+40754219011"
+              className="block mb-10 rounded-sm text-center py-6 px-8 hover:opacity-90 transition-opacity duration-200"
+              style={{ backgroundColor: '#8B0000' }}
+            >
+              <p className="font-playfair font-bold text-[28px] lg:text-[32px] text-white leading-tight">
+                Sună acum: 0754 219 011
+              </p>
+              <p className="font-jost text-[16px] text-cream/85 mt-2">
+                Luni–Vineri 09:00–18:00
+              </p>
+            </a>
+
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="tel:+40754219011"
@@ -219,6 +234,67 @@ export default function UrgenteStomatologicePage() {
                 </li>
               ))}
             </ul>
+          </div>
+        </section>
+
+        {/* De ce ARA DENT STUDIO */}
+        <section className="py-20 px-6 bg-cream">
+          <div className="container-site max-w-3xl">
+            <h2 className="font-playfair text-3xl text-forest-dark mb-8">
+              De ce să alegi ARA DENT STUDIO pentru urgențe
+            </h2>
+            <div className="space-y-5 font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
+              <p>
+                La ARA DENT STUDIO, <strong className="font-medium text-forest-dark">Dr. Robert Lungu</strong> este medic specialist în chirurgie dento-alveolară — specializarea care acoperă toate tipurile de urgențe stomatologice, de la extracții chirurgicale la drenajul abceselor dentare localizate.
+              </p>
+              <p>
+                Cabinetul este dotat cu echipamente de ultimă generație — scanner intraoral, tomograf CBCT propriu și microscop dentar — care permit diagnosticul rapid și tratamentul precis chiar și în situații de urgență.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* Cum ajungi la noi */}
+        <section className="py-20 px-6 bg-offwhite">
+          <div className="container-site max-w-3xl">
+            <h2 className="font-playfair text-3xl text-forest-dark mb-10">
+              Cum ajungi la noi
+            </h2>
+            <div className="space-y-6">
+              <div className="flex items-start gap-4">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-gold flex-shrink-0 mt-0.5" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+                <div>
+                  <a
+                    href="https://maps.google.com/?q=ARA+DENT+STUDIO+Pitesti"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-jost font-medium text-[16px] text-forest-dark hover:text-forest transition-colors duration-200 underline underline-offset-2"
+                  >
+                    Bd. Republicii nr. 19, Pitești
+                  </a>
+                  <p className="font-jost font-light text-[14px] text-bark mt-1">
+                    Vezi pe Google Maps →
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-start gap-4">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-6 h-6 text-gold flex-shrink-0 mt-0.5" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10" />
+                  <polyline points="12 6 12 12 16 14" />
+                </svg>
+                <div>
+                  <p className="font-jost font-medium text-[16px] text-forest-dark">
+                    Luni – Vineri: 09:00 – 18:00
+                  </p>
+                  <p className="font-jost font-light text-[14px] text-bark mt-1">
+                    Urgențele sunt preluate oricând în acest interval.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
 

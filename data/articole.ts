@@ -414,6 +414,7 @@ export const articole: Articol[] = [
     <h2>La ARA DENT STUDIO — urgentele au intaietate</h2>
     <p>Dr. Robert Lungu, medic specialist in chirurgie dento-alveolara, trateaza toate tipurile de urgente stomatologice in cabinet — fara sa fie nevoie de programare in avans.</p>
     <p>Suni, ne spui situatia, si gasim loc pentru tine in aceeasi zi, oricand in timpul programului.</p>
+    <p>Pentru urgente stomatologice in Pitesti, <a href="/servicii/urgente-stomatologice">viziteaza pagina noastra dedicata urgentelor stomatologice</a> sau suna direct la 0754 219 011.</p>
   `,
   },
   {
