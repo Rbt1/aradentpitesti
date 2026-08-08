@@ -54,7 +54,7 @@ const jsonLdService = {
 const BENEFITS = [
   {
     title: 'Încărcare imediată',
-    text: 'În funcție de caz, lucrarea provizorie fixă poate fi montată în aceeași zi sau în 24-48 ore — pleci cu dinți fixi, nu cu proteză temporară.',
+    text: 'În funcție de caz, lucrarea provizorie fixă poate fi montată în aceeași zi sau în 24-48 ore — pleci cu dinți ficși, nu cu proteză temporară.',
   },
   {
     title: 'Stabilitate totală',
@@ -76,7 +76,7 @@ const FAQ_ITEMS = [
     a: 'All-on-4 costă 12.000 lei per arcadă, iar All-on-6 costă 14.000 lei per arcadă. Prețul include implanturile și lucrarea provizorie fixă. Prețul exact se confirmă la consultația gratuită.',
   },
   {
-    q: 'Pot pleca din cabinet cu dinți fixi în aceeași zi?',
+    q: 'Pot pleca din cabinet cu dinți ficși în aceeași zi?',
     a: 'În anumite situații, da — cu încărcare imediată. În funcție de caz, lucrarea provizorie fixă poate fi montată chiar în ziua intervenției sau în 24-48 ore.',
   },
   {
@@ -138,7 +138,7 @@ export default function AllOn4AllOn6Page() {
                 La ARA DENT STUDIO, Dr. Robert Lungu evaluează fiecare caz individual pentru a determina dacă sunt necesare 4 sau 6 implanturi — decizia depinde de cantitatea de os disponibilă, distribuția forțelor de masticație și particularitățile anatomice ale fiecărui pacient.
               </p>
               <p>
-                Unul dintre avantajele majore ale acestei proceduri este încărcarea imediată — în funcție de caz, lucrarea provizorie fixă poate fi montată chiar în aceeași zi cu inserarea implanturilor, sau în 24-48 ore. Aceasta înseamnă că pleci din cabinet cu dinți fixi, nu cu o proteză temporară mobilă.
+                Unul dintre avantajele majore ale acestei proceduri este încărcarea imediată — în funcție de caz, lucrarea provizorie fixă poate fi montată chiar în aceeași zi cu inserarea implanturilor, sau în 24-48 ore. Aceasta înseamnă că pleci din cabinet cu dinți ficși, nu cu o proteză temporară mobilă.
               </p>
               <p>
                 Procesul începe cu o evaluare completă, incluzând scanare și CT 3D, pentru planificarea exactă a poziției implanturilor. Această precizie permite plasarea optimă a celor 4 sau 6 implanturi, distribuind corect forțele de masticație pe toată arcada.
