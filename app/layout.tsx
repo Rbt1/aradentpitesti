@@ -3,6 +3,7 @@ import { Playfair_Display, Jost } from 'next/font/google'
 import './globals.css'
 import CustomCursor from './components/CustomCursor'
 import ScrollAnimationInit from './components/ScrollAnimationInit'
+import AnalyticsEvents from './components/AnalyticsEvents'
 import LenisProvider from './components/LenisProvider'
 import Script from 'next/script'
 
@@ -201,6 +202,7 @@ export default function RootLayout({
         <LenisProvider>
           <CustomCursor />
           <ScrollAnimationInit />
+          <AnalyticsEvents />
           {children}
         </LenisProvider>
       </body>

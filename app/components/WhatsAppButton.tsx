@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import { trackEvent } from '@/lib/analytics'
 
 const WHATSAPP_URL = 'https://wa.me/40754219011'
 const PHONE_URL = 'tel:+40754219011'
@@ -29,6 +30,8 @@ const WhatsAppButton = () => {
         href={PHONE_URL}
         aria-label="Sună la ARA DENT STUDIO"
         className="w-14 h-14 rounded-full bg-forest flex items-center justify-center shadow-lg hover:shadow-xl relative"
+        data-ga-manual="true"
+        onClick={() => trackEvent('phone_click', { location: 'floating_button' })}
         initial={{ scale: 0, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 1.7, duration: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
@@ -50,6 +53,8 @@ const WhatsAppButton = () => {
         rel="noopener noreferrer"
         aria-label="Contactează ARA DENT STUDIO pe WhatsApp"
         className="w-14 h-14 rounded-full bg-[#25D366] flex items-center justify-center shadow-lg hover:shadow-xl"
+        data-ga-manual="true"
+        onClick={() => trackEvent('whatsapp_click', { location: 'floating_button' })}
         initial={{ scale: 0, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 2, duration: 0.4, ease: [0.25, 0.46, 0.45, 0.94] }}
