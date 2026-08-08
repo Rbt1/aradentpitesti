@@ -481,6 +481,57 @@ export const articole: Articol[] = [
   `,
   },
   {
+    slug: 'proteza-mobila-sau-lucrare-fixa-pe-implanturi',
+    title: 'Proteza mobila sau lucrare fixa pe implanturi? De ce tot mai multi pacienti aleg solutia permanenta',
+    metaDescription: 'Proteza mobila vs lucrare fixa pe implanturi — diferente esentiale, avantaje si dezavantaje. Afla de ce tot mai multi pacienti renunta la proteza mobila. ARA DENT STUDIO Pitesti.',
+    excerpt: 'Proteza mobila pare mai simpla si mai ieftina. Dar realitatea pe termen lung e diferita. Afla de ce tot mai multi pacienti aleg o lucrare fixa pe implanturi.',
+    date: '2026-08-09',
+    continut: `
+    <p>Daca ai pierdut mai multi dinti si cauti o solutie, primul gand e adesea proteza mobila — e cunoscuta, pare mai simpla si mai ieftina. Dar realitatea pe termen lung e diferita. Iata ce trebuie sa stii inainte sa iei o decizie.</p>
+
+    <h2>Ce e proteza mobila si cum functioneaza</h2>
+    <p>Proteza mobila (totala sau partiala) e o lucrare care se sprijina direct pe gingie si pe creasta osoasa. Se scoate zilnic pentru curatare si necesita adeziv pentru stabilitate.</p>
+    <p>La inceput functioneaza rezonabil. Problema apare in timp.</p>
+
+    <h2>De ce proteza mobila devine o problema pe termen lung</h2>
+    <p><strong>1. Resorbtia osoasa continua</strong><br/>
+    Cel mai important dezavantaj — si cel mai putin cunoscut. Fara radacini sau implanturi care sa stimuleze osul, acesta se resoarbe progresiv. Cu cat proteza e purtata mai mult timp, cu atat mai mult os se pierde — si cu atat mai greu devine un eventual tratament cu implanturi in viitor.</p>
+    <p><strong>2. Instabilitate progresiva</strong><br/>
+    Pe masura ce osul se resoarbe, proteza nu mai "tine" la fel. Necesita rebasare frecventa sau inlocuire. Multi pacienti ajung sa foloseasca tot mai mult adeziv.</p>
+    <p><strong>3. Masticatie limitata</strong><br/>
+    O proteza mobila transmite fortele de masticatie direct pe gingie, nu pe os. Forta de muscare e semnificativ mai mica fata de dintii naturali — multi pacienti evita alimentele tari sau fibroase.</p>
+    <p><strong>4. Disconfort zilnic</strong><br/>
+    Scoaterea si punerea zilnica, riscul ca proteza sa se miste in momentele nepotrivite, senzatia permanenta ca "ceva e in gura" — toate acestea afecteaza calitatea vietii.</p>
+
+    <h2>Ce ofera o dantura fixa pe implanturi in schimb</h2>
+    <p>O dantura fixa pe implanturi este o lucrare <strong>complet fixa</strong>, sustinuta de implanturi strategic pozitionate. Nu se scoate, nu necesita adeziv si functioneaza ca o dantura naturala.</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Proteza mobila</th>
+          <th>Lucrare fixa pe implanturi</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Se scoate zilnic</td><td>Nu se scoate</td></tr>
+        <tr><td>Adeziv necesar</td><td>Fara adeziv</td></tr>
+        <tr><td>Os se resoarbe</td><td>Resorbtia oprita</td></tr>
+        <tr><td>Masticatie limitata</td><td>Masticatie normala</td></tr>
+        <tr><td>Instabila in timp</td><td>Stabila permanent</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Cine e candidat pentru o lucrare fixa pe implanturi</h2>
+    <p>Evaluam fiecare caz individual la consultatia gratuita. In general, aceasta solutie e posibila chiar si pentru pacientii care poarta proteza mobila de mult timp — depinde de cantitatea de os disponibil, evaluata prin CT dentar.</p>
+    <p>Numarul de implanturi necesar se stabileste la consultatie, in functie de situatia specifica a fiecarui pacient.</p>
+    <p>Cu cat se intervine mai devreme, cu atat mai mult os e disponibil si cu atat mai simple sunt interventiile pregatitoare.</p>
+
+    <h2>Consultatie gratuita la ARA DENT STUDIO</h2>
+    <p>Daca porti proteza mobila si vrei sa afli daca esti candidat pentru o solutie fixa, consultatia si CT-ul de evaluare sunt gratuite la ARA DENT STUDIO.</p>
+    <p>Dr. Robert Lungu, medic specialist in chirurgie dento-alveolara, evalueaza situatia ta si iti explica optiunile disponibile — fara presiune, fara obligatii.</p>
+  `,
+  },
+  {
     slug: 'detartraj-igienizare-dentara-pitesti',
     title: 'Detartraj si igienizare dentara in Pitesti — ce trebuie sa stii',
     metaDescription: 'Detartraj in Pitesti de la 200 lei. Igienizare profesionala (detartraj + periaj + Air-Flow) 250 lei. Consultatie gratuita la ARA DENT STUDIO Pitesti.',

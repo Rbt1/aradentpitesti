@@ -29,6 +29,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/cat-costa-tratament-canal-pitesti-2026`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/detartraj-igienizare-dentara-pitesti`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/implant-dentar-rate-pitesti`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/proteza-mobila-sau-lucrare-fixa-pe-implanturi`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/diaspora`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/servicii/urgente-stomatologice`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
   ]
