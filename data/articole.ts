@@ -485,7 +485,7 @@ export const articole: Articol[] = [
     title: 'Proteza mobila sau lucrare fixa pe implanturi? De ce tot mai multi pacienti aleg solutia permanenta',
     metaDescription: 'Proteza mobila vs lucrare fixa pe implanturi — diferente esentiale, avantaje si dezavantaje. Afla de ce tot mai multi pacienti renunta la proteza mobila. ARA DENT STUDIO Pitesti.',
     excerpt: 'Proteza mobila pare mai simpla si mai ieftina. Dar realitatea pe termen lung e diferita. Afla de ce tot mai multi pacienti aleg o lucrare fixa pe implanturi.',
-    date: '2026-08-09',
+    date: '2026-08-06',
     continut: `
     <p>Daca ai pierdut mai multi dinti si cauti o solutie, primul gand e adesea proteza mobila — e cunoscuta, pare mai simpla si mai ieftina. Dar realitatea pe termen lung e diferita. Iata ce trebuie sa stii inainte sa iei o decizie.</p>
 
@@ -599,7 +599,7 @@ export const articole: Articol[] = [
     title: 'Implant dentar in rate la Pitesti — platesti in 12 luni, fara dobanda',
     metaDescription: 'Implant dentar in rate la ARA DENT STUDIO Pitesti. 12 rate lunare, dobanda 0%, prin TBI Bank. Aplicare direct la cabinet. Consultatie gratuita.',
     excerpt: 'Acum poti face implant dentar in rate la ARA DENT STUDIO Pitesti — 12 rate lunare, fara dobanda, prin TBI Bank. Aplicare direct la cabinet.',
-    date: '2026-08-09',
+    date: '2026-08-07',
     continut: `
     <p>Unul dintre motivele pentru care pacientii amana un implant dentar nu e lipsa dorintei — e suma de platit dintr-o data. La ARA DENT STUDIO Pitesti, ai acum posibilitatea sa faci implantul dentar in rate lunare, fara dobanda.</p>
 
@@ -635,7 +635,7 @@ export const articole: Articol[] = [
     title: 'Tratament endodontic in Pitesti — ce este, cand e necesar si cum decurge',
     metaDescription: 'Tratament de canal in Pitesti cu microscop dentar. De la 400 lei. Intr-o singura sedinta, nedureros. Dr. Robert Lungu, ARA DENT STUDIO. Consultatie gratuita.',
     excerpt: 'Tratamentul de canal are o reputatie nedreapta. Cu microscopul dentar si tehnica moderna, e o procedura nedureroasa care salveaza dintele si elimina durerea.',
-    date: '2026-08-09',
+    date: '2026-08-08',
     continut: `
     <p>Daca medicul ti-a recomandat un tratament de canal, primul sentiment e adesea ingrijorare. Tratamentul de canal are o reputatie nedreapta — in realitate, cu tehnica moderna si microscopul dentar, e o procedura nedureroasa care salveaza dintele si elimina durerea, nu o provoaca.</p>
 
