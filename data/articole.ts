@@ -704,6 +704,71 @@ export const articole: Articol[] = [
   `,
   },
   {
+    slug: 'tratament-parodontal-pitesti',
+    title: 'Tratament parodontal in Pitesti — cum opresti boala inainte sa pierzi dinti',
+    metaDescription: 'Boala parodontala nu doare la inceput — dar osul pierdut nu se mai reface. Tratament parodontal in Pitesti: detartraj, chiuretaj, evaluare gratuita. ARA DENT STUDIO.',
+    excerpt: 'Boala parodontala e una dintre cele mai frecvente cauze de pierdere a dintilor — si una dintre cele mai ignorate, tocmai pentru ca nu doare la inceput.',
+    date: '2026-08-09',
+    continut: `
+    <p>Boala parodontala e una dintre cele mai frecvente cauze de pierdere a dintilor la adulti — si una dintre cele mai ignorate, tocmai pentru ca in fazele incipiente <strong>nu doare</strong>. Pana cand apare durerea sau mobilitatea dentara, distructia osoasa e deja avansata.</p>
+
+    <h2>Ce este boala parodontala</h2>
+    <p>Boala parodontala (cunoscuta popular ca "parodontoza") este o infectie bacteriana cronica a tesuturilor care sustin dintele — gingia, osul alveolar si ligamentele parodontale.</p>
+    <p>Evolueaza in stadii:</p>
+    <ul>
+      <li>Gingivita — reversibila complet, tratata la timp gingia revine la normal</li>
+      <li>Parodontita superficiala — osul a inceput sa se distruga</li>
+      <li>Parodontita profunda — distructie osoasa avansata, mobilitate dentara</li>
+      <li>Pierderea dintilor</li>
+    </ul>
+    <p>Osul pierdut prin parodontita <strong>nu se mai reface</strong>.</p>
+
+    <h2>De ce nu doare — si de ce asta e o problema</h2>
+    <p>Bacteriile din tartru produc toxine care inflamaeza gingia si distrug osul lent, progresiv, fara durere in stadiile initiale. Multi pacienti descopera boala parodontala abia cand dintii incep sa se miste sau cand gingia s-a retras vizibil.</p>
+    <p>De aceea controalele periodice si igienizarea profesionala regulata sunt esentiale — nu pentru estetica, ci pentru a depista boala inainte ca distructia sa fie ireversibila.</p>
+
+    <h2>Semnele de alarma</h2>
+    <ul>
+      <li><strong>Gingii care sangereaza</strong> la periaj sau spontan</li>
+      <li><strong>Gingie retrasa</strong> — dintii par mai lungi</li>
+      <li><strong>Mobilitate dentara</strong> — dintele se misca</li>
+      <li><strong>Spatii aparute intre dinti</strong></li>
+      <li><strong>Miros urat persistent</strong></li>
+      <li><strong>Sensibilitate la rece</strong> in zona radacinii expuse</li>
+      <li><strong>Puroi</strong> intre dinte si gingie</li>
+    </ul>
+    <p>Daca observi oricare din aceste semne, consultul parodontal e urgent.</p>
+
+    <h2>Legatura cu diabetul</h2>
+    <p>Boala parodontala si diabetul se influenteaza reciproc — diabetul agraveaza inflamatia parodontala, iar boala parodontala necontrolata ingreuneaza echilibrarea glicemiei. Pacientii diabetici au risc semnificativ mai mare de parodontita severa si necesita igienizare profesionala mai frecventa.</p>
+
+    <h2>Cum se trateaza la ARA DENT STUDIO</h2>
+    <p><strong>1. Evaluare completa</strong><br/>
+    Sondaj parodontal, radiografie panoramica — gratuita. Masuram adancimea pungilor parodontale si evaluam cantitatea de os disponibil.</p>
+    <p><strong>2. Igienizare profesionala</strong><br/>
+    Detartraj supragingival cu ultrasunete si Air-Flow — indepartarea tartrului si a petelor de deasupra gingiei. Primul pas obligatoriu in orice tratament parodontal.</p>
+    <p><strong>3. Chiuretaj subgingival</strong><br/>
+    Curatarea radacinilor sub gingie, in anestezie locala. Indepartam tartrul si tesutul infectat din pungile parodontale — procedura care opreste progresia bolii.</p>
+    <p><strong>4. Reevaluare</strong><br/>
+    La 6-8 saptamani dupa chiuretaj, evaluam raspunsul tesuturilor si decidem daca sunt necesare sedinte suplimentare.</p>
+    <p><strong>5. Mentinere pe termen lung</strong><br/>
+    Boala parodontala nu se vindeca — se controleaza. Controalele la 3-6 luni sunt esentiale pentru a preveni recidiva.</p>
+
+    <h2>Ce se intampla daca nu tratezi</h2>
+    <p>Boala parodontala netratata duce la:</p>
+    <ul>
+      <li>Retractie gingivala progresiva</li>
+      <li>Distructie osoasa ireversibila</li>
+      <li>Mobilitate dentara crescuta</li>
+      <li>Pierderea dintilor</li>
+    </ul>
+    <p>Un dinte pierdut din cauza parodontitei inseamna si os pierdut — ceea ce complica semnificativ orice tratament ulterior cu implanturi.</p>
+
+    <h2>Programeaza-te</h2>
+    <p>Evaluare parodontala gratuita la ARA DENT STUDIO Pitesti.</p>
+  `,
+  },
+  {
     slug: 'semnele-bolii-parodontale-de-nu-ignorat',
     title: 'Semnele bolii parodontale pe care nu trebuie sa le ignori',
     metaDescription: 'Boala parodontala (parodontoza) se poate preveni si trata, dar osul pierdut nu se mai reface. Afla cele 6 semne de alarma si cum se trateaza la ARA DENT STUDIO Pitesti.',

@@ -33,5 +33,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/diaspora`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/servicii/urgente-stomatologice`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/blog/tratament-endodontic-pitesti`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/tratament-parodontal-pitesti`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
   ]
 }
