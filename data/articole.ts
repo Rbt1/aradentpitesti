@@ -631,6 +631,79 @@ export const articole: Articol[] = [
   `,
   },
   {
+    slug: 'tratament-endodontic-pitesti',
+    title: 'Tratament endodontic in Pitesti — ce este, cand e necesar si cum decurge',
+    metaDescription: 'Tratament de canal in Pitesti cu microscop dentar. De la 400 lei. Intr-o singura sedinta, nedureros. Dr. Robert Lungu, ARA DENT STUDIO. Consultatie gratuita.',
+    excerpt: 'Tratamentul de canal are o reputatie nedreapta. Cu microscopul dentar si tehnica moderna, e o procedura nedureroasa care salveaza dintele si elimina durerea.',
+    date: '2026-08-09',
+    continut: `
+    <p>Daca medicul ti-a recomandat un tratament de canal, primul sentiment e adesea ingrijorare. Tratamentul de canal are o reputatie nedreapta — in realitate, cu tehnica moderna si microscopul dentar, e o procedura nedureroasa care salveaza dintele si elimina durerea, nu o provoaca.</p>
+
+    <h2>Ce este tratamentul endodontic</h2>
+    <p>Endodontia (tratamentul de canal) inseamna indepartarea tesutului infectat din interiorul dintelui — pulpa dentara si nervul afectat — urmata de curatarea, dezinfectarea si sigilarea canalelor radiculare.</p>
+    <p>Scopul e simplu: salvarea dintelui. Un dinte tratat endodontic ramane pe loc, functioneaza normal si, acoperit cu o coroana, poate dura zeci de ani.</p>
+
+    <h2>Cand ai nevoie de tratament de canal</h2>
+    <ul>
+      <li><strong>Durere acuta spontana</strong> — mai ales noaptea, fara un motiv clar</li>
+      <li><strong>Sensibilitate persistenta la cald si la rece</strong> — care nu dispare dupa cateva secunde</li>
+      <li><strong>Durere la masticatie sau atingere</strong></li>
+      <li><strong>Modificarea culorii dintelui</strong> — dintele devine gri sau inchis la culoare</li>
+      <li><strong>Umflatura sau fistula</strong> la nivelul gingiei din dreptul dintelui</li>
+      <li><strong>Carie profunda care a ajuns la nerv</strong> — uneori fara durere</li>
+      <li><strong>Devitalizare in scop protetic</strong> — cand dintii vecini unui spatiu edentat au migrat si necesita devitalizare pentru a fi inclusi intr-o lucrare protetica</li>
+    </ul>
+    <p>Uneori, un dinte cu nerv afectat nu doare deloc — infectia evolueaza in tacere. De aceea radiografia de control e importanta.</p>
+
+    <h2>De ce microscopul dentar face diferenta</h2>
+    <p>La ARA DENT STUDIO, toate tratamentele de canal se realizeaza cu <strong>microscop dentar</strong> — o diferenta reala fata de tratamentul clasic, nu doar un avantaj de marketing.</p>
+    <p>Canalele radiculare sunt structuri mici, curbe si uneori ramificate. Ochiul liber nu le vede complet — microscopul dentar ofera marire si iluminare care permit:</p>
+    <ul>
+      <li>Identificarea tuturor canalelor, inclusiv a celor accesorii</li>
+      <li>Curatarea completa a tesutului infectat</li>
+      <li>Detectarea fracturilor sau a instrumentelor rupte</li>
+      <li>Sigilarea precisa a canalelor</li>
+    </ul>
+    <p>Un tratament de canal realizat fara microscop si fara curatare completa poate esua — ceea ce duce la reinfectie, retratament sau, in cel mai rau caz, extractie.</p>
+
+    <h2>Cat costa tratamentul de canal la ARA DENT STUDIO</h2>
+    <table>
+      <thead>
+        <tr><th>Tratament</th><th>Pret</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Dinte monoradicular (1 canal)</td><td>400 lei</td></tr>
+        <tr><td>Premolar (2 canale)</td><td>500 lei</td></tr>
+        <tr><td>Molar (3+ canale)</td><td>600 lei</td></tr>
+        <tr><td>Retratament monoradicular</td><td>500 lei</td></tr>
+        <tr><td>Retratament premolar</td><td>600 lei</td></tr>
+        <tr><td>Retratament molar</td><td>700 lei</td></tr>
+      </tbody>
+    </table>
+    <p>Consultatia este gratuita.</p>
+
+    <h2>Cum decurge tratamentul — pas cu pas</h2>
+    <p><strong>1. Consultatie si radiografie</strong> — evaluam starea dintelui si a canalelor radiculare</p>
+    <p><strong>2. Anestezie locala</strong> — procedura e complet nedureroasa. Nu simti nimic in timpul interventiei</p>
+    <p><strong>3. Accesul la canale</strong> — indepartam caria si deschidem camera pulpara sub microscop</p>
+    <p><strong>4. Curatarea si modelarea canalelor</strong> — cu instrumente rotative de ultima generatie, sub magnificatie</p>
+    <p><strong>5. Dezinfectarea</strong> — cu solutii irigante care elimina bacteriile</p>
+    <p><strong>6. Sigilarea</strong> — canalele curate sunt sigilate ermetic</p>
+    <p><strong>7. Restaurarea finala</strong> — in majoritatea cazurilor, un dinte tratat endodontic necesita o coroana pentru protectie pe termen lung</p>
+    <p>In cele mai multe cazuri, tratamentul se finalizeaza <strong>intr-o singura sedinta</strong> de 60-90 minute.</p>
+
+    <h2>Ce simti dupa tratament</h2>
+    <p>Disconfortul post-operator e normal si trece in 2-3 zile. Dintele poate fi sensibil la presiune — asta nu inseamna ca tratamentul a esuat, ci ca tesuturile din jur se vindeca.</p>
+
+    <h2>Tratament de canal vs extractie — ce alegi</h2>
+    <p>Multi pacienti intreaba daca nu e mai simplu sa extraga dintele. Raspunsul depinde de caz — dar in general, pastrarea dintelui natural e intotdeauna prima optiune.</p>
+    <p>Un dinte lipsa inseamna os care se resoarbe, dinti vecini care migreaza si, in timp, un tratament mai complex si mai scump. Tratamentul de canal e investitia care evita toate acestea.</p>
+
+    <h2>Programeaza-te</h2>
+    <p>Consultatie gratuita la ARA DENT STUDIO Pitesti.</p>
+  `,
+  },
+  {
     slug: 'semnele-bolii-parodontale-de-nu-ignorat',
     title: 'Semnele bolii parodontale pe care nu trebuie sa le ignori',
     metaDescription: 'Boala parodontala (parodontoza) se poate preveni si trata, dar osul pierdut nu se mai reface. Afla cele 6 semne de alarma si cum se trateaza la ARA DENT STUDIO Pitesti.',
