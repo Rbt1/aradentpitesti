@@ -769,6 +769,83 @@ export const articole: Articol[] = [
   `,
   },
   {
+    slug: 'implant-dentar-dupa-extractie',
+    title: 'Implant dentar dupa extractie — cat timp astepti si ce variante exista',
+    metaDescription: 'Implant imediat, precoce sau tardiv dupa extractie? Afla care varianta ti se potriveste la ARA DENT STUDIO Pitesti. Consultatie si CT gratuite. Dr. Robert Lungu.',
+    excerpt: 'Pot face implantul imediat dupa extractie sau trebuie sa astept? Exista trei variante de implantare — afla care e potrivita pentru tine.',
+    date: '2026-08-11',
+    continut: `
+    <p>Una dintre cele mai frecvente intrebari pe care le primim este: "Pot face implantul imediat dupa extractie sau trebuie sa astept?" Raspunsul depinde de mai multi factori — si exista trei variante de implantare, fiecare cu avantajele ei.</p>
+
+    <h2>Cele trei variante de implantare dupa extractie</h2>
+
+    <h3>1. Implantare imediata — in aceeasi sedinta cu extractia</h3>
+    <p>Implantul se insereaza imediat dupa extractia dintelui, in acelasi loc din osul alveolar. Aceasta e varianta ideala din punct de vedere al timpului si al confortului pacientului — o singura interventie chirurgicala, recuperare mai scurta, si osul este prezent in cantitate maxima.</p>
+    <p><strong>Cand e posibila:</strong></p>
+    <ul>
+      <li>Absenta infectiei active la locul extractiei</li>
+      <li>Os suficient in jurul locului de extractie</li>
+      <li>Geometrie favorabila a osului alveolar</li>
+      <li>Stabilitate primara buna a implantului</li>
+    </ul>
+    <p><strong>Avantaje:</strong></p>
+    <ul>
+      <li>O singura interventie chirurgicala</li>
+      <li>Timp total de tratament redus</li>
+      <li>Osul nu se resoarbe in asteptare</li>
+    </ul>
+
+    <h3>2. Implantare precoce — dupa 6-8 saptamani</h3>
+    <p>Se asteapta vindecarea tesuturilor moi (gingia), dar nu si vindecarea completa a osului. Implantul se insereaza cand gingia s-a inchis, dar osul e inca in faza activa de vindecare.</p>
+    <p><strong>Cand e recomandata:</strong></p>
+    <ul>
+      <li>Infectie prezenta la extractie — se trateaza mai intai</li>
+      <li>Geometrie nefavorabila a osului alveolar</li>
+      <li>Necesitatea unui os mai stabil pentru stabilitate primara</li>
+    </ul>
+    <p><strong>Avantaje:</strong></p>
+    <ul>
+      <li>Tesuturile moi sunt vindecate — conditii mai bune</li>
+      <li>Mai putin timp de asteptare fata de varianta tardiva</li>
+    </ul>
+
+    <h3>3. Implantare tardiva — dupa 3-6 luni</h3>
+    <p>Se asteapta vindecarea completa a osului inainte de inserarea implantului. E varianta clasica, cea mai frecvent practicata.</p>
+    <p><strong>Cand e necesara:</strong></p>
+    <ul>
+      <li>Infectie severa sau abces la extractie</li>
+      <li>Os insuficient — se poate face aditie osoasa si se asteapta integrarea</li>
+      <li>Cazuri complexe care necesita planificare detaliata</li>
+    </ul>
+    <p><strong>Dezavantaj important:</strong><br/>
+    In perioada de asteptare, osul se resoarbe progresiv — cu cat astepti mai mult, cu atat mai putin os e disponibil pentru implant. De aceea, varianta imediata sau precoce e preferata ori de cate ori conditiile o permit.</p>
+
+    <h2>Cum decidem la ARA DENT STUDIO</h2>
+    <p>Decizia intre cele trei variante se ia la consultatia gratuita, pe baza evaluarii complete — radiografie panoramica si CT dentar — care arata exact cantitatea si calitatea osului disponibil, prezenta sau absenta infectiei si anatomia locului de implantare.</p>
+    <p>Dr. Robert Lungu evalueaza fiecare caz individual si recomanda varianta optima in functie de situatia specifica a pacientului — nu exista o regula universala.</p>
+
+    <h2>Preturile la ARA DENT STUDIO Pitesti</h2>
+    <table>
+      <thead>
+        <tr><th>Serviciu</th><th>Pret</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Implant dentar (surubul)</td><td>1.200 lei</td></tr>
+        <tr><td>Bont protetic</td><td>300 lei</td></tr>
+        <tr><td>Capa de vindecare</td><td>150 lei</td></tr>
+        <tr><td>Consultatie + evaluare CT</td><td>Gratuit</td></tr>
+      </tbody>
+    </table>
+    <p>Pretul e acelasi indiferent de varianta de implantare aleasa. Coroana definitiva se stabileste separat, in functie de materialul ales.</p>
+
+    <h2>Plata in rate fara dobanda</h2>
+    <p>Tratamentul cu implant poate fi finantat prin TBI Bank — 12 rate lunare, dobanda 0%, aplicare direct la cabinet.</p>
+
+    <h2>Programeaza consultatia gratuita</h2>
+    <p>Consultatia, radiografia si CT-ul sunt complet gratuite la ARA DENT STUDIO. Evaluam situatia ta si stabilim impreuna varianta optima de implantare.</p>
+  `,
+  },
+  {
     slug: 'semnele-bolii-parodontale-de-nu-ignorat',
     title: 'Semnele bolii parodontale pe care nu trebuie sa le ignori',
     metaDescription: 'Boala parodontala (parodontoza) se poate preveni si trata, dar osul pierdut nu se mai reface. Afla cele 6 semne de alarma si cum se trateaza la ARA DENT STUDIO Pitesti.',
