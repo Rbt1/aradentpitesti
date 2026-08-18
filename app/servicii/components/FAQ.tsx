@@ -1,11 +1,11 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, type ReactNode } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 interface FAQItem {
   q: string
-  a: string
+  a: ReactNode
 }
 
 interface FAQProps {

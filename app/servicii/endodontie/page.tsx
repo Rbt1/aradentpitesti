@@ -70,11 +70,11 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Cât durează o ședință de endodonție?',
-    a: 'De obicei 60-90 minute. Dr. Robert Lungu lucrează metodic și precis pentru un rezultat durabil.',
+    a: <>De obicei 60-90 minute. <Link href="/dr-robert-lungu" className="font-semibold text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">Dr. Robert Lungu</Link> lucrează metodic și precis pentru un rezultat durabil.</>,
   },
   {
     q: 'Poate fi salvat orice dinte cu tratament de canal?',
-    a: 'Nu întotdeauna — depinde de gradul de distrucție. La consultație evaluăm dacă dintele poate fi salvat sau dacă extracția e singura opțiune.',
+    a: <>Nu întotdeauna — depinde de gradul de distrucție. La consultație evaluăm dacă dintele poate fi salvat sau dacă <Link href="/servicii/chirurgie-orala" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">extracția</Link> e singura opțiune.</>,
   },
 ]
 

@@ -74,7 +74,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Ce se întâmplă dacă nu tratez caria?',
-    a: 'Caria avansează spre pulpa dentară, provocând durere severă. Vei ajunge la tratament de canal sau, în cel mai rău caz, la extracție. Tratamentul timpuriu e întotdeauna mai simplu și mai ieftin.',
+    a: <>Caria avansează spre pulpa dentară, provocând durere severă. Vei ajunge la tratament de canal sau, în cel mai rău caz, la <Link href="/servicii/chirurgie-orala" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">extracție</Link>. Tratamentul timpuriu e întotdeauna mai simplu și mai ieftin.</>,
   },
 ]
 
@@ -120,10 +120,10 @@ export default function OburatiiPage() {
                 La ARA DENT STUDIO folosim materiale compozite de înaltă calitate, cu nuanțe identice culorii dinților naturali. Rezultatul este estetic, durabil și invizibil. Nu există compromis între funcționalitate și estetică.
               </p>
               <p>
-                Dr. Robert Lungu tratează caria cu precizie și blândețe — îndepărtăm strict țesutul afectat, fără să sacrificăm țesut sănătos. Tehnica adezivă modernă asigură o legătură durabilă între material și dinte.
+                <Link href="/dr-robert-lungu" className="font-semibold text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">Dr. Robert Lungu</Link> tratează caria cu precizie și blândețe — îndepărtăm strict țesutul afectat, fără să sacrificăm țesut sănătos. Tehnica adezivă modernă asigură o legătură durabilă între material și dinte.
               </p>
               <p>
-                Nu amâna tratamentul cariei. O carie simplă netratată ajunge la nerv — și atunci vorbim de tratament de canal sau chiar extracție. Prinde-o la timp, rezolv-o simplu.
+                Nu amâna tratamentul cariei. O carie simplă netratată ajunge la nerv — și atunci vorbim de <Link href="/servicii/endodontie" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">tratament de canal</Link> sau chiar extracție. Prinde-o la timp, rezolv-o simplu.
               </p>
             </div>
           </div>

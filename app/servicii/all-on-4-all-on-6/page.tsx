@@ -129,13 +129,13 @@ export default function AllOn4AllOn6Page() {
           <div className="container-site max-w-3xl">
             <div className="space-y-5 font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
               <p>
-                Când lipsesc toți dinții de pe o arcadă, soluția care schimbă complet calitatea vieții este o lucrare fixă, susținută de implanturi strategic poziționate — cunoscută ca All-on-4 sau All-on-6.
+                Când lipsesc toți dinții de pe o arcadă, soluția care schimbă complet calitatea vieții este o lucrare fixă, susținută de <Link href="/servicii/implantologie" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">implanturi</Link> strategic poziționate — cunoscută ca All-on-4 sau All-on-6.
               </p>
               <p>
                 Spre deosebire de proteza totală mobilă, care se sprijină direct pe gingie și pe creasta osoasă, lucrarea All-on-4/6 este complet fixă. Nu se scoate, nu se mișcă, funcționează ca o dantură naturală.
               </p>
               <p>
-                La ARA DENT STUDIO, Dr. Robert Lungu evaluează fiecare caz individual pentru a determina dacă sunt necesare 4 sau 6 implanturi — decizia depinde de cantitatea de os disponibilă, distribuția forțelor de masticație și particularitățile anatomice ale fiecărui pacient.
+                La ARA DENT STUDIO, <Link href="/dr-robert-lungu" className="font-semibold text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">Dr. Robert Lungu</Link> evaluează fiecare caz individual pentru a determina dacă sunt necesare 4 sau 6 implanturi — decizia depinde de cantitatea de os disponibilă, distribuția forțelor de masticație și particularitățile anatomice ale fiecărui pacient.
               </p>
               <p>
                 Unul dintre avantajele majore ale acestei proceduri este încărcarea imediată — în funcție de caz, lucrarea provizorie fixă poate fi montată chiar în aceeași zi cu inserarea implanturilor, sau în 24-48 ore. Aceasta înseamnă că pleci din cabinet cu dinți ficși, nu cu o proteză temporară mobilă.

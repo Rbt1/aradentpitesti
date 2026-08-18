@@ -128,13 +128,13 @@ export default function ProteticaDentaraPage() {
           <div className="container-site max-w-3xl">
             <div className="space-y-5 font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
               <p>
-                Protetica dentară cuprinde toate soluțiile de restaurare a dinților lipsă sau afectați — coroane dentare, punți fixe, proteze mobile și lucrări pe implanturi.
+                Protetica dentară cuprinde toate soluțiile de restaurare a dinților lipsă sau afectați — coroane dentare, punți fixe, <Link href="/blog/proteza-mobila-sau-lucrare-fixa-pe-implanturi" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">proteze mobile</Link> și lucrări pe <Link href="/servicii/implantologie" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">implanturi</Link>.
               </p>
               <p>
                 La ARA DENT STUDIO, lucrările protetice sunt realizate din materiale premium, cu rezultate estetice și funcționale pe termen lung.
               </p>
               <p>
-                <strong>Coroana dentară</strong> este o calotă care acoperă complet un dinte afectat, restaurându-i forma, funcția și aspectul. Se indică după tratamente de canal, fracturi sau distrucții mari de substanță dură dentară.
+                <strong>Coroana dentară</strong> este o calotă care acoperă complet un dinte afectat, restaurându-i forma, funcția și aspectul. Se indică după <Link href="/servicii/endodontie" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">tratamente de canal</Link>, fracturi sau distrucții mari de substanță dură dentară.
               </p>
               <p>
                 <strong>Puntea dentară</strong> este o lucrare fixă care înlocuiește unul sau mai mulți dinți lipsă, sprijinindu-se pe dinții vecini șlefuiți sau pe implanturi.
@@ -143,7 +143,7 @@ export default function ProteticaDentaraPage() {
                 <strong>Coroana pe implant</strong> reprezintă componenta finală a tratamentului cu implant — identică vizual cu un dinte natural, montată după perioada de osteointegrare.
               </p>
               <p>
-                La ARA DENT STUDIO, Dr. Robert Lungu colaborează cu laboratoare de tehnică dentară de încredere pentru a asigura lucrări protetice precise, estetice și durabile.
+                La ARA DENT STUDIO, <Link href="/dr-robert-lungu" className="font-semibold text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">Dr. Robert Lungu</Link> colaborează cu laboratoare de tehnică dentară de încredere pentru a asigura lucrări protetice precise, estetice și durabile.
               </p>
             </div>
           </div>

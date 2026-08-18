@@ -98,7 +98,7 @@ export default function ChirurgieOralaPage() {
               Chirurgie Orală în Pitești
             </h1>
             <p className="font-jost font-light text-lg text-bark-dark mb-10">
-              Specialist chirurgie dento-alveolară — Dr. Robert Lungu
+              Specialist chirurgie dento-alveolară — <Link href="/dr-robert-lungu" className="font-semibold text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">Dr. Robert Lungu</Link>
             </p>
             <Link
               href="#programare"
@@ -114,7 +114,7 @@ export default function ChirurgieOralaPage() {
           <div className="container-site max-w-3xl">
             <div className="space-y-5 font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
               <p>
-                Chirurgia orală cuprinde o gamă largă de proceduri — de la extracții simple până la intervenții complexe precum rezecții apicale sau extracții ale dinților incluși.
+                Chirurgia orală cuprinde o gamă largă de proceduri — de la extracții simple până la intervenții complexe precum <Link href="/servicii/endodontie" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">rezecții apicale</Link> sau extracții ale dinților incluși.
               </p>
               <p>
                 Dr. Robert Lungu este medic specialist în chirurgie dento-alveolară — specializarea sa principală. Fiecare intervenție este planificată cu precizie, realizată cu blândețe și urmărită până la recuperarea completă.

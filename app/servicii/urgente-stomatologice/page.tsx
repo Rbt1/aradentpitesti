@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Link from 'next/link'
 import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
@@ -245,7 +246,7 @@ export default function UrgenteStomatologicePage() {
             </h2>
             <div className="space-y-5 font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
               <p>
-                La ARA DENT STUDIO, <strong className="font-medium text-forest-dark">Dr. Robert Lungu</strong> este medic specialist în chirurgie dento-alveolară — specializarea care acoperă toate tipurile de urgențe stomatologice, de la extracții chirurgicale la drenajul abceselor dentare localizate.
+                La ARA DENT STUDIO, <Link href="/dr-robert-lungu" className="font-semibold text-forest-dark underline underline-offset-2 hover:text-gold transition-colors duration-200">Dr. Robert Lungu</Link> este medic specialist în chirurgie dento-alveolară — specializarea care acoperă toate tipurile de urgențe stomatologice, de la <Link href="/servicii/chirurgie-orala" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">extracții chirurgicale</Link> la drenajul abceselor dentare localizate.
               </p>
               <p>
                 Cabinetul este dotat cu echipamente de ultimă generație — scanner intraoral, tomograf CBCT propriu și microscop dentar — care permit diagnosticul rapid și tratamentul precis chiar și în situații de urgență.

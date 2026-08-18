@@ -1,3 +1,4 @@
+import { type ReactNode } from 'react'
 import { Metadata } from 'next'
 import Link from 'next/link'
 import Navbar from '@/app/components/Navbar'
@@ -117,8 +118,8 @@ const INDICATII = [
   'Dinți cu formă neregulată',
 ]
 
-const CONTRAINDICATII = [
-  'Carii active sau boală parodontală netratată — se tratează mai întâi',
+const CONTRAINDICATII: ReactNode[] = [
+  <>Carii active sau <Link href="/servicii/parodontologie" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">boală parodontală</Link> netratată — se tratează mai întâi</>,
   'Bruxism sever netratat',
   'Smalț insuficient',
 ]
@@ -273,8 +274,8 @@ export default function FateteDentarePage() {
               Când fațetele NU sunt soluția potrivită
             </h2>
             <ul className="space-y-3">
-              {CONTRAINDICATII.map((item) => (
-                <li key={item} className="flex items-start gap-3 font-jost font-light text-[15px] text-bark-dark">
+              {CONTRAINDICATII.map((item, idx) => (
+                <li key={idx} className="flex items-start gap-3 font-jost font-light text-[15px] text-bark-dark">
                   <span className="text-bark text-lg mt-0.5 flex-shrink-0">–</span>
                   {item}
                 </li>
