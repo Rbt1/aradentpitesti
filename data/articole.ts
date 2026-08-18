@@ -911,6 +911,79 @@ export const articole: Articol[] = [
   `,
   },
   {
+    slug: 'fatete-dentare-pitesti',
+    title: 'Fatete dentare in Pitesti — ce sunt, tipuri si cand se recomanda',
+    metaDescription: 'Fatete dentare ceramice si compozit in Pitesti. Afla ce sunt, cand se recomanda si care e diferenta dintre tipuri. Consultatie gratuita la ARA DENT STUDIO.',
+    excerpt: 'Fatetele dentare transforma aspectul zambetului fara interventii majore. Afla ce tipuri exista, cand se recomanda si cum decurge tratamentul la ARA DENT STUDIO Pitesti.',
+    date: '2026-08-18',
+    continut: `
+    <p>Fatetele dentare sunt una dintre cele mai eficiente solutii de estetica dentara — transforma aspectul zambetului fara interventii majore, cu rezultate naturale si durabile.</p>
+
+    <h2>Ce sunt fatetele dentare</h2>
+    <p>O fateta dentara este o folie subtire de ceramica sau compozit care se aplica pe fata vizibila a dintelui, acoperind imperfectiunile si oferind un aspect uniform, natural.</p>
+    <p>Spre deosebire de o coroana dentara — care acopera dintele complet — fateta acopera doar suprafata frontala, pastrand structura naturala a dintelui in mare parte intacta.</p>
+
+    <h2>Tipuri de fatete dentare</h2>
+
+    <h3>Fatete ceramice (portelan)</h3>
+    <p>Realizate in laborator din ceramica de inalta calitate, fatetele ceramice sunt varianta premium — ofera aspectul cel mai natural, rezistenta crescuta la colorare si durabilitate pe termen lung.</p>
+    <p><strong>Avantaje:</strong></p>
+    <ul>
+      <li>Aspect identic cu dintele natural</li>
+      <li>Rezistenta mare la colorare (cafea, tutun, vin)</li>
+      <li>Durabilitate crescuta</li>
+      <li>Biocompatibile</li>
+    </ul>
+    <p><strong>Dezavantaje:</strong></p>
+    <ul>
+      <li>Necesita indepartarea unui strat subtire de smalt</li>
+      <li>Ireversibile — odata aplicate, dintele necesita fateta permanent</li>
+      <li>Cost mai ridicat fata de varianta compozit</li>
+    </ul>
+
+    <h3>Fatete compozit (rasina)</h3>
+    <p>Realizate din material compozit aplicat direct pe dinte si modelat in cabinet, fatetele compozit sunt o varianta mai accesibila si mai rapida.</p>
+    <p><strong>Avantaje:</strong></p>
+    <ul>
+      <li>Se realizeaza in aceeasi sedinta</li>
+      <li>Reversibile — pot fi indepartate fara afectarea dintelui</li>
+      <li>Cost mai accesibil</li>
+    </ul>
+    <p><strong>Dezavantaje:</strong></p>
+    <ul>
+      <li>Durabilitate mai mica fata de ceramica</li>
+      <li>Se coloreaza mai usor in timp</li>
+      <li>Aspect usor diferit fata de ceramica</li>
+    </ul>
+
+    <h2>Cand se recomanda fatetele dentare</h2>
+    <p>Fatetele sunt indicate pentru:</p>
+    <ul>
+      <li><strong>Pete si decolorari</strong> care nu raspund la albire — fluoroza, coloratii de tetracicline</li>
+      <li><strong>Dinti mici sau neuniformi</strong> — fatetele pot modifica forma si dimensiunea</li>
+      <li><strong>Spatii intre dinti</strong> — inchiderea diastemelor fara aparat dentar</li>
+      <li><strong>Dinti usor crapati sau ciobiti</strong> — fara afectarea nervului</li>
+      <li><strong>Dinti cu forma neregulata</strong> — corectii estetice minore</li>
+    </ul>
+
+    <h2>Cand fatetele NU sunt solutia potrivita</h2>
+    <ul>
+      <li>Dinti cu carii active sau boala parodontala netratata — se trateaza mai intai</li>
+      <li>Bruxism sever netratat — riscul de fractura e mare</li>
+      <li>Smalt insuficient — fateta nu adera corect fara o baza solida</li>
+    </ul>
+
+    <h2>Cum decurge tratamentul la ARA DENT STUDIO</h2>
+    <p><strong>1. Consultatie si evaluare</strong> — gratuita. Analizam starea dintilor, discutam asteptarile si stabilim tipul de fateta potrivit.</p>
+    <p><strong>2. Pregatirea dintilor</strong> — pentru fatetele ceramice, se indeparteaza un strat minim de smalt. Pentru compozit, pregatirea e minimala sau inexistenta.</p>
+    <p><strong>3. Scanare digitala</strong> — pentru ceramica se realizeaza o scanare digitala si se trimite la laborator; pentru compozit, se modeleaza direct in cabinet.</p>
+    <p><strong>4. Aplicarea fatetelor</strong> — fixare cu adeziv special, ajustari finale.</p>
+
+    <h2>Consultatie gratuita la ARA DENT STUDIO</h2>
+    <p>Daca vrei sa afli ce tip de fateta se potriveste situatiei tale, consultatia e gratuita. Dr. Robert Lungu evalueaza dintii tai si iti explica optiunile disponibile — fara presiune, fara obligatii.</p>
+  `,
+  },
+  {
     slug: 'semnele-bolii-parodontale-de-nu-ignorat',
     title: 'Semnele bolii parodontale pe care nu trebuie sa le ignori',
     metaDescription: 'Boala parodontala (parodontoza) se poate preveni si trata, dar osul pierdut nu se mai reface. Afla cele 6 semne de alarma si cum se trateaza la ARA DENT STUDIO Pitesti.',

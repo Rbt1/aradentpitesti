@@ -36,5 +36,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/tratament-parodontal-pitesti`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/implant-dentar-dupa-extractie`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/ce-mananci-dupa-extractie-dentara`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/fatete-dentare-pitesti`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
   ]
 }
