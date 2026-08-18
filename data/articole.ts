@@ -984,6 +984,79 @@ export const articole: Articol[] = [
   `,
   },
   {
+    slug: 'de-ce-dor-dintii-la-rece',
+    title: 'De ce dor dintii la rece — cauze si tratament',
+    metaDescription: 'Sensibilitate dentara la rece in Pitesti — cauze si tratament. Lac desensibilizant inclus in consultatie. Obturatie de la 200 lei. ARA DENT STUDIO.',
+    excerpt: 'Simti o durere ascutita cand bei ceva rece? Sensibilitatea dentara are o cauza clara si un tratament eficient. Afla ce o provoaca si cum o rezolvam la ARA DENT STUDIO.',
+    date: '2026-08-18',
+    continut: `
+    <p>Simti o durere ascutita cand bei ceva rece sau cand aerul rece iti atinge dintii? Sensibilitatea dentara la rece e una dintre cele mai frecvente probleme stomatologice — si, in majoritatea cazurilor, are o cauza clara si un tratament eficient.</p>
+
+    <h2>De ce apare sensibilitatea la rece</h2>
+    <p>Durerea la rece apare cand dentina — stratul de sub smalt — este expusa. Dentina contine tubuli microscopici care conduc senzatiile termice direct spre nerv. Cand smaltul sau gingia nu mai protejeaza dentina, orice stimul rece declanseaza durerea caracteristica.</p>
+
+    <p><strong>Principalele cauze:</strong></p>
+
+    <p><strong>1. Retractie gingivala</strong><br/>
+    Gingia se retrage si expune radacina dintelui — zona cea mai sensibila, acoperita doar de cement, nu de smalt. Cauze frecvente: periaj prea agresiv, boala parodontala, varsta.</p>
+
+    <p><strong>2. Smalt erodat</strong><br/>
+    Consumul frecvent de alimente acide (sucuri, citrice, bauturi carbogazoase) sau refluxul gastric dizolva treptat smaltul.</p>
+
+    <p><strong>3. Carie incipienta</strong><br/>
+    O carie la inceput expune dentina fara sa provoace durere spontana — doar la stimuli termici.</p>
+
+    <p><strong>4. Fisuri dentare</strong><br/>
+    Fisuri microscopice in smalt permit patrunderea stimulilor termici spre nerv.</p>
+
+    <p><strong>5. Bruxism (scrasnitul dintilor)</strong><br/>
+    Uzura smaltului prin scrasnit expune dentina progresiv.</p>
+
+    <p><strong>6. Dupa detartraj sau albire</strong><br/>
+    Sensibilitate temporara, normala, dispare in cateva zile.</p>
+
+    <h2>Cum stabilim cauza exacta</h2>
+    <p>Sensibilitatea la rece poate avea mai multe cauze simultane — de aceea consultatia e esentiala. La ARA DENT STUDIO, evaluam starea smaltului si a gingiei, adancimea pungilor parodontale, prezenta cariilor sau fisurilor si obiceiurile de periaj si alimentare.</p>
+
+    <h2>Tratamentele disponibile la ARA DENT STUDIO</h2>
+
+    <p><strong>1. Lac desensibilizant</strong><br/>
+    Aplicare directa pe zonele sensibile — sigileaza tubulii dentinari si reduce transmiterea senzatiilor termice. Inclus in consultatie.</p>
+
+    <p><strong>2. Obturatie dentara</strong><br/>
+    Daca sensibilitatea e cauzata de o carie sau o fisura, obturatia rezolva problema la sursa. De la 200 lei.</p>
+
+    <p><strong>3. Detartraj si igienizare profesionala</strong><br/>
+    Daca sensibilitatea vine din retractie gingivala cauzata de tartru, detartrajul e primul pas. De la 200 lei.</p>
+
+    <p><strong>4. Igienizare profesionala completa</strong><br/>
+    Detartraj + periaj profesional + Air-Flow. 250 lei.</p>
+
+    <p><strong>5. Tratament parodontal</strong><br/>
+    Daca retractia gingivala e avansata, chiuretajul subgingival opreste progresia si protejeaza radacina expusa. De la 200 lei/sedinta.</p>
+
+    <h2>Ce faci acasa intre timp</h2>
+    <ul>
+      <li>Foloseste pasta de dinti pentru dinti sensibili (cu nitrat de potasiu sau fluoruri)</li>
+      <li>Periaj bland, cu periuta cu peri moi</li>
+      <li>Evita alimentele si bauturile acide</li>
+      <li>Nu peria imediat dupa mese acide — asteapta 30 minute</li>
+    </ul>
+
+    <h2>Cand e urgenta</h2>
+    <p>Daca durerea la rece e insotita de:</p>
+    <ul>
+      <li>Durere spontana, fara stimul (mai ales noaptea)</li>
+      <li>Durere care persista minute dupa ce stimulul a disparut</li>
+      <li>Umflatura sau fistula gingivala</li>
+    </ul>
+    <p>Acestea pot indica un nerv afectat care necesita tratament de canal — programeaza-te urgent.</p>
+
+    <h2>Consultatie gratuita la ARA DENT STUDIO</h2>
+    <p>Consultatia e gratuita — stabilim cauza exacta si tratamentul potrivit pentru situatia ta.</p>
+  `,
+  },
+  {
     slug: 'semnele-bolii-parodontale-de-nu-ignorat',
     title: 'Semnele bolii parodontale pe care nu trebuie sa le ignori',
     metaDescription: 'Boala parodontala (parodontoza) se poate preveni si trata, dar osul pierdut nu se mai reface. Afla cele 6 semne de alarma si cum se trateaza la ARA DENT STUDIO Pitesti.',
