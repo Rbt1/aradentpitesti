@@ -850,7 +850,7 @@ export const articole: Articol[] = [
     title: 'Ce mananci dupa extractia dentara — ghid complet de recuperare',
     metaDescription: 'Ce poti manca dupa extractia dentara? Alimente permise, ce sa eviti si cand suni la cabinet. Ghid postoperator ARA DENT STUDIO Pitesti.',
     excerpt: 'Dupa extractia dentara, alimentatia corecta face diferenta intre o vindecare rapida si complicatii. Afla exact ce poti manca si ce trebuie sa eviti.',
-    date: '2026-08-18',
+    date: '2026-08-16',
     continut: `
     <p>Extractia dentara e una dintre cele mai frecvente interventii stomatologice — si una dintre cele mai frecvente intrebari dupa ea e: "Ce pot manca acum?"</p>
 
@@ -915,7 +915,7 @@ export const articole: Articol[] = [
     title: 'Fatete dentare in Pitesti — ce sunt, tipuri si cand se recomanda',
     metaDescription: 'Fatete dentare ceramice si compozit in Pitesti. Afla ce sunt, cand se recomanda si care e diferenta dintre tipuri. Consultatie gratuita la ARA DENT STUDIO.',
     excerpt: 'Fatetele dentare transforma aspectul zambetului fara interventii majore. Afla ce tipuri exista, cand se recomanda si cum decurge tratamentul la ARA DENT STUDIO Pitesti.',
-    date: '2026-08-18',
+    date: '2026-08-17',
     continut: `
     <p>Fatetele dentare sunt una dintre cele mai eficiente solutii de estetica dentara — transforma aspectul zambetului fara interventii majore, cu rezultate naturale si durabile.</p>
 
