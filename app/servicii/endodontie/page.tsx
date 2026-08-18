@@ -66,7 +66,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Ce se întâmplă dacă nu fac tratamentul?',
-    a: 'Infecția se extinde, poate apărea un abces și dintele va trebui extras. Tratamentul timpuriu salvează dintele și elimină durerea definitiv.',
+    a: <>Infecția se extinde, poate apărea un <Link href="/servicii/urgente-stomatologice" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">abces</Link> și dintele va trebui extras. Tratamentul timpuriu salvează dintele și elimină durerea definitiv.</>,
   },
   {
     q: 'Cât durează o ședință de endodonție?',
@@ -114,7 +114,7 @@ export default function EndodontiePage() {
           <div className="container-site max-w-3xl">
             <div className="space-y-5 font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
               <p>
-                Endodonția — cunoscut popular ca tratament de canal — este procedura prin care salvăm un dinte afectat de carie profundă sau infecție pulpară.
+                Endodonția — cunoscut popular ca tratament de canal — este procedura prin care salvăm un dinte afectat de <Link href="/servicii/obturatii" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">carie profundă</Link> sau infecție pulpară.
               </p>
               <p>
                 Fără tratament endodontic, un dinte cu pulpită sau granulom trebuie extras. Cu endodonție, dintele este salvat, infecția eliminată și durerea dispare definitiv.

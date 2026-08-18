@@ -74,7 +74,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Pot face implant dacă am parodontoză?',
-    a: 'Da, dar mai întâi tratăm boala parodontală. Un implant pe un os parodontal netratat are șanse mari de eșec.',
+    a: <>Da, dar mai întâi tratăm boala parodontală. Un <Link href="/servicii/implantologie" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">implant</Link> pe un os parodontal netratat are șanse mari de eșec.</>,
   },
 ]
 

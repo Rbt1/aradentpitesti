@@ -85,7 +85,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Este dureros tratamentul?',
-    a: 'Intervenția se realizează sub anestezie locală. Disconfortul post-operator este similar cu cel de la o extracție chirurgicală și se gestionează cu medicație antialgică.',
+    a: <>Intervenția se realizează sub anestezie locală. Disconfortul post-operator este similar cu cel de la o <Link href="/servicii/chirurgie-orala" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">extracție chirurgicală</Link> și se gestionează cu medicație antialgică.</>,
   },
   {
     q: 'Sunt candidat pentru All-on-4/6 dacă port de mult timp proteză totală?',

@@ -119,8 +119,8 @@ const INDICATII = [
 ]
 
 const CONTRAINDICATII: ReactNode[] = [
-  <>Carii active sau <Link href="/servicii/parodontologie" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">boală parodontală</Link> netratată — se tratează mai întâi</>,
-  'Bruxism sever netratat',
+  <><Link href="/servicii/obturatii" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">Carii</Link> active sau <Link href="/servicii/parodontologie" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">boală parodontală</Link> netratată — se tratează mai întâi</>,
+  <><Link href="/servicii/urgente-stomatologice" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">Bruxism</Link> sever netratat</>,
   'Smalț insuficient',
 ]
 
