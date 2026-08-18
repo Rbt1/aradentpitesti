@@ -846,6 +846,71 @@ export const articole: Articol[] = [
   `,
   },
   {
+    slug: 'ce-mananci-dupa-extractie-dentara',
+    title: 'Ce mananci dupa extractia dentara — ghid complet de recuperare',
+    metaDescription: 'Ce poti manca dupa extractia dentara? Alimente permise, ce sa eviti si cand suni la cabinet. Ghid postoperator ARA DENT STUDIO Pitesti.',
+    excerpt: 'Dupa extractia dentara, alimentatia corecta face diferenta intre o vindecare rapida si complicatii. Afla exact ce poti manca si ce trebuie sa eviti.',
+    date: '2026-08-18',
+    continut: `
+    <p>Extractia dentara e una dintre cele mai frecvente interventii stomatologice — si una dintre cele mai frecvente intrebari dupa ea e: "Ce pot manca acum?"</p>
+
+    <h2>Ce NU consumi in primele 24-72 ore</h2>
+    <p>Cheagul de sange format dupa extractie e fragil si trebuie protejat. Deplasarea lui duce la alveolita — o complicatie dureroasa care incetineste vindecarea.</p>
+    <ul>
+      <li><strong>Alimente sau lichide fierbinti</strong> — stimuleaza sangerarea</li>
+      <li><strong>Produse lactate si brânzeturi</strong> — primele 3 zile</li>
+      <li><strong>Alimente tari, condimentate</strong> sau crocante</li>
+      <li><strong>Alcool si bauturi carbogazoase</strong></li>
+      <li><strong>Nu folosi paiul</strong> — suctiunea poate deplasa cheagul</li>
+      <li><strong>Nu scuipa si nu clatiti gura</strong> in primele 12-24 ore</li>
+      <li><strong>Nu fuma</strong> — incetineste vindecarea si osteointegrarea</li>
+    </ul>
+
+    <h2>Ce mananci si cum</h2>
+    <p><strong>Alimentatie semilichida, la temperatura camerei</strong> — acesta e principiul de baza pentru primele zile dupa extractie.</p>
+    <p>Exemple potrivite:</p>
+    <ul>
+      <li>Piureuri de legume (cartofi, morcovi, dovleac) — la temperatura camerei</li>
+      <li>Supe creme — racite la temperatura camerei, nu fierbinti</li>
+      <li>Oua moi</li>
+      <li>Paste fierte bine, orez fiert moale</li>
+      <li>Banane, avocado</li>
+      <li>Peste fiert sau la abur</li>
+    </ul>
+    <p><strong>Important:</strong> evita orice aliment care necesita masticatie puternica sau care e tare, crocant sau condimentat.</p>
+
+    <h2>Alte recomandari importante</h2>
+    <ul>
+      <li><strong>Comprese reci</strong> — aplica 15 minute pe ora in primele 2-3 zile pentru a reduce umflatura</li>
+      <li><strong>Dormi cu capul usor ridicat</strong> — o perna in plus in prima noapte</li>
+      <li><strong>Igiena orala</strong> — din ziua a 3-a, cu periuta moale (nu electrica), pasta in cantitate mica</li>
+      <li><strong>Clatiri cu ceai de salvie</strong> — de la 24h dupa interventie, timp de 7-10 zile</li>
+      <li><strong>Apa de gura cu clorhexidina</strong> — doar de la 3 saptamani post-interventie</li>
+      <li><strong>Nu lua Aspirina</strong> — anticoagulant, agraveaza sangerarea</li>
+    </ul>
+
+    <h2>Ce e normal dupa extractie — nu te alarma</h2>
+    <ul>
+      <li>Umflatura (edem) in primele cateva zile</li>
+      <li>Vanatai care apar si dispar in 7-10 zile</li>
+      <li>Limitarea usoara a deschiderii gurii</li>
+      <li>Saliva roz sau usoara sangerare in primele ore</li>
+    </ul>
+
+    <h2>Cand suni imediat la cabinet</h2>
+    <ul>
+      <li>Sangerare abundenta care nu se opreste</li>
+      <li>Durere intensa care nu cedeaza la medicatie</li>
+      <li>Febra peste 38 grade C</li>
+      <li>Umflatura care se agraveaza dupa ziua 3</li>
+      <li>Gust sau miros neobisnuit (semn de infectie)</li>
+    </ul>
+
+    <h2>Suntem disponibili</h2>
+    <p>La ARA DENT STUDIO, Dr. Robert Lungu e disponibil pe WhatsApp pentru orice intrebare post-operatorie.</p>
+  `,
+  },
+  {
     slug: 'semnele-bolii-parodontale-de-nu-ignorat',
     title: 'Semnele bolii parodontale pe care nu trebuie sa le ignori',
     metaDescription: 'Boala parodontala (parodontoza) se poate preveni si trata, dar osul pierdut nu se mai reface. Afla cele 6 semne de alarma si cum se trateaza la ARA DENT STUDIO Pitesti.',
