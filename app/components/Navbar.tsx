@@ -19,6 +19,7 @@ const SERVICII_LINKS = [
   { label: 'Obturații', href: '/servicii/obturatii' },
   { label: 'All-on-4 / All-on-6', href: '/servicii/all-on-4-all-on-6' },
   { label: 'Urgențe Stomatologice', href: '/servicii/urgente-stomatologice' },
+  { label: 'Fațete Dentare', href: '/servicii/fatete-dentare' },
 ]
 
 const DESPRE_LINKS = [

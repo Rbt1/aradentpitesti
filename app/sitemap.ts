@@ -38,5 +38,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/ce-mananci-dupa-extractie-dentara`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/fatete-dentare-pitesti`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/de-ce-dor-dintii-la-rece`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/servicii/fatete-dentare`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
   ]
 }

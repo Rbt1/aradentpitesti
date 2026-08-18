@@ -981,6 +981,7 @@ export const articole: Articol[] = [
 
     <h2>Consultatie gratuita la ARA DENT STUDIO</h2>
     <p>Daca vrei sa afli ce tip de fateta se potriveste situatiei tale, consultatia e gratuita. Dr. Robert Lungu evalueaza dintii tai si iti explica optiunile disponibile — fara presiune, fara obligatii.</p>
+    <p>Afla mai multe despre tratamentul cu fatete dentare la ARA DENT STUDIO pe <a href="/servicii/fatete-dentare">pagina dedicata fatetelor dentare</a>.</p>
   `,
   },
   {
