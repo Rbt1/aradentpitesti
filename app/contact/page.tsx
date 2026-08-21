@@ -3,12 +3,12 @@ import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
 
 export const metadata: Metadata = {
-  title: { absolute: 'Contact | ARA DENT STUDIO Pitești' },
-  description: 'Contactează ARA DENT STUDIO Pitești. Adresă, telefon, program și hartă. Programează-te pentru o consultație gratuită.',
+  title: { absolute: 'Contact ARA DENT STUDIO Pitești | 0754 219 011' },
+  description: 'Contactează ARA DENT STUDIO Pitești — Bd. Republicii nr. 19. Program Luni-Vineri 09:00-18:00. Urgențele au prioritate. Sună acum.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/contact' },
   openGraph: {
-    title: 'Contact | ARA DENT STUDIO Pitești',
-    description: 'Contactează ARA DENT STUDIO Pitești. Adresă, telefon, program și hartă. Programează-te pentru o consultație gratuită.',
+    title: 'Contact ARA DENT STUDIO Pitești | 0754 219 011',
+    description: 'Contactează ARA DENT STUDIO Pitești — Bd. Republicii nr. 19. Program Luni-Vineri 09:00-18:00. Urgențele au prioritate. Sună acum.',
     url: 'https://www.aradentpitesti.ro/contact',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',

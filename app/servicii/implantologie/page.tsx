@@ -5,12 +5,12 @@ import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
 
 export const metadata: Metadata = {
-  title: { absolute: 'Implant Dentar Pitești | 1.200 lei | Dr. Robert Lungu' },
-  description: 'Implant dentar in Pitesti de la 1.200 lei. Evaluare cu CT inclusa. Dr. Robert Lungu, specialist. Consultatie gratuita.',
+  title: { absolute: 'Implant Dentar Pitești | Dr. Robert Lungu | ARA DENT STUDIO' },
+  description: 'Implant dentar în Pitești cu Dr. Robert Lungu, specialist chirurgie dento-alveolară. Evaluare CT gratuită. Plată în rate fără dobândă prin TBI Bank. Programează acum.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/implantologie' },
   openGraph: {
-    title: 'Implant Dentar Pitești | 1.200 lei | Dr. Robert Lungu',
-    description: 'Implant dentar in Pitesti de la 1.200 lei. Evaluare cu CT inclusa. Dr. Robert Lungu, specialist. Consultatie gratuita.',
+    title: 'Implant Dentar Pitești | Dr. Robert Lungu | ARA DENT STUDIO',
+    description: 'Implant dentar în Pitești cu Dr. Robert Lungu, specialist chirurgie dento-alveolară. Evaluare CT gratuită. Plată în rate fără dobândă prin TBI Bank. Programează acum.',
     url: 'https://www.aradentpitesti.ro/servicii/implantologie',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',

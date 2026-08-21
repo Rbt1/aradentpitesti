@@ -4,12 +4,12 @@ import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
 
 export const metadata: Metadata = {
-  title: { absolute: 'Preturi Stomatologie Pitești 2026 | Transparent | ARA DENT STUDIO' },
-  description: 'Preturi reale: implant 1.200 lei, canal 400 lei, detartraj 200 lei. Fara costuri ascunse. ARA DENT STUDIO Pitesti.',
+  title: { absolute: 'Prețuri Stomatologie Pitești 2026 | Transparent | ARA DENT STUDIO' },
+  description: 'Prețuri reale și transparente: implant 1.200 lei, canal 400 lei, detartraj 200 lei. Fără costuri ascunse. Plată în rate disponibilă. ARA DENT STUDIO.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/preturi' },
   openGraph: {
-    title: 'Preturi Stomatologie Pitești 2026 | Transparent | ARA DENT STUDIO',
-    description: 'Preturi reale: implant 1.200 lei, canal 400 lei, detartraj 200 lei. Fara costuri ascunse. ARA DENT STUDIO Pitesti.',
+    title: 'Prețuri Stomatologie Pitești 2026 | Transparent | ARA DENT STUDIO',
+    description: 'Prețuri reale și transparente: implant 1.200 lei, canal 400 lei, detartraj 200 lei. Fără costuri ascunse. Plată în rate disponibilă. ARA DENT STUDIO.',
     url: 'https://www.aradentpitesti.ro/preturi',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
