@@ -14,6 +14,7 @@ const NAV_LINKS = [
   { label: 'Blog', href: '/blog' },
   { label: 'Prețuri', href: '/preturi' },
   { label: 'Contact', href: '/contact' },
+  { label: 'Pacienți din diaspora', href: '/diaspora' },
 ]
 
 const InstagramIcon = () => (
