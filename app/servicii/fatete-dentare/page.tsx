@@ -4,6 +4,7 @@ import Link from 'next/link'
 import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
+import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Fatete Dentare Pitesti | Ceramice si Compozit | ARA DENT STUDIO' },
@@ -305,6 +306,13 @@ export default function FateteDentarePage() {
             </div>
           </div>
         </section>
+
+        {/* CTA WhatsApp contextual */}
+        <CTAWhatsApp
+          title="Vrei să afli dacă fațetele sunt potrivite pentru tine?"
+          subtitle="Consultație gratuită — evaluăm dinții tăi."
+          waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Sunt interesat de fațete dentare și aș dori o consultație gratuită.')}
+        />
 
         {/* FAQ */}
         <section className="py-20 px-6 bg-offwhite">

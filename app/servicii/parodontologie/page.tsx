@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
+import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Parodontologie Pitești | Gingii care sângerează? | ARA DENT STUDIO' },
@@ -146,6 +147,13 @@ export default function ParodontologiePage() {
             </div>
           </div>
         </section>
+
+        {/* CTA WhatsApp contextual */}
+        <CTAWhatsApp
+          title="Gingiile tale sângerează sau s-au retras?"
+          subtitle="Evaluare parodontală gratuită — cu cât mai devreme, cu atât mai bine."
+          waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Aș dori o evaluare parodontală gratuită la ARA DENT STUDIO.')}
+        />
 
         {/* FAQ */}
         <section className="py-20 px-6 bg-cream">

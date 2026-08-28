@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
+import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Implant Dentar Pitești | Dr. Robert Lungu | ARA DENT STUDIO' },
@@ -310,6 +311,13 @@ export default function ImplantologiePage() {
             </div>
           </div>
         </section>
+
+        {/* CTA WhatsApp contextual */}
+        <CTAWhatsApp
+          title="Ești candidat pentru implant dentar?"
+          subtitle="Întreabă-l direct pe Dr. Robert Lungu — consultație gratuită."
+          waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Sunt interesat de implant dentar și aș dori o consultație gratuită la ARA DENT STUDIO.')}
+        />
 
         {/* FAQ */}
         <section className="py-20 px-6 bg-cream">

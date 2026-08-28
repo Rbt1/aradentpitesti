@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
+import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Coroane și Punți Dentare Pitești | de la 200 lei | ARA DENT STUDIO' },
@@ -166,6 +167,13 @@ export default function ProteticaDentaraPage() {
             </div>
           </div>
         </section>
+
+        {/* CTA WhatsApp contextual */}
+        <CTAWhatsApp
+          title="Vrei să afli ce opțiuni protetice ai pentru situația ta?"
+          subtitle="Consultație gratuită — evaluăm împreună."
+          waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Aș dori o consultație pentru lucrări protetice la ARA DENT STUDIO.')}
+        />
 
         {/* FAQ */}
         <section className="py-20 px-6 bg-cream">

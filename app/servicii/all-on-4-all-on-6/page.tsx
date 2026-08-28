@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
+import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'All-on-4 / All-on-6 Pitești | ARA DENT STUDIO' },
@@ -170,6 +171,13 @@ export default function AllOn4AllOn6Page() {
             </div>
           </div>
         </section>
+
+        {/* CTA WhatsApp contextual */}
+        <CTAWhatsApp
+          title="Vrei să renunți definitiv la proteza mobilă?"
+          subtitle="Evaluare gratuită cu CT — stabilim dacă ești candidat."
+          waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Sunt interesat de lucrare fixă pe implanturi și aș dori o evaluare gratuită la ARA DENT STUDIO.')}
+        />
 
         {/* FAQ */}
         <section className="py-20 px-6 bg-cream">

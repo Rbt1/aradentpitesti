@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
+import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Urgente Stomatologice Pitesti | Suna 0754 219 011 | ARA DENT STUDIO' },
@@ -312,6 +313,13 @@ export default function UrgenteStomatologicePage() {
             <div className="w-8 h-[1px] bg-gold/60 mt-8" />
           </div>
         </section>
+
+        {/* CTA WhatsApp contextual */}
+        <CTAWhatsApp
+          title="Ai o urgență dentară acum?"
+          subtitle="Suntem disponibili Luni-Vineri 09:00-18:00."
+          waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Am o urgență stomatologică și aș dori să mă programez.')}
+        />
 
         {/* FAQ */}
         <section className="py-20 px-6 bg-cream">

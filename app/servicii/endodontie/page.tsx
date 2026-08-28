@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
+import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Tratament Canal Pitești | Microscop Dentar | ARA DENT STUDIO' },
@@ -146,6 +147,13 @@ export default function EndodontiePage() {
             </div>
           </div>
         </section>
+
+        {/* CTA WhatsApp contextual */}
+        <CTAWhatsApp
+          title="Te doare un dinte și crezi că ai nevoie de tratament de canal?"
+          subtitle="Consultație gratuită — stabilim exact ce ai nevoie."
+          waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Cred că am nevoie de tratament de canal și aș dori o consultație gratuită.')}
+        />
 
         {/* FAQ */}
         <section className="py-20 px-6 bg-cream">

@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
+import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Plombe și Obturații Dentare Pitești | de la 200 lei | ARA DENT STUDIO' },
@@ -146,6 +147,13 @@ export default function OburatiiPage() {
             </div>
           </div>
         </section>
+
+        {/* CTA WhatsApp contextual */}
+        <CTAWhatsApp
+          title="Ai o carie sau o obturație căzută?"
+          subtitle="Programează-te rapid — consultație gratuită."
+          waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Aș dori o consultație pentru obturații la ARA DENT STUDIO.')}
+        />
 
         {/* FAQ */}
         <section className="py-20 px-6 bg-cream">

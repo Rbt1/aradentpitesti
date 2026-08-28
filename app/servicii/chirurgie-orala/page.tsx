@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
 import FAQ from '@/app/servicii/components/FAQ'
+import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Chirurgie Orală Pitești | Extracții de la 250 lei | ARA DENT STUDIO' },
@@ -146,6 +147,13 @@ export default function ChirurgieOralaPage() {
             </div>
           </div>
         </section>
+
+        {/* CTA WhatsApp contextual */}
+        <CTAWhatsApp
+          title="Ai nevoie de o extracție sau intervenție chirurgicală?"
+          subtitle="Programează-te direct — consultație gratuită."
+          waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Aș dori o consultație pentru chirurgie orală la ARA DENT STUDIO.')}
+        />
 
         {/* FAQ */}
         <section className="py-20 px-6 bg-cream">
