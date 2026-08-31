@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { trackEvent } from '@/lib/analytics'
 
 type AnswerKey = 'A' | 'B' | 'C' | 'D' | 'E'
 type MaybeAnswer = AnswerKey | null
@@ -285,8 +286,15 @@ const QuizModal = ({ isOpen, onClose }: QuizModalProps) => {
       setResult(null)
       setVisible(true)
       setResultVisible(false)
+      trackEvent('quiz_start')
     }
   }, [isOpen])
+
+  useEffect(() => {
+    if (result) {
+      trackEvent('quiz_complete', { result })
+    }
+  }, [result])
 
   useEffect(() => {
     if (!isOpen) return
@@ -677,6 +685,7 @@ const QuizModal = ({ isOpen, onClose }: QuizModalProps) => {
               href={waUrl}
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => result && trackEvent('quiz_whatsapp_click', { result })}
               style={{
                 display: 'flex',
                 alignItems: 'center',
