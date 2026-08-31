@@ -5,7 +5,6 @@ import CustomCursor from './components/CustomCursor'
 import ScrollAnimationInit from './components/ScrollAnimationInit'
 import AnalyticsEvents from './components/AnalyticsEvents'
 import LenisProvider from './components/LenisProvider'
-import StickyMobileBar from './components/StickyMobileBar'
 import Script from 'next/script'
 
 // ============================================================
@@ -187,7 +186,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="bg-cream font-jost antialiased pb-16 md:pb-0">
+      <body className="bg-cream font-jost antialiased">
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-MV0DF1E3LC"
           strategy="afterInteractive"
@@ -205,7 +204,6 @@ export default function RootLayout({
           <ScrollAnimationInit />
           <AnalyticsEvents />
           {children}
-          <StickyMobileBar />
         </LenisProvider>
       </body>
     </html>
