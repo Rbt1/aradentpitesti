@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Manifesto from './components/Manifesto'
 import Services from './components/Services'
 import Technology from './components/Technology'
+import DifferentiatorBar from './components/DifferentiatorBar'
 import DentalJourney from './components/DentalJourney'
 import AboutDoctor from './components/AboutDoctor'
 import DiasporaBanner from './components/DiasporaBanner'
@@ -36,6 +37,7 @@ export default function HomePage() {
       <Navbar />
       <main>
         <Hero />
+        <DifferentiatorBar />
         <Manifesto />
         <Services />
         <DentalJourney />

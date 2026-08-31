@@ -110,9 +110,12 @@ export default function AllOn4AllOn6Page() {
             <p className="font-jost text-[11px] uppercase tracking-[0.25em] text-gold mb-4">
               All-on-4 / All-on-6 · ARA DENT STUDIO
             </p>
-            <h1 className="font-playfair italic text-5xl lg:text-[60px] text-forest-dark leading-tight mb-5">
+            <h1 className="font-playfair italic text-5xl lg:text-[60px] text-forest-dark leading-tight mb-4">
               All-on-4 și All-on-6 în Pitești
             </h1>
+            <span className="inline-block font-jost font-bold text-[11px] uppercase tracking-wide text-forest-dark bg-gold px-[14px] py-[6px] rounded-sm mb-5">
+              Centrul de Excelență în Chirurgie Dento-Alveolară din Pitești
+            </span>
             <p className="font-jost font-light text-lg text-bark-dark mb-10">
               Dantură fixă pe implanturi — recuperare completă într-o singură zi
             </p>

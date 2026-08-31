@@ -107,6 +107,9 @@ export default function DrRobertLunguPage() {
                 <h1 className="font-playfair italic text-5xl lg:text-[56px] text-forest-dark leading-tight mb-4">
                   Dr. Robert Lungu
                 </h1>
+                <span className="inline-block font-jost font-bold text-[11px] uppercase tracking-wide text-forest-dark bg-gold px-[14px] py-[6px] rounded-sm mb-4">
+                  Centrul de Excelență în Chirurgie Dento-Alveolară din Pitești
+                </span>
                 <p className="font-jost text-[11px] uppercase tracking-[0.2em] text-gold mb-6">
                   Medic Specialist Chirurgie Dento-Alveolară
                 </p>
