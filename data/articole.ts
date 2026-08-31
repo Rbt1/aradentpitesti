@@ -1107,6 +1107,75 @@ export const articole: Articol[] = [
       <p>Daca ai observat orice semn din lista de mai sus, nu astepta. Consultatia si evaluarea parodontala costa 100 lei la ARA DENT STUDIO.</p>
     `,
   },
+  {
+    slug: 'bruxism-scrasnitul-dintilor-pitesti',
+    title: 'Bruxism — scrasnitul dintilor: cauze, simptome si tratament in Pitesti',
+    metaDescription: 'Bruxism in Pitesti — cauze, simptome si tratament. Gutiera ocluzala personalizata la ARA DENT STUDIO. Consultatie + radiografie 100 lei. Dr. Robert Lungu.',
+    excerpt: 'Scrasnitul dintilor in somn e una dintre cele mai frecvente probleme dentare — si una dintre cele mai ignorate. Afla cauzele, simptomele si cum se trateaza.',
+    date: '2026-08-29',
+    continut: `
+    <p>Scrasnitul dintilor in somn e una dintre cele mai frecvente probleme dentare — si una dintre cele mai ignorate, tocmai pentru ca apare noaptea, fara ca pacientul sa-si dea seama. Pana cand apar simptomele vizibile, dintii pot fi deja afectati semnificativ.</p>
+
+    <h2>Ce este bruxismul</h2>
+    <p>Bruxismul este strangerea sau scrasnitul involuntar al dintilor, cel mai frecvent in timpul somnului (bruxism nocturn), dar poate aparea si in stare de veghe (bruxism diurn). Nu e un obicei constient — e o disfunctie neuromusculara care se produce fara controlul pacientului.</p>
+
+    <h2>Cauzele bruxismului</h2>
+    <p>Nu exista o cauza unica — bruxismul e de obicei rezultatul mai multor factori combinati:</p>
+    <ul>
+      <li><strong>Stres si anxietate</strong> — cel mai frecvent declansator. Tensiunea acumulata in timpul zilei se descarca prin musculatura masticatorie in somn</li>
+      <li><strong>Ocluzie dentara incorecta</strong> — dinti care nu se inchid corect creeaza tensiune in articulatia temporomandibulara</li>
+      <li><strong>Tulburari de somn</strong> — bruxismul e frecvent asociat cu apneea de somn</li>
+      <li><strong>Factori genetici</strong> — tendinta de a scrasnii dintii se poate mosteni</li>
+      <li><strong>Consumul de cofeina, alcool sau tutun</strong> — agraveaza episoadele nocturne</li>
+      <li><strong>Anumite medicamente</strong> — antidepresivele de tip SSRI pot declansa sau agrava bruxismul</li>
+    </ul>
+
+    <h2>Simptomele — cum iti dai seama ca ai bruxism</h2>
+    <p>Majoritatea pacientilor nu stiu ca scrasnesc — ii anunta partenerul de pat sau medicul stomatolog la control.</p>
+    <p><strong>Semne clinice vizibile:</strong></p>
+    <ul>
+      <li>Uzura suprafetelor dentare — dintii devin mai scurti, mai plati</li>
+      <li>Fisuri sau fracturi dentare fara traumatism aparent</li>
+      <li>Sensibilitate dentara crescuta la rece si cald</li>
+      <li>Modificarea formei dintilor frontali</li>
+    </ul>
+    <p><strong>Simptome resimtite de pacient:</strong></p>
+    <ul>
+      <li>Durere sau tensiune in muschii masticatori dimineata</li>
+      <li>Dureri de cap frecvente, mai ales la trezire</li>
+      <li>Durere sau zgomote in articulatia temporomandibulara (ATM)</li>
+      <li>Senzatie de oboseala a maxilarului</li>
+      <li>Perturbarea somnului partenerului din cauza zgomotului</li>
+    </ul>
+
+    <h2>Ce se intampla daca nu tratezi bruxismul</h2>
+    <p>Bruxismul netratat produce daune progresive si ireversibile:</p>
+    <ul>
+      <li><strong>Uzura smaltului</strong> — odata pierdut, smaltul nu se reface</li>
+      <li><strong>Fracturi dentare</strong> — dintii slabiti de uzura se sparg mai usor</li>
+      <li><strong>Probleme la nivelul ATM</strong> — articulatia temporomandibulara se poate deteriora, ducand la dureri cronice si limitarea deschiderii gurii</li>
+      <li><strong>Compromiterea lucrarilor protetice</strong> — coroanele, fatetele si implanturile sunt expuse unor forte mult mai mari decat cele pentru care au fost proiectate</li>
+    </ul>
+
+    <h2>Tratamentul bruxismului la ARA DENT STUDIO</h2>
+    <p><strong>Gutiera ocluzala</strong> este tratamentul principal pentru bruxism — un dispozitiv transparent, realizat personalizat, care se poarta noaptea si protejeaza dintii de fortele de scrasnit.</p>
+    <p>Ce face gutiera:</p>
+    <ul>
+      <li>Absoarbe si redistribuie fortele de scrasnit</li>
+      <li>Protejeaza smaltul si lucrarile protetice existente</li>
+      <li>Relaxeaza musculatura masticatorie</li>
+      <li>Reduce durerile matinale de cap si maxilar</li>
+    </ul>
+    <p>Gutiera nu vindeca bruxismul — il controleaza si previne daunele. La ARA DENT STUDIO, gutiera se realizeaza pe baza unei scanari digitale cu scannerul intraoral, pentru o potrivire perfecta.</p>
+    <p>In functie de severitatea cazului, Dr. Robert Lungu poate recomanda si tehnici de relaxare, managementul stresului sau colaborarea cu un specialist in medicina somnului pentru cazurile asociate cu apnee.</p>
+
+    <h2>Bruxismul si lucrarile protetice</h2>
+    <p>Daca ai implanturi, coroane sau fatete dentare si scrasnesti din dinti, gutiera devine <strong>obligatorie</strong> — nu optionala. Fortele generate de bruxism pot compromite orice lucrare protetica, oricat de bine executata.</p>
+
+    <h2>Consultatie la ARA DENT STUDIO Pitesti</h2>
+    <p>Consultatie + radiografie panoramica: 100 lei. Dr. Robert Lungu evalueaza starea dintilor, gradul de uzura si iti recomanda tratamentul potrivit.</p>
+  `,
+  },
 ]
 
 const MONTHS_RO = [
