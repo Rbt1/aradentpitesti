@@ -1224,6 +1224,73 @@ export const articole: Articol[] = [
     <p>Daca urgenta nu poate astepta si nu prezinti semnele grave descrise mai sus, cel mai apropiat serviciu de garda stomatologica din Pitesti poate fi o optiune pentru calmarea durerii acute.</p>
   `,
   },
+  {
+    slug: 'gutiera-bruxism-pitesti',
+    title: 'Gutiera pentru bruxism — cand ai nevoie si cum se realizeaza',
+    metaDescription: 'Gutiera pentru bruxism in Pitesti — cand e necesara, cum se realizeaza cu scanner intraoral si cum protejeaza dintii si lucrarile protetice. ARA DENT STUDIO.',
+    excerpt: 'Daca medicul ti-a recomandat o gutiera sau ai descoperit ca scrasnesti din dinti in somn, afla cand e cu adevarat necesara si ce presupune realizarea ei.',
+    date: '2026-08-29',
+    continut: `
+    <p>Daca medicul stomatolog ti-a recomandat o gutiera sau ai descoperit ca scrasnesti din dinti in somn, probabil te intrebi daca e cu adevarat necesara si ce presupune. Iata tot ce trebuie sa stii.</p>
+
+    <h2>Ce este gutiera ocluzala</h2>
+    <p>Gutiera ocluzala (numita si gutiera de bruxism sau gutiera de relaxare) este un dispozitiv transparent, realizat personalizat din rasina acrilica sau material termoplastic, care se poarta peste dinti pentru a proteja smaltul si lucrarile protetice de fortele generate de scrasnit.</p>
+    <p>Nu e o proteza — e un dispozitiv de protectie si relaxare musculara.</p>
+
+    <h2>Cand ai nevoie de gutiera</h2>
+    <p><strong>Bruxism confirmat:</strong></p>
+    <ul>
+      <li>Scrasnit nocturn confirmat de partener sau de medic</li>
+      <li>Uzura vizibila a suprafetelor dentare</li>
+      <li>Dureri matinale de cap sau de maxilar</li>
+      <li>Tensiune in muschii masticatori</li>
+    </ul>
+    <p><strong>Protectie pentru lucrari protetice:</strong></p>
+    <ul>
+      <li>Ai implanturi dentare si scrasnesti din dinti</li>
+      <li>Ai fatete ceramice — gutiera devine obligatorie</li>
+      <li>Ai coroane sau punti dentare</li>
+      <li>Urmeaza sa faci lucrari protetice</li>
+    </ul>
+    <p><strong>Disfunctie temporomandibulara (ATM):</strong></p>
+    <ul>
+      <li>Dureri sau zgomote in articulatia maxilarului</li>
+      <li>Limitarea deschiderii gurii</li>
+      <li>Dureri de cap recurente de origine musculara</li>
+    </ul>
+
+    <h2>Cum se realizeaza gutiera la ARA DENT STUDIO</h2>
+    <p>La ARA DENT STUDIO, gutiera se realizeaza pe baza unei <strong>scanari digitale cu scannerul intraoral</strong> — fara materiale de amprentare clasice, fara disconfort.</p>
+    <p>Numarul de sedinte necesare depinde de complexitatea cazului si de tipul de gutiera recomandat. Dr. Robert Lungu stabileste la consultatie protocolul potrivit pentru situatia ta specifica.</p>
+
+    <h2>Cate ore pe zi se poarta gutiera</h2>
+    <p>Depinde de tipul de bruxism si de recomandarea medicului:</p>
+    <ul>
+      <li><strong>Bruxism nocturn</strong> — gutiera se poarta exclusiv in timpul somnului</li>
+      <li><strong>Bruxism diurn</strong> — gutiera poate fi recomandata si in timpul zilei, in perioadele de stres sau concentrare intensa</li>
+      <li><strong>Disfunctie ATM</strong> — protocolul de purtare e stabilit individual</li>
+    </ul>
+
+    <h2>Cum ingrijesti gutiera</h2>
+    <ul>
+      <li>Clatire cu apa rece dupa fiecare utilizare</li>
+      <li>Periaj usor cu periuta moale — fara pasta de dinti abraziva</li>
+      <li>Depozitare in cutia dedicata, ferit de caldura</li>
+      <li>Control periodic la cabinet pentru verificarea uzurii</li>
+    </ul>
+
+    <h2>Gutiera nu inlocuieste tratamentul cauzei</h2>
+    <p>Gutiera protejeaza dintii — nu trateaza cauza bruxismului. In functie de factorul declansator, Dr. Robert Lungu poate recomanda si:</p>
+    <ul>
+      <li>Tehnici de management al stresului</li>
+      <li>Consultul unui specialist in medicina somnului pentru cazurile asociate cu apnee</li>
+      <li>Reechilibrare ocluzala daca bruxismul e cauzat de ocluzie incorecta</li>
+    </ul>
+
+    <h2>Consultatie la ARA DENT STUDIO Pitesti</h2>
+    <p>Consultatie + radiografie panoramica: 100 lei. Evaluam gradul de uzura dentara, starea articulatiei temporomandibulare si stabilim daca gutiera e solutia potrivita pentru tine.</p>
+  `,
+  },
 ]
 
 const MONTHS_RO = [

@@ -41,5 +41,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/servicii/fatete-dentare`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/bruxism-scrasnitul-dintilor-pitesti`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/urgente-dentare-noaptea-weekend`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/gutiera-bruxism-pitesti`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
   ]
 }
