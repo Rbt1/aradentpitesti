@@ -1176,6 +1176,54 @@ export const articole: Articol[] = [
     <p>Consultatie + radiografie panoramica: 100 lei. Dr. Robert Lungu evalueaza starea dintilor, gradul de uzura si iti recomanda tratamentul potrivit.</p>
   `,
   },
+  {
+    slug: 'urgente-dentare-noaptea-weekend',
+    title: 'Urgente dentare noaptea si in weekend — ce faci cand te doare dintele',
+    metaDescription: 'Te doare dintele noaptea sau in weekend? Afla ce faci inainte sa ajungi la medic, cand mergi la UPU si cum te programezi urgent la ARA DENT STUDIO Pitesti.',
+    excerpt: 'Te-a trezit o durere acuta de dinte la miezul noptii sau te doare in weekend si nu stii unde sa apelezi? Iata ce trebuie sa faci.',
+    date: '2026-08-29',
+    continut: `
+    <p>Te-a trezit o durere acuta de dinte la miezul noptii sau te doare in weekend si nu stii unde sa apelezi? Iata ce trebuie sa faci.</p>
+
+    <h2>Ce faci inainte sa ajungi la medic</h2>
+    <p>Cand durerea apare noaptea sau in weekend, primul pas e sa gestionezi disconfortul pana poti ajunge la cabinet:</p>
+    <p><strong>Pentru durere:</strong></p>
+    <ul>
+      <li>Ibuprofen 400mg sau Paracetamol 1000mg — cele mai eficiente pentru durerea dentara. Nu depasi doza recomandata pe prospect</li>
+      <li>Evita aspirina — anticoagulant, poate agrava sangerarea</li>
+    </ul>
+    <p><strong>Ce NU faci:</strong></p>
+    <ul>
+      <li>Nu aplica caldura pe zona dureroasa — agraveaza inflamatia</li>
+      <li>Nu lua antibiotice fara prescriptie medicala</li>
+      <li>Nu ignora durerea sperand ca trece singura — o infectie dentara netratata se poate extinde</li>
+    </ul>
+
+    <h2>Cand mergi direct la UPU sau suni 112</h2>
+    <p>Exista situatii care depasesc competenta unui cabinet stomatologic si necesita interventie de urgenta la spital:</p>
+    <ul>
+      <li>Umflatura care se extinde rapid pe fata sau gat</li>
+      <li>Dificultate la inghitit sau la deschiderea gurii</li>
+      <li>Febra peste 38,5 grade asociata cu durere dentara</li>
+      <li>Umflatura calda, rosie, fluctuenta pe obraz sau sub mandibula</li>
+    </ul>
+    <p>Acestea sunt semne ca infectia a ajuns in spatiile fasciale — o situatie care necesita chirurgie maxilo-faciala (BMF) sau UPU. Nu astepta — suna 112 sau mergi direct la camera de garda.</p>
+
+    <h2>Ce poti lasa pentru luni dimineata</h2>
+    <p>Nu orice durere dentara e urgenta maxima. Unele situatii pot astepta pana la primul program disponibil:</p>
+    <ul>
+      <li>Sensibilitate la rece sau dulce fara durere spontana</li>
+      <li>Obturatie cazuta fara durere</li>
+      <li>Coroana desprinsa — pastreaza lucrarea</li>
+      <li>Sangerare gingivala usoara</li>
+    </ul>
+
+    <h2>La ARA DENT STUDIO — luni dimineata esti primul</h2>
+    <p>Programul nostru este Luni–Vineri 09:00–18:00. Nu avem program de noapte sau in weekend.</p>
+    <p>Daca ai o urgenta care poate astepta pana luni, scrie-ne pe WhatsApp oricand — iti confirmam prima programare disponibila si te asteptam.</p>
+    <p>Daca urgenta nu poate astepta si nu prezinti semnele grave descrise mai sus, cel mai apropiat serviciu de garda stomatologica din Pitesti poate fi o optiune pentru calmarea durerii acute.</p>
+  `,
+  },
 ]
 
 const MONTHS_RO = [
