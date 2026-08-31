@@ -39,7 +39,7 @@ const jsonLd = {
   url: 'https://www.aradentpitesti.ro',
 }
 
-const WA_LINK = 'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Doresc să programez o consultație gratuită.')
+const WA_LINK = 'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Doresc să programez o consultație la ARA DENT STUDIO.')
 
 const PhoneIcon = () => (
   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5 text-forest" aria-hidden="true">
@@ -122,7 +122,7 @@ export default function ContactPage() {
               Contactează ARA DENT STUDIO
             </h1>
             <p className="font-jost font-light text-lg text-bark-dark">
-              Suntem aici pentru tine. Consultația, radiografia și CT-ul sunt complet gratuite.
+              Suntem aici pentru tine. Consultație + radiografie panoramică: 100 lei. CT dentar (CBCT): 250 lei.
             </p>
           </div>
         </section>

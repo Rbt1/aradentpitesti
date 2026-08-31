@@ -7,11 +7,11 @@ import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Parodontologie Pitești | Gingii care sângerează? | ARA DENT STUDIO' },
-  description: 'Tratament parodontal în Pitești de la 200 lei. Chiuretaj, detartraj profesional. Osul pierdut nu se mai reface — tratează din timp. Consultație gratuită.',
+  description: 'Tratament parodontal în Pitești de la 200 lei. Chiuretaj, detartraj profesional. Osul pierdut nu se mai reface — tratează din timp. Consultație: 100 lei.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/parodontologie' },
   openGraph: {
     title: 'Parodontologie Pitești | Gingii care sângerează? | ARA DENT STUDIO',
-    description: 'Tratament parodontal în Pitești de la 200 lei. Chiuretaj, detartraj profesional. Osul pierdut nu se mai reface — tratează din timp. Consultație gratuită.',
+    description: 'Tratament parodontal în Pitești de la 200 lei. Chiuretaj, detartraj profesional. Osul pierdut nu se mai reface — tratează din timp. Consultație: 100 lei.',
     url: 'https://www.aradentpitesti.ro/servicii/parodontologie',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
@@ -151,8 +151,8 @@ export default function ParodontologiePage() {
         {/* CTA WhatsApp contextual */}
         <CTAWhatsApp
           title="Gingiile tale sângerează sau s-au retras?"
-          subtitle="Evaluare parodontală gratuită — cu cât mai devreme, cu atât mai bine."
-          waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Aș dori o evaluare parodontală gratuită la ARA DENT STUDIO.')}
+          subtitle="Evaluare parodontală: 100 lei — cu cât mai devreme, cu atât mai bine."
+          waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Aș dori să programez o evaluare parodontală la ARA DENT STUDIO.')}
         />
 
         {/* FAQ */}
@@ -169,7 +169,7 @@ export default function ParodontologiePage() {
         <section id="programare" className="py-20 px-6 bg-forest">
           <div className="container-site max-w-2xl text-center">
             <h2 className="font-playfair italic text-4xl text-cream mb-4">
-              Evaluare parodontală gratuită
+              Evaluare parodontală: 100 lei
             </h2>
             <p className="font-jost font-light text-forest-light mb-10">
               Nu aștepta până când mobilitatea dentară devine vizibilă. Vino la evaluare acum.

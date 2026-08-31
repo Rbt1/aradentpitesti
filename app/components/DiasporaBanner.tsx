@@ -28,7 +28,7 @@ const CheckIcon = () => (
 const FEATURES = [
   { Icon: PlaneIcon, text: 'Ești plecat în Germania, Spania sau Italia?' },
   { Icon: CalendarIcon, text: 'Programare adaptată zilelor tale acasă' },
-  { Icon: CheckIcon, text: 'Consultație gratuită — fără obligații' },
+  { Icon: CheckIcon, text: 'Consultație: 100 lei — fără surprize' },
 ]
 
 const DiasporaBanner = () => {

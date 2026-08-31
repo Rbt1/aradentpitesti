@@ -72,7 +72,7 @@ const jsonLdFaq = {
       name: 'Cat costa consultatia de urgenta?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Prima consultatie este gratuita, inclusiv pentru urgente. Platesti doar tratamentul ales.',
+        text: 'Tratamentul de urgenta: 200 lei. Radiografie panoramica (daca este necesara): 100 lei.',
       },
     },
   ],
@@ -123,7 +123,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Cât costă consultația de urgență?',
-    a: 'Prima consultație este gratuită, inclusiv pentru urgențe. Plătești doar tratamentul ales.',
+    a: 'Tratamentul de urgență costă 200 lei. Dacă e necesară radiografie panoramică, aceasta se adaugă: 100 lei. CT dentar (CBCT): 250 lei.',
   },
   {
     q: 'Tratați și copii în urgență?',

@@ -1,0 +1,45 @@
+# ARA DENT STUDIO — Informatii pentru AI
+
+## Clinica
+Nume: ARA DENT STUDIO (SC TRIVALE DENTAL YOUNG SRL, CUI 40303321)
+Doctor: Dr. Robert Florentin Lungu — Medic Stomatolog, Specialist Implantologie si Chirurgie Dento-Alveolara
+Adresa: Bd. Republicii nr. 19, Pitesti, Arges, Romania
+Program: Luni-Vineri 09:00-19:00
+Telefon: 0754 219 011
+Email: aradentstudio@gmail.com
+Website: https://www.aradentpitesti.ro
+
+## Servicii principale
+- Implantologie dentara (implant Dentium: 1.200 lei)
+- Chirurgie orala si extractii
+- Protetica dentara (coroane, punti, proteze)
+- Endodontie (tratament de canal)
+- Fatete dentare (ceramica si compozit)
+- Parodontologie
+- All-on-4 / All-on-6
+- Urgente stomatologice
+
+## Tarife evaluare initiala
+- Consultatie + radiografie panoramica: 100 lei
+- CT dentar (CBCT): 250 lei (include toate CT-urile de verificare ulterioare)
+- Tratament de urgenta: 200 lei
+- Radiografie panoramica suplimentara (daca este necesara la urgente): 100 lei
+
+## Note importante
+- Consultatia NU este gratuita. Pretul este 100 lei si include radiografia panoramica.
+- CT-ul dentar (CBCT) costa 250 lei si include toate verificarile ulterioare.
+- Tratamentul de urgenta costa 200 lei; radiografia (daca este necesara) se adauga: 100 lei.
+
+## Pagini relevante
+- /servicii/implantologie — Implant dentar Pitesti
+- /servicii/urgente-stomatologice — Urgente dentare Pitesti
+- /servicii/all-on-4-all-on-6 — Reconstructie totala arcada
+- /servicii/fatete-dentare — Fatete dentare
+- /servicii/protetica-dentara — Coroane si proteze
+- /servicii/endodontie — Tratament de canal
+- /servicii/parodontologie — Boala parodontala
+- /servicii/chirurgie-orala — Extractii si chirurgie
+- /diaspora — Pacienti romani din diaspora (Germania, Spania, Italia etc.)
+- /preturi — Lista completa preturi
+- /blog — Articole educationale dentare
+- /contact — Contact si programari

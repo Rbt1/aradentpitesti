@@ -7,11 +7,11 @@ import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Plombe și Obturații Dentare Pitești | de la 200 lei | ARA DENT STUDIO' },
-  description: 'Obturații dentare estetice în Pitești de la 200 lei. Material compozit premium, nedureros, rezultat imediat. Consultație gratuită.',
+  description: 'Obturații dentare estetice în Pitești de la 200 lei. Material compozit premium, nedureros, rezultat imediat. Consultație: 100 lei.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/obturatii' },
   openGraph: {
     title: 'Plombe și Obturații Dentare Pitești | de la 200 lei | ARA DENT STUDIO',
-    description: 'Obturații dentare estetice în Pitești de la 200 lei. Material compozit premium, nedureros, rezultat imediat. Consultație gratuită.',
+    description: 'Obturații dentare estetice în Pitești de la 200 lei. Material compozit premium, nedureros, rezultat imediat. Consultație: 100 lei.',
     url: 'https://www.aradentpitesti.ro/servicii/obturatii',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
@@ -151,7 +151,7 @@ export default function OburatiiPage() {
         {/* CTA WhatsApp contextual */}
         <CTAWhatsApp
           title="Ai o carie sau o obturație căzută?"
-          subtitle="Programează-te rapid — consultație gratuită."
+          subtitle="Programează-te rapid — consultație: 100 lei."
           waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Aș dori o consultație pentru obturații la ARA DENT STUDIO.')}
         />
 

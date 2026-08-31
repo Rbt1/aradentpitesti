@@ -7,11 +7,11 @@ import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Implant Dentar Pitești | Dr. Robert Lungu | ARA DENT STUDIO' },
-  description: 'Implant dentar în Pitești cu Dr. Robert Lungu, specialist chirurgie dento-alveolară. Evaluare CT gratuită. Plată în rate fără dobândă prin TBI Bank. Programează acum.',
+  description: 'Implant dentar în Pitești cu Dr. Robert Lungu, specialist chirurgie dento-alveolară. CT dentar: 250 lei. Plată în rate fără dobândă prin TBI Bank. Programează acum.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/implantologie' },
   openGraph: {
     title: 'Implant Dentar Pitești | Dr. Robert Lungu | ARA DENT STUDIO',
-    description: 'Implant dentar în Pitești cu Dr. Robert Lungu, specialist chirurgie dento-alveolară. Evaluare CT gratuită. Plată în rate fără dobândă prin TBI Bank. Programează acum.',
+    description: 'Implant dentar în Pitești cu Dr. Robert Lungu, specialist chirurgie dento-alveolară. CT dentar: 250 lei. Plată în rate fără dobândă prin TBI Bank. Programează acum.',
     url: 'https://www.aradentpitesti.ro/servicii/implantologie',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
@@ -61,7 +61,7 @@ const jsonLdFaq = {
       name: 'Cat costa un implant dentar in Pitesti la ARA DENT STUDIO?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'La ARA DENT STUDIO, implantul dentar (surub Dentium) costa 1.200 lei. Bontul protetic este 300 lei, iar capa de vindecare 150 lei. Consultatia, radiografia panoramica si CT-ul sunt gratuite.',
+        text: 'La ARA DENT STUDIO, implantul dentar (surub Dentium) costa 1.200 lei. Bontul protetic este 300 lei, iar capa de vindecare 150 lei. Consultatia + radiografia panoramica: 100 lei. CT dentar (CBCT): 250 lei.',
       },
     },
     {
@@ -77,7 +77,7 @@ const jsonLdFaq = {
       name: 'Pot face implant daca am diabet?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Diabetul bine controlat nu este o contraindicatie absoluta pentru implant. Dr. Robert Lungu evalueaza fiecare caz individual la consultatia gratuita.',
+        text: 'Diabetul bine controlat nu este o contraindicatie absoluta pentru implant. Dr. Robert Lungu evalueaza fiecare caz individual la consultatie.',
       },
     },
     {
@@ -137,7 +137,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Cât costă un implant dentar în Pitești?',
-    a: 'Implantul (șurubul Dentium) costă 1.200 lei, bontul protetic 300 lei, iar capa de vindecare 150 lei. Coroana finală se stabilește separat, la consultația gratuită, în funcție de materialul ales.',
+    a: 'Implantul (șurubul Dentium) costă 1.200 lei, bontul protetic 300 lei, iar capa de vindecare 150 lei. Coroana finală se stabilește separat, la consultație, în funcție de materialul ales.',
   },
   {
     q: 'Implantul dentar doare?',
@@ -145,7 +145,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Pot face implant dacă am diabet?',
-    a: 'Depinde de stadiul și controlul bolii. La consultația gratuită evaluăm situația ta specific și îți spunem dacă ești candidat potrivit pentru implant.',
+    a: 'Depinde de stadiul și controlul bolii. La consultație (100 lei) evaluăm situația ta specific și îți spunem dacă ești candidat potrivit pentru implant.',
   },
   {
     q: 'Care e diferența între implant și proteză?',
@@ -214,7 +214,7 @@ export default function ImplantologiePage() {
               href="#programare"
               className="inline-block font-jost text-sm uppercase tracking-wider bg-forest text-cream px-8 py-4 rounded-sm hover:bg-forest-dark transition-all duration-300 shadow-forest"
             >
-              Programează consultație gratuită
+              Programează consultație
             </Link>
           </div>
         </section>
@@ -259,7 +259,7 @@ export default function ImplantologiePage() {
             </h2>
             <ol className="space-y-5">
               {[
-                { nr: '1', titlu: 'Consultație gratuită', text: 'Evaluare clinică completă — radiografie panoramică, CBCT dacă e necesar, plan de tratament personalizat.' },
+                { nr: '1', titlu: 'Consultație + radiografie: 100 lei', text: 'Evaluare clinică completă — radiografie panoramică inclusă. CT dentar (CBCT): 250 lei dacă e necesar. Plan de tratament personalizat.' },
                 { nr: '2', titlu: 'Pregătire pre-chirurgicală', text: 'Tratament carii active și igienizare profesională pentru reducerea bacteriilor din cavitatea orală înainte de intervenție.' },
                 { nr: '3', titlu: 'Inserarea implantului', text: 'Intervenție sub anestezie locală, 30–60 minute per implant. Recuperare rapidă, fără durere în timpul procedurii.' },
                 { nr: '4', titlu: 'Osteointegrare', text: '3–6 luni în care implantul se integrează biologic în os — perioada în care titanul devine parte din structura ta osoasă.' },
@@ -315,8 +315,8 @@ export default function ImplantologiePage() {
         {/* CTA WhatsApp contextual */}
         <CTAWhatsApp
           title="Ești candidat pentru implant dentar?"
-          subtitle="Întreabă-l direct pe Dr. Robert Lungu — consultație gratuită."
-          waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Sunt interesat de implant dentar și aș dori o consultație gratuită la ARA DENT STUDIO.')}
+          subtitle="Consultație + radiografie: 100 lei — Dr. Robert Lungu."
+          waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Sunt interesat de implant dentar și aș dori să programez o consultație la ARA DENT STUDIO.')}
         />
 
         {/* FAQ */}
@@ -355,13 +355,13 @@ export default function ImplantologiePage() {
         <section id="programare" className="py-20 px-6 bg-forest">
           <div className="container-site max-w-2xl text-center">
             <h2 className="font-playfair italic text-4xl text-cream mb-4">
-              Consultație gratuită pentru implant
+              Consultație pentru implant — 100 lei
             </h2>
             <p className="font-jost font-light text-forest-light mb-10">
-              Prima consultație pentru cazurile de implantologie este gratuită. Vino să afli dacă implantul e soluția potrivită pentru tine.
+              Consultația include radiografia panoramică. CT dentar (CBCT): 250 lei dacă e necesar. Vino să afli dacă implantul e soluția potrivită pentru tine.
             </p>
             <a
-              href="https://wa.me/40754219011?text=Bun%C4%83%20ziua!%20Doresc%20o%20consulta%C8%9Bie%20gratuit%C4%83%20pentru%20implant%20dentar."
+              href="https://wa.me/40754219011?text=Bun%C4%83%20ziua!%20Doresc%20s%C4%83%20programez%20o%20consulta%C8%9Bie%20pentru%20implant%20dentar."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 font-jost text-sm uppercase tracking-wider bg-[#25D366] text-white px-8 py-4 rounded-sm hover:bg-[#1ebe5d] transition-all duration-300"

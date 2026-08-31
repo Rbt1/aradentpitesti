@@ -107,7 +107,7 @@ const RESULTS: Record<string, ResultInfo> = {
       'Programează-te cât mai curând — găsim loc pentru urgențe în aceeași zi',
       'Nu lua antibiotice fără prescripție',
       'Evită alimentele foarte reci sau calde până la consultație',
-      'Consultația la ARA DENT STUDIO este gratuită',
+      'Consultația la ARA DENT STUDIO: 100 lei (include radiografia)',
     ],
     service: 'tratamentul de canal',
     whatsappText:
@@ -119,7 +119,7 @@ const RESULTS: Record<string, ResultInfo> = {
     recommendations: [
       'Programează-te cât mai curând',
       'Găsim loc pentru urgențe în aceeași zi',
-      'Evaluăm tot la prima vizită — consultația e gratuită',
+      'Evaluăm tot la prima vizită — consultația: 100 lei',
       'Nu ignora sângerarea — osul pierdut nu se mai reface',
     ],
     service: 'prima procedură efectuată',
@@ -134,7 +134,7 @@ const RESULTS: Record<string, ResultInfo> = {
       'Periaj corect, 2 minute, mișcări circulare blânde',
       'Folosește ața dentară zilnic',
       'Igienizare profesională la fiecare 6 luni',
-      'Consultația parodontală e gratuită',
+      'Consultația parodontală: 100 lei (include radiografia)',
     ],
     service: 'terapia parodontală',
     whatsappText:
@@ -144,7 +144,7 @@ const RESULTS: Record<string, ResultInfo> = {
     title: 'Ai nevoie de o evaluare pentru implant',
     text: 'Un dinte lipsă afectează dinții vecini și osul — cu cât aștepți mai mult, cu atât tratamentul devine mai complex și mai costisitor.',
     recommendations: [
-      'Consultația și CT-ul sunt gratuite la ARA DENT STUDIO',
+      'Consultație: 100 lei, CT dentar: 250 lei la ARA DENT STUDIO',
       'Un dinte lipsă = os care se resoarbe',
       'Există opțiunea de plată în rate, fără dobândă prin TBI Bank',
       'Dr. Robert Lungu evaluează fiecare caz individual',
@@ -158,7 +158,7 @@ const RESULTS: Record<string, ResultInfo> = {
     text: 'Modificările vizibile precum petele, decolorările sau fisurile pot indica carii sau uzură care, tratate la timp, se rezolvă simplu. Lăsate, devin mai complexe și mai costisitoare.',
     recommendations: [
       'Nu ignora modificările vizibile — cresc în timp fără tratament',
-      'O consultație gratuită stabilește exact ce ai nevoie',
+      'O consultație (100 lei) stabilește exact ce ai nevoie',
       'Tratamentele simple acum previn lucrări complexe mai târziu',
       'Dr. Robert Lungu evaluează fiecare caz individual',
     ],
@@ -172,7 +172,7 @@ const RESULTS: Record<string, ResultInfo> = {
     recommendations: [
       'Controlul periodic la 6 luni este esențial',
       'Tartrul netretat duce la boală parodontală',
-      'Prima consultație e gratuită la ARA DENT STUDIO',
+      'Consultația costă 100 lei la ARA DENT STUDIO',
       'Un detartraj acum poate evita tratamente costisitoare',
     ],
     service: 'detartraj',

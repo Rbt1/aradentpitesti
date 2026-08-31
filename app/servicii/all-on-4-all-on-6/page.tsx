@@ -74,7 +74,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Cât costă tratamentul All-on-4 sau All-on-6?',
-    a: 'All-on-4 costă 12.000 lei per arcadă, iar All-on-6 costă 14.000 lei per arcadă. Prețul include implanturile și lucrarea provizorie fixă. Prețul exact se confirmă la consultația gratuită.',
+    a: 'All-on-4 costă 12.000 lei per arcadă, iar All-on-6 costă 14.000 lei per arcadă. Prețul include implanturile și lucrarea provizorie fixă. Prețul exact se confirmă la consultație.',
   },
   {
     q: 'Pot pleca din cabinet cu dinți ficși în aceeași zi?',
@@ -90,7 +90,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Sunt candidat pentru All-on-4/6 dacă port de mult timp proteză totală?',
-    a: 'În majoritatea cazurilor, da. La consultația gratuită, cu scanare și CT 3D, evaluăm exact osul disponibil și îți recomandăm soluția potrivită situației tale.',
+    a: 'În majoritatea cazurilor, da. La consultație, cu scanare și CT 3D (250 lei), evaluăm exact osul disponibil și îți recomandăm soluția potrivită situației tale.',
   },
 ]
 
@@ -120,7 +120,7 @@ export default function AllOn4AllOn6Page() {
               href="#programare"
               className="inline-block font-jost text-sm uppercase tracking-wider bg-forest text-cream px-8 py-4 rounded-sm hover:bg-forest-dark transition-all duration-300 shadow-forest"
             >
-              Programează consultație gratuită
+              Programează consultație
             </Link>
           </div>
         </section>
@@ -175,8 +175,8 @@ export default function AllOn4AllOn6Page() {
         {/* CTA WhatsApp contextual */}
         <CTAWhatsApp
           title="Vrei să renunți definitiv la proteza mobilă?"
-          subtitle="Evaluare gratuită cu CT — stabilim dacă ești candidat."
-          waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Sunt interesat de lucrare fixă pe implanturi și aș dori o evaluare gratuită la ARA DENT STUDIO.')}
+          subtitle="CT dentar: 250 lei — stabilim dacă ești candidat."
+          waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Sunt interesat de lucrare fixă pe implanturi și aș dori să programez o consultație la ARA DENT STUDIO.')}
         />
 
         {/* FAQ */}
@@ -193,13 +193,13 @@ export default function AllOn4AllOn6Page() {
         <section id="programare" className="py-20 px-6 bg-forest">
           <div className="container-site max-w-2xl text-center">
             <h2 className="font-playfair italic text-4xl text-cream mb-4">
-              Programează consultația gratuită
+              Programează consultația
             </h2>
             <p className="font-jost font-light text-forest-light mb-10">
               Evaluăm cazul tău cu scanare și CT 3D și îți recomandăm soluția potrivită — All-on-4 sau All-on-6.
             </p>
             <a
-              href="https://wa.me/40754219011?text=Bun%C4%83%20ziua!%20Doresc%20o%20consulta%C8%9Bie%20gratuit%C4%83%20pentru%20All-on-4%20%2F%20All-on-6."
+              href="https://wa.me/40754219011?text=Bun%C4%83%20ziua!%20Doresc%20o%20consulta%C8%9Bie%20pentru%20All-on-4%20%2F%20All-on-6."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 font-jost text-sm uppercase tracking-wider bg-[#25D366] text-white px-8 py-4 rounded-sm hover:bg-[#1ebe5d] transition-all duration-300"

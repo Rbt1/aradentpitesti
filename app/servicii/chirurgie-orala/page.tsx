@@ -7,11 +7,11 @@ import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Chirurgie Orală Pitești | Extracții de la 250 lei | ARA DENT STUDIO' },
-  description: 'Chirurgie dento-alveolară în Pitești. Extracții de la 250 lei, specialist Dr. Robert Lungu. Recuperare rapidă. Consultație gratuită.',
+  description: 'Chirurgie dento-alveolară în Pitești. Extracții de la 250 lei, specialist Dr. Robert Lungu. Recuperare rapidă. Consultație: 100 lei.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/chirurgie-orala' },
   openGraph: {
     title: 'Chirurgie Orală Pitești | Extracții de la 250 lei | ARA DENT STUDIO',
-    description: 'Chirurgie dento-alveolară în Pitești. Extracții de la 250 lei, specialist Dr. Robert Lungu. Recuperare rapidă. Consultație gratuită.',
+    description: 'Chirurgie dento-alveolară în Pitești. Extracții de la 250 lei, specialist Dr. Robert Lungu. Recuperare rapidă. Consultație: 100 lei.',
     url: 'https://www.aradentpitesti.ro/servicii/chirurgie-orala',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
@@ -151,7 +151,7 @@ export default function ChirurgieOralaPage() {
         {/* CTA WhatsApp contextual */}
         <CTAWhatsApp
           title="Ai nevoie de o extracție sau intervenție chirurgicală?"
-          subtitle="Programează-te direct — consultație gratuită."
+          subtitle="Programează-te direct — consultație: 100 lei."
           waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Aș dori o consultație pentru chirurgie orală la ARA DENT STUDIO.')}
         />
 

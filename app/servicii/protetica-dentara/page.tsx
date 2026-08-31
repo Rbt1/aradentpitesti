@@ -7,11 +7,11 @@ import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Coroane și Punți Dentare Pitești | de la 200 lei | ARA DENT STUDIO' },
-  description: 'Coroane ceramice, punți fixe și lucrări pe implanturi în Pitești. Dr. Robert Lungu. Consultație gratuită. Programează acum.',
+  description: 'Coroane ceramice, punți fixe și lucrări pe implanturi în Pitești. Dr. Robert Lungu. Consultație: 100 lei. Programează acum.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/protetica-dentara' },
   openGraph: {
     title: 'Coroane și Punți Dentare Pitești | de la 200 lei | ARA DENT STUDIO',
-    description: 'Coroane ceramice, punți fixe și lucrări pe implanturi în Pitești. Dr. Robert Lungu. Consultație gratuită. Programează acum.',
+    description: 'Coroane ceramice, punți fixe și lucrări pe implanturi în Pitești. Dr. Robert Lungu. Consultație: 100 lei. Programează acum.',
     url: 'https://www.aradentpitesti.ro/servicii/protetica-dentara',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
@@ -119,7 +119,7 @@ export default function ProteticaDentaraPage() {
               href="#programare"
               className="inline-block font-jost text-sm uppercase tracking-wider bg-forest text-cream px-8 py-4 rounded-sm hover:bg-forest-dark transition-all duration-300 shadow-forest"
             >
-              Programează consultație gratuită
+              Programează consultație
             </Link>
           </div>
         </section>
@@ -171,7 +171,7 @@ export default function ProteticaDentaraPage() {
         {/* CTA WhatsApp contextual */}
         <CTAWhatsApp
           title="Vrei să afli ce opțiuni protetice ai pentru situația ta?"
-          subtitle="Consultație gratuită — evaluăm împreună."
+          subtitle="Consultație: 100 lei — evaluăm împreună."
           waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Aș dori o consultație pentru lucrări protetice la ARA DENT STUDIO.')}
         />
 
@@ -192,7 +192,7 @@ export default function ProteticaDentaraPage() {
               Refă-ți zâmbetul
             </h2>
             <p className="font-jost font-light text-forest-light mb-10">
-              Consultație gratuită pentru stabilirea planului de tratament protetic.
+              Consultație: 100 lei — stabilim planul de tratament protetic.
             </p>
             <a
               href="https://wa.me/40754219011"

@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 
 const CONTENT = {
   title: 'Rezervă-ți consultația',
-  subtitle: 'Prima consultație — gratuită pentru cazurile de implantologie',
+  subtitle: 'Consultație + radiografie panoramică: 100 lei',
   submitLabel: 'Trimite cererea',
 }
 

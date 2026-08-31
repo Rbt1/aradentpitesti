@@ -7,7 +7,7 @@ import Footer from '@/app/components/Footer'
 
 const WA_GENERIC = 'https://wa.me/40754219011'
 const WA_DIASPORA =
-  'https://wa.me/40754219011?text=Buna+ziua!+Sunt+din+diaspora+si+as+dori+sa+programez+o+consultatie+gratuita.'
+  'https://wa.me/40754219011?text=Buna+ziua!+Sunt+din+diaspora+si+as+dori+sa+programez+o+consultatie+la+ARA+DENT+STUDIO.'
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -77,14 +77,14 @@ const CARDS: Card[] = [
   },
 ]
 
-const FREE_ITEMS = [
+const EVAL_ITEMS = [
   {
-    title: 'Consultație completă',
-    text: 'Evaluare cu Dr. Robert Lungu, specialist chirurgie dento-alveolară',
+    title: 'Consultație + radiografie panoramică',
+    text: '100 lei — evaluare completă cu Dr. Robert Lungu, specialist chirurgie dento-alveolară',
   },
   {
-    title: 'Radiografie panoramică',
-    text: 'Esențială pentru planificarea corectă a tratamentului',
+    title: 'CT dentar (CBCT)',
+    text: '250 lei — include toate CT-urile de verificare ulterioare',
   },
 ]
 
@@ -185,7 +185,7 @@ export default function DiasporaPage() {
                     Vizita 1 — Prima vacanță
                   </h3>
                   <p className="font-jost font-light text-[15px] text-bark-dark leading-relaxed">
-                    Consultație gratuită și evaluare completă cu radiografie panoramică. Extracție dacă e necesară. Inserarea implantului — 30–60 minute. Pleci fără durere, cu implantul în curs de integrare.
+                    Consultație + radiografie panoramică (100 lei) și evaluare completă. Extracție dacă e necesară. Inserarea implantului — 30–60 minute. Pleci fără durere, cu implantul în curs de integrare.
                   </p>
                 </div>
               </motion.div>
@@ -215,17 +215,17 @@ export default function DiasporaPage() {
           </div>
         </section>
 
-        {/* 4. Gratuit */}
+        {/* 4. Tarife evaluare */}
         <section className="py-20 px-6 bg-forest-dark">
           <div className="container-site max-w-3xl text-center">
             <motion.h2
               className="font-playfair text-3xl lg:text-4xl text-cream mb-10"
               {...fadeUp()}
             >
-              Gratuit, pentru toți pacienții
+              Tarife evaluare inițială
             </motion.h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-              {FREE_ITEMS.map((item, i) => (
+              {EVAL_ITEMS.map((item, i) => (
                 <motion.div
                   key={item.title}
                   className="bg-forest border border-gold/40 rounded-sm p-8 text-left"

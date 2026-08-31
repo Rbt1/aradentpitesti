@@ -8,11 +8,11 @@ import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Fatete Dentare Pitesti | Ceramice si Compozit | ARA DENT STUDIO' },
-  description: 'Fatete dentare ceramice si compozit in Pitesti. Transforma aspectul zambetului fara interventii majore. Dr. Robert Lungu. Consultatie gratuita.',
+  description: 'Fatete dentare ceramice si compozit in Pitesti. Transforma aspectul zambetului fara interventii majore. Dr. Robert Lungu. Consultatie: 100 lei.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/fatete-dentare' },
   openGraph: {
     title: 'Fatete Dentare Pitesti | Ceramice si Compozit | ARA DENT STUDIO',
-    description: 'Fatete dentare ceramice si compozit in Pitesti. Transforma aspectul zambetului fara interventii majore. Dr. Robert Lungu. Consultatie gratuita.',
+    description: 'Fatete dentare ceramice si compozit in Pitesti. Transforma aspectul zambetului fara interventii majore. Dr. Robert Lungu. Consultatie: 100 lei.',
     url: 'https://www.aradentpitesti.ro/servicii/fatete-dentare',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
@@ -128,7 +128,7 @@ const CONTRAINDICATII: ReactNode[] = [
 const PASI = [
   {
     nr: '01',
-    titlu: 'Consultație gratuită',
+    titlu: 'Consultație: 100 lei',
     text: 'Evaluăm starea dinților, discutăm așteptările și stabilim tipul de fațetă potrivit.',
   },
   {
@@ -201,7 +201,7 @@ export default function FateteDentarePage() {
               href="#programare"
               className="inline-block font-jost text-sm uppercase tracking-wider bg-forest text-cream px-8 py-4 rounded-sm hover:bg-forest-dark transition-all duration-300 shadow-forest"
             >
-              Programează consultație gratuită
+              Programează consultație
             </Link>
           </div>
         </section>
@@ -310,8 +310,8 @@ export default function FateteDentarePage() {
         {/* CTA WhatsApp contextual */}
         <CTAWhatsApp
           title="Vrei să afli dacă fațetele sunt potrivite pentru tine?"
-          subtitle="Consultație gratuită — evaluăm dinții tăi."
-          waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Sunt interesat de fațete dentare și aș dori o consultație gratuită.')}
+          subtitle="Consultație: 100 lei — evaluăm dinții tăi."
+          waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Sunt interesat de fațete dentare și aș dori să programez o consultație.')}
         />
 
         {/* FAQ */}
@@ -331,10 +331,10 @@ export default function FateteDentarePage() {
               Descoperă cum arată zâmbetul tău ideal
             </h2>
             <p className="font-jost font-light text-forest-light mb-10">
-              Consultație gratuită — evaluăm situația ta și îți explicăm opțiunile disponibile.
+              Consultație: 100 lei — evaluăm situația ta și îți explicăm opțiunile disponibile.
             </p>
             <a
-              href="https://wa.me/40754219011?text=Bun%C4%83%20ziua!%20Doresc%20o%20consulta%C8%9Bie%20gratuit%C4%83%20pentru%20fa%C8%9Bete%20dentare."
+              href="https://wa.me/40754219011?text=Bun%C4%83%20ziua!%20Doresc%20o%20consulta%C8%9Bie%20pentru%20fa%C8%9Bete%20dentare."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 font-jost text-sm uppercase tracking-wider bg-[#25D366] text-white px-8 py-4 rounded-sm hover:bg-[#1ebe5d] transition-all duration-300"
