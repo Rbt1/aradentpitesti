@@ -1112,7 +1112,7 @@ export const articole: Articol[] = [
     title: 'Bruxism — scrasnitul dintilor: cauze, simptome si tratament in Pitesti',
     metaDescription: 'Bruxism in Pitesti — cauze, simptome si tratament. Gutiera ocluzala personalizata la ARA DENT STUDIO. Consultatie + radiografie 100 lei. Dr. Robert Lungu.',
     excerpt: 'Scrasnitul dintilor in somn e una dintre cele mai frecvente probleme dentare — si una dintre cele mai ignorate. Afla cauzele, simptomele si cum se trateaza.',
-    date: '2026-08-29',
+    date: '2026-08-25',
     continut: `
     <p>Scrasnitul dintilor in somn e una dintre cele mai frecvente probleme dentare — si una dintre cele mai ignorate, tocmai pentru ca apare noaptea, fara ca pacientul sa-si dea seama. Pana cand apar simptomele vizibile, dintii pot fi deja afectati semnificativ.</p>
 
@@ -1181,7 +1181,7 @@ export const articole: Articol[] = [
     title: 'Urgente dentare noaptea si in weekend — ce faci cand te doare dintele',
     metaDescription: 'Te doare dintele noaptea sau in weekend? Afla ce faci inainte sa ajungi la medic, cand mergi la UPU si cum te programezi urgent la ARA DENT STUDIO Pitesti.',
     excerpt: 'Te-a trezit o durere acuta de dinte la miezul noptii sau te doare in weekend si nu stii unde sa apelezi? Iata ce trebuie sa faci.',
-    date: '2026-08-29',
+    date: '2026-08-26',
     continut: `
     <p>Te-a trezit o durere acuta de dinte la miezul noptii sau te doare in weekend si nu stii unde sa apelezi? Iata ce trebuie sa faci.</p>
 
@@ -1229,7 +1229,7 @@ export const articole: Articol[] = [
     title: 'Gutiera pentru bruxism — cand ai nevoie si cum se realizeaza',
     metaDescription: 'Gutiera pentru bruxism in Pitesti — cand e necesara, cum se realizeaza cu scanner intraoral si cum protejeaza dintii si lucrarile protetice. ARA DENT STUDIO.',
     excerpt: 'Daca medicul ti-a recomandat o gutiera sau ai descoperit ca scrasnesti din dinti in somn, afla cand e cu adevarat necesara si ce presupune realizarea ei.',
-    date: '2026-08-29',
+    date: '2026-08-27',
     continut: `
     <p>Daca medicul stomatolog ti-a recomandat o gutiera sau ai descoperit ca scrasnesti din dinti in somn, probabil te intrebi daca e cu adevarat necesara si ce presupune. Iata tot ce trebuie sa stii.</p>
 
@@ -1296,7 +1296,7 @@ export const articole: Articol[] = [
     title: 'Tratament laser sau chiuretaj parodontal — ce alegi pentru sanatatea gingiilor tale',
     metaDescription: 'Laser parodontal sau chiuretaj subgingival — care e mai eficient? Afla ce spune literatura medicala si cum tratam boala parodontala la ARA DENT STUDIO Pitesti.',
     excerpt: 'Laserul dentar e un instrument util — dar nu inlocuieste chiuretajul subgingival. Afla ce functioneaza cu adevarat in tratamentul bolii parodontale.',
-    date: '2026-08-29',
+    date: '2026-08-28',
     continut: `
     <p>Daca ai boala parodontala si cauti informatii despre tratament, probabil ai intalnit si promisiunile despre laserul dentar. Iata perspectiva corecta, bazata pe ce spune literatura medicala.</p>
 
