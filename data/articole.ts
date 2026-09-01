@@ -1333,6 +1333,67 @@ export const articole: Articol[] = [
     <p>Consultatie + radiografie panoramica: 100 lei.</p>
   `,
   },
+  {
+    slug: 'cat-costa-implant-dentar-pitesti-2026',
+    title: 'Cat te costa de fapt un implant dentar in Pitesti — defalcare completa 2026',
+    metaDescription: 'Cat costa un implant dentar complet in Pitesti? Surub 1.200 lei, bont 300 lei, coroana zirconiu 900 lei. Total 2.550 lei. Fara costuri ascunse. ARA DENT STUDIO.',
+    excerpt: 'Cand cauti pretul unui implant dentar, primul numar pe care il gasesti e adesea doar pretul surubului. Afla costul real complet la ARA DENT STUDIO Pitesti.',
+    date: '2026-08-29',
+    continut: `
+    <p>Cand cauti pretul unui implant dentar, primul numar pe care il gasesti e adesea doar pretul surubului. Costul real al tratamentului complet e mai mare — si e important sa stii exact la ce sa te astepti inainte sa incepi.</p>
+
+    <h2>De ce preturile afisate par mici</h2>
+    <p>Multi pacienti ajung la cabinet cu impresia ca un implant dentar costa 800-1.000 lei — pentru ca asta au vazut afisat. In realitate, acel pret acopera doar componenta chirurgicala — surubul de titan care se insereaza in os.</p>
+    <p>Un implant dentar complet are 3 componente distincte, fiecare cu costul ei.</p>
+
+    <h2>Cele 3 componente ale unui implant dentar</h2>
+    <p><strong>1. Surubul de implant (componenta chirurgicala)</strong><br/>
+    Piesa de titan care se insereaza in osul maxilar prin interventie chirurgicala. Aceasta e componenta la care se refera de obicei pretul afisat.<br/>
+    La ARA DENT STUDIO: <strong>1.200 lei</strong></p>
+
+    <p><strong>2. Bontul protetic</strong><br/>
+    Piesa de conexiune dintre surubul de implant si coroana finala. Se monteaza dupa perioada de osteointegrare (3-6 luni).<br/>
+    La ARA DENT STUDIO: <strong>300 lei</strong></p>
+
+    <p><strong>3. Coroana dentara din zirconiu</strong><br/>
+    Lucrarea protetica finala — partea vizibila care inlocuieste dintele natural. Zirconiul ofera aspectul cel mai natural si rezistenta maxima.<br/>
+    La ARA DENT STUDIO: <strong>900 lei</strong></p>
+
+    <h2>Costul total complet</h2>
+    <table>
+      <thead>
+        <tr><th>Componenta</th><th>Pret</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Surub implant</td><td>1.200 lei</td></tr>
+        <tr><td>Bont protetic</td><td>300 lei</td></tr>
+        <tr><td>Capa de vindecare</td><td>150 lei</td></tr>
+        <tr><td>Coroana zirconiu</td><td>900 lei</td></tr>
+        <tr><td><strong>Total complet</strong></td><td><strong>2.550 lei</strong></td></tr>
+      </tbody>
+    </table>
+
+    <h2>Costurile aditionale de evaluat</h2>
+    <p><strong>Consultatie + radiografie panoramica:</strong> 100 lei<br/>
+    <strong>CT dentar (CBCT):</strong> 250 lei — include toate CT-urile ulterioare de verificare</p>
+    <p><strong>Tratamente pregatitoare</strong> — daca e cazul:</p>
+    <ul>
+      <li>Extractia dintelui (daca nu s-a facut)</li>
+      <li>Igienizare profesionala pre-chirurgicala</li>
+      <li>Aditie osoasa sau sinus lift — daca osul e insuficient</li>
+    </ul>
+    <p>Toate acestea se stabilesc la evaluarea initiala — nu apar ca surprize pe parcurs.</p>
+
+    <h2>De ce ARA DENT STUDIO afiseaza preturile complet</h2>
+    <p>Transparenta nu e un avantaj de marketing — e o obligatie fata de pacient. Stii exact cu ce costuri intri inainte sa iei orice decizie.</p>
+
+    <h2>Plata in rate fara dobanda</h2>
+    <p>Costul total al implantului poate fi accesat in rate lunare egale, fara dobanda, direct la cabinet. Aplicarea se face simplu, la prima vizita.</p>
+
+    <h2>Consultatie la ARA DENT STUDIO Pitesti</h2>
+    <p>Consultatie + radiografie panoramica: 100 lei. La consultatie stabilim planul complet de tratament si costul exact pentru situatia ta — fara estimari vagi, fara surprize ulterioare.</p>
+  `,
+  },
 ]
 
 const MONTHS_RO = [

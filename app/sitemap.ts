@@ -43,5 +43,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/urgente-dentare-noaptea-weekend`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/gutiera-bruxism-pitesti`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/tratament-parodontal-laser-vs-chiuretaj-pitesti`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/cat-costa-implant-dentar-pitesti-2026`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
   ]
 }
