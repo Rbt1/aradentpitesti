@@ -1291,6 +1291,48 @@ export const articole: Articol[] = [
     <p>Consultatie + radiografie panoramica: 100 lei. Evaluam gradul de uzura dentara, starea articulatiei temporomandibulare si stabilim daca gutiera e solutia potrivita pentru tine.</p>
   `,
   },
+  {
+    slug: 'tratament-parodontal-laser-vs-chiuretaj-pitesti',
+    title: 'Tratament laser sau chiuretaj parodontal — ce alegi pentru sanatatea gingiilor tale',
+    metaDescription: 'Laser parodontal sau chiuretaj subgingival — care e mai eficient? Afla ce spune literatura medicala si cum tratam boala parodontala la ARA DENT STUDIO Pitesti.',
+    excerpt: 'Laserul dentar e un instrument util — dar nu inlocuieste chiuretajul subgingival. Afla ce functioneaza cu adevarat in tratamentul bolii parodontale.',
+    date: '2026-08-29',
+    continut: `
+    <p>Daca ai boala parodontala si cauti informatii despre tratament, probabil ai intalnit si promisiunile despre laserul dentar. Iata perspectiva corecta, bazata pe ce spune literatura medicala.</p>
+
+    <h2>Laserul — instrument util, nu solutie completa</h2>
+    <p>Laserul dentar are un rol real in stomatologie — e un instrument adjuvant util pentru dezinfectie si stimularea vindecarii tesuturilor. Federatia Europeana de Parodontologie (EFP) il recunoaste ca adaos benefic la tratamentul clasic.</p>
+    <p><strong>Unde apare confuzia:</strong> tartrul mineralizat de pe suprafata radacinilor — cauza principala a bolii parodontale — nu poate fi indepartat cu laserul. Necesita instrumentar mecanic dedicat, care curata fizic suprafata radacinii sub gingie.</p>
+    <p>Fara aceasta etapa, inflamatia persista si osul continua sa se resoarba indiferent de tehnologia folosita.</p>
+
+    <h2>Standardul de aur — chiuretajul subgingival</h2>
+    <p>Tratamentul consacrat, recomandat de Federatia Europeana de Parodontologie, este chiuretajul subgingival — curatarea mecanica a radacinilor sub gingie.</p>
+    <p>Studiile clinice comparative nu au demonstrat superioritate semnificativa a laserului fata de chiuretajul subgingival singur pe termen lung.</p>
+
+    <h2>Protocolul la ARA DENT STUDIO</h2>
+    <p><strong>1. Evaluare completa</strong><br/>
+    Sondaj parodontal, radiografie panoramica. Stabilim exact adancimea pungilor parodontale si cantitatea de os disponibil.
+    Consultatie + radiografie: 100 lei.</p>
+
+    <p><strong>2. Detartraj + Air-Flow</strong><br/>
+    Curatare profesionala completa a tartrului supragingival si a petelor.</p>
+
+    <p><strong>3. Chiuretaj subgingival</strong><br/>
+    Curatarea mecanica a radacinilor sub gingie — procedura care opreste efectiv progresia bolii. Confortabila, cu anestezie locala daca este necesara — de multe ori procedura nu necesita anestezie.</p>
+
+    <p><strong>4. Reevaluare la 6-8 saptamani</strong><br/>
+    Verificam raspunsul tesuturilor si stabilim daca sunt necesare sedinte suplimentare.</p>
+
+    <p><strong>5. Plan de mentinere pe termen lung</strong><br/>
+    Boala parodontala nu se vindeca — se controleaza. Controale la 3-6 luni pentru prevenirea recidivei.</p>
+
+    <h2>Important de stiut</h2>
+    <p>Osul pierdut prin parodontita nu se mai reface. De aceea interventia precoce si tratamentul corect din prima faza fac diferenta pe termen lung.</p>
+
+    <h2>Consultatie la ARA DENT STUDIO Pitesti</h2>
+    <p>Consultatie + radiografie panoramica: 100 lei.</p>
+  `,
+  },
 ]
 
 const MONTHS_RO = [
