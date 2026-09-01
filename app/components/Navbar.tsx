@@ -20,6 +20,7 @@ const SERVICII_LINKS = [
   { label: 'All-on-4 / All-on-6', href: '/servicii/all-on-4-all-on-6' },
   { label: 'Urgențe Stomatologice', href: '/servicii/urgente-stomatologice' },
   { label: 'Fațete Dentare', href: '/servicii/fatete-dentare' },
+  { label: 'Extracție Maseă de Minte', href: '/servicii/extractie-masea-de-minte' },
 ]
 
 const DESPRE_LINKS = [
