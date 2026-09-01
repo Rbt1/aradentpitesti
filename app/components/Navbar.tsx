@@ -21,6 +21,7 @@ const SERVICII_LINKS = [
   { label: 'Urgențe Stomatologice', href: '/servicii/urgente-stomatologice' },
   { label: 'Fațete Dentare', href: '/servicii/fatete-dentare' },
   { label: 'Extracție Maseă de Minte', href: '/servicii/extractie-masea-de-minte' },
+  { label: 'Adiție Osoasă și Sinus Lift', href: '/servicii/aditie-osoasa-sinus-lift' },
 ]
 
 const DESPRE_LINKS = [
