@@ -7,7 +7,7 @@ import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'All-on-4 / All-on-6 Pitești | ARA DENT STUDIO' },
-  description: 'Reabilitare totală pe implanturi All-on-4 și All-on-6 în Pitești. Încărcare imediată, Dr. Robert Lungu. Prețuri de la 12.000 lei.',
+  description: 'Dantură fixă pe implanturi în Pitești. All-on-4: 12.000 lei sau 1.000 lei/lună. All-on-6: 14.000 lei. CT dentar obligatoriu inclus în evaluare. Dr. Robert Lungu, specialist. Consultație gratuită.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/all-on-4-all-on-6' },
   openGraph: {
     title: 'All-on-4 și All-on-6 Pitești | Dinți Fixi pe Implanturi',
@@ -74,7 +74,15 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Cât costă tratamentul All-on-4 sau All-on-6?',
-    a: 'All-on-4 costă 12.000 lei per arcadă, iar All-on-6 costă 14.000 lei per arcadă. Prețul include implanturile și lucrarea provizorie fixă. Prețul exact se confirmă la consultație.',
+    a: (
+      <>
+        All-on-4 costă 12.000 lei per arcadă.{' '}
+        <em className="not-italic font-jost text-[14px] text-bark italic">sau de la 1.000 lei/lună în rate fără dobândă</em>
+        {' '}All-on-6 costă 14.000 lei per arcadă.{' '}
+        <em className="not-italic font-jost text-[14px] text-bark italic">sau de la 1.166 lei/lună în rate fără dobândă</em>
+        {' '}Prețul include implanturile și lucrarea provizorie fixă. Prețul exact se confirmă la consultație.
+      </>
+    ),
   },
   {
     q: 'Pot pleca din cabinet cu dinți ficși în aceeași zi?',
@@ -93,6 +101,29 @@ const FAQ_ITEMS = [
     a: 'În majoritatea cazurilor, da. La consultație, cu scanare și CT 3D (250 lei), evaluăm exact osul disponibil și îți recomandăm soluția potrivită situației tale.',
   },
 ]
+
+const FRICI_ITEMS = [
+  {
+    q: 'Doare operația All-on-4?',
+    a: 'Intervenția se realizează sub anestezie locală completă — nu simți durere în timpul operației. După intervenție poate apărea un disconfort normal de 2-3 zile, gestionabil cu antiinflamatoare.',
+  },
+  {
+    q: 'Rămân fără dinți după operație?',
+    a: 'Nu. În 24-48 de ore după intervenție montăm lucrarea provizorie fixă — pleci acasă cu dinți ficși, nu cu proteză mobilă.',
+  },
+  {
+    q: 'Ce mănânc după operația All-on-4?',
+    a: 'În primele săptămâni alimentație moale — supe, piureuri, ouă, pește. Treptat reintroduceți alimentele normale. La lucrarea definitivă (după 3-6 luni) reveniți la alimentația normală completă.',
+  },
+  {
+    q: 'Fumatul afectează implanturile?',
+    a: 'Da — fumatul crește semnificativ riscul de eșec al implanturilor prin reducerea circulației sanguine și încetinirea vindecării. Dr. Robert Lungu discută cu fiecare pacient riscurile specifice la consultație.',
+  },
+]
+
+const WA_DIASPORA =
+  'https://wa.me/40754219011?text=' +
+  encodeURIComponent('Bună ziua! Sunt din diaspora și doresc o evaluare pentru All-on-4. Vă trimit CT-ul și pozele intraorale.')
 
 export default function AllOn4AllOn6Page() {
   return (
@@ -182,13 +213,53 @@ export default function AllOn4AllOn6Page() {
           waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Sunt interesat de lucrare fixă pe implanturi și aș dori să programez o consultație la ARA DENT STUDIO.')}
         />
 
-        {/* FAQ */}
+        {/* Frici — întrebări înainte de decizie */}
         <section className="py-20 px-6 bg-cream">
+          <div className="container-site max-w-3xl">
+            <h2 className="font-playfair text-3xl text-forest-dark mb-10">
+              Întrebări frecvente înainte de decizie
+            </h2>
+            <FAQ items={FRICI_ITEMS} />
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <section className="py-20 px-6 bg-offwhite">
           <div className="container-site max-w-3xl">
             <h2 className="font-playfair text-3xl text-forest-dark mb-10">
               Întrebări frecvente
             </h2>
             <FAQ items={FAQ_ITEMS} />
+          </div>
+        </section>
+
+        {/* Diaspora */}
+        <section className="py-12 px-6 bg-forest-dark">
+          <div className="container-site max-w-3xl">
+            <h2 className="font-playfair font-bold text-[28px] text-cream mb-4">
+              Vii din diaspora pentru tratament?
+            </h2>
+            <p className="font-jost font-light text-[16px] text-forest-light mb-6 leading-[1.8]">
+              Pitești se află la 75-90 de minute de Aeroportul Otopeni pe Autostrada A1 — fără traversarea Bucureștiului.
+            </p>
+            <p className="font-playfair text-[20px] text-gold mb-4">
+              Cum planificăm împreună tratamentul
+            </p>
+            <p className="font-jost font-light text-[15px] text-forest-light leading-[1.8] mb-8">
+              Trimite-ne pe WhatsApp înainte să cumperi biletul de avion:<br />
+              — CT dentar (CBCT) recent<br />
+              — Fotografii intraorale<br />
+              <br />
+              Pe baza acestora stabilim planul de tratament și costul estimat — știi exact la ce să te aștepți înainte să ajungi în România.
+            </p>
+            <a
+              href={WA_DIASPORA}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 font-jost text-sm uppercase tracking-wider bg-gold text-forest-dark px-8 py-4 rounded-sm hover:bg-gold-light transition-all duration-300"
+            >
+              Trimite documentele pe WhatsApp
+            </a>
           </div>
         </section>
 
