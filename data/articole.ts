@@ -1459,6 +1459,67 @@ export const articole: Articol[] = [
     <p>Consultatie gratuita. CT dentar: 250 lei. La consultatie stabilim planul complet si costul exact pentru situatia ta — inclusiv daca e necesara aditie osoasa si ce presupune lucrarea definitiva.</p>
   `,
   },
+  {
+    slug: 'all-on-4-diaspora-ghid-pacient',
+    title: 'All-on-4 in vacanta — ghidul pacientului din diaspora',
+    metaDescription: 'Faci All-on-4 in Romania in vacanta? Trimite CBCT + poze pe WhatsApp si primesti planul de tratament inainte sa cumperi biletul. Transfer Otopeni disponibil. ARA DENT STUDIO Pitesti.',
+    excerpt: 'Locuiesti in strainatate si vrei sa iti rezolvi dantura acasa in Romania? Iata cum planificam impreuna tratamentul All-on-4 inainte sa cumperi biletul de avion.',
+    date: '2026-08-30',
+    continut: `
+    <p>Daca locuiesti in strainatate si vrei sa iti rezolvi dantura acasa in Romania, probabil ai doua intrebari principale: cat dureaza si cum organizezi totul. Iata raspunsurile concrete.</p>
+
+    <h2>De ce Pitesti — nu Bucuresti</h2>
+    <p>Pitesti se afla la <strong>75-90 de minute de Aeroportul Henri Coanda (Otopeni)</strong> pe Autostrada A1 — fara traversarea Bucurestiului, fara trafic urban.</p>
+    <p>Pentru pacientii care vin din Germania, Spania, Italia sau UK, asta inseamna ca ajungi direct din aeroport la cabinet in mai putin de 90 de minute.</p>
+
+    <h2>Inainte sa cumperi biletul de avion</h2>
+    <p>Nu trebuie sa vii fara sa stii ce te asteapta. Trimite-ne pe WhatsApp inainte de zbor:</p>
+    <ul>
+      <li><strong>CT dentar (CBCT) recent</strong></li>
+      <li><strong>Fotografii intraorale</strong></li>
+    </ul>
+    <p>Pe baza acestora, Dr. Robert Lungu analizeaza situatia ta si iti trimite planul de tratament estimat — ce proceduri sunt necesare, cate zile trebuie sa planifici si costul total estimat. Stii exact la ce sa te astepti inainte sa cumperi biletul.</p>
+
+    <h2>Cate zile trebuie sa planifici</h2>
+    <p>Durata exacta depinde de complexitatea cazului — o stabilim dupa analiza CBCT-ului si a pozelor. Facem tot posibilul sa ne incadram in zilele planificate impreuna.</p>
+    <p>Cazurile standard All-on-4 presupun in general:</p>
+    <ul>
+      <li><strong>Prima vizita</strong> — consultatie, CBCT (daca nu l-ai trimis in avans), plan de tratament</li>
+      <li><strong>Ziua de chirurgie</strong> — inserarea implanturilor</li>
+      <li><strong>24-48 ore</strong> — montarea lucrarii provizorii fixe</li>
+      <li><strong>Vizita de control</strong> — inainte de plecare</li>
+    </ul>
+
+    <h2>Organizam totul impreuna</h2>
+    <p>La ARA DENT STUDIO ne ocupam nu doar de tratament — te ajutam si cu logistica:</p>
+    <p><strong>Transfer Otopeni — Pitesti</strong><br/>
+    Organizam transferul de la aeroport direct la cabinet sau la cazare — includem detaliile in planul de tratament.</p>
+    <p><strong>Cazare in Pitesti</strong><br/>
+    Te ajutam sa identifici optiuni de cazare in apropierea cabinetului pentru zilele de tratament.</p>
+    <p>Toate detaliile logistice sunt incluse in planul de tratament pe care il primesti inainte de zbor.</p>
+
+    <h2>Ce include All-on-4 la ARA DENT STUDIO</h2>
+    <table>
+      <thead>
+        <tr><th>Componenta</th><th>Detalii</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>All-on-4</td><td>12.000 lei/arcada</td></tr>
+        <tr><td>Include</td><td>Interventia chirurgicala, 4 implanturi, lucrarea provizorie fixa imediata, consultatie gratuita</td></tr>
+        <tr><td>CT dentar CBCT</td><td>250 lei (obligatoriu)</td></tr>
+        <tr><td>Lucrarea definitiva</td><td>stabilita la consultatie</td></tr>
+        <tr><td>Aditie osoasa</td><td>daca e necesara, cost separat</td></tr>
+      </tbody>
+    </table>
+    <p>Plata in rate fara dobanda disponibila — de la 1.000 lei/luna.</p>
+
+    <h2>Cum incepi</h2>
+    <p><strong>Pasul 1</strong> — Trimite-ne pe WhatsApp: CT dentar (CBCT) recent + fotografii intraorale</p>
+    <p><strong>Pasul 2</strong> — Primesti planul de tratament estimat cu numarul de zile si costul total</p>
+    <p><strong>Pasul 3</strong> — Cumperi biletul de avion cu datele stabilite impreuna</p>
+    <p><strong>Pasul 4</strong> — Vii si rezolvam totul</p>
+  `,
+  },
 ]
 
 const MONTHS_RO = [
