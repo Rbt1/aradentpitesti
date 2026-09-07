@@ -1520,6 +1520,62 @@ export const articole: Articol[] = [
     <p><strong>Pasul 4</strong> — Vii si rezolvam totul</p>
   `,
   },
+  {
+    slug: 'tratament-dentar-romania-diaspora-2026',
+    title: 'Tratament dentar in Romania pentru romanii din strainatate — ghid complet 2026',
+    metaDescription: 'Tratament dentar in Romania pentru diaspora — implant, All-on-4, fatete. Trimite CBCT + poze pe WhatsApp si primesti planul inainte de zbor. ARA DENT STUDIO Pitesti, 75 min de Otopeni.',
+    excerpt: 'Mii de romani din Germania, Spania, Italia sau UK isi rezolva problemele dentare acasa. Afla cum planificam impreuna tratamentul inainte sa cumperi biletul de avion.',
+    date: '2026-08-30',
+    continut: `
+    <p>Mii de romani care traiesc in Germania, Spania, Italia sau UK aleg sa-si rezolve problemele dentare acasa, in Romania. Motivele sunt simple: calitate comparabila cu vestul, preturi semnificativ mai mici si posibilitatea de a combina tratamentul cu vizita la familie.</p>
+
+    <h2>De ce Romania — si de ce Pitesti</h2>
+    <p>Stomatologia romaneasca a evoluat semnificativ in ultimii ani. Clinicile moderne sunt dotate cu aceeasi tehnologie ca in vest — tomografe CBCT, scannere intraorale, microscoape dentare — la preturi de 2-4 ori mai mici.</p>
+    <p>Pitesti ofera un avantaj logistic important: <strong>75-90 minute de Aeroportul Henri Coanda (Otopeni) pe Autostrada A1</strong>, fara traversarea Bucurestiului. Ajungi direct din aeroport la cabinet in mai putin de 90 de minute.</p>
+
+    <h2>Ce tratamente rezolvam la ARA DENT STUDIO</h2>
+    <p><strong>Implant dentar</strong><br/>
+    Cel mai solicitat tratament de pacientii din diaspora — costul unui implant complet in Romania e de 2-3 ori mai mic decat in Germania sau UK, la aceeasi calitate a implanturilor si a tehnicii chirurgicale.</p>
+
+    <p><strong>All-on-4 si All-on-6</strong><br/>
+    Reabilitare orala completa cu dantura fixa — o solutie definitiva pentru pacientii cu edentatie totala sau partiala extinsa. Planificam tratamentul inainte de zbor si facem tot posibilul sa ne incadram in zilele disponibile.</p>
+
+    <p><strong>Fatete dentare</strong><br/>
+    Ceramice sau compozit — transformarea estetica a zambetului intr-un numar redus de vizite.</p>
+
+    <p><strong>Extractii, endodontie, parodontologie</strong><br/>
+    Tratamente complete, inclusiv urgente.</p>
+
+    <h2>Inainte sa cumperi biletul de avion</h2>
+    <p>Nu trebuie sa vii fara sa stii ce te asteapta. Trimite-ne pe WhatsApp:</p>
+    <ul>
+      <li><strong>CT dentar (CBCT) recent</strong></li>
+      <li><strong>Fotografii intraorale</strong></li>
+    </ul>
+    <p>Dr. Robert Lungu analizeaza situatia si iti trimite planul de tratament estimat — proceduri necesare, numar de zile si cost total estimat. Stii exact la ce te astepti inainte de zbor.</p>
+
+    <h2>Cate zile trebuie sa planifici</h2>
+    <p>Depinde de tratament si de complexitatea cazului — stabilim impreuna dupa analiza documentelor trimise.</p>
+    <ul>
+      <li><strong>Implant simplu:</strong> 1-2 vizite, posibil in aceeasi saptamana</li>
+      <li><strong>All-on-4:</strong> mai multe zile consecutive — stabilim exact dupa evaluare</li>
+      <li><strong>Fatete:</strong> 2 vizite la interval de cateva zile</li>
+    </ul>
+
+    <h2>Organizam logistica impreuna</h2>
+    <p><strong>Transfer Otopeni — Pitesti</strong><br/>
+    Organizam transferul de la aeroport direct la cabinet sau la cazare.</p>
+    <p><strong>Cazare in Pitesti</strong><br/>
+    Te ajutam sa identifici optiuni de cazare in apropierea cabinetului.</p>
+    <p>Toate detaliile logistice sunt incluse in planul de tratament pe care il primesti inainte de zbor.</p>
+
+    <h2>Cum incepi</h2>
+    <p><strong>Pasul 1</strong> — Trimite pe WhatsApp: CT dentar + fotografii intraorale</p>
+    <p><strong>Pasul 2</strong> — Primesti planul de tratament si costul estimat in 24 ore</p>
+    <p><strong>Pasul 3</strong> — Cumperi biletul cu datele stabilite impreuna</p>
+    <p><strong>Pasul 4</strong> — Vii si rezolvam totul</p>
+  `,
+  },
 ]
 
 const MONTHS_RO = [
