@@ -1395,11 +1395,11 @@ export const articole: Articol[] = [
   `,
   },
   {
-    slug: 'cat-costa-dantuta-fixa-implanturi-pitesti-2026',
-    title: 'Cat costa cu adevarat o dantuta fixa pe implanturi in Pitesti — defalcare completa 2026',
+    slug: 'cat-costa-dantura-fixa-implanturi-pitesti-2026',
+    title: 'Cat costa cu adevarat o dantura fixa pe implanturi in Pitesti — defalcare completa 2026',
     metaDescription: 'Cat costa All-on-4 in Pitesti? 12.000 lei include chirurgia, 4 implanturi si lucrarea provizorie. Afla ce NU include si ce sa bugetezi. ARA DENT STUDIO.',
     excerpt: 'Cand cauti pretul pentru All-on-4 sau All-on-6, primul numar pe care il gasesti e adesea incomplet. La ARA DENT STUDIO iti spunem exact ce include fiecare suma.',
-    date: '2026-08-29',
+    date: '2026-08-30',
     continut: `
     <p>Cand cauti pretul pentru All-on-4 sau All-on-6, primul numar pe care il gasesti e adesea incomplet. Unele clinici afiseaza doar pretul chirurgical, altele includ lucrarea provizorie dar nu si cea definitiva. La ARA DENT STUDIO, iti spunem exact ce include fiecare suma — inainte sa iei orice decizie.</p>
 
@@ -1464,7 +1464,7 @@ export const articole: Articol[] = [
     title: 'All-on-4 in vacanta — ghidul pacientului din diaspora',
     metaDescription: 'Faci All-on-4 in Romania in vacanta? Trimite CBCT + poze pe WhatsApp si primesti planul de tratament inainte sa cumperi biletul. Transfer Otopeni disponibil. ARA DENT STUDIO Pitesti.',
     excerpt: 'Locuiesti in strainatate si vrei sa iti rezolvi dantura acasa in Romania? Iata cum planificam impreuna tratamentul All-on-4 inainte sa cumperi biletul de avion.',
-    date: '2026-08-30',
+    date: '2026-09-01',
     continut: `
     <p>Daca locuiesti in strainatate si vrei sa iti rezolvi dantura acasa in Romania, probabil ai doua intrebari principale: cat dureaza si cum organizezi totul. Iata raspunsurile concrete.</p>
 
@@ -1525,7 +1525,7 @@ export const articole: Articol[] = [
     title: 'Tratament dentar in Romania pentru romanii din strainatate — ghid complet 2026',
     metaDescription: 'Tratament dentar in Romania pentru diaspora — implant, All-on-4, fatete. Trimite CBCT + poze pe WhatsApp si primesti planul inainte de zbor. ARA DENT STUDIO Pitesti, 75 min de Otopeni.',
     excerpt: 'Mii de romani din Germania, Spania, Italia sau UK isi rezolva problemele dentare acasa. Afla cum planificam impreuna tratamentul inainte sa cumperi biletul de avion.',
-    date: '2026-08-30',
+    date: '2026-09-02',
     continut: `
     <p>Mii de romani care traiesc in Germania, Spania, Italia sau UK aleg sa-si rezolve problemele dentare acasa, in Romania. Motivele sunt simple: calitate comparabila cu vestul, preturi semnificativ mai mici si posibilitatea de a combina tratamentul cu vizita la familie.</p>
 
@@ -1581,7 +1581,7 @@ export const articole: Articol[] = [
     title: 'Fara os pentru implant? De ce aproape nimeni nu e refuzat definitiv',
     metaDescription: 'Ai fost informat ca nu poti face implant din lipsa de os? Afla de ce aproape nimeni nu e refuzat definitiv — All-on-4, implanturi zigomatice, pterigoidiene. ARA DENT STUDIO Pitesti.',
     excerpt: 'Unul dintre cele mai frecvente motive pentru care pacientii cred ca nu pot face implant este cantitatea insuficienta de os. Realitatea clinica e diferita.',
-    date: '2026-08-30',
+    date: '2026-09-03',
     continut: `
     <p>Unul dintre cele mai frecvente motive pentru care pacientii cred ca nu pot face implant este cantitatea insuficienta de os. Realitatea clinica e diferita — exista solutii pentru aproape orice situatie, de la tehnici chirurgicale adaptate pana la implanturi speciale pentru cazurile extreme.</p>
 
