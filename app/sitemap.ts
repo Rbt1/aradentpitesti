@@ -46,5 +46,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/cat-costa-implant-dentar-pitesti-2026`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/servicii/extractie-masea-de-minte`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/servicii/aditie-osoasa-sinus-lift`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/cat-costa-dantuta-fixa-implanturi-pitesti-2026`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
   ]
 }

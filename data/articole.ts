@@ -1394,6 +1394,71 @@ export const articole: Articol[] = [
     <p>Consultatie + radiografie panoramica: 100 lei. La consultatie stabilim planul complet de tratament si costul exact pentru situatia ta — fara estimari vagi, fara surprize ulterioare.</p>
   `,
   },
+  {
+    slug: 'cat-costa-dantuta-fixa-implanturi-pitesti-2026',
+    title: 'Cat costa cu adevarat o dantuta fixa pe implanturi in Pitesti — defalcare completa 2026',
+    metaDescription: 'Cat costa All-on-4 in Pitesti? 12.000 lei include chirurgia, 4 implanturi si lucrarea provizorie. Afla ce NU include si ce sa bugetezi. ARA DENT STUDIO.',
+    excerpt: 'Cand cauti pretul pentru All-on-4 sau All-on-6, primul numar pe care il gasesti e adesea incomplet. La ARA DENT STUDIO iti spunem exact ce include fiecare suma.',
+    date: '2026-08-29',
+    continut: `
+    <p>Cand cauti pretul pentru All-on-4 sau All-on-6, primul numar pe care il gasesti e adesea incomplet. Unele clinici afiseaza doar pretul chirurgical, altele includ lucrarea provizorie dar nu si cea definitiva. La ARA DENT STUDIO, iti spunem exact ce include fiecare suma — inainte sa iei orice decizie.</p>
+
+    <h2>Ce este All-on-4 si All-on-6</h2>
+    <p>All-on-4 si All-on-6 sunt solutii de reabilitare orala completa — o dantura fixa, stabila, sustinuta de 4 sau 6 implanturi strategic pozitionate. Nu se scoate, nu necesita adeziv si functioneaza ca o dantura naturala.</p>
+    <p>Diferenta dintre cele doua variante se stabileste la consultatie, pe baza CT-ului dentar — depinde de cantitatea si calitatea osului disponibil si de cerintele biomecanice ale cazului.</p>
+
+    <h2>Ce include pretul afisat</h2>
+    <p><strong>All-on-4 — 12.000 lei per arcada include:</strong></p>
+    <ul>
+      <li>Interventia chirurgicala completa</li>
+      <li>4 implanturi dentare</li>
+      <li>Lucrarea provizorie fixa imediata — pleci acasa cu dinti ficsi in 24-48 ore</li>
+    </ul>
+    <p><strong>All-on-6 — 14.000 lei per arcada include:</strong></p>
+    <ul>
+      <li>Interventia chirurgicala completa</li>
+      <li>6 implanturi dentare</li>
+      <li>Lucrarea provizorie fixa imediata</li>
+    </ul>
+
+    <h2>Ce NU include pretul afisat</h2>
+    <p><strong>Lucrarea definitiva pe implanturi</strong><br/>
+    Lucrarea provizorie e functionala si estetica — dar nu e cea finala. Dupa perioada de osteointegrare (3-6 luni), se realizeaza lucrarea definitiva. Pretul acesteia depinde de materialul ales si de complexitatea cazului — se stabileste la consultatie.</p>
+
+    <p><strong>Aditia osoasa — daca e necesara</strong><br/>
+    Unii pacienti au os insuficient pentru plasarea directa a implanturilor. In aceste cazuri, aditia osoasa sau sinus lift-ul sunt proceduri pregatitoare cu cost separat. Necesitatea lor se stabileste exclusiv pe baza CT-ului dentar.</p>
+
+    <p><strong>Consultatia si investigatiile:</strong></p>
+    <ul>
+      <li>Consultatie: gratuita</li>
+      <li>Radiografie panoramica: 100 lei</li>
+      <li>CT dentar CBCT: 250 lei (obligatoriu pentru planificarea All-on-4)</li>
+    </ul>
+
+    <h2>Costul total estimat — ce sa bugetezi</h2>
+    <table>
+      <thead>
+        <tr><th>Componenta</th><th>Pret</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>All-on-4 (chirurgie + implanturi + provizoriu)</td><td>12.000 lei</td></tr>
+        <tr><td>CT dentar CBCT</td><td>250 lei</td></tr>
+        <tr><td>Lucrare definitiva</td><td>la consultatie</td></tr>
+        <tr><td>Aditie osoasa (daca e necesara)</td><td>la consultatie</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Plata in rate fara dobanda</h2>
+    <p>Costul total poate fi accesat in rate lunare egale, fara dobanda — de la 1.000 lei/luna pentru All-on-4. Aplicarea se face direct la cabinet, la prima vizita.</p>
+
+    <h2>De ce CBCT-ul e obligatoriu</h2>
+    <p>Nu planificam si nu realizam All-on-4 fara CT dentar 3D. CBCT-ul arata exact cantitatea si calitatea osului disponibil, pozitia nervilor si sinusurilor, si permite planificarea digitala precisa a pozitiei implanturilor.</p>
+    <p>La ARA DENT STUDIO, tomograful CBCT este in cabinet — nu esti trimis in alta parte pentru investigatii.</p>
+
+    <h2>Consultatie la ARA DENT STUDIO Pitesti</h2>
+    <p>Consultatie gratuita. CT dentar: 250 lei. La consultatie stabilim planul complet si costul exact pentru situatia ta — inclusiv daca e necesara aditie osoasa si ce presupune lucrarea definitiva.</p>
+  `,
+  },
 ]
 
 const MONTHS_RO = [
