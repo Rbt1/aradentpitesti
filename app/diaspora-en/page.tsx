@@ -292,7 +292,7 @@ export default function DiasporaEnPage() {
                 </h2>
                 <div className="space-y-4 font-jost font-light text-[15px] text-bark-dark leading-[1.9]">
                   <p>
-                    Dr. Robert Lungu is a specialist in dento-alveolar surgery, graduated from UMF Carol Davila Bucharest and with residency in Sibiu (2020–2023).
+                    Dr. Robert Lungu is a specialist in dento-alveolar surgery, graduate of UMF Carol Davila Bucharest, with specialized residency training in dento-alveolar surgery.
                   </p>
                   <p>
                     Implantology and oral surgery are his primary area of activity — not an occasional procedure.

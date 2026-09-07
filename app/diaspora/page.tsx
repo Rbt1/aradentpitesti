@@ -368,7 +368,7 @@ export default function DiasporaPage() {
                 </h2>
                 <div className="space-y-4 font-jost font-light text-[15px] text-bark-dark leading-[1.9]">
                   <p>
-                    Dr. Robert Lungu este medic specialist în chirurgie dento-alveolară, absolvent al UMF Carol Davila București și cu rezidențiat la Sibiu (2020–2023).
+                    Dr. Robert Lungu este medic specialist în chirurgie dento-alveolară, absolvent al UMF Carol Davila București, cu formare prin rezidențiat în chirurgie dento-alveolară.
                   </p>
                   <p>
                     Implantologia și chirurgia orală reprezintă domeniul său principal de activitate — nu o procedură ocazională.
