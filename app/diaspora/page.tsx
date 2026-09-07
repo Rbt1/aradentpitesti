@@ -7,7 +7,9 @@ import Footer from '@/app/components/Footer'
 
 const WA_GENERIC = 'https://wa.me/40754219011'
 const WA_DIASPORA =
-  'https://wa.me/40754219011?text=Buna+ziua!+Sunt+din+diaspora+si+as+dori+sa+programez+o+consultatie+la+ARA+DENT+STUDIO.'
+  'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Sunt din diaspora și doresc o evaluare pentru tratament dentar. Vă trimit CT-ul și pozele intraorale.')
+const WA_DOCUMENTE =
+  'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Sunt din diaspora și doresc o evaluare. Vă trimit CT-ul și pozele intraorale.')
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -50,6 +52,13 @@ const CalendarIcon = () => (
 const CheckIcon = () => (
   <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
     <polyline points="20 6 9 17 4 12" />
+  </svg>
+)
+
+const HomeIcon = () => (
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+    <polyline points="9 22 9 12 15 12 15 22" />
   </svg>
 )
 
@@ -162,7 +171,95 @@ export default function DiasporaPage() {
           </div>
         </section>
 
-        {/* 3. Timeline */}
+        {/* 3. Protocol — inainte de bilet */}
+        <section className="py-20 px-6 bg-forest-dark">
+          <div className="container-site max-w-3xl">
+            <motion.h2
+              className="font-playfair text-3xl lg:text-4xl text-cream mb-6"
+              {...fadeUp()}
+            >
+              Înainte să cumperi biletul de avion
+            </motion.h2>
+            <motion.p
+              className="font-jost font-light text-[16px] text-forest-light mb-4"
+              {...fadeUp(0.1)}
+            >
+              Trimite-ne pe WhatsApp:
+            </motion.p>
+            <motion.ul className="space-y-2 mb-8" {...fadeUp(0.15)}>
+              <li className="flex items-start gap-3 font-jost font-light text-[16px] text-cream">
+                <span className="text-gold font-bold mt-[2px]">—</span>
+                CT dentar (CBCT) recent
+              </li>
+              <li className="flex items-start gap-3 font-jost font-light text-[16px] text-cream">
+                <span className="text-gold font-bold mt-[2px]">—</span>
+                Fotografii intraorale
+              </li>
+            </motion.ul>
+            <motion.p
+              className="font-jost font-light text-[16px] text-forest-light leading-[1.9] mb-10"
+              {...fadeUp(0.2)}
+            >
+              Pe baza acestora, Dr. Robert Lungu analizează situația ta și îți trimite planul de tratament estimat — ce proceduri sunt necesare, câte zile trebuie să planifici și costul total estimat. Știi exact la ce să te aștepți înainte să cumperi biletul.
+            </motion.p>
+            <motion.a
+              href={WA_DOCUMENTE}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 font-jost text-sm uppercase tracking-wider bg-gold text-forest-dark px-8 py-4 rounded-sm hover:bg-gold-light transition-all duration-300"
+              {...fadeUp(0.25)}
+            >
+              Trimite documentele pe WhatsApp
+            </motion.a>
+          </div>
+        </section>
+
+        {/* 4. Logistica */}
+        <section className="py-20 px-6 bg-cream">
+          <div className="container-site max-w-4xl">
+            <motion.h2
+              className="font-playfair text-3xl lg:text-4xl text-forest-dark mb-10 text-center"
+              {...fadeUp()}
+            >
+              Organizăm totul împreună
+            </motion.h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {[
+                {
+                  Icon: PlaneIcon,
+                  title: 'Transfer Otopeni — Pitești',
+                  text: 'Pitești se află la 75-90 minute de Aeroportul Henri Coandă (Otopeni) pe Autostrada A1 — fără traversarea Bucureștiului. Organizăm transferul de la aeroport direct la cabinet.',
+                },
+                {
+                  Icon: HomeIcon,
+                  title: 'Cazare în Pitești',
+                  text: 'Te ajutăm să identifici opțiuni de cazare în apropierea cabinetului pentru zilele de tratament.',
+                },
+                {
+                  Icon: CalendarIcon,
+                  title: 'Plan personalizat',
+                  text: 'Facem tot posibilul să ne încadrăm în zilele planificate împreună — stabilim totul înainte de zbor.',
+                },
+              ].map((card, i) => (
+                <motion.div
+                  key={card.title}
+                  className="bg-offwhite border border-bark-light/30 rounded-sm p-8"
+                  style={{ boxShadow: '0 8px 32px rgba(45,106,79,0.08)' }}
+                  {...fadeUp(i * 0.12)}
+                  whileHover={{ y: -4 }}
+                >
+                  <div className="text-gold mb-4">
+                    <card.Icon />
+                  </div>
+                  <h3 className="font-playfair text-xl text-forest-dark mb-3">{card.title}</h3>
+                  <p className="font-jost font-light text-[14px] text-bark-dark leading-relaxed">{card.text}</p>
+                </motion.div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* 5. Timeline */}
         <section className="py-20 px-6 bg-offwhite">
           <div className="container-site max-w-2xl">
             <motion.h2
