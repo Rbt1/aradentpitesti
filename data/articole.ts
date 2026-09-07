@@ -1576,6 +1576,64 @@ export const articole: Articol[] = [
     <p><strong>Pasul 4</strong> — Vii si rezolvam totul</p>
   `,
   },
+  {
+    slug: 'fara-os-pentru-implant-all-on-4',
+    title: 'Fara os pentru implant? De ce aproape nimeni nu e refuzat definitiv',
+    metaDescription: 'Ai fost informat ca nu poti face implant din lipsa de os? Afla de ce aproape nimeni nu e refuzat definitiv — All-on-4, implanturi zigomatice, pterigoidiene. ARA DENT STUDIO Pitesti.',
+    excerpt: 'Unul dintre cele mai frecvente motive pentru care pacientii cred ca nu pot face implant este cantitatea insuficienta de os. Realitatea clinica e diferita.',
+    date: '2026-08-30',
+    continut: `
+    <p>Unul dintre cele mai frecvente motive pentru care pacientii cred ca nu pot face implant este cantitatea insuficienta de os. Realitatea clinica e diferita — exista solutii pentru aproape orice situatie, de la tehnici chirurgicale adaptate pana la implanturi speciale pentru cazurile extreme.</p>
+
+    <h2>De ce se pierde osul si ce inseamna asta</h2>
+    <p>Osul maxilar se resoarbe progresiv dupa pierderea dintilor — cu cat un dinte lipseste mai mult, cu atat mai mult os dispare in acea zona. La pacientii edentati total de multi ani sau la purtatorii de proteza mobila de lunga durata, resorbtia osoasa poate fi semnificativa.</p>
+    <p>Acesta e motivul pentru care unii pacienti sunt informati ca nu pot face implant — osul disponibil e insuficient pentru tehnicile standard.</p>
+
+    <h2>All-on-4 — conceput special pentru os insuficient</h2>
+    <p>All-on-4 nu e doar o alternativa la implantul clasic — e o tehnica chirurgicala dezvoltata specific pentru pacientii cu os insuficient in zona posterioara a maxilarului.</p>
+    <p>Principiul cheie: <strong>implanturile posterioare se insereaza inclinat la 45 de grade</strong>, evitand zonele cu deficit osos si valorificand osul disponibil in alte zone anatomice. Astfel, cu 4 implanturi strategic pozitionate, se poate realiza o dantura fixa completa chiar si in cazuri cu resorbtie osoasa avansata.</p>
+
+    <h2>Cand All-on-4 clasic nu e suficient — implanturile speciale</h2>
+    <p>Exista cazuri extreme in care nici tehnica All-on-4 standard nu e aplicabila din cauza resorbtiei osoase severe. Pentru acestea exista implanturi speciale:</p>
+
+    <p><strong>Implanturi zigomatice</strong><br/>
+    Se ancoreaza in osul zigomatic (pometi) — un os dens si voluminos, neafectat de resorbtia maxilara. Solutie pentru cazurile cu atrofie osoasa maxima la maxilarul superior.</p>
+
+    <p><strong>Implanturi pterigoidiene</strong><br/>
+    Se insereaza in procesul pterigoid — o structura osoasa densa din spatele maxilarului superior, disponibila chiar si cand osul alveolar a disparut complet.</p>
+
+    <p><strong>Implanturi transnazale si transinuzale</strong><br/>
+    Tehnici avansate care folosesc structuri osoase alternative pentru ancorarea implanturilor in cazuri de atrofie severa.</p>
+
+    <h2>Cine poate beneficia de aceste tehnici</h2>
+    <p>Decizia nu depinde doar de cantitatea de os — depinde de mai multi factori evaluati individual:</p>
+    <ul>
+      <li>Varsta si starea generala de sanatate</li>
+      <li>Calitatea osului disponibil</li>
+      <li>Anatomia specifica a pacientului</li>
+      <li>Gradul de resorbtie si distributia ei</li>
+      <li>Asteptarile si obiectivele pacientului</li>
+    </ul>
+    <p><strong>Nu exista o regula universala</strong> — fiecare caz se evalueaza individual pe baza CT-ului dentar 3D.</p>
+
+    <h2>De ce CBCT-ul e obligatoriu</h2>
+    <p>Nicio decizie despre tipul de implant sau tehnica chirurgicala nu se ia fara tomografie CBCT 3D. CT-ul arata exact:</p>
+    <ul>
+      <li>Cantitatea si calitatea osului disponibil</li>
+      <li>Pozitia sinusurilor maxilare si a nervilor</li>
+      <li>Structurile anatomice alternative disponibile</li>
+      <li>Daca e necesara aditie osoasa sau se poate lucra cu ce exista</li>
+    </ul>
+    <p>La ARA DENT STUDIO, tomograful CBCT este in cabinet — nu esti trimis in alta parte pentru investigatii.</p>
+
+    <h2>Mesajul important</h2>
+    <p>Daca ai fost informat ca nu poti face implant din lipsa de os — nu accepta acest raspuns fara o a doua opinie si fara un CT dentar complet.</p>
+    <p>Tehnicile moderne de implantologie permit rezolvarea unor cazuri care acum 10-15 ani erau considerate imposibile. Limitele reale sunt stabilite individual, dupa evaluare completa — nu printr-o privire rapida sau o radiografie panoramica.</p>
+
+    <h2>Evaluare la ARA DENT STUDIO Pitesti</h2>
+    <p>Consultatie gratuita. CT dentar CBCT: 250 lei. Dr. Robert Lungu evalueaza situatia ta si stabileste ce solutie e posibila — All-on-4 clasic, tehnica adaptata sau implanturi speciale.</p>
+  `,
+  },
 ]
 
 const MONTHS_RO = [

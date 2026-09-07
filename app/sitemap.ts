@@ -50,5 +50,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/all-on-4-diaspora-ghid-pacient`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/blog/tratament-dentar-romania-diaspora-2026`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/diaspora-en`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
+    { url: `${base}/blog/fara-os-pentru-implant-all-on-4`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
   ]
 }
