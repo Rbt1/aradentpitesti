@@ -143,14 +143,22 @@ const Testimonials = () => {
           ))}
         </div>
 
-        {/* Buton toate recenziile */}
+        {/* Butoane recenzii */}
         <motion.div
-          className="text-center mt-10"
+          className="text-center mt-10 flex flex-col items-center gap-5"
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.3 }}
         >
+          <a
+            href="https://search.google.com/local/writereview?placeid=ChIJzf4xiTi9skARclRTGnaL4Zg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-jost font-bold text-[13px] uppercase tracking-wide text-gold border border-gold px-6 py-[10px] rounded-sm hover:bg-gold hover:text-forest-dark transition-all duration-200"
+          >
+            ★ Lasă o recenzie pe Google
+          </a>
           <a
             href={GOOGLE_REVIEW_URL}
             target="_blank"
