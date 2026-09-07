@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import Link from 'next/link'
 import Navbar from '@/app/components/Navbar'
 import Footer from '@/app/components/Footer'
 
@@ -110,6 +111,14 @@ export default function DiasporaPage() {
         {/* 1. Hero */}
         <section className="bg-forest-dark pt-40 pb-24 px-6 text-center">
           <div className="container-site max-w-3xl mx-auto">
+            <motion.div className="flex justify-end mb-6" {...fadeUp(0)}>
+              <Link
+                href="/diaspora-en"
+                className="font-jost text-[11px] uppercase tracking-wider text-cream/50 hover:text-gold transition-colors duration-200 border border-cream/20 hover:border-gold px-3 py-1.5 rounded-sm"
+              >
+                🇬🇧 English version
+              </Link>
+            </motion.div>
             <motion.h1
               className="font-playfair font-bold text-4xl lg:text-5xl text-cream leading-tight mb-6"
               {...fadeUp(0)}

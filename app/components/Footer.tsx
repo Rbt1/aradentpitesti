@@ -15,6 +15,7 @@ const NAV_LINKS = [
   { label: 'Prețuri', href: '/preturi' },
   { label: 'Contact', href: '/contact' },
   { label: 'Pacienți din diaspora', href: '/diaspora' },
+  { label: 'For Romanians Abroad (EN)', href: '/diaspora-en' },
 ]
 
 const InstagramIcon = () => (
