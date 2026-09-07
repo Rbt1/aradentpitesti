@@ -25,10 +25,15 @@ const CheckIcon = () => (
   </svg>
 )
 
+const WA_DIASPORA =
+  'https://wa.me/40754219011?text=' +
+  encodeURIComponent('Bună ziua! Sunt din diaspora și doresc o evaluare pentru tratament dentar. Vă trimit CT-ul și pozele intraorale.')
+
 const FEATURES = [
-  { Icon: PlaneIcon, text: 'Ești plecat în Germania, Spania sau Italia?' },
-  { Icon: CalendarIcon, text: 'Programare adaptată zilelor tale acasă' },
-  { Icon: CheckIcon, text: 'Consultație: 100 lei — fără surprize' },
+  { Icon: CheckIcon, text: 'Trimite-ne CT-ul și pozele pe WhatsApp' },
+  { Icon: CheckIcon, text: 'Primești planul de tratament în 24 ore' },
+  { Icon: PlaneIcon, text: 'Transfer Otopeni — Pitești disponibil' },
+  { Icon: CalendarIcon, text: '75-90 minute de aeroport pe A1' },
 ]
 
 const DiasporaBanner = () => {
@@ -45,17 +50,27 @@ const DiasporaBanner = () => {
             transition={{ duration: 0.6, ease: 'easeOut' }}
           >
             <h2 className="font-playfair font-bold text-[28px] lg:text-[32px] text-cream leading-tight mb-5">
-              Ești acasă în vacanță?
+              Vii acasă din diaspora?
             </h2>
             <p className="font-jost font-light text-[16px] text-cream/80 leading-[1.7] mb-8">
-              Planificăm tratamentul dentar în funcție de zilele tale disponibile — programare flexibilă, etapizare specială pentru pacienții care vin acasă sezonier.
+              Planificăm tratamentul tău dentar înainte să cumperi biletul de avion.
             </p>
-            <Link
-              href="/diaspora"
-              className="inline-block font-jost text-sm uppercase tracking-wider bg-gold text-forest-dark px-8 py-[14px] rounded-sm hover:bg-cream transition-all duration-300"
-            >
-              Află mai multe →
-            </Link>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a
+                href={WA_DIASPORA}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block font-jost text-sm uppercase tracking-wider bg-gold text-forest-dark px-8 py-[14px] rounded-sm hover:bg-cream transition-all duration-300 text-center"
+              >
+                Trimite documentele pe WhatsApp
+              </a>
+              <Link
+                href="/diaspora"
+                className="inline-block font-jost text-sm uppercase tracking-wider border border-gold text-gold px-8 py-[14px] rounded-sm hover:bg-gold hover:text-forest-dark transition-all duration-300 text-center"
+              >
+                Află mai multe
+              </Link>
+            </div>
           </motion.div>
 
           {/* Coloana dreapta */}
