@@ -3,7 +3,13 @@ import { Metadata } from 'next'
 export const metadata: Metadata = {
   title: { absolute: 'Tratament Dentar pentru Români din Diaspora | ARA DENT STUDIO Pitești' },
   description: 'Ești acasă în vacanță? Planificăm tratamentul dentar în funcție de zilele tale disponibile. Etapizare specială, programare flexibilă. Consultație: 100 lei.',
-  alternates: { canonical: 'https://www.aradentpitesti.ro/diaspora' },
+  alternates: {
+    canonical: 'https://www.aradentpitesti.ro/diaspora',
+    languages: {
+      ro: 'https://www.aradentpitesti.ro/diaspora',
+      en: 'https://www.aradentpitesti.ro/diaspora-en',
+    },
+  },
   openGraph: {
     title: 'Tratament Dentar pentru Români din Diaspora | ARA DENT STUDIO',
     description: 'Ești acasă în vacanță? Planificăm tratamentul dentar în funcție de zilele tale disponibile. Etapizare specială, programare flexibilă. Consultație: 100 lei.',
