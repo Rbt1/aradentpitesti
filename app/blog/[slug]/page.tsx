@@ -113,7 +113,7 @@ export default function ArticolPage({ params }: Props) {
                 Vrei să afli cât te costă implantul TĂU?
               </h2>
               <p className="font-jost font-light text-[15px] text-bark-dark mb-8">
-                Consultație + radiografie panoramică: 100 lei. CT dentar (CBCT): 250 lei.
+                Consultație gratuită. Radiografie panoramică: 100 lei. CT dentar (CBCT): 250 lei.
               </p>
               <a
                 href={`https://wa.me/40754219011?text=${WA_TEXT}`}

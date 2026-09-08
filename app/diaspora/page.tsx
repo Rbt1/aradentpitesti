@@ -89,8 +89,8 @@ const CARDS: Card[] = [
 
 const EVAL_ITEMS = [
   {
-    title: 'Consultație + radiografie panoramică',
-    text: '100 lei — evaluare completă cu Dr. Robert Lungu, specialist chirurgie dento-alveolară',
+    title: 'Consultație gratuită',
+    text: 'Radiografie panoramică: 100 lei — evaluare completă cu Dr. Robert Lungu, specialist chirurgie dento-alveolară',
   },
   {
     title: 'CT dentar (CBCT)',
@@ -291,7 +291,7 @@ export default function DiasporaPage() {
                     Vizita 1 — Prima vacanță
                   </h3>
                   <p className="font-jost font-light text-[15px] text-bark-dark leading-relaxed">
-                    Consultație + radiografie panoramică (100 lei) și evaluare completă. Extracție dacă e necesară. Inserarea implantului — 30–60 minute. Pleci fără durere, cu implantul în curs de integrare.
+                    Consultație gratuită. Radiografie panoramică: 100 lei. Evaluare completă. Extracție dacă e necesară. Inserarea implantului — 30–60 minute. Pleci fără durere, cu implantul în curs de integrare.
                   </p>
                 </div>
               </motion.div>

@@ -25,7 +25,8 @@ const CATEGORII = [
     titlu: 'Consultație și diagnosticare',
     href: '/contact',
     servicii: [
-      { nume: 'Consultație + radiografie panoramică', pret: '100 lei' },
+      { nume: 'Consultație', pret: 'Gratuită' },
+      { nume: 'Radiografie panoramică', pret: '100 lei' },
       { nume: 'CT dentar (CBCT)', pret: '250 lei' },
       { nume: 'Tratament de urgență', pret: '200 lei' },
     ],
@@ -92,7 +93,7 @@ export default function PreturiPage() {
               Prețuri ARA DENT STUDIO
             </h1>
             <p className="font-jost font-light text-lg text-bark-dark">
-              Transparență completă. Consultație + radiografie panoramică: 100 lei. CT dentar (CBCT): 250 lei. Plătești doar ce ai nevoie.
+              Transparență completă. Consultație gratuită. Radiografie panoramică: 100 lei. CT dentar (CBCT): 250 lei. Plătești doar ce ai nevoie.
             </p>
           </div>
         </section>

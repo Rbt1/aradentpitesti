@@ -8,11 +8,11 @@ import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Fatete Dentare Pitesti | Ceramice si Compozit | ARA DENT STUDIO' },
-  description: 'Fatete dentare ceramice si compozit in Pitesti. Transforma aspectul zambetului fara interventii majore. Dr. Robert Lungu. Consultatie: 100 lei.',
+  description: 'Fatete dentare ceramice si compozit in Pitesti. Transforma aspectul zambetului fara interventii majore. Dr. Robert Lungu. Consultatie gratuita.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/fatete-dentare' },
   openGraph: {
     title: 'Fatete Dentare Pitesti | Ceramice si Compozit | ARA DENT STUDIO',
-    description: 'Fatete dentare ceramice si compozit in Pitesti. Transforma aspectul zambetului fara interventii majore. Dr. Robert Lungu. Consultatie: 100 lei.',
+    description: 'Fatete dentare ceramice si compozit in Pitesti. Transforma aspectul zambetului fara interventii majore. Dr. Robert Lungu. Consultatie gratuita.',
     url: 'https://www.aradentpitesti.ro/servicii/fatete-dentare',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
@@ -128,7 +128,7 @@ const CONTRAINDICATII: ReactNode[] = [
 const PASI = [
   {
     nr: '01',
-    titlu: 'Consultație: 100 lei',
+    titlu: 'Consultație gratuită',
     text: 'Evaluăm starea dinților, discutăm așteptările și stabilim tipul de fațetă potrivit.',
   },
   {
@@ -310,7 +310,7 @@ export default function FateteDentarePage() {
         {/* CTA WhatsApp contextual */}
         <CTAWhatsApp
           title="Vrei să afli dacă fațetele sunt potrivite pentru tine?"
-          subtitle="Consultație: 100 lei — evaluăm dinții tăi."
+          subtitle="Consultație gratuită — evaluăm dinții tăi."
           waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Sunt interesat de fațete dentare și aș dori să programez o consultație.')}
         />
 
@@ -331,7 +331,7 @@ export default function FateteDentarePage() {
               Descoperă cum arată zâmbetul tău ideal
             </h2>
             <p className="font-jost font-light text-forest-light mb-10">
-              Consultație: 100 lei — evaluăm situația ta și îți explicăm opțiunile disponibile.
+              Consultație gratuită — evaluăm situația ta și îți explicăm opțiunile disponibile.
             </p>
             <a
               href="https://wa.me/40754219011?text=Bun%C4%83%20ziua!%20Doresc%20o%20consulta%C8%9Bie%20pentru%20fa%C8%9Bete%20dentare."

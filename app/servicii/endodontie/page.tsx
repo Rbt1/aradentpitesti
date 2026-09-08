@@ -7,11 +7,11 @@ import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Tratament Canal Pitești | Microscop Dentar | ARA DENT STUDIO' },
-  description: 'Tratament de canal in Pitesti cu microscop dentar, de la 400 lei. Salvam dintele fara durere. Dr. Robert Lungu. Consultatie: 100 lei.',
+  description: 'Tratament de canal in Pitesti cu microscop dentar, de la 400 lei. Salvam dintele fara durere. Dr. Robert Lungu. Consultatie gratuita.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/endodontie' },
   openGraph: {
     title: 'Tratament Canal Pitești | Microscop Dentar | ARA DENT STUDIO',
-    description: 'Tratament de canal in Pitesti cu microscop dentar, de la 400 lei. Salvam dintele fara durere. Dr. Robert Lungu. Consultatie: 100 lei.',
+    description: 'Tratament de canal in Pitesti cu microscop dentar, de la 400 lei. Salvam dintele fara durere. Dr. Robert Lungu. Consultatie gratuita.',
     url: 'https://www.aradentpitesti.ro/servicii/endodontie',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
@@ -151,7 +151,7 @@ export default function EndodontiePage() {
         {/* CTA WhatsApp contextual */}
         <CTAWhatsApp
           title="Te doare un dinte și crezi că ai nevoie de tratament de canal?"
-          subtitle="Consultație: 100 lei — stabilim exact ce ai nevoie."
+          subtitle="Consultație gratuită — stabilim exact ce ai nevoie."
           waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Cred că am nevoie de tratament de canal și aș dori să programez o consultație.')}
         />
 

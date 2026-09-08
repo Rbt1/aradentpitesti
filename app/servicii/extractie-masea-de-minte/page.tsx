@@ -7,11 +7,11 @@ import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Extracție Maseă de Minte Pitești | de la 400 lei | ARA DENT STUDIO' },
-  description: 'Extracție maseă de minte în Pitești de la 400 lei. Extracție simplă, semiinclusă sau inclusă. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație 100 lei.',
+  description: 'Extracție maseă de minte în Pitești de la 400 lei. Extracție simplă, semiinclusă sau inclusă. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație gratuită.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/extractie-masea-de-minte' },
   openGraph: {
     title: 'Extracție Maseă de Minte Pitești | de la 400 lei | ARA DENT STUDIO',
-    description: 'Extracție maseă de minte în Pitești de la 400 lei. Extracție simplă, semiinclusă sau inclusă. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație 100 lei.',
+    description: 'Extracție maseă de minte în Pitești de la 400 lei. Extracție simplă, semiinclusă sau inclusă. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație gratuită.',
     url: 'https://www.aradentpitesti.ro/servicii/extractie-masea-de-minte',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
@@ -229,7 +229,7 @@ export default function ExtractieMAseaDeMintePage() {
               ))}
             </div>
             <p className="font-jost text-[13px] text-bark text-center mt-8">
-              Consultație + radiografie panoramică: 100 lei &nbsp;|&nbsp; CT dentar: 250 lei (când este necesar)
+              Consultație gratuită &nbsp;|&nbsp; Radiografie panoramică: 100 lei &nbsp;|&nbsp; CT dentar: 250 lei (când este necesar)
             </p>
           </div>
         </section>
@@ -273,7 +273,7 @@ export default function ExtractieMAseaDeMintePage() {
         {/* CTA WhatsApp contextual */}
         <CTAWhatsApp
           title="Ai nevoie de extracția maseei de minte?"
-          subtitle="Programează-te direct — consultație + radiografie: 100 lei."
+          subtitle="Programează-te direct — consultație gratuită. Radiografie: 100 lei."
           waUrl={WA_URL}
         />
 
@@ -294,7 +294,7 @@ export default function ExtractieMAseaDeMintePage() {
               Programează evaluarea
             </h2>
             <p className="font-jost font-light text-forest-light mb-10">
-              Consultație + radiografie panoramică: 100 lei — stabilim împreună dacă extracția este necesară.
+              Consultație gratuită. Radiografie panoramică: 100 lei — stabilim împreună dacă extracția este necesară.
             </p>
             <a
               href={WA_URL}

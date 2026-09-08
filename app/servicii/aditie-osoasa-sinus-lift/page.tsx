@@ -7,11 +7,11 @@ import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Adiție Osoasă și Sinus Lift Pitești | ARA DENT STUDIO | Dr. Robert Lungu' },
-  description: 'Adiție osoasă și sinus lift în Pitești. Proceduri chirurgicale pentru pacienții cu os insuficient pentru implant. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație 100 lei.',
+  description: 'Adiție osoasă și sinus lift în Pitești. Proceduri chirurgicale pentru pacienții cu os insuficient pentru implant. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație gratuită.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/aditie-osoasa-sinus-lift' },
   openGraph: {
     title: 'Adiție Osoasă și Sinus Lift Pitești | ARA DENT STUDIO | Dr. Robert Lungu',
-    description: 'Adiție osoasă și sinus lift în Pitești. Proceduri chirurgicale pentru pacienții cu os insuficient pentru implant. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație 100 lei.',
+    description: 'Adiție osoasă și sinus lift în Pitești. Proceduri chirurgicale pentru pacienții cu os insuficient pentru implant. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație gratuită.',
     url: 'https://www.aradentpitesti.ro/servicii/aditie-osoasa-sinus-lift',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
@@ -240,7 +240,7 @@ export default function AditieOsoasaSinusLiftPage() {
         {/* CTA WhatsApp contextual */}
         <CTAWhatsApp
           title="Vrei să afli dacă poți face implant?"
-          subtitle="Evaluare cu CBCT propriu — consultație: 100 lei, CT dentar: 250 lei."
+          subtitle="Evaluare cu CBCT propriu — consultație gratuită. CT dentar: 250 lei."
           waUrl={WA_URL}
         />
 
@@ -261,7 +261,7 @@ export default function AditieOsoasaSinusLiftPage() {
               Evaluare completă cu CBCT
             </h2>
             <p className="font-jost font-light text-forest-light mb-10">
-              Consultație + radiografie: 100 lei &nbsp;·&nbsp; CT dentar: 250 lei
+              Consultație gratuită &nbsp;·&nbsp; Radiografie: 100 lei &nbsp;·&nbsp; CT dentar: 250 lei
               <br />
               Stabilim împreună ce tratament este posibil pentru cazul tău.
             </p>

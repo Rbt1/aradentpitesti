@@ -30,7 +30,7 @@ const ITEMS = [
   {
     Icon: StarIcon,
     title: 'Fără costuri ascunse',
-    text: 'Consultație + radiografie panoramică: 100 lei. CT dentar: 250 lei. Știi exact cât plătești din prima zi — fără surprize, fără drumuri inutile.',
+    text: 'Consultație gratuită. Radiografie panoramică: 100 lei. CT dentar: 250 lei. Știi exact cât plătești din prima zi — fără surprize, fără drumuri inutile.',
   },
 ]
 

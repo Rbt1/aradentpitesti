@@ -61,7 +61,7 @@ const jsonLdFaq = {
       name: 'Cat costa un implant dentar in Pitesti la ARA DENT STUDIO?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'La ARA DENT STUDIO, implantul dentar (surub Dentium) costa 1.200 lei. Bontul protetic este 300 lei, iar capa de vindecare 150 lei. Consultatia + radiografia panoramica: 100 lei. CT dentar (CBCT): 250 lei.',
+        text: 'La ARA DENT STUDIO, implantul dentar (surub Dentium) costa 1.200 lei. Bontul protetic este 300 lei, iar capa de vindecare 150 lei. Consultatia este gratuita. Radiografie panoramica: 100 lei. CT dentar (CBCT): 250 lei.',
       },
     },
     {
@@ -145,7 +145,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Pot face implant dacă am diabet?',
-    a: 'Depinde de stadiul și controlul bolii. La consultație (100 lei) evaluăm situația ta specific și îți spunem dacă ești candidat potrivit pentru implant.',
+    a: 'Depinde de stadiul și controlul bolii. La consultație evaluăm situația ta specific și îți spunem dacă ești candidat potrivit pentru implant.',
   },
   {
     q: 'Care e diferența între implant și proteză?',
@@ -262,7 +262,7 @@ export default function ImplantologiePage() {
             </h2>
             <ol className="space-y-5">
               {[
-                { nr: '1', titlu: 'Consultație + radiografie: 100 lei', text: 'Evaluare clinică completă — radiografie panoramică inclusă. CT dentar (CBCT): 250 lei dacă e necesar. Plan de tratament personalizat.' },
+                { nr: '1', titlu: 'Consultație gratuită', text: 'Evaluare clinică completă. Radiografie panoramică: 100 lei. CT dentar (CBCT): 250 lei dacă e necesar. Plan de tratament personalizat.' },
                 { nr: '2', titlu: 'Pregătire pre-chirurgicală', text: 'Tratament carii active și igienizare profesională pentru reducerea bacteriilor din cavitatea orală înainte de intervenție.' },
                 { nr: '3', titlu: 'Inserarea implantului', text: 'Intervenție sub anestezie locală, 30–60 minute per implant. Recuperare rapidă, fără durere în timpul procedurii.' },
                 { nr: '4', titlu: 'Osteointegrare', text: '3–6 luni în care implantul se integrează biologic în os — perioada în care titanul devine parte din structura ta osoasă.' },
@@ -318,7 +318,7 @@ export default function ImplantologiePage() {
         {/* CTA WhatsApp contextual */}
         <CTAWhatsApp
           title="Ești candidat pentru implant dentar?"
-          subtitle="Consultație + radiografie: 100 lei — Dr. Robert Lungu."
+          subtitle="Consultație gratuită. Radiografie: 100 lei — Dr. Robert Lungu."
           waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Sunt interesat de implant dentar și aș dori să programez o consultație la ARA DENT STUDIO.')}
         />
 
@@ -358,7 +358,7 @@ export default function ImplantologiePage() {
         <section id="programare" className="py-20 px-6 bg-forest">
           <div className="container-site max-w-2xl text-center">
             <h2 className="font-playfair italic text-4xl text-cream mb-4">
-              Consultație pentru implant — 100 lei
+              Consultație pentru implant — gratuită
             </h2>
             <p className="font-jost font-light text-forest-light mb-10">
               Consultația include radiografia panoramică. CT dentar (CBCT): 250 lei dacă e necesar. Vino să afli dacă implantul e soluția potrivită pentru tine.

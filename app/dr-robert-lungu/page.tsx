@@ -5,11 +5,11 @@ import Footer from '@/app/components/Footer'
 
 export const metadata: Metadata = {
   title: { absolute: 'Dr. Robert Lungu | ARA DENT STUDIO Pitești' },
-  description: 'Dr. Robert Lungu, medic specialist în chirurgie dento-alveolară la ARA DENT STUDIO Pitești. Implantologie, chirurgie orală. Consultație: 100 lei.',
+  description: 'Dr. Robert Lungu, medic specialist în chirurgie dento-alveolară la ARA DENT STUDIO Pitești. Implantologie, chirurgie orală. Consultație gratuită.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/dr-robert-lungu' },
   openGraph: {
     title: 'Dr. Robert Lungu | Medic Specialist Chirurgie Dento-Alveolară',
-    description: 'Dr. Robert Lungu, medic specialist în chirurgie dento-alveolară la ARA DENT STUDIO Pitești. Implantologie, chirurgie orală. Consultație: 100 lei.',
+    description: 'Dr. Robert Lungu, medic specialist în chirurgie dento-alveolară la ARA DENT STUDIO Pitești. Implantologie, chirurgie orală. Consultație gratuită.',
     url: 'https://www.aradentpitesti.ro/dr-robert-lungu',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',

@@ -122,7 +122,7 @@ export default function ContactPage() {
               Contactează ARA DENT STUDIO
             </h1>
             <p className="font-jost font-light text-lg text-bark-dark">
-              Suntem aici pentru tine. Consultație + radiografie panoramică: 100 lei. CT dentar (CBCT): 250 lei.
+              Suntem aici pentru tine. Consultație gratuită. Radiografie panoramică: 100 lei. CT dentar (CBCT): 250 lei.
             </p>
           </div>
         </section>

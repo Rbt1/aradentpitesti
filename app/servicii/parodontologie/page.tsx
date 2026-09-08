@@ -7,11 +7,11 @@ import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Parodontologie Pitești | Gingii care sângerează? | ARA DENT STUDIO' },
-  description: 'Tratament parodontal în Pitești de la 200 lei. Chiuretaj, detartraj profesional. Osul pierdut nu se mai reface — tratează din timp. Consultație: 100 lei.',
+  description: 'Tratament parodontal în Pitești de la 200 lei. Chiuretaj, detartraj profesional. Osul pierdut nu se mai reface — tratează din timp. Consultație gratuită.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/parodontologie' },
   openGraph: {
     title: 'Parodontologie Pitești | Gingii care sângerează? | ARA DENT STUDIO',
-    description: 'Tratament parodontal în Pitești de la 200 lei. Chiuretaj, detartraj profesional. Osul pierdut nu se mai reface — tratează din timp. Consultație: 100 lei.',
+    description: 'Tratament parodontal în Pitești de la 200 lei. Chiuretaj, detartraj profesional. Osul pierdut nu se mai reface — tratează din timp. Consultație gratuită.',
     url: 'https://www.aradentpitesti.ro/servicii/parodontologie',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',

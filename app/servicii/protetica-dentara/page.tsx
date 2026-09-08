@@ -7,11 +7,11 @@ import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Coroane și Punți Dentare Pitești | de la 200 lei | ARA DENT STUDIO' },
-  description: 'Coroane ceramice, punți fixe și lucrări pe implanturi în Pitești. Dr. Robert Lungu. Consultație: 100 lei. Programează acum.',
+  description: 'Coroane ceramice, punți fixe și lucrări pe implanturi în Pitești. Dr. Robert Lungu. Consultație gratuită. Programează acum.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/protetica-dentara' },
   openGraph: {
     title: 'Coroane și Punți Dentare Pitești | de la 200 lei | ARA DENT STUDIO',
-    description: 'Coroane ceramice, punți fixe și lucrări pe implanturi în Pitești. Dr. Robert Lungu. Consultație: 100 lei. Programează acum.',
+    description: 'Coroane ceramice, punți fixe și lucrări pe implanturi în Pitești. Dr. Robert Lungu. Consultație gratuită. Programează acum.',
     url: 'https://www.aradentpitesti.ro/servicii/protetica-dentara',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
@@ -171,7 +171,7 @@ export default function ProteticaDentaraPage() {
         {/* CTA WhatsApp contextual */}
         <CTAWhatsApp
           title="Vrei să afli ce opțiuni protetice ai pentru situația ta?"
-          subtitle="Consultație: 100 lei — evaluăm împreună."
+          subtitle="Consultație gratuită — evaluăm împreună."
           waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Aș dori o consultație pentru lucrări protetice la ARA DENT STUDIO.')}
         />
 
@@ -192,7 +192,7 @@ export default function ProteticaDentaraPage() {
               Refă-ți zâmbetul
             </h2>
             <p className="font-jost font-light text-forest-light mb-10">
-              Consultație: 100 lei — stabilim planul de tratament protetic.
+              Consultație gratuită — stabilim planul de tratament protetic.
             </p>
             <a
               href="https://wa.me/40754219011"
