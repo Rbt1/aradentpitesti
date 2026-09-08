@@ -17,6 +17,11 @@ const nextConfig = {
         destination: 'https://www.aradentpitesti.ro/:path+',
         permanent: true,
       },
+      {
+        source: '/blog/cat-costa-implant-dentar-ara-dent-pitesti',
+        destination: '/blog/cat-costa-implant-dentar-pitesti-2026',
+        permanent: true,
+      },
     ]
   },
 }
