@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (max-width: 768px) {
+  body { padding-bottom: 80px; }
+}
+
 /* ============================================================
    VARIABILE GLOBALE
    ============================================================ */

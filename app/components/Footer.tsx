@@ -16,6 +16,7 @@ const NAV_LINKS = [
   { label: 'Contact', href: '/contact' },
   { label: 'Pacienți din diaspora', href: '/diaspora' },
   { label: 'For Romanians Abroad (EN)', href: '/diaspora-en' },
+  { label: 'Politică de Cookie-uri', href: '/politica-cookie' },
 ]
 
 const InstagramIcon = () => (
