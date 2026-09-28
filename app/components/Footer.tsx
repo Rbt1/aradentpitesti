@@ -20,6 +20,7 @@ const NAV_LINKS = [
 
 const LEGAL_LINKS = [
   { label: 'Termeni și Condiții', href: '/termeni-conditii', external: false },
+  { label: 'Politică de Confidențialitate', href: '/politica-de-confidentialitate', external: false },
   { label: 'Politică de Cookie-uri', href: '/politica-cookie', external: false },
   { label: 'ANPC – Soluționarea alternativă a litigiilor (SAL)', href: 'https://anpc.ro/ce-este-sal/', external: true },
   { label: 'Soluționarea online a litigiilor (SOL)', href: 'https://ec.europa.eu/consumers/odr', external: true },

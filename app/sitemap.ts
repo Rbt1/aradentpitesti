@@ -53,5 +53,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/fara-os-pentru-implant-all-on-4`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/politica-cookie`, lastModified: now, changeFrequency: 'monthly', priority: 0.1 },
     { url: `${base}/termeni-conditii`, lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
+    { url: `${base}/politica-de-confidentialitate`, lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
   ]
 }
