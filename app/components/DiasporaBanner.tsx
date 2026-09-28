@@ -31,7 +31,7 @@ const WA_DIASPORA =
 
 const FEATURES = [
   { Icon: CheckIcon, text: 'Trimite-ne CT-ul și pozele pe WhatsApp' },
-  { Icon: CheckIcon, text: 'Primești planul de tratament în 24 ore' },
+  { Icon: CheckIcon, text: 'Primești o estimare orientativă în 24 de ore' },
   { Icon: PlaneIcon, text: 'Transfer Otopeni — Pitești disponibil' },
   { Icon: CalendarIcon, text: '75-90 minute de aeroport pe A1' },
 ]

@@ -52,7 +52,7 @@ const jsonLdFaq = {
       name: 'Cat costa extractia maseei de minte?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Extractia molarului de minte total erupt costa 400 lei. Extractia molarului semiinclus costa 600 lei, iar extractia molarului inclus costa 800 lei. Consultatia + radiografia panoramica: 100 lei.',
+        text: 'Extractia molarului de minte total erupt costa 400 lei. Extractia molarului semiinclus costa 600 lei, iar extractia molarului inclus costa 800 lei. Consultatia este gratuita; radiografia panoramica: 100 lei.',
       },
     },
     {
@@ -125,7 +125,7 @@ const INDICATII = [
 const FAQ_ITEMS = [
   {
     q: 'Cât costă extracția maseei de minte?',
-    a: 'Extracția molarului de minte total erupt costă 400 lei. Extracția molarului semiinclus costă 600 lei, iar extracția molarului inclus costă 800 lei. Consultația + radiografia panoramică: 100 lei.',
+    a: 'Extracția molarului de minte total erupt costă 400 lei. Extracția molarului semiinclus costă 600 lei, iar extracția molarului inclus costă 800 lei. Consultația este gratuită; radiografia panoramică: 100 lei.',
   },
   {
     q: 'Doare extracția maseei de minte?',

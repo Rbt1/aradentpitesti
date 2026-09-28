@@ -61,7 +61,7 @@ const jsonLdFaq = {
       name: 'Cat costa un implant dentar in Pitesti la ARA DENT STUDIO?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'La ARA DENT STUDIO, implantul dentar (surub Dentium) costa 1.200 lei. Bontul protetic este 300 lei, iar capa de vindecare 150 lei. Consultatia este gratuita. Radiografie panoramica: 100 lei. CT dentar (CBCT): 250 lei.',
+        text: 'La ARA DENT STUDIO, implantul dentar (surubul) costa 1.200 lei. Bontul protetic este 300 lei, iar capa de vindecare 150 lei. Consultatia este gratuita. Radiografie panoramica: 100 lei. CT dentar (CBCT): 250 lei.',
       },
     },
     {
@@ -137,7 +137,7 @@ const FAQ_ITEMS = [
   },
   {
     q: 'Cât costă un implant dentar în Pitești?',
-    a: 'Implantul (șurubul Dentium) costă 1.200 lei, bontul protetic 300 lei, iar capa de vindecare 150 lei. Coroana finală se stabilește separat, la consultație, în funcție de materialul ales.',
+    a: 'Implantul (șurubul) costă 1.200 lei, bontul protetic 300 lei, iar capa de vindecare 150 lei. Coroana finală se stabilește separat, la consultație, în funcție de materialul ales.',
   },
   {
     q: 'Implantul dentar doare?',

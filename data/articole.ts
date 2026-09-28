@@ -49,7 +49,7 @@ export const articole: Articol[] = [
       <p>Fara sa dam cifre exacte care nu ar reflecta cazul tau specific, piata romaneasca a implantologiei arata astfel:</p>
       <ul>
         <li>Implanturile <strong>standard</strong> sunt cea mai accesibila optiune, cu rata buna de succes pentru cazuri simple</li>
-        <li>Implanturile de <strong>gama medie</strong> (precum Dentium, pe care il folosim la ARA DENT STUDIO) ofera un echilibru excelent intre calitate documentata clinic si cost</li>
+        <li>Implanturile de <strong>gama medie</strong> (sistem de implanturi premium, pe care il folosim la ARA DENT STUDIO) ofera un echilibru excelent intre calitate documentata clinic si cost</li>
         <li>Implanturile <strong>premium</strong> (Straumann, Nobel Biocare) sunt cele mai costisitoare, dar diferenta de rezultat clinic fata de gama medie e adesea minima pentru cazurile standard</li>
       </ul>
 
@@ -158,7 +158,7 @@ export const articole: Articol[] = [
     <h2>Concluzia</h2>
     <p>Proteza mobila rezolva problema vizibila — dintele lipsa — dar nu rezolva problema reala: pierderea progresiva a osului. Implantul dentar, fie unul singur, fie o lucrare All-on-4/6 pentru edentatie totala, este solutia care trateaza ambele aspecte simultan.</p>
     <p>Decizia corecta depinde de situatia ta specifica — sanatate generala, starea osului, buget si preferinte personale. De aceea, cel mai bun pas este o evaluare clinica reala, nu o decizie luata doar din comparatii online.</p>
-    <p>La consultatia (100 lei), Dr. Robert Lungu evalueaza osul tau, starea generala orala si iti recomanda solutia potrivita situatiei tale — fara presiune, cu toate optiunile explicate clar.</p>
+    <p>La consultatie gratuita, Dr. Robert Lungu evalueaza osul tau, starea generala orala si iti recomanda solutia potrivita situatiei tale — fara presiune, cu toate optiunile explicate clar.</p>
   `,
   },
   {
@@ -173,7 +173,7 @@ export const articole: Articol[] = [
       <h2>Preturile exacte</h2>
       <p>La ARA DENT STUDIO, tratamentul cu implant dentar este structurat transparent, pe componente:</p>
       <ul>
-        <li><strong>Implant dentar (Dentium SuperLine II)</strong> — 1.200 lei</li>
+        <li><strong>Implant dentar (șurub)</strong> — 1.200 lei</li>
         <li><strong>Bont protetic</strong> — 300 lei</li>
         <li><strong>Capa de vindecare</strong> — 150 lei</li>
         <li><strong>Coroana finala</strong> — stabilita la consultatie, in functie de material</li>
@@ -182,7 +182,7 @@ export const articole: Articol[] = [
 
       <h2>Ce este inclus in acest pret</h2>
       <ul>
-        <li>Implantul propriu-zis — sistemul Dentium SuperLine II, cu peste 25 de ani de date clinice</li>
+        <li>Implantul propriu-zis — sistem de implanturi premium, cu date clinice internationale extinse</li>
         <li>Bontul protetic — piesa care conecteaza implantul de coroana</li>
         <li>Capa de vindecare — protejeaza zona in perioada de oseointegrare</li>
       </ul>
@@ -195,7 +195,7 @@ export const articole: Articol[] = [
 
       <h2>Ce costuri implica evaluarea initiala</h2>
       <ul>
-        <li>Consultatia + radiografia panoramica: 100 lei</li>
+        <li>Consultatie gratuita; radiografie panoramica: 100 lei</li>
         <li>CT dentar (CBCT): 250 lei — esential pentru planificarea implantului</li>
       </ul>
       <p>CT-ul include toate verificarile ulterioare. Poti veni la evaluare fara obligatia de a continua cu tratamentul.</p>
@@ -258,7 +258,7 @@ export const articole: Articol[] = [
       <p><strong>Cat dureaza procedura?</strong><br/>
       Inserarea celor 4 implanturi dureaza de obicei 2-3 ore. Lucrarea provizorie fixa se monteaza in aceeasi zi sau in 24-48 ore, in functie de caz.</p>
       <p><strong>Pot face All-on-4 daca am diabet?</strong><br/>
-      Depinde de nivelul de control al bolii. Evaluam situatia ta specifica la consultatia (100 lei).</p>
+      Depinde de nivelul de control al bolii. Evaluam situatia ta specifica la consultatie gratuita.</p>
       <p><strong>Care e diferenta fata de All-on-6?</strong><br/>
       Diferenta este numarul de implanturi — 4 versus 6. All-on-6 se recomanda atunci cand distributia fortelor de masticatie sau cantitatea de os disponibila justifica implanturi suplimentare pentru stabilitate maxima pe termen lung.</p>
 
@@ -276,7 +276,7 @@ export const articole: Articol[] = [
       },
       {
         q: 'Pot face All-on-4 daca am diabet?',
-        a: 'Depinde de nivelul de control al bolii. Evaluam situatia specifica la consultatia (100 lei).',
+        a: 'Depinde de nivelul de control al bolii. Evaluam situatia specifica la consultatie gratuita.',
       },
       {
         q: 'Care e diferenta fata de All-on-6?',
@@ -342,7 +342,7 @@ export const articole: Articol[] = [
     <h2>2. Evaluarea pre-chirurgicala este obligatorie — nu optionala</h2>
     <p>Un implant plasat fara radiografie panoramica si CT dentar este un implant plasat fara informatiile necesare. CT-ul 3D arata exact densitatea si cantitatea de os disponibila, pozitia nervilor si sinusurilor — informatii esentiale pentru plasarea corecta.</p>
     <p>Orice clinica serioasa face aceasta evaluare inainte de a stabili un plan de tratament. Daca ti se propune un plan de tratament si un pret fara sa fi facut un CT, ridica un semnal de alarma.</p>
-    <p>La ARA DENT STUDIO, consultatia + radiografia panoramica costa 100 lei. CT-ul dentar este disponibil in cabinet — nu trebuie sa mergi in alta parte pentru investigatii.</p>
+    <p>La ARA DENT STUDIO, consultatia este gratuita; radiografia panoramica costa 100 lei. CT-ul dentar este disponibil in cabinet — nu trebuie sa mergi in alta parte pentru investigatii.</p>
 
     <h2>3. Pregatirea pre-chirurgicala face diferenta intre succes si esec</h2>
     <p>Un lucru pe care putini pacienti il stiu: bacteriile prezente in cavitatea orala in momentul interventiei pot compromite oseointegrearea implantului. De aceea, inainte de orice inserare de implant, este esential sa fie tratate cariile active si sa fie realizata o igienizare profesionala completa.</p>
@@ -446,7 +446,7 @@ export const articole: Articol[] = [
         <tr><td>Retratament molar</td><td>700 lei</td></tr>
       </tbody>
     </table>
-    <p><strong>Consultatia costa 100 lei</strong> — inclusiv pentru evaluarea necesitatii unui tratament de canal.</p>
+    <p><strong>Consultatie gratuita</strong> — evaluam inclusiv necesitatea unui tratament de canal.</p>
 
     <h2>De ce conteaza microscopul dentar</h2>
     <p>La ARA DENT STUDIO, tratamentele de canal se realizeaza cu <strong>microscop dentar</strong> — o diferenta importanta fata de tratamentul clasic.</p>
@@ -470,7 +470,7 @@ export const articole: Articol[] = [
       <li>Modificarea culorii dintelui</li>
       <li>Umflatura sau fistula la nivelul gingiei</li>
     </ul>
-    <p><strong>Important:</strong> nu toate durerile de dinte necesita tratament de canal. Consultatia (100 lei) stabileste exact ce ai nevoie.</p>
+    <p><strong>Important:</strong> nu toate durerile de dinte necesita tratament de canal. Consultatie gratuita — stabilim exact ce ai nevoie.</p>
 
     <h2>Ce urmeaza dupa tratamentul de canal</h2>
     <p>Un dinte tratat endodontic devine mai fragil in timp — de aceea, in majoritatea cazurilor, se recomanda acoperirea lui cu o coroana dentara pentru protectie pe termen lung.</p>
@@ -526,7 +526,7 @@ export const articole: Articol[] = [
     <p>Cu cat se intervine mai devreme, cu atat mai mult os e disponibil si cu atat mai simple sunt interventiile pregatitoare.</p>
 
     <h2>Consultatie gratuita la ARA DENT STUDIO</h2>
-    <p>Daca porti proteza mobila si vrei sa afli daca esti candidat pentru o solutie fixa, consultatia + radiografia cost 100 lei, CT-ul de evaluare 250 lei la ARA DENT STUDIO.</p>
+    <p>Daca porti proteza mobila si vrei sa afli daca esti candidat pentru o solutie fixa, consultatia este gratuita; radiografia panoramica 100 lei, CT-ul de evaluare 250 lei la ARA DENT STUDIO.</p>
     <p>Dr. Robert Lungu, medic specialist in chirurgie dento-alveolara, evalueaza situatia ta si iti explica optiunile disponibile — fara presiune, fara obligatii.</p>
   `,
   },
@@ -595,9 +595,9 @@ export const articole: Articol[] = [
   },
   {
     slug: 'implant-dentar-rate-pitesti',
-    title: 'Implant dentar in rate la Pitesti — platesti in 12 luni, fara dobanda',
-    metaDescription: 'Implant dentar in rate la ARA DENT STUDIO Pitesti. 12 rate lunare, dobanda 0%, prin TBI Bank. Aplicare direct la cabinet. Consultatie gratuita.',
-    excerpt: 'Acum poti face implant dentar in rate la ARA DENT STUDIO Pitesti — 12 rate lunare, fara dobanda, prin TBI Bank. Aplicare direct la cabinet.',
+    title: 'Implant dentar in rate la Pitesti — posibilitate de plata in rate fara dobanda',
+    metaDescription: 'Implant dentar in rate la ARA DENT STUDIO Pitesti. Posibilitate de plata in rate fara dobanda prin TBI Bank. Aplicare direct la cabinet. Consultatie gratuita.',
+    excerpt: 'Acum poti face implant dentar in rate la ARA DENT STUDIO Pitesti — posibilitate de plata in rate fara dobanda prin TBI Bank. Aplicare direct la cabinet.',
     date: '2026-08-07',
     continut: `
     <p>Unul dintre motivele pentru care pacientii amana un implant dentar nu e lipsa dorintei — e suma de platit dintr-o data. La ARA DENT STUDIO Pitesti, ai acum posibilitatea sa faci implantul dentar in rate lunare, fara dobanda.</p>
@@ -605,12 +605,12 @@ export const articole: Articol[] = [
     <h2>Cum functioneaza ratele la ARA DENT STUDIO</h2>
     <p>Colaboram cu <strong>TBI Bank</strong> pentru finantarea tratamentelor stomatologice. Procesul e simplu si se face direct la cabinet:</p>
     <ol>
-      <li>Vii la consultatia (100 lei) si stabilim planul de tratament</li>
+      <li>Vii la consultatie gratuita si stabilim planul de tratament</li>
       <li>Alegi sa platesti in rate — completezi dosarul direct la cabinet</li>
       <li>Primesti aprobarea rapid</li>
       <li>Incepi tratamentul imediat</li>
     </ol>
-    <p><strong>12 rate lunare, dobanda 0%</strong> — platesti exact pretul tratamentului, fara costuri suplimentare.</p>
+    <p><strong>Rate lunare, dobanda 0%</strong> — platesti exact pretul tratamentului, fara costuri suplimentare.</p>
 
     <h2>Ce tratamente poti face in rate</h2>
     <p>Practic orice tratament de la ARA DENT STUDIO poate fi finantat prin TBI Bank:</p>
@@ -623,10 +623,10 @@ export const articole: Articol[] = [
     </ul>
 
     <h2>De ce rate fara dobanda schimba decizia</h2>
-    <p>Un implant dentar costă intre 1.200 si cateva mii de lei in functie de complexitatea cazului. Impartit in 12 rate egale, devine o suma lunara gestionabila — fara sa amanati un tratament care devine mai complex si mai scump cu fiecare luna de asteptare.</p>
+    <p>Un implant dentar costă intre 1.200 si cateva mii de lei in functie de complexitatea cazului. Impartit in rate egale, devine o suma lunara gestionabila — fara sa amanati un tratament care devine mai complex si mai scump cu fiecare luna de asteptare.</p>
 
     <h2>Consultatie gratuita — primul pas fara costuri</h2>
-    <p>Inainte sa te gandesti la finantare, trebuie sa stii exact de ce ai nevoie si cat costa cazul tau specific. Consultatia la ARA DENT STUDIO costa 100 lei (include radiografia) — vii, evaluam situatia ta, stabilim planul de tratament si costul exact, si abia apoi decizi cum platesti.</p>
+    <p>Inainte sa te gandesti la finantare, trebuie sa stii exact de ce ai nevoie si cat costa cazul tau specific. Consultatia la ARA DENT STUDIO este gratuita. Radiografia panoramica — daca e necesara — se taxeaza separat (100 lei). Vii, evaluam situatia ta, stabilim planul de tratament si costul exact, si abia apoi decizi cum platesti.</p>
   `,
   },
   {
@@ -679,7 +679,7 @@ export const articole: Articol[] = [
         <tr><td>Retratament molar</td><td>700 lei</td></tr>
       </tbody>
     </table>
-    <p>Consultatia costa 100 lei.</p>
+    <p>Consultatie gratuita. Radiografie panoramica: 100 lei, daca este necesara.</p>
 
     <h2>Cum decurge tratamentul — pas cu pas</h2>
     <p><strong>1. Consultatie si radiografie</strong> — evaluam starea dintelui si a canalelor radiculare</p>
@@ -743,7 +743,7 @@ export const articole: Articol[] = [
 
     <h2>Cum se trateaza la ARA DENT STUDIO</h2>
     <p><strong>1. Evaluare completa</strong><br/>
-    Sondaj parodontal, radiografie panoramica — inclusa in consultatia de 100 lei. Masuram adancimea pungilor parodontale si evaluam cantitatea de os disponibil.</p>
+    Sondaj parodontal, radiografie panoramica (100 lei). Masuram adancimea pungilor parodontale si evaluam cantitatea de os disponibil.</p>
     <p><strong>2. Igienizare profesionala</strong><br/>
     Detartraj supragingival cu ultrasunete si Air-Flow — indepartarea tartrului si a petelor de deasupra gingiei. Primul pas obligatoriu in orice tratament parodontal.</p>
     <p><strong>3. Chiuretaj subgingival</strong><br/>
@@ -820,7 +820,7 @@ export const articole: Articol[] = [
     In perioada de asteptare, osul se resoarbe progresiv — cu cat astepti mai mult, cu atat mai putin os e disponibil pentru implant. De aceea, varianta imediata sau precoce e preferata ori de cate ori conditiile o permit.</p>
 
     <h2>Cum decidem la ARA DENT STUDIO</h2>
-    <p>Decizia intre cele trei variante se ia la consultatia (100 lei), pe baza evaluarii complete — radiografie panoramica si CT dentar — care arata exact cantitatea si calitatea osului disponibil, prezenta sau absenta infectiei si anatomia locului de implantare.</p>
+    <p>Decizia intre cele trei variante se ia la consultatie gratuita, pe baza evaluarii complete — radiografie panoramica si CT dentar — care arata exact cantitatea si calitatea osului disponibil, prezenta sau absenta infectiei si anatomia locului de implantare.</p>
     <p>Dr. Robert Lungu evalueaza fiecare caz individual si recomanda varianta optima in functie de situatia specifica a pacientului — nu exista o regula universala.</p>
 
     <h2>Preturile la ARA DENT STUDIO Pitesti</h2>
@@ -840,10 +840,10 @@ export const articole: Articol[] = [
     <p>Pretul e acelasi indiferent de varianta de implantare aleasa. Coroana definitiva se stabileste separat, in functie de materialul ales.</p>
 
     <h2>Plata in rate fara dobanda</h2>
-    <p>Tratamentul cu implant poate fi finantat prin TBI Bank — 12 rate lunare, dobanda 0%, aplicare direct la cabinet.</p>
+    <p>Tratamentul cu implant poate fi finantat prin TBI Bank — posibilitate de plata in rate fara dobanda, aplicare direct la cabinet.</p>
 
-    <h2>Programeaza consultatia (100 lei)</h2>
-    <p>Consultatia + radiografia: 100 lei. CT dentar (CBCT): 250 lei la ARA DENT STUDIO. Evaluam situatia ta si stabilim impreuna varianta optima de implantare.</p>
+    <h2>Programeaza consultatie gratuita</h2>
+    <p>Consultatie gratuita. Radiografie panoramica: 100 lei. CT dentar (CBCT): 250 lei la ARA DENT STUDIO. Evaluam situatia ta si stabilim impreuna varianta optima de implantare.</p>
   `,
   },
   {
@@ -981,7 +981,7 @@ export const articole: Articol[] = [
     <p><strong>4. Aplicarea fatetelor</strong> — fixare cu adeziv special, ajustari finale.</p>
 
     <h2>Consultatie gratuita la ARA DENT STUDIO</h2>
-    <p>Daca vrei sa afli ce tip de fateta se potriveste situatiei tale, consultatia e 100 lei. Dr. Robert Lungu evalueaza dintii tai si iti explica optiunile disponibile — fara presiune, fara obligatii.</p>
+    <p>Daca vrei sa afli ce tip de fateta se potriveste situatiei tale, consultatia este gratuita. Dr. Robert Lungu evalueaza dintii tai si iti explica optiunile disponibile — fara presiune, fara obligatii.</p>
     <p>Afla mai multe despre tratamentul cu fatete dentare la ARA DENT STUDIO pe <a href="/servicii/fatete-dentare">pagina dedicata fatetelor dentare</a>.</p>
   `,
   },
@@ -1055,7 +1055,7 @@ export const articole: Articol[] = [
     <p>Acestea pot indica un nerv afectat care necesita tratament de canal — programeaza-te urgent.</p>
 
     <h2>Consultatie gratuita la ARA DENT STUDIO</h2>
-    <p>Consultatia costa 100 lei — stabilim cauza exacta si tratamentul potrivit pentru situatia ta.</p>
+    <p>Consultatia este gratuita — stabilim cauza exacta si tratamentul potrivit pentru situatia ta.</p>
   `,
   },
   {
@@ -1098,14 +1098,14 @@ export const articole: Articol[] = [
       <p>Diabetul si boala parodontala se influenteaza reciproc — diabetul agraveza boala parodontala, si invers.</p>
 
       <h2>Cum se trateaza la ARA DENT STUDIO</h2>
-      <p>1. <strong>Consultatie si evaluare completa</strong> — gratuita, include sondaj parodontal si radiografie panoramica: 100 lei</p>
+      <p>1. <strong>Consultatie si evaluare completa</strong> — gratuita; sondaj parodontal inclus; radiografie panoramica: 100 lei</p>
       <p>2. <strong>Detartraj supragingival</strong> — indepartarea tartrului de deasupra gingiei, cu ultrasunete si Air-Flow</p>
       <p>3. <strong>Chiuretaj subgingival</strong> — curatarea radacinilor sub gingie, sub anestezie locala, de la 200 lei per sedinta</p>
       <p>4. <strong>Reevaluare</strong> — dupa 6-8 saptamani</p>
       <p>5. <strong>Mentinere pe termen lung</strong> — control la 3-6 luni, pe toata viata</p>
 
       <h2>Programeaza-te pentru evaluare</h2>
-      <p>Daca ai observat orice semn din lista de mai sus, nu astepta. Consultatia si evaluarea parodontala costa 100 lei la ARA DENT STUDIO.</p>
+      <p>Daca ai observat orice semn din lista de mai sus, nu astepta. Consultatia si evaluarea parodontala sunt gratuite la ARA DENT STUDIO; radiografie panoramica: 100 lei.</p>
     `,
   },
   {
@@ -1464,7 +1464,7 @@ export const articole: Articol[] = [
   {
     slug: 'all-on-4-diaspora-ghid-pacient',
     title: 'All-on-4 in vacanta — ghidul pacientului din diaspora',
-    metaDescription: 'Faci All-on-4 in Romania in vacanta? Trimite CBCT + poze pe WhatsApp si primesti planul de tratament inainte sa cumperi biletul. Transfer Otopeni disponibil. ARA DENT STUDIO Pitesti.',
+    metaDescription: 'Faci All-on-4 in Romania in vacanta? Trimite CBCT + poze pe WhatsApp si primesti o estimare orientativa inainte sa cumperi biletul. Transfer Otopeni disponibil. ARA DENT STUDIO Pitesti.',
     excerpt: 'Locuiesti in strainatate si vrei sa iti rezolvi dantura acasa in Romania? Iata cum planificam impreuna tratamentul All-on-4 inainte sa cumperi biletul de avion.',
     date: '2026-09-01',
     continut: `
@@ -1480,7 +1480,7 @@ export const articole: Articol[] = [
       <li><strong>CT dentar (CBCT) recent</strong></li>
       <li><strong>Fotografii intraorale</strong></li>
     </ul>
-    <p>Pe baza acestora, Dr. Robert Lungu analizeaza situatia ta si iti trimite planul de tratament estimat — ce proceduri sunt necesare, cate zile trebuie sa planifici si costul total estimat. Stii exact la ce sa te astepti inainte sa cumperi biletul.</p>
+    <p>Pe baza acestora, Dr. Robert Lungu analizeaza situatia ta si iti trimite o estimare orientativa — ce proceduri sunt necesare, cate zile trebuie sa planifici si costul total estimat. Stii exact la ce sa te astepti inainte sa cumperi biletul.</p>
 
     <h2>Cate zile trebuie sa planifici</h2>
     <p>Durata exacta depinde de complexitatea cazului — o stabilim dupa analiza CBCT-ului si a pozelor. Facem tot posibilul sa ne incadram in zilele planificate impreuna.</p>
@@ -1495,10 +1495,10 @@ export const articole: Articol[] = [
     <h2>Organizam totul impreuna</h2>
     <p>La ARA DENT STUDIO ne ocupam nu doar de tratament — te ajutam si cu logistica:</p>
     <p><strong>Transfer Otopeni — Pitesti</strong><br/>
-    Organizam transferul de la aeroport direct la cabinet sau la cazare — includem detaliile in planul de tratament.</p>
+    Organizam transferul de la aeroport direct la cabinet sau la cazare — includem detaliile in estimarea orientativa.</p>
     <p><strong>Cazare in Pitesti</strong><br/>
     Te ajutam sa identifici optiuni de cazare in apropierea cabinetului pentru zilele de tratament.</p>
-    <p>Toate detaliile logistice sunt incluse in planul de tratament pe care il primesti inainte de zbor.</p>
+    <p>Toate detaliile logistice sunt incluse in estimarea orientativa pe care o primesti inainte de zbor.</p>
 
     <h2>Ce include All-on-4 la ARA DENT STUDIO</h2>
     <table>
@@ -1517,7 +1517,7 @@ export const articole: Articol[] = [
 
     <h2>Cum incepi</h2>
     <p><strong>Pasul 1</strong> — Trimite-ne pe WhatsApp: CT dentar (CBCT) recent + fotografii intraorale</p>
-    <p><strong>Pasul 2</strong> — Primesti planul de tratament estimat cu numarul de zile si costul total</p>
+    <p><strong>Pasul 2</strong> — Primesti o estimare orientativa cu numarul de zile si costul total estimat</p>
     <p><strong>Pasul 3</strong> — Cumperi biletul de avion cu datele stabilite impreuna</p>
     <p><strong>Pasul 4</strong> — Vii si rezolvam totul</p>
   `,
@@ -1525,7 +1525,7 @@ export const articole: Articol[] = [
   {
     slug: 'tratament-dentar-romania-diaspora-2026',
     title: 'Tratament dentar in Romania pentru romanii din strainatate — ghid complet 2026',
-    metaDescription: 'Tratament dentar in Romania pentru diaspora — implant, All-on-4, fatete. Trimite CBCT + poze pe WhatsApp si primesti planul inainte de zbor. ARA DENT STUDIO Pitesti, 75 min de Otopeni.',
+    metaDescription: 'Tratament dentar in Romania pentru diaspora — implant, All-on-4, fatete. Trimite CBCT + poze pe WhatsApp si primesti o estimare orientativa inainte de zbor. ARA DENT STUDIO Pitesti, 75 min de Otopeni.',
     excerpt: 'Mii de romani din Germania, Spania, Italia sau UK isi rezolva problemele dentare acasa. Afla cum planificam impreuna tratamentul inainte sa cumperi biletul de avion.',
     date: '2026-09-02',
     continut: `
@@ -1554,7 +1554,7 @@ export const articole: Articol[] = [
       <li><strong>CT dentar (CBCT) recent</strong></li>
       <li><strong>Fotografii intraorale</strong></li>
     </ul>
-    <p>Dr. Robert Lungu analizeaza situatia si iti trimite planul de tratament estimat — proceduri necesare, numar de zile si cost total estimat. Stii exact la ce te astepti inainte de zbor.</p>
+    <p>Dr. Robert Lungu analizeaza situatia si iti trimite o estimare orientativa — proceduri necesare, numar de zile si cost total estimat. Stii exact la ce te astepti inainte de zbor.</p>
 
     <h2>Cate zile trebuie sa planifici</h2>
     <p>Depinde de tratament si de complexitatea cazului — stabilim impreuna dupa analiza documentelor trimise.</p>
@@ -1569,11 +1569,11 @@ export const articole: Articol[] = [
     Organizam transferul de la aeroport direct la cabinet sau la cazare.</p>
     <p><strong>Cazare in Pitesti</strong><br/>
     Te ajutam sa identifici optiuni de cazare in apropierea cabinetului.</p>
-    <p>Toate detaliile logistice sunt incluse in planul de tratament pe care il primesti inainte de zbor.</p>
+    <p>Toate detaliile logistice sunt incluse in estimarea orientativa pe care o primesti inainte de zbor.</p>
 
     <h2>Cum incepi</h2>
     <p><strong>Pasul 1</strong> — Trimite pe WhatsApp: CT dentar + fotografii intraorale</p>
-    <p><strong>Pasul 2</strong> — Primesti planul de tratament si costul estimat in 24 ore</p>
+    <p><strong>Pasul 2</strong> — Primesti o estimare orientativa si costul estimat in 24 ore</p>
     <p><strong>Pasul 3</strong> — Cumperi biletul cu datele stabilite impreuna</p>
     <p><strong>Pasul 4</strong> — Vii si rezolvam totul</p>
   `,

@@ -16,8 +16,13 @@ const NAV_LINKS = [
   { label: 'Contact', href: '/contact' },
   { label: 'Pacienți din diaspora', href: '/diaspora' },
   { label: 'For Romanians Abroad (EN)', href: '/diaspora-en' },
-  { label: 'Politică de Cookie-uri', href: '/politica-cookie' },
-  { label: 'Termeni și Condiții', href: '/termeni-conditii' },
+]
+
+const LEGAL_LINKS = [
+  { label: 'Termeni și Condiții', href: '/termeni-conditii', external: false },
+  { label: 'Politică de Cookie-uri', href: '/politica-cookie', external: false },
+  { label: 'ANPC – Soluționarea alternativă a litigiilor (SAL)', href: 'https://anpc.ro/ce-este-sal/', external: true },
+  { label: 'Soluționarea online a litigiilor (SOL)', href: 'https://ec.europa.eu/consumers/odr', external: true },
 ]
 
 const InstagramIcon = () => (
@@ -151,6 +156,33 @@ const Footer = () => {
 
         {/* Separator */}
         <div className="h-[1px] bg-gold/20 mb-8" />
+
+        {/* Informații legale */}
+        <nav aria-label="Informații legale" className="mb-6">
+          <ul className="flex flex-wrap justify-center gap-x-4 gap-y-3">
+            {LEGAL_LINKS.map((link) => (
+              <li key={link.href} className="flex items-center">
+                {link.external ? (
+                  <a
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-jost text-[11px] text-bark-light/50 hover:text-gold transition-colors duration-200 min-h-[44px] flex items-center"
+                  >
+                    {link.label}
+                  </a>
+                ) : (
+                  <Link
+                    href={link.href}
+                    className="font-jost text-[11px] text-bark-light/50 hover:text-gold transition-colors duration-200 min-h-[44px] flex items-center"
+                  >
+                    {link.label}
+                  </Link>
+                )}
+              </li>
+            ))}
+          </ul>
+        </nav>
 
         {/* Copyright */}
         <p className="font-jost text-[12px] text-bark-light/60 text-center">

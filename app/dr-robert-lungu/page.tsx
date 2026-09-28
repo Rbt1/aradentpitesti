@@ -55,11 +55,11 @@ const FORMARE = [
   },
   {
     titlu: 'Specializare',
-    continut: 'Medic Specialist Chirurgie Dento-Alveolară — Rezidențiat, Sibiu, 2020–2023. Specialitate medicală acreditată.',
+    continut: 'Medic Specialist Chirurgie Dento-Alveolară. Specialitate medicală acreditată.',
   },
   {
     titlu: 'Certificare implantologie',
-    continut: 'Sistem Dentium SuperLine II — implantologie cu un sistem premium, documentat clinic internațional, peste 25 de ani de date clinice.',
+    continut: 'Implantologie cu sistem de implanturi premium, documentat clinic internațional, cu date clinice extinse.',
   },
   {
     titlu: 'Investiție în tehnologie',

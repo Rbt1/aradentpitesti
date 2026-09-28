@@ -209,7 +209,7 @@ export default function DiasporaPage() {
               className="font-jost font-light text-[16px] text-forest-light leading-[1.9] mb-10"
               {...fadeUp(0.2)}
             >
-              Pe baza acestora, Dr. Robert Lungu analizează situația ta și îți trimite planul de tratament estimat — ce proceduri sunt necesare, câte zile trebuie să planifici și costul total estimat. Știi exact la ce să te aștepți înainte să cumperi biletul.
+              Pe baza acestora, Dr. Robert Lungu analizează situația ta și îți trimite o estimare orientativă — ce proceduri sunt necesare, câte zile trebuie să planifici și costul total estimat. Știi exact la ce să te aștepți înainte să cumperi biletul.
             </motion.p>
             <motion.a
               href={WA_DOCUMENTE}

@@ -35,7 +35,7 @@ const CATEGORII = [
     titlu: 'Implantologie',
     href: '/servicii/implantologie',
     servicii: [
-      { nume: 'Implant dentar (Dentium, șurub)', pret: '1.200 lei' },
+      { nume: 'Implant dentar (șurub)', pret: '1.200 lei' },
       { nume: 'Bont protetic', pret: '300 lei' },
       { nume: 'Capă de vindecare', pret: '150 lei' },
     ],
