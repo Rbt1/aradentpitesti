@@ -1,18 +1,12 @@
-import { Metadata } from 'next'
+import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: { absolute: 'Dental Implants in Romania for Romanians Abroad | ARA DENT STUDIO Pitesti' },
-  description: 'Planning dental treatment in Romania? Send your CBCT and intraoral photos on WhatsApp — get your treatment plan before buying your plane ticket. 75 min from Otopeni Airport.',
-  alternates: {
-    canonical: 'https://www.aradentpitesti.ro/diaspora-en',
-    languages: {
-      ro: 'https://www.aradentpitesti.ro/diaspora',
-      en: 'https://www.aradentpitesti.ro/diaspora-en',
-    },
-  },
+  title: { absolute: 'Dental Treatment Romania for Diaspora | ARA DENT STUDIO' },
+  description: 'Dental implants in Romania for Romanians living abroad — special scheduling, WhatsApp estimate before your flight. Dr. Robert Lungu, ARA DENT STUDIO Pitești.',
+  alternates: { canonical: 'https://www.aradentpitesti.ro/diaspora-en' },
   openGraph: {
-    title: 'Dental Implants in Romania for Romanians Abroad | ARA DENT STUDIO Pitesti',
-    description: 'Planning dental treatment in Romania? Send your CBCT and intraoral photos on WhatsApp — get your treatment plan before buying your plane ticket. 75 min from Otopeni Airport.',
+    title: 'Dental Treatment Romania for Diaspora | ARA DENT STUDIO',
+    description: 'Dental implants in Romania for Romanians living abroad — special scheduling, WhatsApp estimate before your flight. Dr. Robert Lungu, ARA DENT STUDIO Pitești.',
     url: 'https://www.aradentpitesti.ro/diaspora-en',
     siteName: 'ARA DENT STUDIO',
     locale: 'en_US',

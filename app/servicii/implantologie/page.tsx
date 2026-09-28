@@ -7,11 +7,11 @@ import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Implant Dentar Pitești | Dr. Robert Lungu | ARA DENT STUDIO' },
-  description: 'Implant dentar în Pitești cu Dr. Robert Lungu, specialist chirurgie dento-alveolară. CT dentar: 250 lei. Plată în rate fără dobândă prin TBI Bank. Programează acum.',
+  description: 'Implant dentar în Pitești cu Dr. Robert Lungu, specialist chirurgie dento-alveolară. Tratament complet cu CBCT propriu. Consultație gratuită.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/implantologie' },
   openGraph: {
     title: 'Implant Dentar Pitești | Dr. Robert Lungu | ARA DENT STUDIO',
-    description: 'Implant dentar în Pitești cu Dr. Robert Lungu, specialist chirurgie dento-alveolară. CT dentar: 250 lei. Plată în rate fără dobândă prin TBI Bank. Programează acum.',
+    description: 'Implant dentar în Pitești cu Dr. Robert Lungu, specialist chirurgie dento-alveolară. Tratament complet cu CBCT propriu. Consultație gratuită.',
     url: 'https://www.aradentpitesti.ro/servicii/implantologie',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',

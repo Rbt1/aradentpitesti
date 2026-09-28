@@ -6,12 +6,12 @@ import FAQ from '@/app/servicii/components/FAQ'
 import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
-  title: { absolute: 'Adiție Osoasă și Sinus Lift Pitești | ARA DENT STUDIO | Dr. Robert Lungu' },
-  description: 'Adiție osoasă și sinus lift în Pitești. Proceduri chirurgicale pentru pacienții cu os insuficient pentru implant. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație gratuită.',
+  title: { absolute: 'Adiție Osoasă și Sinus Lift Pitești | ARA DENT STUDIO' },
+  description: 'Adiție osoasă și sinus lift în Pitești — pentru pacienții cu os insuficient pentru implant. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație gratuită.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/aditie-osoasa-sinus-lift' },
   openGraph: {
-    title: 'Adiție Osoasă și Sinus Lift Pitești | ARA DENT STUDIO | Dr. Robert Lungu',
-    description: 'Adiție osoasă și sinus lift în Pitești. Proceduri chirurgicale pentru pacienții cu os insuficient pentru implant. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație gratuită.',
+    title: 'Adiție Osoasă și Sinus Lift Pitești | ARA DENT STUDIO',
+    description: 'Adiție osoasă și sinus lift în Pitești — pentru pacienții cu os insuficient pentru implant. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație gratuită.',
     url: 'https://www.aradentpitesti.ro/servicii/aditie-osoasa-sinus-lift',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',

@@ -35,11 +35,11 @@ const jost = Jost({
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.aradentpitesti.ro'),
   title: {
-    default: 'Clinica Stomatologica Pitesti | Implant | ARA DENT STUDIO',
+    default: 'Stomatologie Pitești, consultație gratuită | ARA DENT STUDIO',
     template: '%s | ARA DENT STUDIO Pitești',
   },
   description:
-    'Clinica stomatologica in Pitesti. Implant dentar, chirurgie orala, endodontie, urgente. Dr. Robert Lungu, specialist. Consultatie gratuita. Radiografie: 100 lei. CT: 250 lei.',
+    'Stomatologie în Pitești: consultație gratuită, CBCT propriu și medic specialist chirurg la aceeași adresă. Implantologie, endodonție, fațete.',
   keywords: [
     'implant dentar pitesti',
     'stomatologie premium pitesti',
@@ -77,8 +77,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Stomatologie Pitești | Dr. Robert Lungu | ARA DENT STUDIO',
-    description: 'Clinica stomatologica in Pitesti. Implant dentar, chirurgie orala, endodontie, urgente. Dr. Robert Lungu, specialist. Consultatie gratuita. Radiografie: 100 lei. CT: 250 lei.',
+    title: 'Stomatologie Pitești, consultație gratuită | ARA DENT STUDIO',
+    description: 'Stomatologie în Pitești: consultație gratuită, CBCT propriu și medic specialist chirurg la aceeași adresă. Implantologie, endodonție, fațete.',
     url: 'https://www.aradentpitesti.ro',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
@@ -123,7 +123,7 @@ const jsonLd = {
     streetAddress: 'Bd. Republicii nr. 19',
     addressLocality: 'Pitești',
     addressRegion: 'Argeș',
-    postalCode: '110017',
+    postalCode: '110062',
     addressCountry: 'RO',
   },
   geo: {

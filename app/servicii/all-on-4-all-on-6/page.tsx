@@ -7,11 +7,11 @@ import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'All-on-4 / All-on-6 Pitești | ARA DENT STUDIO' },
-  description: 'Dantură fixă pe implanturi în Pitești. All-on-4: 12.000 lei sau 1.000 lei/lună. All-on-6: 14.000 lei. CT dentar obligatoriu inclus în evaluare. Dr. Robert Lungu, specialist. Consultație gratuită.',
+  description: 'Dantură fixă pe implanturi în Pitești. All-on-4 și All-on-6 — reabilitare totală cu încărcare imediată. Dr. Robert Lungu, specialist. Consultație gratuită.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/all-on-4-all-on-6' },
   openGraph: {
-    title: 'All-on-4 și All-on-6 Pitești | Dinți Fixi pe Implanturi',
-    description: 'Reabilitare totală pe implanturi All-on-4 și All-on-6 în Pitești. Încărcare imediată, Dr. Robert Lungu. Prețuri de la 12.000 lei.',
+    title: 'All-on-4 / All-on-6 Pitești | ARA DENT STUDIO',
+    description: 'Dantură fixă pe implanturi în Pitești. All-on-4 și All-on-6 — reabilitare totală cu încărcare imediată. Dr. Robert Lungu, specialist. Consultație gratuită.',
     url: 'https://www.aradentpitesti.ro/servicii/all-on-4-all-on-6',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',

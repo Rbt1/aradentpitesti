@@ -7,11 +7,11 @@ import FAQ from '@/app/servicii/components/FAQ'
 import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
-  title: { absolute: 'Fatete Dentare Pitesti | Ceramice si Compozit | ARA DENT STUDIO' },
+  title: { absolute: 'Fatete Dentare Pitesti | ARA DENT STUDIO' },
   description: 'Fatete dentare ceramice si compozit in Pitesti. Transforma aspectul zambetului fara interventii majore. Dr. Robert Lungu. Consultatie gratuita.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/fatete-dentare' },
   openGraph: {
-    title: 'Fatete Dentare Pitesti | Ceramice si Compozit | ARA DENT STUDIO',
+    title: 'Fatete Dentare Pitesti | ARA DENT STUDIO',
     description: 'Fatete dentare ceramice si compozit in Pitesti. Transforma aspectul zambetului fara interventii majore. Dr. Robert Lungu. Consultatie gratuita.',
     url: 'https://www.aradentpitesti.ro/servicii/fatete-dentare',
     siteName: 'ARA DENT STUDIO',

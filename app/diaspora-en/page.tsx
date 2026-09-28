@@ -10,15 +10,6 @@ const WA_EN =
   'https://wa.me/40754219011?text=' +
   encodeURIComponent('Hello! I am a Romanian living abroad and I would like an evaluation for dental treatment. I will send you my CBCT scan and intraoral photos.')
 
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'Dentist',
-  name: 'ARA DENT STUDIO',
-  areaServed: ['Pitesti', 'Arges', 'Romania'],
-  availableLanguage: ['Romanian', 'English'],
-  url: 'https://www.aradentpitesti.ro/diaspora-en',
-}
-
 const fadeUp = (delay = 0) => ({
   initial: { opacity: 0, y: 24 },
   whileInView: { opacity: 1 as number, y: 0 as number },
@@ -92,10 +83,6 @@ const STEPS = [
 export default function DiasporaEnPage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
       <Navbar />
       <main className="bg-cream">
 

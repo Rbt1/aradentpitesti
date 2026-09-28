@@ -6,12 +6,12 @@ import FAQ from '@/app/servicii/components/FAQ'
 import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
-  title: { absolute: 'Urgente Stomatologice Pitesti | Suna 0754 219 011 | ARA DENT STUDIO' },
-  description: 'Urgenta stomatologica in Pitesti? Suna acum: 0754 219 011. Gasim loc pentru tine in aceeasi zi, fara programare in avans. Dr. Robert Lungu, specialist chirurgie dento-alveolara.',
+  title: { absolute: 'Urgente Stomatologice Pitesti | ARA DENT STUDIO' },
+  description: 'Urgenta stomatologica in Pitesti? Suna acum: 0754 219 011. Gasim loc in aceeasi zi, fara programare in avans. Dr. Robert Lungu, specialist chirurgie dento-alveolara.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/urgente-stomatologice' },
   openGraph: {
-    title: 'Urgente Stomatologice Pitesti | Suna 0754 219 011 | ARA DENT STUDIO',
-    description: 'Urgenta stomatologica in Pitesti? Suna acum: 0754 219 011. Gasim loc pentru tine in aceeasi zi, fara programare in avans. Dr. Robert Lungu, specialist chirurgie dento-alveolara.',
+    title: 'Urgente Stomatologice Pitesti | ARA DENT STUDIO',
+    description: 'Urgenta stomatologica in Pitesti? Suna acum: 0754 219 011. Gasim loc in aceeasi zi, fara programare in avans. Dr. Robert Lungu, specialist chirurgie dento-alveolara.',
     url: 'https://www.aradentpitesti.ro/servicii/urgente-stomatologice',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',

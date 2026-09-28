@@ -12,15 +12,6 @@ const WA_DIASPORA =
 const WA_DOCUMENTE =
   'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Sunt din diaspora și doresc o evaluare. Vă trimit CT-ul și pozele intraorale.')
 
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'Dentist',
-  name: 'ARA DENT STUDIO',
-  areaServed: ['Pitesti', 'Arges', 'Romania'],
-  availableLanguage: 'Romanian',
-  url: 'https://www.aradentpitesti.ro/diaspora',
-}
-
 const fadeUp = (delay = 0) => ({
   initial: { opacity: 0, y: 24 },
   whileInView: { opacity: 1 as number, y: 0 as number },
@@ -101,10 +92,6 @@ const EVAL_ITEMS = [
 export default function DiasporaPage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
       <Navbar />
       <main className="bg-cream">
 

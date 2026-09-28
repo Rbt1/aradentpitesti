@@ -7,11 +7,11 @@ import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
   title: { absolute: 'Tratament Canal Pitești | Microscop Dentar | ARA DENT STUDIO' },
-  description: 'Tratament de canal in Pitesti cu microscop dentar, de la 400 lei. Salvam dintele fara durere. Dr. Robert Lungu. Consultatie gratuita.',
+  description: 'Tratament de canal in Pitesti cu microscop dentar. Salvam dintele fara durere. Dr. Robert Lungu, specialist. Consultatie gratuita.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/endodontie' },
   openGraph: {
     title: 'Tratament Canal Pitești | Microscop Dentar | ARA DENT STUDIO',
-    description: 'Tratament de canal in Pitesti cu microscop dentar, de la 400 lei. Salvam dintele fara durere. Dr. Robert Lungu. Consultatie gratuita.',
+    description: 'Tratament de canal in Pitesti cu microscop dentar. Salvam dintele fara durere. Dr. Robert Lungu, specialist. Consultatie gratuita.',
     url: 'https://www.aradentpitesti.ro/servicii/endodontie',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',

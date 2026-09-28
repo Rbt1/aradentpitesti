@@ -163,8 +163,8 @@ export const articole: Articol[] = [
   },
   {
     slug: 'cat-costa-implant-dentar-ara-dent-pitesti',
-    title: 'Cat costa un implant dentar la ARA DENT STUDIO Pitesti in 2026',
-    metaDescription: 'Preturi reale pentru implant dentar la ARA DENT STUDIO Pitesti: 1.200 lei implant, 300 lei bont, 150 lei capa de vindecare. Consultatie gratuita.',
+    title: 'Cat costa implantul dentar la ARA DENT STUDIO Pitesti',
+    metaDescription: 'Preturi reale si detaliate pentru un implant dentar complet la ARA DENT STUDIO Pitesti — surub, bont, coroana. Consultatie gratuita.',
     excerpt: 'Iata exact cat costa un implant dentar la ARA DENT STUDIO, pe componente, fara costuri ascunse.',
     date: '2026-06-21',
     continut: `
@@ -206,8 +206,8 @@ export const articole: Articol[] = [
   },
   {
     slug: 'all-on-4-pitesti-cat-costa',
-    title: 'All-on-4 in Pitesti - Ce este, cat costa si cand e solutia potrivita',
-    metaDescription: 'All-on-4 Pitesti: ce este, cand se recomanda si cat costa la ARA DENT STUDIO. Incarcare imediata, consultatie gratuita, radiografie panoramica (100 lei) si CT 3D (250 lei).',
+    title: 'All-on-4 in Pitesti — ce este si cat costa',
+    metaDescription: 'All-on-4 Pitesti: ce este, cand se recomanda si cat costa la ARA DENT STUDIO. Incarcare imediata, consultatie gratuita, CBCT inclus in evaluare.',
     excerpt: 'Daca lipsesc toti dintii de pe o arcada, All-on-4 ofera o lucrare fixa, stabila, cu recuperare rapida. Afla cat costa si cum decurge tratamentul.',
     date: '2026-06-23',
     continut: `
@@ -287,7 +287,7 @@ export const articole: Articol[] = [
   {
     slug: 'implant-dentar-romania-diaspora',
     title: 'Implant dentar in Romania: ghidul pacientului din diaspora',
-    metaDescription: 'Romani din Germania, Spania sau Italia care vor implant dentar acasa. Etapizare speciala, programare flexibila, consultatie gratuita la ARA DENT STUDIO Pitesti.',
+    metaDescription: 'Romani din diaspora care vor implant dentar acasa. Etapizare speciala, programare flexibila, consultatie gratuita la ARA DENT STUDIO Pitesti.',
     excerpt: 'Mii de romani aleg sa isi faca tratamentele dentare acasa, in vacanta. Afla cum planificam tratamentul pentru pacientii din diaspora la ARA DENT STUDIO.',
     date: '2026-07-07',
     continut: `
@@ -327,7 +327,7 @@ export const articole: Articol[] = [
   },
   {
     slug: 'cum-alegi-clinica-implant-dentar-pitesti',
-    title: 'Ce trebuie sa stii inainte sa alegi o clinica de implant dentar in Pitesti',
+    title: 'Cum alegi clinica de implant dentar in Pitesti',
     metaDescription: 'Cum alegi o clinica de implant dentar in Pitesti? Specializarea medicului, evaluarea pre-chirurgicala, sistemul de implanturi — ghid complet 2026.',
     excerpt: 'Sunt mai multe clinici de implant dentar in Pitesti — si nu toate sunt echivalente. Iata ce conteaza cu adevarat inainte sa iei o decizie.',
     date: '2026-07-22',
@@ -373,7 +373,7 @@ export const articole: Articol[] = [
   },
   {
     slug: 'urgente-dentare-pitesti',
-    title: 'Urgente dentare in Pitesti — ARA DENT STUDIO primeste fara programare',
+    title: 'Urgente dentare in Pitesti — fara programare in avans',
     metaDescription: 'Urgenta stomatologica in Pitesti? La ARA DENT STUDIO gasim loc pentru tine oricand in timpul programului, fara programare in avans. Dr. Robert Lungu.',
     excerpt: 'Cand te doare dintele sau apare o problema dentara brusca, nu trebuie sa astepti zile pentru o programare. La ARA DENT STUDIO, urgentele au intaietate.',
     date: '2026-07-25',
@@ -419,7 +419,7 @@ export const articole: Articol[] = [
   {
     slug: 'cat-costa-tratament-canal-pitesti-2026',
     title: 'Cat costa un tratament de canal in Pitesti in 2026',
-    metaDescription: 'Preturi reale pentru tratament de canal in Pitesti: monoradicular 400 lei, premolar 500 lei, molar 600 lei. Microscop dentar. Consultatie gratuita la ARA DENT STUDIO.',
+    metaDescription: 'Preturi reale pentru tratament de canal in Pitesti in functie de complexitate. Microscop dentar. Consultatie gratuita la ARA DENT STUDIO.',
     excerpt: 'Iata exact cat costa un tratament de canal la ARA DENT STUDIO Pitesti, cu microscop dentar, fara costuri ascunse.',
     date: '2026-08-02',
     continut: `
@@ -481,8 +481,8 @@ export const articole: Articol[] = [
   },
   {
     slug: 'proteza-mobila-sau-lucrare-fixa-pe-implanturi',
-    title: 'Proteza mobila sau lucrare fixa pe implanturi? De ce tot mai multi pacienti aleg solutia permanenta',
-    metaDescription: 'Proteza mobila vs lucrare fixa pe implanturi — diferente esentiale, avantaje si dezavantaje. Afla de ce tot mai multi pacienti renunta la proteza mobila. ARA DENT STUDIO Pitesti.',
+    title: 'Proteza mobila sau lucrare fixa pe implanturi — comparatie',
+    metaDescription: 'Proteza mobila vs lucrare fixa pe implanturi — diferente esentiale, avantaje si dezavantaje pentru edentatia partiala sau totala. ARA DENT STUDIO.',
     excerpt: 'Proteza mobila pare mai simpla si mai ieftina. Dar realitatea pe termen lung e diferita. Afla de ce tot mai multi pacienti aleg o lucrare fixa pe implanturi.',
     date: '2026-08-06',
     continut: `
@@ -532,8 +532,8 @@ export const articole: Articol[] = [
   },
   {
     slug: 'detartraj-igienizare-dentara-pitesti',
-    title: 'Detartraj si igienizare dentara in Pitesti — ce trebuie sa stii',
-    metaDescription: 'Detartraj in Pitesti de la 200 lei. Igienizare profesionala (detartraj + periaj + Air-Flow) 250 lei. Consultatie gratuita la ARA DENT STUDIO Pitesti.',
+    title: 'Detartraj si igienizare dentara in Pitesti — ghid complet',
+    metaDescription: 'Detartraj si igienizare profesionala in Pitesti — detartraj + periaj Air-Flow, de doua ori pe an. Consultatie gratuita la ARA DENT STUDIO.',
     excerpt: 'Detartrajul e cel mai simplu tratament stomatologic si cel mai des amanat. Afla cat costa si de ce conteaza mai mult decat crezi.',
     date: '2026-08-03',
     continut: `
@@ -595,8 +595,8 @@ export const articole: Articol[] = [
   },
   {
     slug: 'implant-dentar-rate-pitesti',
-    title: 'Implant dentar in rate la Pitesti — posibilitate de plata in rate fara dobanda',
-    metaDescription: 'Implant dentar in rate la ARA DENT STUDIO Pitesti. Posibilitate de plata in rate fara dobanda prin TBI Bank. Aplicare direct la cabinet. Consultatie gratuita.',
+    title: 'Implant dentar in rate la Pitesti — plata fara dobanda',
+    metaDescription: 'Implant dentar in rate la ARA DENT STUDIO Pitesti. Plata in rate fara dobanda prin TBI Bank — aplicare directa la cabinet. Consultatie gratuita.',
     excerpt: 'Acum poti face implant dentar in rate la ARA DENT STUDIO Pitesti — posibilitate de plata in rate fara dobanda prin TBI Bank. Aplicare direct la cabinet.',
     date: '2026-08-07',
     continut: `
@@ -631,8 +631,8 @@ export const articole: Articol[] = [
   },
   {
     slug: 'tratament-endodontic-pitesti',
-    title: 'Tratament endodontic in Pitesti — ce este, cand e necesar si cum decurge',
-    metaDescription: 'Tratament de canal in Pitesti cu microscop dentar. De la 400 lei. Intr-o singura sedinta, nedureros. Dr. Robert Lungu, ARA DENT STUDIO. Consultatie gratuita.',
+    title: 'Tratament endodontic in Pitesti — ce este si cum decurge',
+    metaDescription: 'Tratament de canal in Pitesti cu microscop dentar — intr-o singura sedinta, nedureros. Dr. Robert Lungu, ARA DENT STUDIO. Consultatie gratuita.',
     excerpt: 'Tratamentul de canal are o reputatie nedreapta. Cu microscopul dentar si tehnica moderna, e o procedura nedureroasa care salveaza dintele si elimina durerea.',
     date: '2026-08-08',
     continut: `
@@ -704,8 +704,8 @@ export const articole: Articol[] = [
   },
   {
     slug: 'tratament-parodontal-pitesti',
-    title: 'Tratament parodontal in Pitesti — cum opresti boala inainte sa pierzi dinti',
-    metaDescription: 'Boala parodontala nu doare la inceput — dar osul pierdut nu se mai reface. Tratament parodontal in Pitesti: detartraj, chiuretaj, evaluare: 100 lei. ARA DENT STUDIO.',
+    title: 'Tratament parodontal in Pitesti — cum opresti boala',
+    metaDescription: 'Boala parodontala nu doare la inceput — dar osul pierdut nu se mai reface. Tratament parodontal in Pitesti: detartraj si chiuretaj. ARA DENT STUDIO.',
     excerpt: 'Boala parodontala e una dintre cele mai frecvente cauze de pierdere a dintilor — si una dintre cele mai ignorate, tocmai pentru ca nu doare la inceput.',
     date: '2026-08-09',
     continut: `
@@ -769,8 +769,8 @@ export const articole: Articol[] = [
   },
   {
     slug: 'implant-dentar-dupa-extractie',
-    title: 'Implant dentar dupa extractie — cat timp astepti si ce variante exista',
-    metaDescription: 'Implant imediat, precoce sau tardiv dupa extractie? Afla care varianta ti se potriveste la ARA DENT STUDIO Pitesti. Consultatie gratuita. CT dentar: 250 lei. Dr. Robert Lungu.',
+    title: 'Implant dentar dupa extractie — cat timp astepti',
+    metaDescription: 'Implant imediat, precoce sau tardiv dupa extractie? Afla care varianta ti se potriveste la ARA DENT STUDIO Pitesti. Dr. Robert Lungu, consultatie gratuita.',
     excerpt: 'Pot face implantul imediat dupa extractie sau trebuie sa astept? Exista trei variante de implantare — afla care e potrivita pentru tine.',
     date: '2026-08-11',
     continut: `
@@ -848,7 +848,7 @@ export const articole: Articol[] = [
   },
   {
     slug: 'ce-mananci-dupa-extractie-dentara',
-    title: 'Ce mananci dupa extractia dentara — ghid complet de recuperare',
+    title: 'Ce mananci dupa extractia dentara — ghid complet',
     metaDescription: 'Ce poti manca dupa extractia dentara? Alimente permise, ce sa eviti si cand suni la cabinet. Ghid postoperator ARA DENT STUDIO Pitesti.',
     excerpt: 'Dupa extractia dentara, alimentatia corecta face diferenta intre o vindecare rapida si complicatii. Afla exact ce poti manca si ce trebuie sa eviti.',
     date: '2026-08-16',
@@ -913,7 +913,7 @@ export const articole: Articol[] = [
   },
   {
     slug: 'fatete-dentare-pitesti',
-    title: 'Fatete dentare in Pitesti — ce sunt, tipuri si cand se recomanda',
+    title: 'Fatete dentare in Pitesti — tipuri si cand se recomanda',
     metaDescription: 'Fatete dentare ceramice si compozit in Pitesti. Afla ce sunt, cand se recomanda si care e diferenta dintre tipuri. Consultatie gratuita la ARA DENT STUDIO.',
     excerpt: 'Fatetele dentare transforma aspectul zambetului fara interventii majore. Afla ce tipuri exista, cand se recomanda si cum decurge tratamentul la ARA DENT STUDIO Pitesti.',
     date: '2026-08-17',
@@ -988,7 +988,7 @@ export const articole: Articol[] = [
   {
     slug: 'de-ce-dor-dintii-la-rece',
     title: 'De ce dor dintii la rece — cauze si tratament',
-    metaDescription: 'Sensibilitate dentara la rece in Pitesti — cauze si tratament. Lac desensibilizant inclus in consultatie. Obturatie de la 200 lei. ARA DENT STUDIO.',
+    metaDescription: 'Sensibilitate dentara la rece in Pitesti — cauze si tratament. Lac desensibilizant inclus in consultatie. Obturatii estetice disponibile. ARA DENT STUDIO.',
     excerpt: 'Simti o durere ascutita cand bei ceva rece? Sensibilitatea dentara are o cauza clara si un tratament eficient. Afla ce o provoaca si cum o rezolvam la ARA DENT STUDIO.',
     date: '2026-08-18',
     continut: `
@@ -1061,7 +1061,7 @@ export const articole: Articol[] = [
   {
     slug: 'semnele-bolii-parodontale-de-nu-ignorat',
     title: 'Semnele bolii parodontale pe care nu trebuie sa le ignori',
-    metaDescription: 'Boala parodontala (parodontoza) se poate preveni si trata, dar osul pierdut nu se mai reface. Afla cele 6 semne de alarma si cum se trateaza la ARA DENT STUDIO Pitesti.',
+    metaDescription: 'Boala parodontala se poate preveni si trata, dar osul pierdut nu se mai reface. Afla cele 6 semne de alarma si cum tratam la ARA DENT STUDIO Pitesti.',
     excerpt: 'Sangerarea gingiilor, retractia gingivala si mobilitatea dentara sunt semne ale bolii parodontale. Afla de ce tratamentul precoce este esential.',
     date: '2026-06-30',
     continut: `
@@ -1110,8 +1110,8 @@ export const articole: Articol[] = [
   },
   {
     slug: 'bruxism-scrasnitul-dintilor-pitesti',
-    title: 'Bruxism — scrasnitul dintilor: cauze, simptome si tratament in Pitesti',
-    metaDescription: 'Bruxism in Pitesti — cauze, simptome si tratament. Gutiera ocluzala personalizata la ARA DENT STUDIO. Consultatie gratuita. Radiografie: 100 lei. Dr. Robert Lungu.',
+    title: 'Bruxism in Pitesti — cauze, simptome si tratament',
+    metaDescription: 'Bruxism in Pitesti — cauze, simptome si tratament. Gutiera ocluzala personalizata la ARA DENT STUDIO. Consultatie gratuita. Dr. Robert Lungu.',
     excerpt: 'Scrasnitul dintilor in somn e una dintre cele mai frecvente probleme dentare — si una dintre cele mai ignorate. Afla cauzele, simptomele si cum se trateaza.',
     date: '2026-08-25',
     continut: `
@@ -1228,7 +1228,7 @@ export const articole: Articol[] = [
   {
     slug: 'gutiera-bruxism-pitesti',
     title: 'Gutiera pentru bruxism — cand ai nevoie si cum se realizeaza',
-    metaDescription: 'Gutiera pentru bruxism in Pitesti — cand e necesara, cum se realizeaza cu scanner intraoral si cum protejeaza dintii si lucrarile protetice. ARA DENT STUDIO.',
+    metaDescription: 'Gutiera ocluzala pentru bruxism in Pitesti — cand e necesara, cum se realizeaza cu scanner intraoral si cum protejeaza dintii. ARA DENT STUDIO.',
     excerpt: 'Daca medicul ti-a recomandat o gutiera sau ai descoperit ca scrasnesti din dinti in somn, afla cand e cu adevarat necesara si ce presupune realizarea ei.',
     date: '2026-08-27',
     continut: `
@@ -1336,8 +1336,8 @@ export const articole: Articol[] = [
   },
   {
     slug: 'cat-costa-implant-dentar-pitesti-2026',
-    title: 'Cat te costa de fapt un implant dentar in Pitesti — defalcare completa 2026',
-    metaDescription: 'Cat costa un implant dentar complet in Pitesti? Surub 1.200 lei, bont 300 lei, coroana zirconiu 900 lei. Total 2.550 lei. Fara costuri ascunse. ARA DENT STUDIO.',
+    title: 'Cat costa un implant dentar in Pitesti — defalcare 2026',
+    metaDescription: 'Cat costa un implant dentar complet in Pitesti? Evaluare completa, transparenta preturilor si plan de tratament personalizat. ARA DENT STUDIO.',
     excerpt: 'Cand cauti pretul unui implant dentar, primul numar pe care il gasesti e adesea doar pretul surubului. Afla costul real complet la ARA DENT STUDIO Pitesti.',
     date: '2026-08-29',
     continut: `
@@ -1398,8 +1398,8 @@ export const articole: Articol[] = [
   },
   {
     slug: 'cat-costa-dantura-fixa-implanturi-pitesti-2026',
-    title: 'Cat costa cu adevarat o dantura fixa pe implanturi in Pitesti — defalcare completa 2026',
-    metaDescription: 'Cat costa All-on-4 in Pitesti? 12.000 lei include chirurgia, 4 implanturi si lucrarea provizorie. Afla ce NU include si ce sa bugetezi. ARA DENT STUDIO.',
+    title: 'Cat costa dantura fixa pe implanturi in Pitesti — 2026',
+    metaDescription: 'Cat costa All-on-4 in Pitesti? Afla ce include tratamentul complet, ce nu include si cum sa bugetezi corect. ARA DENT STUDIO Pitesti.',
     excerpt: 'Cand cauti pretul pentru All-on-4 sau All-on-6, primul numar pe care il gasesti e adesea incomplet. La ARA DENT STUDIO iti spunem exact ce include fiecare suma.',
     date: '2026-08-30',
     continut: `
@@ -1464,7 +1464,7 @@ export const articole: Articol[] = [
   {
     slug: 'all-on-4-diaspora-ghid-pacient',
     title: 'All-on-4 in vacanta — ghidul pacientului din diaspora',
-    metaDescription: 'Faci All-on-4 in Romania in vacanta? Trimite CBCT + poze pe WhatsApp si primesti o estimare orientativa inainte sa cumperi biletul. Transfer Otopeni disponibil. ARA DENT STUDIO Pitesti.',
+    metaDescription: 'Faci All-on-4 in Romania in vacanta? Trimite CBCT + poze pe WhatsApp si primesti o estimare orientativa inainte de plecare. ARA DENT STUDIO Pitesti.',
     excerpt: 'Locuiesti in strainatate si vrei sa iti rezolvi dantura acasa in Romania? Iata cum planificam impreuna tratamentul All-on-4 inainte sa cumperi biletul de avion.',
     date: '2026-09-01',
     continut: `
@@ -1524,8 +1524,8 @@ export const articole: Articol[] = [
   },
   {
     slug: 'tratament-dentar-romania-diaspora-2026',
-    title: 'Tratament dentar in Romania pentru romanii din strainatate — ghid complet 2026',
-    metaDescription: 'Tratament dentar in Romania pentru diaspora — implant, All-on-4, fatete. Trimite CBCT + poze pe WhatsApp si primesti o estimare orientativa inainte de zbor. ARA DENT STUDIO Pitesti, 75 min de Otopeni.',
+    title: 'Tratament dentar in Romania pentru diaspora — ghid 2026',
+    metaDescription: 'Tratament dentar in Romania pentru romani din strainatate — implant, All-on-4, fatete. Estimare pe WhatsApp inainte de zbor. ARA DENT STUDIO Pitesti.',
     excerpt: 'Mii de romani din Germania, Spania, Italia sau UK isi rezolva problemele dentare acasa. Afla cum planificam impreuna tratamentul inainte sa cumperi biletul de avion.',
     date: '2026-09-02',
     continut: `
@@ -1580,8 +1580,8 @@ export const articole: Articol[] = [
   },
   {
     slug: 'fara-os-pentru-implant-all-on-4',
-    title: 'Fara os pentru implant? De ce aproape nimeni nu e refuzat definitiv',
-    metaDescription: 'Ai fost informat ca nu poti face implant din lipsa de os? Afla de ce aproape nimeni nu e refuzat definitiv — All-on-4, implanturi zigomatice, pterigoidiene. ARA DENT STUDIO Pitesti.',
+    title: 'Fara os pentru implant? Solutii cand osul e insuficient',
+    metaDescription: 'Ai fost informat ca nu poti face implant din lipsa de os? Afla solutiile disponibile — All-on-4, implanturi zigomatice, pterigoidiene. ARA DENT STUDIO.',
     excerpt: 'Unul dintre cele mai frecvente motive pentru care pacientii cred ca nu pot face implant este cantitatea insuficienta de os. Realitatea clinica e diferita.',
     date: '2026-09-03',
     continut: `

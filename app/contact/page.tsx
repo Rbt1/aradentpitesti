@@ -17,28 +17,6 @@ export const metadata: Metadata = {
   },
 }
 
-const jsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'Dentist',
-  name: 'ARA DENT STUDIO',
-  image: 'https://www.aradentpitesti.ro/logo-circular-600.png',
-  telephone: '+40754219011',
-  email: 'aradentstudio@gmail.com',
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: 'Bd. Republicii nr. 19',
-    addressLocality: 'Pitești',
-    addressCountry: 'RO',
-  },
-  openingHoursSpecification: {
-    '@type': 'OpeningHoursSpecification',
-    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-    opens: '09:00',
-    closes: '18:00',
-  },
-  url: 'https://www.aradentpitesti.ro',
-}
-
 const WA_LINK = 'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Doresc să programez o consultație la ARA DENT STUDIO.')
 
 const PhoneIcon = () => (
@@ -105,10 +83,6 @@ const MAPS_EMBED_SRC = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28
 export default function ContactPage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
       <Navbar />
       <main className="bg-cream">
 

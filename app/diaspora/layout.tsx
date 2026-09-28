@@ -1,18 +1,12 @@
-import { Metadata } from 'next'
+import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: { absolute: 'Tratament Dentar pentru Români din Diaspora | ARA DENT STUDIO Pitești' },
-  description: 'Ești acasă în vacanță? Planificăm tratamentul dentar în funcție de zilele tale disponibile. Etapizare specială, programare flexibilă. Consultație gratuită.',
-  alternates: {
-    canonical: 'https://www.aradentpitesti.ro/diaspora',
-    languages: {
-      ro: 'https://www.aradentpitesti.ro/diaspora',
-      en: 'https://www.aradentpitesti.ro/diaspora-en',
-    },
-  },
+  title: { absolute: 'Implant Dentar România pentru Diaspora | ARA DENT STUDIO' },
+  description: 'Implant dentar în România pentru românii din diaspora — etapizare specială, estimare pe WhatsApp înainte de zbor. Dr. Robert Lungu, ARA DENT STUDIO Pitești.',
+  alternates: { canonical: 'https://www.aradentpitesti.ro/diaspora' },
   openGraph: {
-    title: 'Tratament Dentar pentru Români din Diaspora | ARA DENT STUDIO',
-    description: 'Ești acasă în vacanță? Planificăm tratamentul dentar în funcție de zilele tale disponibile. Etapizare specială, programare flexibilă. Consultație gratuită.',
+    title: 'Implant Dentar România pentru Diaspora | ARA DENT STUDIO',
+    description: 'Implant dentar în România pentru românii din diaspora — etapizare specială, estimare pe WhatsApp înainte de zbor. Dr. Robert Lungu, ARA DENT STUDIO Pitești.',
     url: 'https://www.aradentpitesti.ro/diaspora',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',

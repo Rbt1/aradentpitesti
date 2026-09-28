@@ -6,11 +6,11 @@ import FAQ from '@/app/servicii/components/FAQ'
 import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
-  title: { absolute: 'Coroane și Punți Dentare Pitești | de la 200 lei | ARA DENT STUDIO' },
+  title: { absolute: 'Coroane și Punți Dentare Pitești | ARA DENT STUDIO' },
   description: 'Coroane ceramice, punți fixe și lucrări pe implanturi în Pitești. Dr. Robert Lungu. Consultație gratuită. Programează acum.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/protetica-dentara' },
   openGraph: {
-    title: 'Coroane și Punți Dentare Pitești | de la 200 lei | ARA DENT STUDIO',
+    title: 'Coroane și Punți Dentare Pitești | ARA DENT STUDIO',
     description: 'Coroane ceramice, punți fixe și lucrări pe implanturi în Pitești. Dr. Robert Lungu. Consultație gratuită. Programează acum.',
     url: 'https://www.aradentpitesti.ro/servicii/protetica-dentara',
     siteName: 'ARA DENT STUDIO',

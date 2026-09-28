@@ -6,12 +6,12 @@ import FAQ from '@/app/servicii/components/FAQ'
 import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
-  title: { absolute: 'Extracție Maseă de Minte Pitești | de la 400 lei | ARA DENT STUDIO' },
-  description: 'Extracție maseă de minte în Pitești de la 400 lei. Extracție simplă, semiinclusă sau inclusă. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație gratuită.',
+  title: { absolute: 'Extracție Maseă de Minte Pitești | ARA DENT STUDIO' },
+  description: 'Extracție maseă de minte în Pitești — simplă, semiinclusă sau inclusă. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație gratuită.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/extractie-masea-de-minte' },
   openGraph: {
-    title: 'Extracție Maseă de Minte Pitești | de la 400 lei | ARA DENT STUDIO',
-    description: 'Extracție maseă de minte în Pitești de la 400 lei. Extracție simplă, semiinclusă sau inclusă. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație gratuită.',
+    title: 'Extracție Maseă de Minte Pitești | ARA DENT STUDIO',
+    description: 'Extracție maseă de minte în Pitești — simplă, semiinclusă sau inclusă. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație gratuită.',
     url: 'https://www.aradentpitesti.ro/servicii/extractie-masea-de-minte',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
