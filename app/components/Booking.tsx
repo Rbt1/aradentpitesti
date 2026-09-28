@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
+import Link from 'next/link'
 
 const CONTENT = {
   title: 'Rezervă-ți consultația',
@@ -230,6 +231,14 @@ const Booking = () => {
                 </svg>
                 {CONTENT.submitLabel}
               </button>
+              <p className="font-jost text-xs text-forest-light/70 text-center leading-relaxed mt-2">
+                Prin trimiterea acestui mesaj, veți deschide o conversație WhatsApp cu datele completate.
+                Detalii despre prelucrarea datelor:{' '}
+                <Link href="/politica-de-confidentialitate" className="underline hover:text-cream transition-colors duration-200">
+                  Politica de Confidențialitate
+                </Link>
+                .
+              </p>
           </motion.form>
 
           {/* Info contact — 3 coloane */}

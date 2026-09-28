@@ -55,6 +55,9 @@ export default function PoliticaConfidentialitatePage() {
               prin formularul de programare de pe site (Nume complet, Telefon, Serviciu dorit, Dată
               preferată, Mesaj opțional) — formular care construiește un mesaj trimis prin WhatsApp
               la numărul nostru; sau prin apel telefonic, WhatsApp direct sau email.
+              {' '}Formularul de programare de pe site nu stochează datele pe serverele noastre: el deschide
+              o conversație WhatsApp cu mesajul completat, pe care îl trimiteți dumneavoastră. Mesajul
+              ajunge la noi prin WhatsApp.
             </li>
             <li className="pl-4 border-l-2 border-gold/40">
               <strong className="text-forest-dark">Date privind sănătatea</strong>, pe care ni le
