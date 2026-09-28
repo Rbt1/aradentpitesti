@@ -211,7 +211,7 @@ export const articole: Articol[] = [
     excerpt: 'Daca lipsesc toti dintii de pe o arcada, All-on-4 ofera o lucrare fixa, stabila, cu recuperare rapida. Afla cat costa si cum decurge tratamentul.',
     date: '2026-06-23',
     continut: `
-      <p>Daca lipsesc toti dintii de pe o arcada si esti in cautarea unei solutii permanente, All-on-4 este una dintre cele mai eficiente optiuni disponibile astazi in implantologie. Hai sa vedem exact ce inseamna, cum decurge tratamentul si cat costa la ARA DENT STUDIO Pitesti.</p>
+      <p>Daca lipsesc toti dintii de pe o arcada si esti in cautarea unei solutii permanente, All-on-4 este una dintre cele mai eficiente optiuni disponibile astazi in <a href="/servicii/implantologie">implantologie</a>. Hai sa vedem exact ce inseamna, cum decurge tratamentul si cat costa la ARA DENT STUDIO Pitesti.</p>
 
       <h2>Ce este sistemul All-on-4?</h2>
       <p>All-on-4 este o tehnica de reabilitare orala completa, prin care o arcada intreaga de dinti lipsa este inlocuita cu o lucrare fixa, sustinuta de doar 4 implanturi strategic pozitionate. Spre deosebire de o proteza mobila, lucrarea All-on-4 nu se scoate, nu se misca si functioneaza ca o dantura naturala.</p>
@@ -301,7 +301,7 @@ export const articole: Articol[] = [
     <ul>
       <li>Consultatie gratuita. Radiografie panoramica: 100 lei.</li>
       <li>Extractii si pregatire pre-implantara</li>
-      <li>Inserarea implantului — 30-60 minute per implant</li>
+      <li><a href="/servicii/implantologie">Inserarea implantului</a> — 30-60 minute per implant</li>
       <li>Tratamente multiple planificate eficient pentru a folosi fiecare zi din vacanta</li>
     </ul>
 
@@ -335,7 +335,7 @@ export const articole: Articol[] = [
     <p>Daca ai ajuns pe aceasta pagina, probabil cauti o clinica de implant dentar in Pitesti si nu stii exact ce sa urmaresti. Sunt mai multe optiuni in oras — si nu toate sunt echivalente. Iata ce conteaza cu adevarat.</p>
 
     <h2>1. Specializarea medicului conteaza mai mult decat pretul</h2>
-    <p>Implantul dentar este o procedura chirurgicala — nu un simplu tratament stomatologic. Exista o diferenta importanta intre un medic generalist care face implanturi ocazional si un medic specialist in chirurgie dento-alveolara, pentru care implantologia reprezinta domeniul principal de activitate.</p>
+    <p><a href="/servicii/implantologie">Implantul dentar</a> este o procedura chirurgicala — nu un simplu tratament stomatologic. Exista o diferenta importanta intre un medic generalist care face implanturi ocazional si un medic specialist in chirurgie dento-alveolara, pentru care implantologia reprezinta domeniul principal de activitate.</p>
     <p>Inainte sa alegi o clinica, intreaba: medicul care iti pune implantul are specializare in chirurgie orala sau dento-alveolara, sau face implanturi printre alte zeci de proceduri?</p>
     <p>La ARA DENT STUDIO, Dr. Robert Lungu este medic specialist in chirurgie dento-alveolara, cu cursuri avansate de implantologie — implantologia nu este o procedura secundara, ci domeniul sau central de activitate.</p>
 
@@ -494,7 +494,7 @@ export const articole: Articol[] = [
 
     <h2>De ce proteza mobila devine o problema pe termen lung</h2>
     <p><strong>1. Resorbtia osoasa continua</strong><br/>
-    Cel mai important dezavantaj — si cel mai putin cunoscut. Fara radacini sau implanturi care sa stimuleze osul, acesta se resoarbe progresiv. Cu cat proteza e purtata mai mult timp, cu atat mai mult os se pierde — si cu atat mai greu devine un eventual tratament cu implanturi in viitor.</p>
+    Cel mai important dezavantaj — si cel mai putin cunoscut. Fara radacini sau implanturi care sa stimuleze osul, acesta se resoarbe progresiv. Cu cat proteza e purtata mai mult timp, cu atat mai mult os se pierde — si cu atat mai greu devine un eventual <a href="/servicii/implantologie">tratament cu implanturi dentare</a> in viitor.</p>
     <p><strong>2. Instabilitate progresiva</strong><br/>
     Pe masura ce osul se resoarbe, proteza nu mai "tine" la fel. Necesita rebasare frecventa sau inlocuire. Multi pacienti ajung sa foloseasca tot mai mult adeziv.</p>
     <p><strong>3. Masticatie limitata</strong><br/>
@@ -600,7 +600,7 @@ export const articole: Articol[] = [
     excerpt: 'Acum poti face implant dentar in rate la ARA DENT STUDIO Pitesti — posibilitate de plata in rate fara dobanda prin TBI Bank. Aplicare direct la cabinet.',
     date: '2026-08-07',
     continut: `
-    <p>Unul dintre motivele pentru care pacientii amana un implant dentar nu e lipsa dorintei — e suma de platit dintr-o data. La ARA DENT STUDIO Pitesti, ai acum posibilitatea sa faci implantul dentar in rate lunare, fara dobanda.</p>
+    <p>Unul dintre motivele pentru care pacientii amana un implant dentar nu e lipsa dorintei — e suma de platit dintr-o data. La ARA DENT STUDIO Pitesti, ai acum posibilitatea sa faci <a href="/servicii/implantologie">implantul dentar</a> in rate lunare, fara dobanda.</p>
 
     <h2>Cum functioneaza ratele la ARA DENT STUDIO</h2>
     <p>Colaboram cu <strong>TBI Bank</strong> pentru finantarea tratamentelor stomatologice. Procesul e simplu si se face direct la cabinet:</p>
@@ -774,7 +774,7 @@ export const articole: Articol[] = [
     excerpt: 'Pot face implantul imediat dupa extractie sau trebuie sa astept? Exista trei variante de implantare — afla care e potrivita pentru tine.',
     date: '2026-08-11',
     continut: `
-    <p>Una dintre cele mai frecvente intrebari pe care le primim este: "Pot face implantul imediat dupa extractie sau trebuie sa astept?" Raspunsul depinde de mai multi factori — si exista trei variante de implantare, fiecare cu avantajele ei.</p>
+    <p>Una dintre cele mai frecvente intrebari pe care le primim este: "Pot face <a href="/servicii/implantologie">implantul dentar</a> imediat dupa extractie sau trebuie sa astept?" Raspunsul depinde de mai multi factori — si exista trei variante de implantare, fiecare cu avantajele ei.</p>
 
     <h2>Cele trei variante de implantare dupa extractie</h2>
 
@@ -1341,7 +1341,7 @@ export const articole: Articol[] = [
     excerpt: 'Cand cauti pretul unui implant dentar, primul numar pe care il gasesti e adesea doar pretul surubului. Afla costul real complet la ARA DENT STUDIO Pitesti.',
     date: '2026-08-29',
     continut: `
-    <p>Cand cauti pretul unui implant dentar, primul numar pe care il gasesti e adesea doar pretul surubului. Costul real al tratamentului complet e mai mare — si e important sa stii exact la ce sa te astepti inainte sa incepi.</p>
+    <p>Cand cauti pretul unui <a href="/servicii/implantologie">implant dentar complet</a>, primul numar pe care il gasesti e adesea doar pretul surubului. Costul real al tratamentului e mai mare — si e important sa stii exact la ce sa te astepti inainte sa incepi.</p>
 
     <h2>De ce preturile afisate par mici</h2>
     <p>Multi pacienti ajung la cabinet cu impresia ca un implant dentar costa 800-1.000 lei — pentru ca asta au vazut afisat. In realitate, acel pret acopera doar componenta chirurgicala — surubul de titan care se insereaza in os.</p>
@@ -1536,7 +1536,7 @@ export const articole: Articol[] = [
     <p>Pitesti ofera un avantaj logistic important: <strong>75-90 minute de Aeroportul Henri Coanda (Otopeni) pe Autostrada A1</strong>, fara traversarea Bucurestiului. Ajungi direct din aeroport la cabinet in mai putin de 90 de minute.</p>
 
     <h2>Ce tratamente rezolvam la ARA DENT STUDIO</h2>
-    <p><strong>Implant dentar</strong><br/>
+    <p><strong><a href="/servicii/implantologie">Implant dentar</a></strong><br/>
     Cel mai solicitat tratament de pacientii din diaspora — costul unui implant complet in Romania e de 2-3 ori mai mic decat in Germania sau UK, la aceeasi calitate a implanturilor si a tehnicii chirurgicale.</p>
 
     <p><strong>All-on-4 si All-on-6</strong><br/>
@@ -1585,7 +1585,7 @@ export const articole: Articol[] = [
     excerpt: 'Unul dintre cele mai frecvente motive pentru care pacientii cred ca nu pot face implant este cantitatea insuficienta de os. Realitatea clinica e diferita.',
     date: '2026-09-03',
     continut: `
-    <p>Unul dintre cele mai frecvente motive pentru care pacientii cred ca nu pot face implant este cantitatea insuficienta de os. Realitatea clinica e diferita — exista solutii pentru aproape orice situatie, de la tehnici chirurgicale adaptate pana la implanturi speciale pentru cazurile extreme.</p>
+    <p>Unul dintre cele mai frecvente motive pentru care pacientii cred ca nu pot face <a href="/servicii/implantologie">implant dentar</a> este cantitatea insuficienta de os. Realitatea clinica e diferita — exista solutii pentru aproape orice situatie, de la tehnici chirurgicale adaptate pana la implanturi speciale pentru cazurile extreme.</p>
 
     <h2>De ce se pierde osul si ce inseamna asta</h2>
     <p>Osul maxilar se resoarbe progresiv dupa pierderea dintilor — cu cat un dinte lipseste mai mult, cu atat mai mult os dispare in acea zona. La pacientii edentati total de multi ani sau la purtatorii de proteza mobila de lunga durata, resorbtia osoasa poate fi semnificativa.</p>

@@ -164,7 +164,11 @@ export default function AditieOsoasaSinusLiftPage() {
           <div className="container-site max-w-3xl">
             <div className="space-y-5 font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
               <p>
-                Unul dintre motivele pentru care unii pacienți sunt informați că nu pot face implant este cantitatea insuficientă de os disponibil. În multe dintre aceste cazuri, implantul este totuși posibil — după o procedură de augmentare osoasă.
+                Unul dintre motivele pentru care unii pacienți sunt informați că nu pot face implant este cantitatea insuficientă de os disponibil. În multe dintre aceste cazuri,{' '}
+                <Link href="/servicii/implantologie" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">
+                  implantul dentar
+                </Link>
+                {' '}este totuși posibil — după o procedură de augmentare osoasă.
               </p>
               <p>
                 La ARA DENT STUDIO, <Link href="/dr-robert-lungu" className="font-semibold text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">Dr. Robert Lungu</Link> evaluează fiecare caz individual cu tomograful CBCT propriu și stabilește dacă și ce procedură pregătitoare este necesară.

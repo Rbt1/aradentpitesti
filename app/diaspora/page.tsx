@@ -278,7 +278,11 @@ export default function DiasporaPage() {
                     Vizita 1 — Prima vacanță
                   </h3>
                   <p className="font-jost font-light text-[15px] text-bark-dark leading-relaxed">
-                    Consultație gratuită. Radiografie panoramică: 100 lei. Evaluare completă. Extracție dacă e necesară. Inserarea implantului — 30–60 minute. Pleci fără durere, cu implantul în curs de integrare.
+                    Consultație gratuită. Radiografie panoramică: 100 lei. Evaluare completă. Extracție dacă e necesară.{' '}
+                    <Link href="/servicii/implantologie" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">
+                      Inserarea implantului
+                    </Link>
+                    {' '}— 30–60 minute. Pleci fără durere, cu implantul în curs de integrare.
                   </p>
                 </div>
               </motion.div>
