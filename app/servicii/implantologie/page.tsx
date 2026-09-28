@@ -50,122 +50,185 @@ const jsonLdFaq = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'Cat dureaza procedura de implant dentar?',
+      name: 'Cât costă un implant dentar la Pitești?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Inserarea implantului dureaza 30-60 de minute per implant, sub anestezie locala. Oseointegrarea dureaza 3-6 luni, dupa care se monteaza coroana definitiva.',
+        text: 'Implantul (șurubul) costă 1.200 lei, la care se adaugă bontul protetic (300 lei) și coroana (de exemplu, din zirconiu: 900 lei). Costul final se stabilește după consultația gratuită și evaluare, pentru că fiecare caz este diferit.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Cat costa un implant dentar in Pitesti la ARA DENT STUDIO?',
+      name: 'Consultația este gratuită?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'La ARA DENT STUDIO, implantul dentar (surubul) costa 1.200 lei. Bontul protetic este 300 lei, iar capa de vindecare 150 lei. Consultatia este gratuita. Radiografie panoramica: 100 lei. CT dentar (CBCT): 250 lei.',
+        text: 'Da. Dacă medicul consideră necesară o radiografie panoramică, aceasta se taxează separat (100 lei).',
       },
     },
     {
       '@type': 'Question',
-      name: 'Implantul dentar doare?',
+      name: 'Este necesar un CBCT înainte de implant?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Procedura se realizeaza sub anestezie locala si nu provoaca durere in timpul interventiei. Post-operator pot aparea cateva zile de disconfort usor, gestionabil cu antiinflamatoare standard.',
+        text: 'Atunci când este necesar, medicul recomandă un CBCT, pentru a vedea osul în 3D: înălțimea, grosimea, poziția nervilor și a sinusului. Îl facem la noi în clinică (250 lei; CT-urile ulterioare de verificare sunt incluse).',
       },
     },
     {
       '@type': 'Question',
-      name: 'Pot face implant daca am diabet?',
+      name: 'Doare intervenția de implant?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Diabetul bine controlat nu este o contraindicatie absoluta pentru implant. Dr. Robert Lungu evalueaza fiecare caz individual la consultatie.',
+        text: 'Intervenția se face sub anestezie locală. După aceea poate apărea un disconfort moderat, care se gestionează cu recomandările medicului.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Care e diferenta dintre implant si proteza mobila?',
+      name: 'Cât durează tratamentul cu implant?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Implantul este fix, integrat in os, identic functional cu un dinte natural. Proteza mobila se scoate zilnic, nu opreste resorbtia osoasa si poate fi inconfortabila. Implantul este singura solutie permanenta care inlocuieste si radacina dintelui.',
+        text: 'Depinde de calitatea osului, de necesitatea unei adiții osoase și de tipul lucrării. Vindecarea (osteointegrarea) durează câteva luni, iar medicul îți oferă un calendar personalizat după evaluare.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Ce se intampla daca nu fac implant?',
+      name: 'Cât timp poate funcționa un implant dentar?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Dintii vecini migreaza spre spatiul gol, osul se resoarbe, iar masticatia si estetica sunt afectate. Cu cat astepti mai mult, cu atat tratamentul devine mai complex. Consultati un specialist cat mai curand.',
+        text: 'Cu igienă corectă și controale periodice, un implant poate funcționa mulți ani. Nu putem promite o durată fixă, pentru că depinde de igienă, de starea gingiilor, de fumat și de controalele regulate.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Pot face mai multe implanturi odata?',
+      name: 'Ce fac dacă nu am suficient os?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Da — planificam in functie de situatia specifica. In unele cazuri, mai multe implanturi pot fi inserate in aceeasi sedinta, reducand numarul total de vizite.',
+        text: 'Există soluții, precum adiția osoasă sau sinus lift-ul, care se stabilesc după evaluare.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Cat timp dureaza un implant dentar?',
+      name: 'Pot face implant dacă am boală parodontală sau alte afecțiuni?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Rata de succes a implanturilor dentare pe termen lung este foarte ridicata. Ingrijit corect si cu controale periodice, un implant poate functiona excelent zeci de ani. Durata depinde de igiena orala, sanatatea generala si controalele regulate la medicul dentist.',
+        text: 'Boala parodontală și unele afecțiuni generale trebuie evaluate înainte de intervenție. Decizia se ia de medic, după consultație.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Pot plăti implantul în rate?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Da, este posibilă plata în rate fără dobândă prin TBI Bank. Detaliile se discută la cabinet.',
       },
     },
   ],
 }
 
-const BENEFITS = [
+const STEPS = [
   {
-    title: 'Durată de viață',
-    text: 'Rata de succes pe termen lung este foarte ridicată. Îngrijit corect și cu controale periodice, un implant poate funcționa excelent zeci de ani.',
+    nr: '1',
+    titlu: 'Consultația gratuită și evaluarea',
+    text: 'Examen clinic și discuție despre opțiunile potrivite cazului tău. Dacă medicul consideră necesar, se recomandă o radiografie panoramică, care se taxează separat.',
   },
   {
-    title: 'Aspect natural',
-    text: 'Coroana pe implant este identică vizual cu dinții naturali. Nimeni nu va observa diferența.',
+    nr: '2',
+    titlu: 'Imagistica',
+    text: 'Atunci când este necesar, medicul recomandă un CBCT (tomografie 3D), care arată osul — înălțime, grosime — și poziția nervilor și a sinusului. Îl facem la noi în clinică, nu te trimitem prin oraș pentru tomograf.',
   },
   {
-    title: 'Fără durere',
-    text: 'Procedura se realizează sub anestezie locală. Dr. Robert Lungu are mână ușoară și lucrează cu blândețe.',
+    nr: '3',
+    titlu: 'Intervenția',
+    text: 'Implantul se plasează sub anestezie locală.',
   },
+  {
+    nr: '4',
+    titlu: 'Vindecarea (osteointegrarea)',
+    text: 'Implantul se integrează în os. Durează câteva luni, în funcție de caz.',
+  },
+  {
+    nr: '5',
+    titlu: 'Bontul protetic și coroana',
+    text: 'După vindecare se fixează bontul și se realizează coroana (de exemplu din zirconiu), cu ajutorul scanner-ului intraoral digital.',
+  },
+  {
+    nr: '6',
+    titlu: 'Controale periodice',
+    text: 'Igiena corectă și controalele regulate ajută implantul să funcționeze mulți ani.',
+  },
+]
+
+const PRICE_ROWS = [
+  { serviciu: 'Implant dentar (șurub)', pret: '1.200 lei' },
+  { serviciu: 'Bont protetic', pret: '300 lei' },
+  { serviciu: 'Capă de vindecare', pret: '150 lei' },
+  { serviciu: 'Coroană din zirconiu', pret: '900 lei' },
+  { serviciu: 'CT dentar (CBCT), atunci când este necesar', pret: '250 lei (CT-urile ulterioare de verificare sunt incluse)' },
+  { serviciu: 'Radiografie panoramică, dacă este necesară', pret: '100 lei' },
 ]
 
 const FAQ_ITEMS = [
   {
-    q: 'Cât durează procedura de implant dentar?',
-    a: 'Inserarea implantului durează 30-60 minute. Coroana finală se montează după 3-6 luni, când implantul s-a integrat în os.',
+    q: 'Cât costă un implant dentar la Pitești?',
+    a: 'Implantul (șurubul) costă 1.200 lei, la care se adaugă bontul protetic (300 lei) și coroana (de exemplu, din zirconiu: 900 lei). Costul final se stabilește după consultația gratuită și evaluare, pentru că fiecare caz este diferit.',
   },
   {
-    q: 'Cât costă un implant dentar în Pitești?',
-    a: 'Implantul (șurubul) costă 1.200 lei, bontul protetic 300 lei, iar capa de vindecare 150 lei. Coroana finală se stabilește separat, la consultație, în funcție de materialul ales.',
+    q: 'Consultația este gratuită?',
+    a: 'Da. Dacă medicul consideră necesară o radiografie panoramică, aceasta se taxează separat (100 lei).',
   },
   {
-    q: 'Implantul dentar doare?',
-    a: 'Nu — procedura se face sub anestezie locală. Nu vei simți durere în timpul intervenției. Post-operator pot apărea disconforturi minore care se ameliorează rapid.',
+    q: 'Este necesar un CBCT înainte de implant?',
+    a: 'Atunci când este necesar, medicul recomandă un CBCT, pentru a vedea osul în 3D: înălțimea, grosimea, poziția nervilor și a sinusului. Îl facem la noi în clinică (250 lei; CT-urile ulterioare de verificare sunt incluse).',
   },
   {
-    q: 'Pot face implant dacă am diabet?',
-    a: 'Depinde de stadiul și controlul bolii. La consultație evaluăm situația ta specific și îți spunem dacă ești candidat potrivit pentru implant.',
+    q: 'Doare intervenția de implant?',
+    a: 'Intervenția se face sub anestezie locală. După aceea poate apărea un disconfort moderat, care se gestionează cu recomandările medicului.',
   },
   {
-    q: 'Care e diferența între implant și proteză?',
-    a: 'Implantul e fix, integrat în os, identic cu un dinte natural. Proteza e mobilă, poate fi inconfortabilă și nu oprește resorbția osoasă. Implantul e soluția permanentă și superioară pe termen lung.',
+    q: 'Cât durează tratamentul cu implant?',
+    a: 'Depinde de calitatea osului, de necesitatea unei adiții osoase și de tipul lucrării. Vindecarea (osteointegrarea) durează câteva luni, iar medicul îți oferă un calendar personalizat după evaluare.',
   },
   {
-    q: 'Ce se întâmplă dacă nu fac implant?',
-    a: 'Dinții vecini migrează spre spațiul gol, osul se resoarbe, iar masticația și estetica sunt afectate. Cu cât aștepți mai mult, cu atât tratamentul devine mai complex. Consultați un specialist cât mai curând.',
+    q: 'Cât timp poate funcționa un implant dentar?',
+    a: 'Cu igienă corectă și controale periodice, un implant poate funcționa mulți ani. Nu putem promite o durată fixă, pentru că depinde de igienă, de starea gingiilor, de fumat și de controalele regulate.',
   },
   {
-    q: 'Pot face mai multe implanturi odată?',
-    a: 'Da — planificăm în funcție de situația ta specifică. În unele cazuri, mai multe implanturi pot fi inserate în aceeași ședință, reducând numărul total de vizite.',
+    q: 'Ce fac dacă nu am suficient os?',
+    a: (
+      <>
+        Există soluții, precum{' '}
+        <Link href="/servicii/aditie-osoasa-sinus-lift" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">
+          adiția osoasă sau sinus lift-ul
+        </Link>
+        , care se stabilesc după evaluare.
+      </>
+    ),
   },
   {
-    q: 'Cât timp durează un implant dentar?',
-    a: 'Rata de succes a implanturilor dentare pe termen lung este foarte ridicată. Îngrijit corect și cu controale periodice, un implant poate funcționa excelent zeci de ani. Durata depinde de igiena orală, sănătatea generală și controalele regulate la medicul dentist.',
+    q: 'Pot face implant dacă am boală parodontală sau alte afecțiuni?',
+    a: 'Boala parodontală și unele afecțiuni generale trebuie evaluate înainte de intervenție. Decizia se ia de medic, după consultație.',
+  },
+  {
+    q: 'Pot plăti implantul în rate?',
+    a: 'Da, este posibilă plata în rate fără dobândă prin TBI Bank. Detaliile se discută la cabinet.',
   },
 ]
 
 const BLOG_LINKS = [
+  {
+    href: '/blog/cat-costa-implant-dentar-pitesti-2026',
+    text: 'Cât costă un implant dentar în Pitești — defalcare 2026',
+  },
+  {
+    href: '/blog/implant-dentar-rate-pitesti',
+    text: 'Implant dentar în rate la Pitești — plată fără dobândă',
+  },
+  {
+    href: '/blog/implant-dentar-dupa-extractie',
+    text: 'Implant dentar după extracție — cât timp aștepți',
+  },
+  {
+    href: '/blog/fara-os-pentru-implant-all-on-4',
+    text: 'Fără os pentru implant? Soluții când osul e insuficient',
+  },
   {
     href: '/blog/cat-costa-implant-dentar-romania-2026',
     text: 'Cât costă un implant dentar în România în 2026? Tot adevărul',
@@ -175,13 +238,23 @@ const BLOG_LINKS = [
     text: 'Implant dentar sau proteză mobilă? Ghid complet 2026',
   },
   {
-    href: '/blog/cat-costa-implant-dentar-ara-dent-pitesti',
-    text: 'Cât costă un implant dentar la ARA DENT STUDIO Pitești în 2026',
-  },
-  {
     href: '/blog/cum-alegi-clinica-implant-dentar-pitesti',
-    text: 'Ce trebuie să știi înainte să alegi o clinică de implant dentar în Pitești',
+    text: 'Cum alegi clinica de implant dentar în Pitești',
   },
+]
+
+const WHY_ITEMS = [
+  'Medic specialist chirurg și CBCT propriu la aceeași adresă — evaluare și intervenție fără drumuri suplimentare.',
+  'Planificare digitală cu CBCT (când este necesar) și scanner intraoral.',
+  'Consultație gratuită, fără costuri ascunse.',
+  'Bd. Republicii nr. 19, Pitești, program luni–vineri, 09:00–18:00.',
+]
+
+const WHEN_ITEMS = [
+  'ai pierdut un dinte (extracție, accident, dinte nesalvabil);',
+  'vrei să eviți șlefuirea dinților vecini, cum se întâmplă la o punte;',
+  'porți proteză mobilă și îți dorești mai multă stabilitate;',
+  'îți lipsesc mai mulți dinți sau o arcadă întreagă.',
 ]
 
 export default function ImplantologiePage() {
@@ -222,52 +295,62 @@ export default function ImplantologiePage() {
           </div>
         </section>
 
-        {/* Descriere principală */}
+        {/* A. Intro */}
         <section className="py-20 px-6 bg-cream">
           <div className="container-site max-w-3xl">
             <div className="space-y-5 font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
               <p>
-                Implantul dentar este cea mai apropiată alternativă a unui dinte natural. Se inserează în osul maxilar, se integrează biologic și suportă o coroană identică vizual cu dinții naturali.
+                Un implant dentar înlocuiește rădăcina unui dinte pierdut cu un șurub din titan, pe care se fixează ulterior coroana. La ARA DENT STUDIO din Pitești, implanturile sunt realizate de{' '}
+                <Link href="/dr-robert-lungu" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">
+                  Dr. Robert Lungu
+                </Link>
+                , medic specialist în chirurgie dento-alveolară, iar evaluarea, imagistica, intervenția și lucrarea protetică se fac la aceeași adresă. Consultația este gratuită.
               </p>
               <p>
-                La ARA DENT STUDIO, <Link href="/dr-robert-lungu" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">Dr. Robert Lungu</Link> planifică fiecare implant individual, folosind tehnologie modernă pentru rezultate predictibile și durabile. Fiecare caz este evaluat atent — radiografie panoramică, CBCT dacă e necesar, și un plan de tratament personalizat.
+                Spre deosebire de punte sau proteză mobilă, implantul nu afectează dinții vecini și menține osul maxilar sănătos pe termen lung. Când un dinte lipsește, osul din zona respectivă se resoarbe treptat — implantul oprește acest proces și păstrează structura feței.
               </p>
               <p>
-                Spre deosebire de punte sau proteză, implantul nu afectează dinții vecini și menține osul maxilar sănătos pe termen lung. Când un dinte lipsește, osul din zona respectivă se resoarbe treptat. Implantul oprește acest proces și păstrează structura feței.
-              </p>
-              <p>
-                Procesul de implantare este realizat sub anestezie locală — confortabil și fără durere. Recuperarea este rapidă, iar rezultatul final este un zâmbet complet și natural. Îngrijit corect, un implant dentar durează toată viața. Pentru detalii despre costuri, <Link href="/preturi" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">vezi lista completă de prețuri</Link>.
+                Implantul dentar este cea mai apropiată alternativă a unui dinte natural: integrat biologic în os, identic vizual cu dinții din jur și funcțional în masticație. Îngrijit corect și cu controale periodice, un implant poate funcționa mulți ani.
               </p>
             </div>
           </div>
         </section>
 
-        {/* Sectiune noua: De ce sa nu amani */}
+        {/* B. Când este recomandat */}
         <section className="py-16 px-6 bg-cream-dark">
           <div className="container-site max-w-3xl">
             <h2 className="font-playfair text-3xl text-forest-dark mb-6">
-              De ce să nu amâni un dinte lipsă
+              Când este recomandat un implant dentar
             </h2>
+            <p className="font-jost font-light text-[16px] text-bark-dark leading-[1.9] mb-6">
+              Implantul dentar este o soluție potrivită dacă:
+            </p>
+            <ul className="space-y-3 mb-8">
+              {WHEN_ITEMS.map((item) => (
+                <li key={item} className="flex gap-3 items-start">
+                  <span className="mt-[10px] w-[5px] h-[5px] rounded-full bg-gold flex-shrink-0" />
+                  <span className="font-jost font-light text-[16px] text-bark-dark leading-relaxed">{item}</span>
+                </li>
+              ))}
+            </ul>
             <p className="font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
-              Când un dinte lipsește, dinții vecini încep să migreze spre spațiul gol, iar osul din zona respectivă se resoarbe progresiv. Cu cât aștepți mai mult, cu atât tratamentul devine mai complex și mai costisitor. Un implant plasat la timp oprește acest proces și protejează structura osoasă pe termen lung.
+              Dacă nu există suficient os, există soluții — decizia se ia după evaluare.{' '}
+              <Link href="/servicii/aditie-osoasa-sinus-lift" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">
+                Adiție osoasă și sinus lift
+              </Link>
+              .
             </p>
           </div>
         </section>
 
-        {/* Sectiune noua: Cum decurge tratamentul */}
+        {/* C. Etapele tratamentului */}
         <section className="py-16 px-6 bg-offwhite">
           <div className="container-site max-w-3xl">
             <h2 className="font-playfair text-3xl text-forest-dark mb-8">
-              Cum decurge tratamentul la ARA DENT STUDIO
+              Etapele tratamentului cu implant dentar
             </h2>
             <ol className="space-y-5">
-              {[
-                { nr: '1', titlu: 'Consultație gratuită', text: 'Evaluare clinică completă. Radiografie panoramică: 100 lei. CT dentar (CBCT): 250 lei dacă e necesar. Plan de tratament personalizat.' },
-                { nr: '2', titlu: 'Pregătire pre-chirurgicală', text: 'Tratament carii active și igienizare profesională pentru reducerea bacteriilor din cavitatea orală înainte de intervenție.' },
-                { nr: '3', titlu: 'Inserarea implantului', text: 'Intervenție sub anestezie locală, 30–60 minute per implant. Recuperare rapidă, fără durere în timpul procedurii.' },
-                { nr: '4', titlu: 'Osteointegrare', text: '3–6 luni în care implantul se integrează biologic în os — perioada în care titanul devine parte din structura ta osoasă.' },
-                { nr: '5', titlu: 'Coroana definitivă', text: 'Rezultat final identic vizual cu un dinte natural — funcțional, estetic și durabil pe toată viața.' },
-              ].map((step) => (
+              {STEPS.map((step) => (
                 <li key={step.nr} className="flex gap-5 items-start">
                   <span className="flex-shrink-0 w-9 h-9 rounded-full bg-forest flex items-center justify-center font-jost font-bold text-cream text-sm">
                     {step.nr}
@@ -282,48 +365,149 @@ export default function ImplantologiePage() {
           </div>
         </section>
 
-        {/* Sectiune noua: Diaspora */}
+        {/* D. Cât durează tratamentul */}
         <section className="py-16 px-6 bg-cream">
           <div className="container-site max-w-3xl">
             <h2 className="font-playfair text-3xl text-forest-dark mb-6">
-              Implant dentar pentru pacienții din diaspora
+              Cât durează tratamentul
             </h2>
             <p className="font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
-              Dacă locuiești în străinătate și vii acasă în vacanță, putem planifica tratamentul în funcție de zilele tale disponibile. Inserarea implantului se face într-o primă vizită, iar coroana definitivă se montează la următoarea vizită — după perioada de osteointegrare de 3–6 luni. Intervalul dintre vizite se potrivește perfect cu ritmul natural al vacanțelor acasă.{' '}
-              <Link href="/diaspora" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">
-                Află mai multe despre programarea pentru pacienții din diaspora.
-              </Link>
+              Durata depinde de calitatea osului, de necesitatea unei adiții osoase și de tipul lucrării. Medicul stabilește calendarul după evaluare — nu există o durată standard valabilă pentru toți pacienții. De aceea, consultația este primul pas.
             </p>
           </div>
         </section>
 
-        {/* Beneficii */}
-        <section className="py-16 px-6 bg-offwhite">
-          <div className="container-site">
-            <h2 className="font-playfair text-3xl text-forest-dark mb-10 text-center">
-              De ce să alegi implantul dentar
+        {/* E. Soluții pentru situații diferite */}
+        <section className="py-16 px-6 bg-cream-dark">
+          <div className="container-site max-w-3xl">
+            <h2 className="font-playfair text-3xl text-forest-dark mb-8">
+              Soluții pentru situații diferite
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              {BENEFITS.map((b) => (
-                <div key={b.title} className="bg-cream border border-bark-light/30 rounded-sm p-8">
-                  <div className="w-8 h-[2px] bg-gold mb-5" />
-                  <h3 className="font-playfair text-xl text-forest-dark mb-3">{b.title}</h3>
-                  <p className="font-jost font-light text-[14px] text-bark-dark leading-relaxed">{b.text}</p>
-                </div>
-              ))}
+            <div className="space-y-8">
+              <div>
+                <h3 className="font-playfair text-xl text-forest-dark mb-3">Un dinte lipsă</h3>
+                <p className="font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
+                  Un implant, o coroană. Soluția completă pentru înlocuirea unui singur dinte, fără a atinge dinții vecini.
+                </p>
+              </div>
+              <div>
+                <h3 className="font-playfair text-xl text-forest-dark mb-3">Mai mulți dinți lipsă</h3>
+                <p className="font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
+                  Mai multe implanturi sau o lucrare fixă susținută pe implanturi — în funcție de caz, se alege soluția optimă la consultație.
+                </p>
+              </div>
+              <div>
+                <h3 className="font-playfair text-xl text-forest-dark mb-3">Arcadă completă</h3>
+                <p className="font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
+                  Când lipsesc toți dinții de pe o arcadă, o opțiune este{' '}
+                  <Link href="/servicii/all-on-4-all-on-6" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">
+                    All-on-4 și All-on-6
+                  </Link>
+                  {' '}— o lucrare fixă pe patru sau șase implanturi.
+                </p>
+              </div>
+              <div>
+                <h3 className="font-playfair text-xl text-forest-dark mb-3">Când osul nu este suficient</h3>
+                <p className="font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
+                  Lipsa de os nu înseamnă automat că implantul nu este posibil.{' '}
+                  <Link href="/servicii/aditie-osoasa-sinus-lift" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">
+                    Adiția osoasă și sinus lift-ul
+                  </Link>
+                  {' '}sunt proceduri care pregătesc terenul — mai multe detalii în articolul{' '}
+                  <Link href="/blog/fara-os-pentru-implant-all-on-4" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">
+                    Fără os pentru implant? Soluții când osul e insuficient
+                  </Link>
+                  .
+                </p>
+              </div>
             </div>
+          </div>
+        </section>
+
+        {/* F. Prețuri */}
+        <section className="py-16 px-6 bg-offwhite">
+          <div className="container-site max-w-3xl">
+            <h2 className="font-playfair text-3xl text-forest-dark mb-8">
+              Cât costă un implant dentar la Pitești
+            </h2>
+            <div className="overflow-x-auto">
+              <table className="w-full text-left border-collapse min-w-[460px]">
+                <tbody>
+                  {PRICE_ROWS.map((row) => (
+                    <tr key={row.serviciu} className="border-b border-bark-light/30">
+                      <td className="py-3 pr-8 font-jost font-light text-[15px] text-bark-dark">{row.serviciu}</td>
+                      <td className="py-3 font-jost font-bold text-[15px] text-forest-dark whitespace-nowrap">{row.pret}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <div className="mt-8 space-y-4 font-jost font-light text-[15px] text-bark-dark leading-relaxed">
+              <p>
+                Consultația este gratuită. Costul final depinde de fiecare caz — numărul de implanturi, tipul lucrării, eventuale proceduri suplimentare — și se stabilește după evaluare. Fără costuri ascunse: tu afli ce include tratamentul înainte să te decizi.
+              </p>
+              <p>
+                Este posibilă plata în rate fără dobândă prin TBI Bank.{' '}
+                <Link href="/blog/implant-dentar-rate-pitesti" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">
+                  Detalii despre plata în rate
+                </Link>
+                .
+              </p>
+              <p>
+                <Link href="/preturi" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">
+                  Lista completă de prețuri
+                </Link>
+                {' '}|{' '}
+                <Link href="/blog/cat-costa-implant-dentar-pitesti-2026" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">
+                  Defalcare completă: cât costă un implant dentar în Pitești
+                </Link>
+                .
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* G. De ce ARA DENT STUDIO */}
+        <section className="py-16 px-6 bg-cream">
+          <div className="container-site max-w-3xl">
+            <h2 className="font-playfair text-3xl text-forest-dark mb-6">
+              De ce să alegi ARA DENT STUDIO pentru implant
+            </h2>
+            <ul className="space-y-3">
+              {WHY_ITEMS.map((item) => (
+                <li key={item} className="flex gap-3 items-start">
+                  <span className="mt-[10px] w-[5px] h-[5px] rounded-full bg-gold flex-shrink-0" />
+                  <span className="font-jost font-light text-[16px] text-bark-dark leading-relaxed">{item}</span>
+                </li>
+              ))}
+            </ul>
           </div>
         </section>
 
         {/* CTA WhatsApp contextual */}
         <CTAWhatsApp
-          title="Ești candidat pentru implant dentar?"
-          subtitle="Consultație gratuită. Radiografie: 100 lei — Dr. Robert Lungu."
+          title="Programează consultația gratuită"
+          subtitle="Program: luni–vineri, 09:00–18:00."
           waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Sunt interesat de implant dentar și aș dori să programez o consultație la ARA DENT STUDIO.')}
         />
 
-        {/* FAQ */}
-        <section className="py-20 px-6 bg-cream">
+        {/* H. Diaspora */}
+        <section className="py-16 px-6 bg-cream">
+          <div className="container-site max-w-3xl">
+            <h2 className="font-playfair text-3xl text-forest-dark mb-6">
+              Vii din străinătate? Ne pregătim din timp
+            </h2>
+            <p className="font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
+              Dacă locuiești în afara țării și ai venit în vacanță, poți să ne trimiți pe WhatsApp un CBCT (dacă ai deja unul) și câteva fotografii intraorale. Primești o estimare orientativă în 24 de ore. Planul final se stabilește la consultația gratuită, la cabinet.{' '}
+              <Link href="/diaspora" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">
+                Află mai multe despre programarea pentru pacienții din afara țării.
+              </Link>
+            </p>
+          </div>
+        </section>
+
+        {/* I. FAQ */}
+        <section className="py-20 px-6 bg-cream-dark">
           <div className="container-site max-w-3xl">
             <h2 className="font-playfair text-3xl text-forest-dark mb-10">
               Întrebări frecvente
@@ -333,7 +517,7 @@ export default function ImplantologiePage() {
         </section>
 
         {/* Articole utile */}
-        <section className="py-16 px-6 bg-cream-dark">
+        <section className="py-16 px-6 bg-cream">
           <div className="container-site max-w-3xl">
             <h2 className="font-playfair text-2xl text-forest-dark mb-8">
               Articole utile despre implant dentar
@@ -354,17 +538,17 @@ export default function ImplantologiePage() {
           </div>
         </section>
 
-        {/* CTA final */}
+        {/* J. CTA final */}
         <section id="programare" className="py-20 px-6 bg-forest">
           <div className="container-site max-w-2xl text-center">
             <h2 className="font-playfair italic text-4xl text-cream mb-4">
               Consultație pentru implant — gratuită
             </h2>
             <p className="font-jost font-light text-forest-light mb-10">
-              Consultația include radiografia panoramică. CT dentar (CBCT): 250 lei dacă e necesar. Vino să afli dacă implantul e soluția potrivită pentru tine.
+              Vino să afli dacă implantul dentar este soluția potrivită pentru tine. Evaluare clinică, discuție despre opțiuni și costuri — fără obligații.
             </p>
             <a
-              href="https://wa.me/40754219011?text=Bun%C4%83%20ziua!%20Doresc%20s%C4%83%20programez%20o%20consulta%C8%9Bie%20pentru%20implant%20dentar."
+              href={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Doresc să programez o consultație pentru implant dentar la ARA DENT STUDIO.')}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 font-jost text-sm uppercase tracking-wider bg-[#25D366] text-white px-8 py-4 rounded-sm hover:bg-[#1ebe5d] transition-all duration-300"
@@ -372,8 +556,11 @@ export default function ImplantologiePage() {
               <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5" aria-hidden="true">
                 <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
               </svg>
-              Programează pe WhatsApp
+              Programează consultația gratuită
             </a>
+            <p className="font-jost text-[13px] text-forest-light/70 mt-4">
+              Program: luni–vineri, 09:00–18:00.
+            </p>
           </div>
         </section>
 
