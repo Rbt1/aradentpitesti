@@ -18,38 +18,31 @@ const GOOGLE_REVIEW_URL = 'https://www.google.com/maps/place/ARA+DENT+STUDIO'
 
 interface Review {
   nume: string
-  data: string
   text?: string
 }
 
 const REVIEWS: Review[] = [
   {
     nume: 'Andreea Matei',
-    data: 'acum o oră',
   },
   {
     nume: 'Constantin Demene',
-    data: 'acum 3 zile',
     text: 'Totul SUPER! Super profesionisti. Multumesc pentru tot.',
   },
   {
     nume: 'Cristina',
-    data: 'acum 6 zile',
     text: 'Foarte multumita de experienta la Ara Dent Studio! Personal profesionist, atent si prietenos, iar serviciile sunt de top. M-am simtit in siguranta si bine ingrijita pe tot parcursul. Recomand cu incredere!',
   },
   {
     nume: 'Cata S.',
-    data: 'acum 4 saptamani',
     text: 'Personal profesionist, aparatura moderna. Medicul lucreaza cu grija si empatie, ofera informatii si raspunde cu rabdare intrebarilor.',
   },
   {
     nume: 'Catalin Penescu',
-    data: 'acum 6 saptamani',
     text: 'Recomand cu incredere!',
   },
   {
     nume: 'Roxana Rox',
-    data: 'acum 6 saptamani',
     text: 'Am avut o experienta foarte buna la aceasta clinica stomatologica. Personalul este amabil si profesionist, iar medicii sunt atenti si de incredere.',
   },
 ]
@@ -92,7 +85,7 @@ const Testimonials = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.7, delay: 0.3 }}
           >
-            4,9 din 5 stele — 41 de recenzii pe Google
+            4,9 din 5 stele — peste 50 de recenzii pe Google
           </motion.p>
         </div>
 
@@ -131,13 +124,8 @@ const Testimonials = () => {
                 — {review.nume}
               </p>
 
-              {/* Data */}
-              <p className="font-jost italic text-[12px] text-bark mt-1">
-                {review.data}
-              </p>
-
               <p className="font-jost text-[11px] uppercase tracking-wide text-bark mt-1">
-                Recenzie Google Verificată
+                Recenzie Google
               </p>
             </motion.div>
           ))}
