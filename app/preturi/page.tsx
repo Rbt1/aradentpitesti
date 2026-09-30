@@ -265,6 +265,33 @@ export default function PreturiPage() {
               </p>
             </div>
 
+            {/* Obturații */}
+            <div>
+              <h2 className="font-playfair text-2xl text-forest-dark mb-4">
+                Obturații
+              </h2>
+              <div className="overflow-x-auto">
+                <table className="w-full text-left border-collapse min-w-[400px]">
+                  <tbody>
+                    {[
+                      { s: 'Obturație (1 suprafață)', p: '200 lei' },
+                    ].map((row, i) => (
+                      <tr key={row.s} className={`border-b border-bark-light/30 ${i % 2 === 1 ? 'bg-cream-dark' : 'bg-offwhite'}`}>
+                        <td className="py-3 px-4 font-jost font-light text-[15px] text-bark-dark">{row.s}</td>
+                        <td className="py-3 px-4 font-jost font-bold text-[15px] text-gold-dark whitespace-nowrap text-right">{row.p}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p className="font-jost font-light text-[13px] text-bark mt-3 leading-relaxed">
+                Prețul este pentru o obturație pe o suprafață. Obturațiile pe mai multe suprafețe se stabilesc la consultație.{' '}
+                <Link href="/servicii/obturatii" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">
+                  Detalii despre obturații
+                </Link>.
+              </p>
+            </div>
+
             {/* Chirurgie orală */}
             <div>
               <h2 className="font-playfair text-2xl text-forest-dark mb-4">
@@ -274,6 +301,7 @@ export default function PreturiPage() {
                 <table className="w-full text-left border-collapse min-w-[400px]">
                   <tbody>
                     {[
+                      { s: 'Extracție simplă', p: '250 lei' },
                       { s: 'Extracție măsea de minte erupt', p: '400 lei' },
                       { s: 'Extracție măsea de minte semiinclus', p: '600 lei' },
                       { s: 'Extracție măsea de minte inclus', p: '800 lei' },
@@ -290,6 +318,33 @@ export default function PreturiPage() {
                 Prețul depinde de gradul de incluzie al măselei de minte, stabilit pe baza examenului clinic și imagistic.{' '}
                 <Link href="/servicii/extractie-masea-de-minte" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">
                   Detalii despre extracția măselei de minte
+                </Link>.
+              </p>
+            </div>
+
+            {/* Parodontologie */}
+            <div>
+              <h2 className="font-playfair text-2xl text-forest-dark mb-4">
+                Parodontologie
+              </h2>
+              <div className="overflow-x-auto">
+                <table className="w-full text-left border-collapse min-w-[400px]">
+                  <tbody>
+                    {[
+                      { s: 'Chiuretaj câmp închis (per ședință)', p: '200 lei' },
+                    ].map((row, i) => (
+                      <tr key={row.s} className={`border-b border-bark-light/30 ${i % 2 === 1 ? 'bg-cream-dark' : 'bg-offwhite'}`}>
+                        <td className="py-3 px-4 font-jost font-light text-[15px] text-bark-dark">{row.s}</td>
+                        <td className="py-3 px-4 font-jost font-bold text-[15px] text-gold-dark whitespace-nowrap text-right">{row.p}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+              <p className="font-jost font-light text-[13px] text-bark mt-3 leading-relaxed">
+                Prețul este per ședință. Numărul de ședințe depinde de severitatea bolii parodontale și se stabilește la evaluare.{' '}
+                <Link href="/servicii/parodontologie" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">
+                  Detalii despre tratamentul parodontal
                 </Link>.
               </p>
             </div>
