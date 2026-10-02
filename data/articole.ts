@@ -66,6 +66,7 @@ export const articole: Articol[] = [
       <p>Nu pentru ca vrem sa "vindem mai mult" — ci pentru ca aceasta este diferenta dintre un implant care dureaza 20 de ani si unul care esueaza in primul an.</p>
 
       <h2>Cum afli pretul exact pentru cazul tau</h2>
+      <p>Daca vrei sa compari exact componentele si preturile lor, citeste articolul despre <a href="/blog/cat-costa-implant-dentar-pitesti-2026">costul unui implant dentar la Pitesti</a> — defalcam fiecare componenta cu pretul exact.</p>
       <p>Singurul mod corect de a afla cat te costa implantul tau este o evaluare clinica reala — nu o estimare generica de pe internet. La consultatie (gratuita), Dr. Robert Lungu analizeaza osul tau, starea generala orala si iti ofera un plan de tratament transparent, cu toate etapele incluse, fara costuri ascunse.</p>
     `,
   },
@@ -162,49 +163,6 @@ export const articole: Articol[] = [
   `,
   },
   {
-    slug: 'cat-costa-implant-dentar-ara-dent-pitesti',
-    title: 'Cat costa implantul dentar la ARA DENT STUDIO Pitesti',
-    metaDescription: 'Preturi reale si detaliate pentru un implant dentar complet la ARA DENT STUDIO Pitesti — surub, bont, coroana. Consultatie gratuita.',
-    excerpt: 'Iata exact cat costa un implant dentar la ARA DENT STUDIO, pe componente, fara costuri ascunse.',
-    date: '2026-06-21',
-    continut: `
-      <p>Daca cauti "implant dentar Pitesti" si vrei un raspuns direct, fara sa mai cauti pe 10 site-uri diferite — iata exact cat costa la noi, fara costuri ascunse.</p>
-
-      <h2>Preturile exacte</h2>
-      <p>La ARA DENT STUDIO, tratamentul cu implant dentar este structurat transparent, pe componente:</p>
-      <ul>
-        <li><strong>Implant dentar (șurub)</strong> — 1.200 lei</li>
-        <li><strong>Bont protetic</strong> — 300 lei</li>
-        <li><strong>Capa de vindecare</strong> — 150 lei</li>
-        <li><strong>Coroana finala</strong> — stabilita la consultatie, in functie de material</li>
-      </ul>
-      <p><strong>Total pentru implant + bont + capa de vindecare: 1.650 lei</strong>, plus coroana finala.</p>
-
-      <h2>Ce este inclus in acest pret</h2>
-      <ul>
-        <li>Implantul propriu-zis — sistem de implanturi premium, cu date clinice internationale extinse</li>
-        <li>Bontul protetic — piesa care conecteaza implantul de coroana</li>
-        <li>Capa de vindecare — protejeaza zona in perioada de oseointegrare</li>
-      </ul>
-
-      <h2>Ce NU este inclus si de ce</h2>
-      <p>Coroana finala se stabileste separat, pentru ca pretul ei variaza in functie de materialul ales (zirconiu, ceramica etc.) si de cazul specific. Preferam sa fim transparenti si sa-ti spunem exact ce alegi, nu sa ascundem acest cost intr-un pret "pachet" care apoi creste la fata locului.</p>
-
-      <h2>De ce nu vezi un pret mai mic in alta parte</h2>
-      <p>Unele clinici din Pitesti afiseaza preturi foarte mici pentru a atrage clicuri, dar pretul final creste semnificativ cand afli ce nu era inclus initial. La ARA DENT STUDIO preferam sa-ti aratam pretul real al fiecarei componente, ca sa poti compara corect.</p>
-
-      <h2>Ce costuri implica evaluarea initiala</h2>
-      <ul>
-        <li>Consultatie gratuita; radiografie panoramica: 100 lei</li>
-        <li>CT dentar (CBCT): 250 lei — esential pentru planificarea implantului</li>
-      </ul>
-      <p>CT-ul include toate verificarile ulterioare. Poti veni la evaluare fara obligatia de a continua cu tratamentul.</p>
-
-      <h2>De ce conteaza evaluarea inainte de pret</h2>
-      <p>Pretul final depinde de cazul tau — daca ai nevoie de tratament pregatitor (tratarea cariilor, igienizare profesionala) inainte de implant, sau daca osul disponibil necesita o evaluare suplimentara. De aceea, consultatie gratuita cu radiografie panoramica (100 lei) si CT dentar (250 lei) este pasul corect inainte de orice decizie de pret.</p>
-    `,
-  },
-  {
     slug: 'all-on-4-pitesti-cat-costa',
     title: 'All-on-4 in Pitesti — ce este si cat costa',
     metaDescription: 'All-on-4 Pitesti: ce este, cand se recomanda si cat costa la ARA DENT STUDIO. Incarcare imediata, consultatie gratuita, CBCT inclus in evaluare.',
@@ -263,7 +221,7 @@ export const articole: Articol[] = [
       Diferenta este numarul de implanturi — 4 versus 6. All-on-6 se recomanda atunci cand distributia fortelor de masticatie sau cantitatea de os disponibila justifica implanturi suplimentare pentru stabilitate maxima pe termen lung.</p>
 
       <h2>Programeaza consultatie gratuita</h2>
-      <p>Consultatia: gratuita. Radiografie panoramica: 100 lei. CT dentar 3D: 250 lei (include verificarile ulterioare).</p>
+      <p>Consultatia: gratuita. Radiografie panoramica: 100 lei. CT dentar 3D: 250 lei (include verificarile ulterioare). Daca ai nevoie si de un singur implant dentar, citeste <a href="/blog/cat-costa-implant-dentar-pitesti-2026">cat costa un implant dentar, pas cu pas</a>.</p>
     `,
     faq: [
       {
@@ -623,7 +581,7 @@ export const articole: Articol[] = [
     </ul>
 
     <h2>De ce rate fara dobanda schimba decizia</h2>
-    <p>Un implant dentar costă intre 1.200 si cateva mii de lei in functie de complexitatea cazului. Impartit in rate egale, devine o suma lunara gestionabila — fara sa amanati un tratament care devine mai complex si mai scump cu fiecare luna de asteptare.</p>
+    <p>Un implant dentar costă intre 1.200 si cateva mii de lei in functie de complexitatea cazului. Citeste <a href="/blog/cat-costa-implant-dentar-pitesti-2026">defalcarea pretului unui implant</a> pentru a intelege exact ce include fiecare componenta. Impartit in rate egale, devine o suma lunara gestionabila — fara sa amanati un tratament care devine mai complex si mai scump cu fiecare luna de asteptare.</p>
 
     <h2>Consultatie gratuita — primul pas fara costuri</h2>
     <p>Inainte sa te gandesti la finantare, trebuie sa stii exact de ce ai nevoie si cat costa cazul tau specific. Consultatia la ARA DENT STUDIO este gratuita. Radiografia panoramica — daca e necesara — se taxeaza separat (100 lei). Vii, evaluam situatia ta, stabilim planul de tratament si costul exact, si abia apoi decizi cum platesti.</p>
@@ -1403,7 +1361,7 @@ export const articole: Articol[] = [
     excerpt: 'Cand cauti pretul pentru All-on-4 sau All-on-6, primul numar pe care il gasesti e adesea incomplet. La ARA DENT STUDIO iti spunem exact ce include fiecare suma.',
     date: '2026-08-30',
     continut: `
-    <p>Cand cauti pretul pentru All-on-4 sau All-on-6, primul numar pe care il gasesti e adesea incomplet. Unele clinici afiseaza doar pretul chirurgical, altele includ lucrarea provizorie dar nu si cea definitiva. La ARA DENT STUDIO, iti spunem exact ce include fiecare suma — inainte sa iei orice decizie.</p>
+    <p>Cand cauti pretul pentru All-on-4 sau All-on-6, primul numar pe care il gasesti e adesea incomplet. Unele clinici afiseaza doar pretul chirurgical, altele includ lucrarea provizorie dar nu si cea definitiva. La ARA DENT STUDIO, iti spunem exact ce include fiecare suma — inainte sa iei orice decizie. Daca te intereseaza si <a href="/blog/cat-costa-implant-dentar-pitesti-2026">costul unui implant dentar la Pitesti</a> (un singur dinte), gasesti detalii in articolul dedicat.</p>
 
     <h2>Ce este All-on-4 si All-on-6</h2>
     <p>All-on-4 si All-on-6 sunt solutii de reabilitare orala completa — o dantura fixa, stabila, sustinuta de 4 sau 6 implanturi strategic pozitionate. Nu se scoate, nu necesita adeziv si functioneaza ca o dantura naturala.</p>
