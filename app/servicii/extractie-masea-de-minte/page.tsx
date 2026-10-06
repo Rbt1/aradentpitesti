@@ -6,12 +6,12 @@ import FAQ from '@/app/servicii/components/FAQ'
 import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
-  title: { absolute: 'Extracție Maseă de Minte Pitești | ARA DENT STUDIO' },
-  description: 'Extracție maseă de minte în Pitești — simplă, semiinclusă sau inclusă. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație gratuită.',
+  title: { absolute: 'Extracție măsea de minte Pitești | ARA DENT STUDIO' },
+  description: 'Extracție măsea de minte în Pitești — eruptă, semiinclusă sau inclusă. Medic specialist chirurg dento-alveolar. Anestezie locală. Consultație gratuită.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/extractie-masea-de-minte' },
   openGraph: {
-    title: 'Extracție Maseă de Minte Pitești | ARA DENT STUDIO',
-    description: 'Extracție maseă de minte în Pitești — simplă, semiinclusă sau inclusă. Dr. Robert Lungu, specialist chirurgie dento-alveolară. Consultație gratuită.',
+    title: 'Extracție măsea de minte Pitești | ARA DENT STUDIO',
+    description: 'Extracție măsea de minte în Pitești — eruptă, semiinclusă sau inclusă. Medic specialist chirurg dento-alveolar. Anestezie locală. Consultație gratuită.',
     url: 'https://www.aradentpitesti.ro/servicii/extractie-masea-de-minte',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
@@ -49,99 +49,100 @@ const jsonLdFaq = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'Cat costa extractia maseei de minte?',
+      name: 'Trebuie scoase toate măselele de minte?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Extractia molarului de minte total erupt costa 400 lei. Extractia molarului semiinclus costa 600 lei, iar extractia molarului inclus costa 800 lei. Consultatia este gratuita; radiografia panoramica: 100 lei.',
+        text: 'Nu neapărat. Decizia se ia după examinare și imagistică — unele măsele de minte nu creează probleme și nu necesită extracție.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Doare extractia maseei de minte?',
+      name: 'Cât costă extracția unei măsele de minte la Pitești?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Extractia se realizeaza sub anestezie locala — nu simti durere in timpul interventiei. Dupa extractie poate aparea un disconfort normal de 2-3 zile, gestionabil cu antiinflamatoare.',
+        text: '400 lei pentru măseaua eruptă, 600 lei pentru cea semiinclusă și 800 lei pentru cea inclusă. Prețul final se stabilește după examinare.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Cand este necesara extractia maseei de minte?',
+      name: 'Doare extracția măselei de minte?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Cand maseaua de minte cauzeaza durere, infectie, impinge dintii vecini, este semiinclusa sau inclusa si nu are spatiu de eruptie, sau cand prezinta carie.',
+        text: 'Extracția se face sub anestezie locală. După aceea poate apărea un disconfort moderat, care se gestionează conform recomandărilor medicului.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Ce este un molar de minte inclus?',
+      name: 'Cât durează extracția măselei de minte?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Un molar de minte inclus este complet acoperit de os sau gingie si nu a erupt deloc. Necesita extractie chirurgicala mai complexa decat un molar erupt normal.',
+        text: 'Depinde de poziția măselei și de complexitate. Medicul îți spune la consultație la ce să te aștepți.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Folositi CT pentru extractia maseei de minte?',
+      name: 'Cât durează recuperarea după extracția măselei de minte?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'In cazurile complexe (molar inclus sau aproape de nervul alveolar inferior), folosim tomograful CBCT propriu pentru planificarea precisa a interventiei si protejarea structurilor anatomice.',
+        text: 'Depinde de caz și de pacient. Medicul îți explică ce să eviți și la ce să te aștepți în primele zile.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Am nevoie de CBCT înainte de extracția măselei de minte?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Medicul îl recomandă atunci când este necesar, mai ales la măselele incluse sau aflate aproape de structuri importante. Costă 250 lei, iar CT-urile ulterioare de verificare sunt incluse.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Consultația este gratuită?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Da. Dacă medicul consideră necesară o radiografie panoramică, aceasta se taxează separat (100 lei).',
       },
     },
   ],
 }
 
-const PRICES = [
-  {
-    title: 'Molar erupt',
-    subtitle: '(complet ieșit din gingie)',
-    price: '400 lei',
-    text: 'Extracție simplă, fără complicații chirurgicale.',
-    badge: null,
-  },
-  {
-    title: 'Molar semiinclus',
-    subtitle: '(parțial acoperit de gingie)',
-    price: '600 lei',
-    text: 'Necesită incizie gingivală pentru acces complet.',
-    badge: 'Cel mai frecvent',
-  },
-  {
-    title: 'Molar inclus',
-    subtitle: '(complet acoperit de os/gingie)',
-    price: '800 lei',
-    text: 'Intervenție chirurgicală complexă, planificare cu CBCT în cazurile dificile.',
-    badge: null,
-  },
-]
-
-const INDICATII = [
-  'Durere sau infecție recurentă',
-  'Molar semiinclus sau inclus fără spațiu de erupție',
-  'Presiune asupra dinților vecini',
-  'Carie pe molarul de minte',
-  'Pericoronarită (inflamația gingiei din jurul molarului)',
+const PRICE_ROWS = [
+  { service: 'Consultație', price: 'Gratuită' },
+  { service: 'Extracție măsea de minte eruptă', price: '400 lei' },
+  { service: 'Extracție măsea de minte semiinclusă', price: '600 lei' },
+  { service: 'Extracție măsea de minte inclusă', price: '800 lei' },
+  { service: 'Radiografie panoramică, dacă este necesară', price: '100 lei' },
+  { service: 'CT dentar (CBCT), atunci când este necesar', price: '250 lei*' },
 ]
 
 const FAQ_ITEMS = [
   {
-    q: 'Cât costă extracția maseei de minte?',
-    a: 'Extracția molarului de minte total erupt costă 400 lei. Extracția molarului semiinclus costă 600 lei, iar extracția molarului inclus costă 800 lei. Consultația este gratuită; radiografia panoramică: 100 lei.',
+    q: 'Trebuie scoase toate măselele de minte?',
+    a: 'Nu neapărat. Decizia se ia după examinare și imagistică — unele măsele de minte nu creează probleme și nu necesită extracție.',
   },
   {
-    q: 'Doare extracția maseei de minte?',
-    a: 'Extracția se realizează sub anestezie locală — nu simți durere în timpul intervenției. După extracție poate apărea un disconfort normal de 2-3 zile, gestionabil cu antiinflamatoare.',
+    q: 'Cât costă extracția unei măsele de minte la Pitești?',
+    a: '400 lei pentru măseaua eruptă, 600 lei pentru cea semiinclusă și 800 lei pentru cea inclusă. Prețul final se stabilește după examinare.',
   },
   {
-    q: 'Când este necesară extracția maseei de minte?',
-    a: 'Când maseaua de minte cauzează durere, infecție, împinge dinții vecini, este semiinclusă sau inclusă și nu are spațiu de erupție, sau când prezintă carie.',
+    q: 'Doare extracția măselei de minte?',
+    a: 'Extracția se face sub anestezie locală. După aceea poate apărea un disconfort moderat, care se gestionează conform recomandărilor medicului.',
   },
   {
-    q: 'Ce este un molar de minte inclus?',
-    a: 'Un molar de minte inclus este complet acoperit de os sau gingie și nu a erupt deloc. Necesită extracție chirurgicală mai complexă decât un molar erupt normal.',
+    q: 'Cât durează extracția măselei de minte?',
+    a: 'Depinde de poziția măselei și de complexitate. Medicul îți spune la consultație la ce să te aștepți.',
   },
   {
-    q: 'Folosiți CT pentru extracția maseei de minte?',
-    a: 'În cazurile complexe — molar inclus sau aproape de nervul alveolar inferior — folosim tomograful CBCT propriu pentru planificarea precisă a intervenției și protejarea structurilor anatomice.',
+    q: 'Cât durează recuperarea după extracția măselei de minte?',
+    a: 'Depinde de caz și de pacient. Medicul îți explică ce să eviți și la ce să te aștepți în primele zile.',
+  },
+  {
+    q: 'Am nevoie de CBCT înainte de extracția măselei de minte?',
+    a: 'Medicul îl recomandă atunci când este necesar, mai ales la măselele incluse sau aflate aproape de structuri importante. Costă 250 lei, iar CT-urile ulterioare de verificare sunt incluse.',
+  },
+  {
+    q: 'Consultația este gratuită?',
+    a: 'Da. Dacă medicul consideră necesară o radiografie panoramică, aceasta se taxează separat (100 lei).',
   },
 ]
 
@@ -182,93 +183,225 @@ export default function ExtractieMAseaDeMintePage() {
           </div>
         </section>
 
-        {/* Descriere */}
+        {/* A. Intro */}
         <section className="py-20 px-6 bg-cream">
           <div className="container-site max-w-3xl">
             <div className="space-y-5 font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
               <p>
-                Molarul de minte (al treilea molar) este ultimul dinte care erupe, de obicei între 18 și 25 de ani. Când nu are spațiu suficient de erupție sau crește în poziție incorectă, poate cauza durere, infecție și afectarea dinților vecini.
+                Extracția măselei de minte se face la ARA DENT STUDIO din Pitești de către{' '}
+                <Link
+                  href="/dr-robert-lungu"
+                  className="font-semibold text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200"
+                >
+                  Dr. Robert Lungu
+                </Link>
+                , medic specialist în chirurgie dento-alveolară, de obicei sub anestezie locală. Evaluarea imagistică se face la aceeași adresă, iar consultația este gratuită.
               </p>
               <p>
-                La ARA DENT STUDIO, <Link href="/dr-robert-lungu" className="font-semibold text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">Dr. Robert Lungu</Link>, medic specialist în chirurgie dento-alveolară, evaluează fiecare caz individual și recomandă extracția doar când este cu adevărat necesară.
-              </p>
-              <p>
-                Dacă vrei să înțelegi mai bine cum decurge intervenția pas cu pas, citește{' '}
-                <Link href="/blog/extractia-maselei-de-minte-cum-decurge" className="font-semibold text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">ghidul nostru despre cum decurge extracția</Link>.
+                Extracția măselei de minte face parte din sfera{' '}
+                <Link
+                  href="/servicii/chirurgie-orala"
+                  className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200"
+                >
+                  chirurgiei dentare
+                </Link>
+                {' '}— domeniul principal de activitate al Dr. Robert Lungu. Citește și despre{' '}
+                <Link
+                  href="/blog/chirurgie-dentara-ce-interventii-exista"
+                  className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200"
+                >
+                  alte intervenții de chirurgie dentară
+                </Link>
+                {' '}pe care le realizăm.
               </p>
             </div>
           </div>
         </section>
 
-        {/* Prețuri */}
+        {/* B. Când este recomandată */}
         <section className="py-16 px-6 bg-offwhite">
-          <div className="container-site">
-            <h2 className="font-playfair text-3xl text-forest-dark mb-10 text-center">
-              Prețuri extracție maseă de minte
+          <div className="container-site max-w-3xl">
+            <h2 className="font-playfair text-3xl lg:text-4xl text-forest-dark mb-8">
+              Când este recomandată extracția măselei de minte
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
-              {PRICES.map((card) => (
-                <div
-                  key={card.title}
-                  className="bg-cream border border-bark-light/30 rounded-sm p-8 relative"
-                  style={{ boxShadow: '0 4px 20px rgba(45,106,79,0.07)' }}
-                >
-                  {card.badge && (
-                    <span className="absolute top-4 right-4 font-jost font-bold text-[10px] uppercase tracking-wider text-forest-dark bg-gold px-3 py-1 rounded-sm">
-                      {card.badge}
-                    </span>
-                  )}
-                  <div className="w-8 h-[2px] bg-gold mb-5" />
-                  <h3 className="font-playfair font-bold text-xl text-forest-dark mb-1">
-                    {card.title}
-                  </h3>
-                  <p className="font-jost text-[12px] text-bark mb-4">{card.subtitle}</p>
-                  <p className="font-playfair font-bold text-[32px] text-forest mb-4 leading-none">
-                    {card.price}
-                  </p>
-                  <p className="font-jost font-light text-[14px] text-bark-dark leading-relaxed">
-                    {card.text}
-                  </p>
-                </div>
-              ))}
-            </div>
-            <p className="font-jost text-[13px] text-bark text-center mt-8">
-              Consultație gratuită &nbsp;|&nbsp; Radiografie panoramică: 100 lei &nbsp;|&nbsp; CT dentar: 250 lei (când este necesar)
+            <ul className="space-y-4 font-jost font-light text-[16px] text-bark-dark leading-[1.9] mb-6">
+              <li className="flex gap-3">
+                <span className="mt-2 w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
+                <span>Maseaua a erupt parțial sau înclinat și creează inflamații repetate ale gingiei din jur (pericoronarită).</span>
+              </li>
+              <li className="flex gap-3">
+                <span className="mt-2 w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
+                <span>Există o carie greu de tratat din cauza poziției sau a accesului dificil.</span>
+              </li>
+              <li className="flex gap-3">
+                <span className="mt-2 w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
+                <span>Dureri sau inflamații recurente în aceeași zonă, fără o rezolvare definitivă.</span>
+              </li>
+              <li className="flex gap-3">
+                <span className="mt-2 w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
+                <span>Maseaua exercită presiune asupra dinților vecini, afectând aliniamentul lor.</span>
+              </li>
+              <li className="flex gap-3">
+                <span className="mt-2 w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
+                <span>A apărut un chist asociat molarului, depistat la o radiografie sau la un CBCT.</span>
+              </li>
+            </ul>
+            <p className="font-jost font-light text-[15px] text-bark-dark leading-relaxed italic">
+              Nu toate măselele de minte trebuie scoase. Decizia se ia după examinare clinică și imagistică.
             </p>
           </div>
         </section>
 
-        {/* Când e necesară */}
-        <section className="py-20 px-6 bg-cream">
+        {/* C. Tipuri */}
+        <section className="py-16 px-6 bg-cream">
           <div className="container-site max-w-3xl">
-            <h2 className="font-playfair text-3xl text-forest-dark mb-10">
-              Când recomandăm extracția
+            <h2 className="font-playfair text-3xl lg:text-4xl text-forest-dark mb-8">
+              Măsea erupută, semiinclusă sau inclusă
             </h2>
-            <ul className="space-y-4">
-              {INDICATII.map((item) => (
-                <li key={item} className="flex items-start gap-4">
-                  <span className="flex-shrink-0 w-2 h-2 rounded-full bg-gold mt-[7px]" />
-                  <span className="font-jost font-light text-[16px] text-bark-dark leading-relaxed">
-                    {item}
-                  </span>
-                </li>
-              ))}
-            </ul>
+            <div className="space-y-5 font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
+              <p>
+                <span className="font-medium text-forest-dark">Maseă erupută</span> — a ieșit complet prin gingie. Extracția este în general mai simplă, similară cu a oricărui alt dinte.
+              </p>
+              <p>
+                <span className="font-medium text-forest-dark">Maseă semiinclusă</span> — a ieșit parțial, restul rămânând acoperit de țesut moale sau os. Necesită o incizie gingivală pentru acces complet. Este cel mai frecvent tip întâlnit.
+              </p>
+              <p>
+                <span className="font-medium text-forest-dark">Maseă inclusă</span> — rămâne complet în os sau sub gingie și nu a erupt deloc. Poate necesita o abordare chirurgicală adaptată pentru îndepărtarea în siguranță.
+              </p>
+              <p className="italic text-[15px]">
+                Tipul se stabilește după examinare clinică și imagistică și influențează complexitatea intervenției și prețul final.
+              </p>
+            </div>
           </div>
         </section>
 
-        {/* CBCT */}
-        <section className="py-16 px-6 bg-forest-dark">
+        {/* D. Cât costă */}
+        <section className="py-16 px-6 bg-offwhite">
           <div className="container-site max-w-3xl">
-            <h2 className="font-playfair text-3xl text-cream mb-6">
-              Planificare precisă cu CBCT propriu
+            <h2 className="font-playfair text-3xl lg:text-4xl text-forest-dark mb-8">
+              Cât costă extracția măselei de minte
             </h2>
-            <div className="space-y-4 font-jost font-light text-[16px] text-forest-light leading-[1.9]">
+            <div className="overflow-x-auto">
+              <table className="min-w-[400px] w-full border-collapse font-jost text-[15px] text-bark-dark">
+                <thead>
+                  <tr className="border-b border-bark-light/40">
+                    <th className="text-left font-medium text-forest-dark py-3 pr-6">Serviciu</th>
+                    <th className="text-right font-medium text-forest-dark py-3 pl-6 whitespace-nowrap">Preț</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {PRICE_ROWS.map((row) => (
+                    <tr key={row.service} className="border-b border-bark-light/20 hover:bg-cream/60 transition-colors duration-150">
+                      <td className="py-3 pr-6 font-light leading-snug">{row.service}</td>
+                      <td className="py-3 pl-6 text-right font-medium text-forest-dark whitespace-nowrap">{row.price}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="mt-4 font-jost font-light text-[13px] text-bark leading-relaxed">
+              * CT-urile ulterioare de verificare sunt incluse.
+            </p>
+            <p className="mt-5 font-jost font-light text-[15px] text-bark-dark leading-relaxed">
+              Prețul final depinde de tipul măselei și se stabilește după examinare. Fără costuri ascunse: consultația este gratuită, iar tu afli ce plătești înainte să începi.{' '}
+              <Link
+                href="/preturi"
+                className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200"
+              >
+                Lista completă de prețuri.
+              </Link>
+            </p>
+          </div>
+        </section>
+
+        {/* E. Cum decurge */}
+        <section className="py-16 px-6 bg-cream">
+          <div className="container-site max-w-3xl">
+            <h2 className="font-playfair text-3xl lg:text-4xl text-forest-dark mb-8">
+              Cum decurge o extracție
+            </h2>
+            <ol className="space-y-6 font-jost font-light text-[16px] text-bark-dark leading-[1.9] mb-6">
+              <li className="flex gap-5">
+                <span className="flex-shrink-0 w-8 h-8 rounded-sm bg-forest text-cream font-jost font-medium text-sm flex items-center justify-center">
+                  1
+                </span>
+                <div>
+                  <span className="font-medium text-forest-dark">Consultația gratuită și planificarea</span>{' '}
+                  — examen clinic, discuție despre simptome și istoricul medical.
+                </div>
+              </li>
+              <li className="flex gap-5">
+                <span className="flex-shrink-0 w-8 h-8 rounded-sm bg-forest text-cream font-jost font-medium text-sm flex items-center justify-center">
+                  2
+                </span>
+                <div>
+                  <span className="font-medium text-forest-dark">Imagistica</span>{' '}
+                  — atunci când este necesară: radiografie panoramică (taxată separat); la măselele incluse sau aflate aproape de structuri importante, medicul poate recomanda un CBCT (tomografie 3D) — tomograful se află în clinică, fără drumuri prin oraș.
+                </div>
+              </li>
+              <li className="flex gap-5">
+                <span className="flex-shrink-0 w-8 h-8 rounded-sm bg-forest text-cream font-jost font-medium text-sm flex items-center justify-center">
+                  3
+                </span>
+                <div>
+                  <span className="font-medium text-forest-dark">Anestezia locală</span>{' '}
+                  — aplicată înainte de intervenție, pentru confort pe toată durata procedurii.
+                </div>
+              </li>
+              <li className="flex gap-5">
+                <span className="flex-shrink-0 w-8 h-8 rounded-sm bg-forest text-cream font-jost font-medium text-sm flex items-center justify-center">
+                  4
+                </span>
+                <div>
+                  <span className="font-medium text-forest-dark">Extracția</span>{' '}
+                  — la măselele incluse, medicul poate lucra chirurgical, adaptând abordarea la poziția molarului.
+                </div>
+              </li>
+              <li className="flex gap-5">
+                <span className="flex-shrink-0 w-8 h-8 rounded-sm bg-forest text-cream font-jost font-medium text-sm flex items-center justify-center">
+                  5
+                </span>
+                <div>
+                  <span className="font-medium text-forest-dark">Indicații de recuperare</span>{' '}
+                  — explicate pe înțelesul tău înainte să pleci din cabinet.
+                </div>
+              </li>
+            </ol>
+            <p className="font-jost font-light text-[15px] text-bark-dark leading-relaxed">
+              Detalii pas cu pas în{' '}
+              <Link
+                href="/blog/extractia-maselei-de-minte-cum-decurge"
+                className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200"
+              >
+                ghidul nostru despre cum decurge extracția măselei de minte
+              </Link>
+              .
+            </p>
+          </div>
+        </section>
+
+        {/* F. După extracție */}
+        <section className="py-16 px-6 bg-offwhite">
+          <div className="container-site max-w-3xl">
+            <h2 className="font-playfair text-3xl lg:text-4xl text-forest-dark mb-8">
+              După extracție
+            </h2>
+            <div className="space-y-5 font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
               <p>
-                În cazurile complexe — molar inclus profund sau aproape de nervul alveolar inferior — folosim tomograful CBCT propriu pentru vizualizarea exactă a poziției molarului și a structurilor anatomice din jur.
+                În primele zile pot apărea un disconfort moderat, o umflătură ușoară și o ușoară sângerare — toate se gestionează conform recomandărilor primite de la medic. Alimentația adaptată (moale, la temperatura camerei) și igiena atentă a zonei susțin procesul de vindecare.
               </p>
               <p>
-                Totul în același cabinet — fără drumuri la centre de radiologie externe.
+                Citește ghidul practic despre{' '}
+                <Link
+                  href="/blog/ce-mananci-dupa-extractie-dentara"
+                  className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200"
+                >
+                  ce mănânci după extracție
+                </Link>
+                {' '}— util atât înainte, cât și după intervenție.
+              </p>
+              <p>
+                Dacă ai nelămuriri după extracție, ne poți contacta în programul de lucru.
               </p>
             </div>
           </div>
@@ -281,7 +414,7 @@ export default function ExtractieMAseaDeMintePage() {
           waUrl={WA_URL}
         />
 
-        {/* FAQ */}
+        {/* G. FAQ */}
         <section className="py-20 px-6 bg-cream">
           <div className="container-site max-w-3xl">
             <h2 className="font-playfair text-3xl text-forest-dark mb-10">
@@ -291,14 +424,14 @@ export default function ExtractieMAseaDeMintePage() {
           </div>
         </section>
 
-        {/* CTA final */}
+        {/* H. CTA final */}
         <section id="programare" className="py-20 px-6 bg-forest">
           <div className="container-site max-w-2xl text-center">
             <h2 className="font-playfair italic text-4xl text-cream mb-4">
-              Programează evaluarea
+              Programează consultația gratuită
             </h2>
             <p className="font-jost font-light text-forest-light mb-10">
-              Consultație gratuită. Radiografie panoramică: 100 lei — stabilim împreună dacă extracția este necesară.
+              Dr. Robert Lungu evaluează fiecare caz individual și îți spune dacă extracția este necesară.
             </p>
             <a
               href={WA_URL}
@@ -311,6 +444,9 @@ export default function ExtractieMAseaDeMintePage() {
               </svg>
               Programează pe WhatsApp
             </a>
+            <p className="mt-4 font-jost font-light text-[13px] text-forest-light/80">
+              Program: luni–vineri, 09:00–18:00
+            </p>
           </div>
         </section>
 
