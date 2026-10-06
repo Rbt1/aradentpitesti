@@ -285,6 +285,16 @@ export default function ChirurgieOralaPage() {
                 </span>
               </li>
             </ul>
+            <p className="mt-6 font-jost font-light text-[15px] text-bark-dark leading-relaxed">
+              Citește{' '}
+              <Link
+                href="/blog/chirurgie-dentara-ce-interventii-exista"
+                className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200"
+              >
+                ghidul nostru despre intervențiile de chirurgie dentară
+              </Link>{' '}
+              pentru o prezentare detaliată a fiecărei proceduri.
+            </p>
           </div>
         </section>
 

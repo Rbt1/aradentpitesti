@@ -866,7 +866,7 @@ export const articole: Articol[] = [
     </ul>
 
     <h2>Suntem disponibili</h2>
-    <p>La ARA DENT STUDIO, Dr. Robert Lungu e disponibil pe WhatsApp pentru orice intrebare post-operatorie.</p>
+    <p>La ARA DENT STUDIO, Dr. Robert Lungu e disponibil pe WhatsApp pentru orice intrebare post-operatorie. Daca vrei sa stii mai mult despre ce presupune o interventie chirurgicala dentara in ansamblu — tipuri, pregatire, recuperare — citeste <a href="/blog/chirurgie-dentara-ce-interventii-exista">ghidul nostru despre interventiile de chirurgie dentara</a>.</p>
   `,
   },
   {
@@ -1593,6 +1593,110 @@ export const articole: Articol[] = [
     <h2>Evaluare la ARA DENT STUDIO Pitesti</h2>
     <p>Consultatie gratuita. CT dentar CBCT: 250 lei. Dr. Robert Lungu evalueaza situatia ta si stabileste ce solutie e posibila — All-on-4 clasic, tehnica adaptata sau implanturi speciale.</p>
   `,
+  },
+  {
+    slug: 'chirurgie-dentara-ce-interventii-exista',
+    title: 'Intervenții de chirurgie dentară: când sunt necesare',
+    metaDescription: 'Ghid complet despre intervențiile de chirurgie dentară și orală: când sunt necesare, cum decurg și la ce să te aștepți. ARA DENT STUDIO Pitești.',
+    excerpt: 'Chirurgia dentară cuprinde extracții dificile, chistectomii, adiție osoasă și pregătirea pentru implant. Află când este necesară o intervenție și cum decurge la ARA DENT STUDIO.',
+    date: '2026-10-06',
+    continut: `
+    <p>Chirurgia dentară — numită și chirurgie orală sau chirurgie dento-alveolară — cuprinde intervențiile chirurgicale de la nivelul dinților, gingiei și osului maxilar. Sunt efectuate de obicei sub anestezie locală, într-un cabinet stomatologic specializat. La ARA DENT STUDIO din Pitești, aceste intervenții sunt realizate de <a href="/dr-robert-lungu">Dr. Robert Lungu</a>, medic specialist în chirurgie dento-alveolară. Dacă vrei o vedere de ansamblu asupra serviciilor oferite, consultă pagina de <a href="/servicii/chirurgie-orala">chirurgie dentară în Pitești</a>.</p>
+
+    <h2>Ce intervenții de chirurgie dentară există</h2>
+    <p>Gama de intervenții acoperită de chirurgia dento-alveolară este mai largă decât înțelege majoritatea pacienților. Iată principalele categorii:</p>
+    <ul>
+      <li><strong><a href="/servicii/extractie-masea-de-minte">Extracții dificile și extracții ale măselelor de minte incluse sau semiincluse</a></strong> — extracțiile simple se realizează rapid, dar măselele de minte poziționate anormal necesită o abordare chirurgicală pentru a fi îndepărtate în siguranță, fără a afecta structurile vecine.</li>
+      <li><strong><a href="/servicii/aditie-osoasa-sinus-lift">Adiție osoasă și sinus lift</a></strong> — intervenții de reconstrucție osoasă efectuate atunci când maxilarul nu mai are volumul necesar pentru inserarea unui implant dentar. Sunt proceduri pregătitoare, nu urgențe.</li>
+      <li><strong>Chistectomii</strong> — îndepărtarea chirurgicală a chisturilor de la nivelul osului maxilar. Chisturile sunt descoperite de obicei incidental, la o radiografie sau la un CBCT, și nu provoacă întotdeauna simptome vizibile.</li>
+      <li><strong><a href="/servicii/implantologie">Pregătirea chirurgicală pentru implant dentar</a></strong> — intervenții care creează condițiile necesare pentru inserarea în siguranță a implantului: extracția dintelui compromis, regularizarea crestei osoase sau alte proceduri stabilite după evaluare.</li>
+      <li><strong>Alte intervenții dento-alveolare</strong> stabilite după evaluare clinică și imagistică, în funcție de situația fiecărui pacient.</li>
+    </ul>
+
+    <h2>Când ai nevoie de o intervenție chirurgicală</h2>
+    <p>Chirurgia dentară nu este un prim pas — medicul recomandă o intervenție atunci când alte tratamente conservative nu mai sunt posibile sau suficiente. Situațiile frecvente care duc la o intervenție chirurgicală sunt:</p>
+    <ul>
+      <li>Un dinte care nu mai poate fi salvat printr-o obtурație, un tratament de canal sau o coroană — și trebuie extras.</li>
+      <li>O măsea de minte care creează probleme: durere, infecții recurente, presiune asupra dinților vecini sau o poziție care face igiena imposibilă.</li>
+      <li>Un chist descoperit la o radiografie sau la un CBCT — chiar dacă nu doare, un chist netratat poate crește și afecta structurile osoase vecine.</li>
+      <li>Lipsa osului necesar pentru inserarea unui implant dentar — situație rezolvată printr-o procedură de adiție osoasă sau sinus lift înainte de implant.</li>
+      <li>Dureri sau inflamații care revin în aceeași zonă, fără un tratament definitiv.</li>
+    </ul>
+    <p>Decizia se ia întotdeauna după examinare clinică și, dacă este cazul, după investigații imagistice — radiografie panoramică sau CBCT.</p>
+
+    <h2>Cum te pregătești pentru o intervenție</h2>
+    <p>Pregătirea depinde de tipul intervenției, dar câteva principii generale se aplică în majoritatea cazurilor:</p>
+    <ul>
+      <li><strong>Spune medicului ce medicamente iei</strong> — în special anticoagulante, antiagregante plachetare sau alte tratamente care pot influența sângerarea și vindecarea. Medicul va decide, pe baza informațiilor tale, dacă e necesară vreo ajustare.</li>
+      <li><strong>Menționează orice afecțiuni generale</strong> — diabet, boli cardiovasculare, afecțiuni autoimune sau orice altceva ce tratezi în prezent.</li>
+      <li><strong>Anunță alergiile</strong> — la medicamente anestezice, antibiotice sau alte substanțe.</li>
+      <li><strong>Vino după o masă ușoară</strong> — nu pe stomacul gol, dar nici după o masă copioasă.</li>
+      <li><strong>Planifică o zi mai liniștită după intervenție</strong> — cel puțin în primele ore, evită efortul fizic intens.</li>
+    </ul>
+    <p>Indicațiile exacte de pregătire le primești de la medic, individualizat pentru cazul tău.</p>
+
+    <h2>Cum decurge o intervenție, de la consultație la recuperare</h2>
+    <ol>
+      <li><strong>Consultația gratuită</strong> — examen clinic, discuție despre simptome, istoricul medical și opțiunile de tratament disponibile.</li>
+      <li><strong>Imagistica</strong> — dacă medicul consideră necesară o radiografie panoramică, aceasta se taxează separat (100 lei). Atunci când este necesar — mai ales pentru intervenții complexe — se recomandă un CBCT (tomografie 3D). Tomograful CBCT se află în clinică: nu ești trimis în altă parte pentru investigații.</li>
+      <li><strong>Intervenția</strong> — se realizează sub anestezie locală. Durata variază de la câteva minute, pentru o extracție simplă, până la câteva zeci de minute, pentru intervenții mai complexe.</li>
+      <li><strong>Indicații pentru recuperare</strong> — primești instrucțiuni clare înainte să pleci din cabinet, adaptate tipului de intervenție. Dacă urmează o extracție dentară, poți citi în avans <a href="/blog/ce-mananci-dupa-extractie-dentara">ce mănânci după o extracție dentară</a> — un ghid practic pentru primele zile.</li>
+      <li><strong>Control post-operator</strong> — dacă medicul recomandă, programat direct din cabinet la momentul intervenției.</li>
+    </ol>
+
+    <h2>Când mergi la urgențe și când la cabinet</h2>
+    <p>Cabinetul ARA DENT STUDIO funcționează luni–vineri, 09:00–18:00. Dacă după o intervenție sângerarea nu se oprește sau umflătura crește în loc să descrească, contactează cabinetul în programul de lucru.</p>
+    <p>Mergi imediat la UPU sau sună la <strong>112</strong> dacă apare oricare dintre următoarele: o umflătură care se extinde spre față sau gât, dificultăți la înghițire sau la respirație, febră mare. Infecțiile care se extind în spațiile fasciale necesită tratament de urgență la UPU sau în serviciul de chirurgie oro-maxilo-facială — nu pot fi tratate în cabinetul stomatologic.</p>
+    <p>Pentru alte situații de urgență stomatologică, consultă pagina noastră de <a href="/servicii/urgente-stomatologice">urgențe stomatologice</a>.</p>
+
+    <h2>Întrebări frecvente</h2>
+    <p><strong>Ce este chirurgia dentară?</strong><br/>
+    Chirurgia dentară (sau orală, dento-alveolară) cuprinde intervențiile chirurgicale de la nivelul dinților, gingiei și osului maxilar: extracții dificile, extracții ale măselelor de minte incluse, chistectomii, adiție osoasă sau pregătirea zonei pentru un implant dentar.</p>
+
+    <p><strong>Doare o intervenție de chirurgie orală?</strong><br/>
+    Intervenția se realizează sub anestezie locală — în timpul procedurii nu simți durere. După, poate apărea un disconfort moderat, care se gestionează urmând recomandările primite de la medic.</p>
+
+    <p><strong>Cât durează recuperarea?</strong><br/>
+    Depinde de tipul intervenției și de fiecare pacient în parte. Medicul îți explică la consultație la ce să te aștepți și ce să eviți în primele zile după intervenție.</p>
+
+    <p><strong>Am nevoie de CBCT înainte de intervenție?</strong><br/>
+    Nu întotdeauna. Medicul îl recomandă atunci când este necesar — de obicei pentru planificarea precisă a intervențiilor mai complexe. CBCT-ul costă 250 lei și include toate verificările ulterioare de control. Îl facem în clinică, fără drumuri prin oraș.</p>
+
+    <p><strong>Consultația este gratuită?</strong><br/>
+    Da. Dacă medicul consideră necesară o radiografie panoramică, aceasta se taxează separat (100 lei). Vii, evaluăm situația ta și abia apoi decizi cum continui.</p>
+
+    <p><strong>Pot face implant după o extracție?</strong><br/>
+    În multe cazuri da, dar momentul potrivit depinde de fiecare situație și se stabilește după evaluare. Citește mai multe în articolul despre <a href="/blog/implant-dentar-dupa-extractie">implant dentar după extracție</a>.</p>
+
+    <h2>Programează o consultație gratuită</h2>
+    <p>Dacă ai o situație care ar putea necesita o intervenție chirurgicală — sau dacă vrei pur și simplu o a doua opinie — programarea se face direct pe WhatsApp: <a href="https://wa.me/40754219011">wa.me/40754219011</a>. Program: luni–vineri, 09:00–18:00.</p>
+  `,
+    faq: [
+      {
+        q: 'Ce este chirurgia dentară?',
+        a: 'Chirurgia dentară (sau orală, dento-alveolară) cuprinde intervențiile chirurgicale de la nivelul dinților, gingiei și osului maxilar: extracții dificile, extracții ale măselelor de minte incluse, chistectomii, adiție osoasă sau pregătirea zonei pentru un implant dentar.',
+      },
+      {
+        q: 'Doare o intervenție de chirurgie orală?',
+        a: 'Intervenția se realizează sub anestezie locală — în timpul procedurii nu simți durere. După, poate apărea un disconfort moderat, care se gestionează urmând recomandările primite de la medic.',
+      },
+      {
+        q: 'Cât durează recuperarea?',
+        a: 'Depinde de tipul intervenției și de fiecare pacient în parte. Medicul îți explică la consultație la ce să te aștepți și ce să eviți în primele zile după intervenție.',
+      },
+      {
+        q: 'Am nevoie de CBCT înainte de intervenție?',
+        a: 'Nu întotdeauna. Medicul îl recomandă atunci când este necesar — de obicei pentru planificarea precisă a intervențiilor mai complexe. CBCT-ul costă 250 lei și include toate verificările ulterioare. Îl facem în clinică.',
+      },
+      {
+        q: 'Consultația este gratuită?',
+        a: 'Da. Dacă medicul consideră necesară o radiografie panoramică, aceasta se taxează separat (100 lei).',
+      },
+      {
+        q: 'Pot face implant după o extracție?',
+        a: 'În multe cazuri da, dar momentul potrivit depinde de fiecare situație și se stabilește după evaluare.',
+      },
+    ],
   },
 ]
 
