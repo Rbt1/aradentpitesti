@@ -126,6 +126,11 @@ export default function OburatiiPage() {
               <p>
                 Nu amâna tratamentul cariei. O carie simplă netratată ajunge la nerv — și atunci vorbim de <Link href="/servicii/endodontie" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">tratament de canal</Link> sau chiar extracție. Prinde-o la timp, rezolv-o simplu.
               </p>
+              <p>
+                Obturațiile fac parte din odontoterapie, ramura stomatologiei care tratează cariile și restaurează dinții afectați. Citește{' '}
+                <Link href="/blog/odontoterapie-ce-este-si-cand-ai-nevoie" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">ghidul nostru despre odontoterapie</Link>
+                {' '}pentru o prezentare completă a tratamentului.
+              </p>
             </div>
           </div>
         </section>

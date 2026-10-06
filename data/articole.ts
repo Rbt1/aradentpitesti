@@ -984,7 +984,7 @@ export const articole: Articol[] = [
     Aplicare directa pe zonele sensibile — sigileaza tubulii dentinari si reduce transmiterea senzatiilor termice. Inclus in consultatie.</p>
 
     <p><strong>2. Obturatie dentara</strong><br/>
-    Daca sensibilitatea e cauzata de o carie sau o fisura, obturatia rezolva problema la sursa. De la 200 lei.</p>
+    Daca sensibilitatea e cauzata de o carie sau o fisura, obturatia rezolva problema la sursa. De la 200 lei. Afla mai mult in <a href="/blog/odontoterapie-ce-este-si-cand-ai-nevoie">ghidul nostru despre odontoterapie</a>.</p>
 
     <p><strong>3. Detartraj si igienizare profesionala</strong><br/>
     Daca sensibilitatea vine din retractie gingivala cauzata de tartru, detartrajul e primul pas. De la 200 lei.</p>
@@ -1702,6 +1702,118 @@ export const articole: Articol[] = [
       {
         q: 'Pot face implant după o extracție?',
         a: 'În multe cazuri da, dar momentul potrivit depinde de fiecare situație și se stabilește după evaluare.',
+      },
+    ],
+  },
+  {
+    slug: 'odontoterapie-ce-este-si-cand-ai-nevoie',
+    title: 'Odontoterapie: ce este și când ai nevoie de ea',
+    metaDescription: 'Ghid despre odontoterapie, adică tratamentul cariilor și restaurarea dinților, când e necesară și cum decurge, la ARA DENT STUDIO din Pitești.',
+    excerpt: 'Odontoterapia tratează cariile și restaurează dinții afectați. Află când ai nevoie de un tratament odontal, cum decurge și cât costă la ARA DENT STUDIO Pitești.',
+    date: '2026-10-06',
+    continut: `
+    <p>Odontoterapia este ramura stomatologiei care tratează cariile și alte afecțiuni ale țesuturilor dure ale dintelui — smalț, dentină, cement radicular — și reface dintele afectat, de obicei printr-o <a href="/servicii/obturatii">obturație dentară</a>. Mai este numită și odontoterapie restaurativă. La ARA DENT STUDIO din Pitești, consultația este gratuită — poți veni pentru o evaluare fără să te angajezi la un tratament.</p>
+
+    <h2>Ce tratează odontoterapia</h2>
+    <p>Odontoterapia intervine ori de câte ori sunt afectate structurile dure ale dintelui. Principalele situații acoperite:</p>
+    <ul>
+      <li>Carii în diferite stadii, de la leziunile incipiente până la cele extinse care implică mai multe suprafețe ale dintelui.</li>
+      <li>Dinți ciobiți sau fisurați în urma unui traumatism sau a unui impact brusc.</li>
+      <li>Obturații vechi care s-au uzat, s-au desprins sau nu mai etanșează corect.</li>
+      <li>Sensibilitate la rece, cald sau dulce cauzată de carii incipiente — citește mai mult în articolul <a href="/blog/de-ce-dor-dintii-la-rece">de ce dor dinții la rece</a>.</li>
+    </ul>
+
+    <h2>Când ai nevoie de un tratament odontal</h2>
+    <p>Cariile nu dor întotdeauna în stadiile incipiente, ceea ce face controlul periodic esențial. Câteva semne de urmărit:</p>
+    <ul>
+      <li>Pete sau puncte întunecate pe suprafața dintelui.</li>
+      <li>Sensibilitate la alimente dulci, calde sau reci.</li>
+      <li>Durere sau disconfort la mestecat.</li>
+      <li>Resturi de mâncare care se blochează mereu în aceeași zonă.</li>
+      <li>O obturație care s-a desprins sau se simte diferit față de restul dintelui.</li>
+    </ul>
+    <p>Un control la timp poate însemna un tratament mai simplu și mai puțin costisitor. Decizia privind tratamentul se ia întotdeauna după examinare clinică — nu există un protocol standard valabil pentru orice caz.</p>
+
+    <h2>Etapele unui tratament de odontoterapie</h2>
+    <ol>
+      <li><strong>Consultația gratuită și examenul clinic</strong> — medicul evaluează starea dinților, zonele afectate și gradul de extindere al leziunilor.</li>
+      <li><strong>Imagistica</strong> — dacă medicul consideră necesar, se face o radiografie panoramică (100 lei, taxată separat). CBCT se recomandă doar atunci când situația clinică o impune.</li>
+      <li><strong>Anestezie locală</strong> — se aplică dacă este nevoie, pentru confortul complet pe durata intervenției.</li>
+      <li><strong>Îndepărtarea țesutului afectat</strong> — medicul elimină caria și curăță zona, pregătind dintele pentru restaurare.</li>
+      <li><strong>Restaurarea dintelui</strong> — se aplică materialul de restaurare (de exemplu compozit), modelat și șlefuit pentru a reda forma și funcția dintelui.</li>
+      <li><strong>Verificarea ocluziei și recomandări de igienă</strong> — se verifică modul în care dinții se închid și se oferă indicații adaptate zonei tratate.</li>
+    </ol>
+
+    <h2>Odontoterapie, endodonție, parodontologie: care e diferența</h2>
+    <p>Aceste trei ramuri ale stomatologiei tratează zone diferite și se aplică în situații diferite.</p>
+    <p><strong>Odontoterapia</strong> — tratează dintele în sine: elimină caria și restaurează structura dentară afectată printr-o obturație sau alt material de reconstituire.</p>
+    <p><strong>Endodonția</strong> — intervine când afectarea ajunge la nivelul nervului (pulpei dentare). Un <a href="/servicii/endodontie">tratament de canal</a> este necesar atunci când caria netratată sau un traumatism a afectat pulpa, cauzând infecție sau durere intensă. Citește mai mult în articolul despre <a href="/blog/tratament-endodontic-pitesti">tratamentul endodontic în Pitești</a>.</p>
+    <p><strong>Parodontologia</strong> — se ocupă de gingie și osul din jurul dintelui, nu de dinte în sine. Sângerările gingivale, retracția gingivală sau pungile parodontale indică un tratament <a href="/servicii/parodontologie">parodontal</a>, nu odontal.</p>
+    <p>Medicul stabilește ce tratament se potrivește situației tale după examinare — deseori, mai multe ramuri se completează în același plan de tratament.</p>
+
+    <h2>Restaurare cu obturație, fațetă sau coroană</h2>
+    <p>Instrumentul principal al odontoterapiei restaurative este obturația — pentru carii mici și medii, este de obicei cea mai simplă și rapidă soluție. Când afectarea este mai extinsă sau există și o componentă estetică, medicul poate propune alte variante.</p>
+    <p>Fațetele dentare pot fi indicate pentru dinți ciobiți sau modificări de formă și culoare — mai multe detalii pe pagina <a href="/servicii/fatete-dentare">fațete dentare</a>. Coroana dentară este aleasă atunci când dintele a suferit pierderi mari de substanță și nu mai poate fi restaurat cu o obturație simplă. Alegerea depinde de evaluarea individuală.</p>
+
+    <h2>Cât costă</h2>
+    <p>Consultația este gratuită. O obturație pe o suprafață costă <strong>200 lei</strong>. Dacă medicul consideră necesară o radiografie panoramică, aceasta se taxează separat: <strong>100 lei</strong>. Costul final depinde de numărul de suprafețe afectate și de complexitatea cazului și se stabilește după evaluare. Consultă <a href="/preturi">lista completă de prețuri</a>.</p>
+
+    <h2>Prevenție: cum eviți cariile</h2>
+    <p>Cea mai eficientă metodă de prevenție rămâne igiena zilnică: periaj de două ori pe zi și utilizarea aței dentare sau a periei interdentare. Igienizarea profesională periodică la cabinet îndepărtează tartrul și placa bacteriană pe care periajul casnic nu le poate elimina complet — citește mai mult în articolul despre <a href="/blog/detartraj-igienizare-dentara-pitesti">detartraj și igienizare dentară în Pitești</a>. Controlul periodic permite detectarea cariilor în stadii incipiente, când tratamentul este mai simplu și mai puțin costisitor.</p>
+
+    <h2>Întrebări frecvente</h2>
+    <details>
+      <summary>Ce este odontoterapia?</summary>
+      <p>Odontoterapia este ramura stomatologiei care tratează cariile și alte afecțiuni ale țesuturilor dure ale dintelui — smalț, dentină, cement radicular — și restaurează dintele afectat, de obicei printr-o obturație.</p>
+    </details>
+    <details>
+      <summary>Când ai nevoie de odontoterapie?</summary>
+      <p>Când ai o carie descoperită la control, pete întunecate pe dinte, sensibilitate la rece sau dulce, o obturație veche deteriorată sau un dinte ciobit. Decizia se ia după examinare clinică.</p>
+    </details>
+    <details>
+      <summary>Doare tratamentul unei carii?</summary>
+      <p>Tratamentul se efectuează sub anestezie locală, dacă este nevoie. În timpul procedurii nu simți durere. Ulterior poate apărea un disconfort ușor, gestionat conform recomandărilor medicului.</p>
+    </details>
+    <details>
+      <summary>Cât costă o obturație?</summary>
+      <p>O obturație pe o suprafață costă 200 lei. Costul final depinde de numărul de suprafețe afectate și de complexitatea cazului și se stabilește după evaluare.</p>
+    </details>
+    <details>
+      <summary>Care e diferența dintre obturație și tratament de canal?</summary>
+      <p>Obturația repară dintele afectat de carie în zona smalțului și a dentinei. Tratamentul de canal (endodontic) intervine când afectarea a ajuns la nivelul nervului (pulpei dentare), cauzând infecție sau durere intensă.</p>
+    </details>
+    <details>
+      <summary>Consultația este gratuită?</summary>
+      <p>Da. Dacă medicul consideră necesară o radiografie panoramică pentru evaluare, aceasta se taxează separat: 100 lei.</p>
+    </details>
+
+    <h2>Programează o consultație gratuită</h2>
+    <p>Dacă ai o carie sau o obturație care te îngrijorează — sau vrei un control periodic — programarea se face direct pe WhatsApp: <a href="https://wa.me/40754219011">wa.me/40754219011</a>. Program: luni–vineri, 09:00–18:00.</p>
+  `,
+    faq: [
+      {
+        q: 'Ce este odontoterapia?',
+        a: 'Odontoterapia este ramura stomatologiei care tratează cariile și alte afecțiuni ale țesuturilor dure ale dintelui — smalț, dentină, cement radicular — și restaurează dintele afectat, de obicei printr-o obturație.',
+      },
+      {
+        q: 'Când ai nevoie de odontoterapie?',
+        a: 'Când ai o carie descoperită la control, pete întunecate pe dinte, sensibilitate la rece sau dulce, o obturație veche deteriorată sau un dinte ciobit. Decizia se ia după examinare clinică.',
+      },
+      {
+        q: 'Doare tratamentul unei carii?',
+        a: 'Tratamentul se efectuează sub anestezie locală, dacă este nevoie. În timpul procedurii nu simți durere. Ulterior poate apărea un disconfort ușor, gestionat conform recomandărilor medicului.',
+      },
+      {
+        q: 'Cât costă o obturație?',
+        a: 'O obturație pe o suprafață costă 200 lei. Costul final depinde de numărul de suprafețe afectate și de complexitatea cazului și se stabilește după evaluare.',
+      },
+      {
+        q: 'Care e diferența dintre obturație și tratament de canal?',
+        a: 'Obturația repară dintele afectat de carie în zona smalțului și a dentinei. Tratamentul de canal (endodontic) intervine când afectarea a ajuns la nivelul nervului (pulpei dentare), cauzând infecție sau durere intensă.',
+      },
+      {
+        q: 'Consultația este gratuită?',
+        a: 'Da. Dacă medicul consideră necesară o radiografie panoramică pentru evaluare, aceasta se taxează separat: 100 lei.',
       },
     ],
   },

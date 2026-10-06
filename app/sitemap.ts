@@ -51,6 +51,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/diaspora-en`, lastModified: now, changeFrequency: 'monthly', priority: 0.9 },
     { url: `${base}/blog/fara-os-pentru-implant-all-on-4`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/blog/chirurgie-dentara-ce-interventii-exista`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
+    { url: `${base}/blog/odontoterapie-ce-este-si-cand-ai-nevoie`, lastModified: now, changeFrequency: 'monthly', priority: 0.8 },
     { url: `${base}/politica-cookie`, lastModified: now, changeFrequency: 'monthly', priority: 0.1 },
     { url: `${base}/termeni-conditii`, lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
     { url: `${base}/politica-de-confidentialitate`, lastModified: now, changeFrequency: 'yearly', priority: 0.3 },
