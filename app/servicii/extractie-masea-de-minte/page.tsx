@@ -192,6 +192,10 @@ export default function ExtractieMAseaDeMintePage() {
               <p>
                 La ARA DENT STUDIO, <Link href="/dr-robert-lungu" className="font-semibold text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">Dr. Robert Lungu</Link>, medic specialist în chirurgie dento-alveolară, evaluează fiecare caz individual și recomandă extracția doar când este cu adevărat necesară.
               </p>
+              <p>
+                Dacă vrei să înțelegi mai bine cum decurge intervenția pas cu pas, citește{' '}
+                <Link href="/blog/extractia-maselei-de-minte-cum-decurge" className="font-semibold text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">ghidul nostru despre cum decurge extracția</Link>.
+              </p>
             </div>
           </div>
         </section>

@@ -866,7 +866,7 @@ export const articole: Articol[] = [
     </ul>
 
     <h2>Suntem disponibili</h2>
-    <p>La ARA DENT STUDIO, Dr. Robert Lungu e disponibil pe WhatsApp pentru orice intrebare post-operatorie. Daca vrei sa stii mai mult despre ce presupune o interventie chirurgicala dentara in ansamblu — tipuri, pregatire, recuperare — citeste <a href="/blog/chirurgie-dentara-ce-interventii-exista">ghidul nostru despre interventiile de chirurgie dentara</a>.</p>
+    <p>La ARA DENT STUDIO, Dr. Robert Lungu e disponibil pe WhatsApp pentru orice intrebare post-operatorie. Daca vrei sa stii mai mult despre ce presupune o interventie chirurgicala dentara in ansamblu — tipuri, pregatire, recuperare — citeste <a href="/blog/chirurgie-dentara-ce-interventii-exista">ghidul nostru despre interventiile de chirurgie dentara</a>. Daca extractia a fost a unei masele de minte, citeste si <a href="/blog/extractia-maselei-de-minte-cum-decurge">ghidul nostru despre cum decurge extractia</a>.</p>
   `,
   },
   {
@@ -1606,7 +1606,7 @@ export const articole: Articol[] = [
     <h2>Ce intervenții de chirurgie dentară există</h2>
     <p>Gama de intervenții acoperită de chirurgia dento-alveolară este mai largă decât înțelege majoritatea pacienților. Iată principalele categorii:</p>
     <ul>
-      <li><strong><a href="/servicii/extractie-masea-de-minte">Extracții dificile și extracții ale măselelor de minte incluse sau semiincluse</a></strong> — extracțiile simple se realizează rapid, dar măselele de minte poziționate anormal necesită o abordare chirurgicală pentru a fi îndepărtate în siguranță, fără a afecta structurile vecine.</li>
+      <li><strong><a href="/servicii/extractie-masea-de-minte">Extracții dificile și extracții ale măselelor de minte incluse sau semiincluse</a></strong> — extracțiile simple se realizează rapid, dar măselele de minte poziționate anormal necesită o abordare chirurgicală pentru a fi îndepărtate în siguranță, fără a afecta structurile vecine. Citește și <a href="/blog/extractia-maselei-de-minte-cum-decurge">ghidul nostru despre cum decurge extracția</a>.</li>
       <li><strong><a href="/servicii/aditie-osoasa-sinus-lift">Adiție osoasă și sinus lift</a></strong> — intervenții de reconstrucție osoasă efectuate atunci când maxilarul nu mai are volumul necesar pentru inserarea unui implant dentar. Sunt proceduri pregătitoare, nu urgențe.</li>
       <li><strong>Chistectomii</strong> — îndepărtarea chirurgicală a chisturilor de la nivelul osului maxilar. Chisturile sunt descoperite de obicei incidental, la o radiografie sau la un CBCT, și nu provoacă întotdeauna simptome vizibile.</li>
       <li><strong><a href="/servicii/implantologie">Pregătirea chirurgicală pentru implant dentar</a></strong> — intervenții care creează condițiile necesare pentru inserarea în siguranță a implantului: extracția dintelui compromis, regularizarea crestei osoase sau alte proceduri stabilite după evaluare.</li>
@@ -1810,6 +1810,121 @@ export const articole: Articol[] = [
       {
         q: 'Care e diferența dintre obturație și tratament de canal?',
         a: 'Obturația repară dintele afectat de carie în zona smalțului și a dentinei. Tratamentul de canal (endodontic) intervine când afectarea a ajuns la nivelul nervului (pulpei dentare), cauzând infecție sau durere intensă.',
+      },
+      {
+        q: 'Consultația este gratuită?',
+        a: 'Da. Dacă medicul consideră necesară o radiografie panoramică pentru evaluare, aceasta se taxează separat: 100 lei.',
+      },
+    ],
+  },
+  {
+    slug: 'extractia-maselei-de-minte-cum-decurge',
+    title: 'Extracția măselei de minte: cum decurge și ce urmează',
+    metaDescription: 'Ghid despre extracția măselei de minte, când e necesară, cum decurge și cum te recuperezi, la ARA DENT STUDIO din Pitești.',
+    excerpt: 'Măseaua de minte poate necesita extracție când creează inflamații, carii sau presiune asupra dinților vecini. Află cum decurge intervenția și ce urmează după.',
+    date: '2026-10-06',
+    continut: `
+    <p>Măselele de minte — ultimii molari, numiți și molari de minte — apar de obicei la vârsta adultă tânără. Uneori nu au spațiu suficient să erupă corect și generează probleme: durere, infecție sau presiune asupra dinților vecini. Când este cazul, medicul poate recomanda extracția, realizată de obicei sub anestezie locală. La ARA DENT STUDIO din Pitești, consultația este gratuită — poți veni la o evaluare înainte de orice decizie. Citește mai mult pe pagina dedicată <a href="/servicii/extractie-masea-de-minte">extracției măselei de minte la ARA DENT STUDIO</a>.</p>
+
+    <h2>Când este recomandată extracția</h2>
+    <p>Nu toate măselele de minte trebuie scoase. Extracția devine necesară sau recomandată atunci când:</p>
+    <ul>
+      <li>Maseaua a erupt parțial sau în poziție inclinată și provoacă inflamații repetate ale gingiei din jur (pericoronarită).</li>
+      <li>Există o carie greu de tratat din cauza poziției sau a accesului dificil.</li>
+      <li>Maseaua exercită presiune asupra dinților vecini, afectând aliniamentul lor.</li>
+      <li>A apărut un chist sau o altă leziune asociată molarului, descoperite la imagistică.</li>
+      <li>Durerea sau infecția revin în aceeași zonă, fără o rezolvare definitivă.</li>
+    </ul>
+    <p>Decizia se ia întotdeauna după examinare clinică și imagistică — nu după simptome descrise la telefon. Citește și despre <a href="/blog/chirurgie-dentara-ce-interventii-exista">alte intervenții de chirurgie dentară</a> care pot apărea în contextul unui plan de tratament.</p>
+
+    <h2>Măsea erupută, semiinclusă sau inclusă: care e diferența</h2>
+    <p>Tipul molarului de minte influențează complexitatea extracției și costul final.</p>
+    <p><strong>Maseă erupută</strong> — a ieșit complet prin gingie. Extracția este în general mai simplă, similară cu cea a oricărui alt dinte.</p>
+    <p><strong>Maseă semiinclusă</strong> — a ieșit parțial, restul rămânând acoperit de țesut moale sau os. Necesită o incizie gingivală pentru acces complet. Este cel mai frecvent tip întâlnit.</p>
+    <p><strong>Maseă inclusă</strong> — a rămas complet în os sau sub gingie și nu a erupt deloc. Necesită o abordare chirurgicală adaptată pentru îndepărtarea în siguranță.</p>
+    <p>Tipul exact se stabilește după examinare clinică și imagistică și determină atât planificarea intervenției, cât și prețul final.</p>
+
+    <h2>Imagistica înainte de extracție</h2>
+    <p>Dacă medicul consideră necesară o radiografie panoramică, aceasta se taxează separat (100 lei). Imaginea permite evaluarea poziției molarului, a rădăcinilor și a raporturilor cu structurile din jur.</p>
+    <p>La măselele incluse sau atunci când molarul se află aproape de structuri anatomice importante, medicul poate recomanda un CBCT (tomografie 3D). Atunci când este necesar, acesta se efectuează direct în clinică — fără drumuri la centre externe de imagistică. Prețul CBCT este 250 lei și include toate verificările de control ulterioare.</p>
+
+    <h2>Cum decurge extracția</h2>
+    <ol>
+      <li><strong>Consultația gratuită și planificarea</strong> — medicul evaluează tipul molarului, starea generală a cavității orale și stabilește ce imagistică este necesară.</li>
+      <li><strong>Anestezia locală</strong> — se aplică înainte de intervenție, pentru confort complet pe durata procedurii.</li>
+      <li><strong>Extracția propriu-zisă</strong> — la molarii erupți sau semiincluși, tehnica este directă; la molarii incluși, medicul poate lucra chirurgical, adaptând abordarea la poziția exactă a molarului. Nu există un protocol identic pentru toate cazurile.</li>
+      <li><strong>Hemostaza și îngrijirea plăgii</strong> — după extracție, medicul aplică măsuri pentru oprirea sângerării și, dacă este necesar, plasează fire de sutură.</li>
+      <li><strong>Indicații de recuperare</strong> — primești instrucțiuni clare, adaptate cazului tău: ce poți mânca, cum să îngrijești zona, ce să eviți în primele zile.</li>
+      <li><strong>Control post-operator</strong> — medicul îți spune la momentul intervenției dacă și când este nevoie de un control.</li>
+    </ol>
+    <p>Durata intervenției variază în funcție de tipul molarului și de complexitatea cazului. Medicul îți spune la consultație la ce să te aștepți.</p>
+
+    <h2>După extracție: ce urmează</h2>
+    <p>În primele zile este normal să apară un disconfort moderat, o umflătură ușoară a obrajilor și o ușoară sângerare — toate se gestionează conform recomandărilor primite de la medic. Alimentația adaptată (moale, la temperatura camerei, fără alimente tari sau fierbinți) susține procesul de vindecare. Igiena zonei operate se face cu blândețe, conform indicațiilor specifice primite la ieșirea din cabinet.</p>
+    <p>Citește ghidul practic despre <a href="/blog/ce-mananci-dupa-extractie-dentara">ce mănânci după extracție</a> — util atât înainte, cât și după intervenție.</p>
+    <p>Dacă durerea crește după câteva zile în loc să scadă, sau observi semne neobișnuite, contactează cabinetul în programul de lucru.</p>
+
+    <h2>Când mergi la urgențe și când la cabinet</h2>
+    <p>Cabinetul ARA DENT STUDIO funcționează luni–vineri, 09:00–18:00. Dacă sângerarea nu se oprește sau umflătura crește după extracție, contactează cabinetul în programul de lucru.</p>
+    <p>Mergi imediat la UPU sau sună la <strong>112</strong> dacă apar oricare din următoarele: umflătură care se extinde spre față sau gât, dificultăți la înghițire sau la deschiderea gurii, febră mare. Infecțiile cu extindere în spațiile fasciale necesită tratament de urgență la UPU sau în serviciul de chirurgie oro-maxilo-facială — nu pot fi tratate în cabinetul stomatologic. Consultă și pagina <a href="/servicii/urgente-stomatologice">urgențe stomatologice</a> pentru alte situații.</p>
+
+    <h2>Cât costă extracția măselei de minte</h2>
+    <ul>
+      <li>Molar erupt (total): <strong>400 lei</strong></li>
+      <li>Molar semiinclus: <strong>600 lei</strong></li>
+      <li>Molar inclus: <strong>800 lei</strong></li>
+    </ul>
+    <p>Consultația este gratuită. Radiografia panoramică, dacă este necesară, se taxează separat: <strong>100 lei</strong>. CBCT-ul, atunci când este necesar, costă <strong>250 lei</strong> și include toate verificările de control ulterioare. Prețul final depinde de tipul molarului și se stabilește după examinare. Consultă <a href="/preturi">lista completă de prețuri</a>.</p>
+
+    <h2>Întrebări frecvente</h2>
+    <details>
+      <summary>Trebuie scoase toate măselele de minte?</summary>
+      <p>Nu neapărat. Extracția este recomandată doar când maseaua cauzează probleme: inflamații repetate, carie greu de tratat, presiune asupra dinților vecini sau un chist asociat. Decizia se ia după examinare și imagistică.</p>
+    </details>
+    <details>
+      <summary>Doare extracția măselei de minte?</summary>
+      <p>Extracția se face sub anestezie locală. În timpul procedurii nu simți durere. După, poate apărea un disconfort moderat, gestionat conform recomandărilor medicului.</p>
+    </details>
+    <details>
+      <summary>Cât durează extracția?</summary>
+      <p>Depinde de poziția molarului și de complexitatea cazului. La consultație, medicul îți spune la ce să te aștepți.</p>
+    </details>
+    <details>
+      <summary>Cât durează recuperarea?</summary>
+      <p>Depinde de tipul intervenției și de fiecare pacient în parte. Medicul îți explică la ce să te aștepți și ce să eviți în primele zile după intervenție.</p>
+    </details>
+    <details>
+      <summary>Am nevoie de CBCT înainte de extracție?</summary>
+      <p>Medicul îl recomandă atunci când este necesar — mai ales la măselele incluse sau atunci când molarul se află aproape de structuri anatomice importante. CBCT-ul costă 250 lei și include toate verificările de control ulterioare.</p>
+    </details>
+    <details>
+      <summary>Consultația este gratuită?</summary>
+      <p>Da. Dacă medicul consideră necesară o radiografie panoramică pentru evaluare, aceasta se taxează separat: 100 lei.</p>
+    </details>
+
+    <h2>Programează o consultație gratuită</h2>
+    <p>Dacă ai o maseă de minte care te deranjează sau vrei pur și simplu o evaluare, programarea se face direct pe WhatsApp: <a href="https://wa.me/40754219011">wa.me/40754219011</a>. Program: luni–vineri, 09:00–18:00.</p>
+  `,
+    faq: [
+      {
+        q: 'Trebuie scoase toate măselele de minte?',
+        a: 'Nu neapărat. Extracția este recomandată doar când maseaua cauzează probleme: inflamații repetate, carie greu de tratat, presiune asupra dinților vecini sau un chist asociat. Decizia se ia după examinare și imagistică.',
+      },
+      {
+        q: 'Doare extracția măselei de minte?',
+        a: 'Extracția se face sub anestezie locală. În timpul procedurii nu simți durere. După, poate apărea un disconfort moderat, gestionat conform recomandărilor medicului.',
+      },
+      {
+        q: 'Cât durează extracția?',
+        a: 'Depinde de poziția molarului și de complexitatea cazului. La consultație, medicul îți spune la ce să te aștepți.',
+      },
+      {
+        q: 'Cât durează recuperarea?',
+        a: 'Depinde de tipul intervenției și de fiecare pacient în parte. Medicul îți explică la ce să te aștepți și ce să eviți în primele zile după intervenție.',
+      },
+      {
+        q: 'Am nevoie de CBCT înainte de extracție?',
+        a: 'Medicul îl recomandă atunci când este necesar — mai ales la măselele incluse sau atunci când molarul se află aproape de structuri anatomice importante. CBCT-ul costă 250 lei și include toate verificările de control ulterioare.',
       },
       {
         q: 'Consultația este gratuită?',
