@@ -1616,7 +1616,7 @@ export const articole: Articol[] = [
     <h2>Când ai nevoie de o intervenție chirurgicală</h2>
     <p>Chirurgia dentară nu este un prim pas — medicul recomandă o intervenție atunci când alte tratamente conservative nu mai sunt posibile sau suficiente. Situațiile frecvente care duc la o intervenție chirurgicală sunt:</p>
     <ul>
-      <li>Un dinte care nu mai poate fi salvat printr-o obtурație, un tratament de canal sau o coroană — și trebuie extras.</li>
+      <li>Un dinte care nu mai poate fi salvat printr-o obturație, un tratament de canal sau o coroană — și trebuie extras.</li>
       <li>O măsea de minte care creează probleme: durere, infecții recurente, presiune asupra dinților vecini sau o poziție care face igiena imposibilă.</li>
       <li>Un chist descoperit la o radiografie sau la un CBCT — chiar dacă nu doare, un chist netratat poate crește și afecta structurile osoase vecine.</li>
       <li>Lipsa osului necesar pentru inserarea unui implant dentar — situație rezolvată printr-o procedură de adiție osoasă sau sinus lift înainte de implant.</li>
@@ -1650,23 +1650,30 @@ export const articole: Articol[] = [
     <p>Pentru alte situații de urgență stomatologică, consultă pagina noastră de <a href="/servicii/urgente-stomatologice">urgențe stomatologice</a>.</p>
 
     <h2>Întrebări frecvente</h2>
-    <p><strong>Ce este chirurgia dentară?</strong><br/>
-    Chirurgia dentară (sau orală, dento-alveolară) cuprinde intervențiile chirurgicale de la nivelul dinților, gingiei și osului maxilar: extracții dificile, extracții ale măselelor de minte incluse, chistectomii, adiție osoasă sau pregătirea zonei pentru un implant dentar.</p>
-
-    <p><strong>Doare o intervenție de chirurgie orală?</strong><br/>
-    Intervenția se realizează sub anestezie locală — în timpul procedurii nu simți durere. După, poate apărea un disconfort moderat, care se gestionează urmând recomandările primite de la medic.</p>
-
-    <p><strong>Cât durează recuperarea?</strong><br/>
-    Depinde de tipul intervenției și de fiecare pacient în parte. Medicul îți explică la consultație la ce să te aștepți și ce să eviți în primele zile după intervenție.</p>
-
-    <p><strong>Am nevoie de CBCT înainte de intervenție?</strong><br/>
-    Nu întotdeauna. Medicul îl recomandă atunci când este necesar — de obicei pentru planificarea precisă a intervențiilor mai complexe. CBCT-ul costă 250 lei și include toate verificările ulterioare de control. Îl facem în clinică, fără drumuri prin oraș.</p>
-
-    <p><strong>Consultația este gratuită?</strong><br/>
-    Da. Dacă medicul consideră necesară o radiografie panoramică, aceasta se taxează separat (100 lei). Vii, evaluăm situația ta și abia apoi decizi cum continui.</p>
-
-    <p><strong>Pot face implant după o extracție?</strong><br/>
-    În multe cazuri da, dar momentul potrivit depinde de fiecare situație și se stabilește după evaluare. Citește mai multe în articolul despre <a href="/blog/implant-dentar-dupa-extractie">implant dentar după extracție</a>.</p>
+    <details>
+      <summary>Ce este chirurgia dentară?</summary>
+      <p>Chirurgia dentară (sau orală, dento-alveolară) cuprinde intervențiile chirurgicale de la nivelul dinților, gingiei și osului maxilar: extracții dificile, extracții ale măselelor de minte incluse, chistectomii, adiție osoasă sau pregătirea zonei pentru un implant dentar.</p>
+    </details>
+    <details>
+      <summary>Doare o intervenție de chirurgie orală?</summary>
+      <p>Intervenția se realizează sub anestezie locală — în timpul procedurii nu simți durere. După, poate apărea un discomfort moderat, care se gestionează urmând recomandările primite de la medic.</p>
+    </details>
+    <details>
+      <summary>Cât durează recuperarea?</summary>
+      <p>Depinde de tipul intervenției și de fiecare pacient în parte. Medicul îți explică la consultație la ce să te aștepți și ce să eviți în primele zile după intervenție.</p>
+    </details>
+    <details>
+      <summary>Am nevoie de CBCT înainte de intervenție?</summary>
+      <p>Nu întotdeauna. Medicul îl recomandă atunci când este necesar — de obicei pentru planificarea precisă a intervențiilor mai complexe. CBCT-ul costă 250 lei și include toate verificările ulterioare de control. Îl facem în clinică, fără drumuri prin oraș.</p>
+    </details>
+    <details>
+      <summary>Consultația este gratuită?</summary>
+      <p>Da. Dacă medicul consideră necesară o radiografie panoramică, aceasta se taxează separat (100 lei). Vii, evaluăm situația ta și abia apoi decizi cum continui.</p>
+    </details>
+    <details>
+      <summary>Pot face implant după o extracție?</summary>
+      <p>În multe cazuri da, dar momentul potrivit depinde de fiecare situație și se stabilește după evaluare. Citește mai multe în articolul despre <a href="/blog/implant-dentar-dupa-extractie">implant dentar după extracție</a>.</p>
+    </details>
 
     <h2>Programează o consultație gratuită</h2>
     <p>Dacă ai o situație care ar putea necesita o intervenție chirurgicală — sau dacă vrei pur și simplu o a doua opinie — programarea se face direct pe WhatsApp: <a href="https://wa.me/40754219011">wa.me/40754219011</a>. Program: luni–vineri, 09:00–18:00.</p>

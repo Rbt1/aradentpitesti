@@ -536,3 +536,53 @@ body::before {
 .prose-blog a:hover {
   color: #C9A84C;
 }
+
+/* FAQ accordion — <details>/<summary> în articolele de blog */
+.prose-blog details {
+  border-bottom: 1px solid var(--bark-light);
+}
+
+.prose-blog h2 + details {
+  border-top: 1px solid var(--bark-light);
+}
+
+.prose-blog summary {
+  font-family: var(--font-jost), system-ui, sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: var(--forest-dark);
+  padding: 16px 0;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.prose-blog summary::-webkit-details-marker {
+  display: none;
+}
+
+.prose-blog summary::marker {
+  content: '';
+}
+
+.prose-blog summary::after {
+  content: '+';
+  font-size: 22px;
+  color: var(--gold);
+  font-weight: 300;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.prose-blog details[open] > summary::after {
+  content: '\2212';
+}
+
+.prose-blog details > p {
+  padding-top: 4px;
+  padding-bottom: 16px;
+  margin-bottom: 0;
+}
