@@ -7,12 +7,12 @@ import FAQ from '@/app/servicii/components/FAQ'
 import CTAWhatsApp from '@/app/servicii/components/CTAWhatsApp'
 
 export const metadata: Metadata = {
-  title: { absolute: 'Fatete Dentare Pitesti | ARA DENT STUDIO' },
-  description: 'Fatete dentare ceramice si compozit in Pitesti. Transforma aspectul zambetului fara interventii majore. Dr. Robert Lungu. Consultatie gratuita.',
+  title: { absolute: 'Fațete dentare Pitești | ARA DENT STUDIO' },
+  description: 'Fațete dentare în Pitești — ceramice și din compozit. Corectează forma și culoarea dinților fără intervenții majore. Consultație gratuită.',
   alternates: { canonical: 'https://www.aradentpitesti.ro/servicii/fatete-dentare' },
   openGraph: {
-    title: 'Fatete Dentare Pitesti | ARA DENT STUDIO',
-    description: 'Fatete dentare ceramice si compozit in Pitesti. Transforma aspectul zambetului fara interventii majore. Dr. Robert Lungu. Consultatie gratuita.',
+    title: 'Fațete dentare Pitești | ARA DENT STUDIO',
+    description: 'Fațete dentare în Pitești — ceramice și din compozit. Corectează forma și culoarea dinților fără intervenții majore. Consultație gratuită.',
     url: 'https://www.aradentpitesti.ro/servicii/fatete-dentare',
     siteName: 'ARA DENT STUDIO',
     locale: 'ro_RO',
@@ -37,7 +37,7 @@ const jsonLdService = {
     },
   },
   areaServed: 'Pitesti',
-  description: 'Fatete dentare ceramice si compozit in Pitesti pentru un zambet natural si uniform.',
+  description: 'Fatete dentare ceramice si compozit in Pitesti pentru corectarea formei si culorii dintilor.',
 }
 
 const jsonLdFaq = {
@@ -46,130 +46,108 @@ const jsonLdFaq = {
   mainEntity: [
     {
       '@type': 'Question',
-      name: 'Ce sunt fatetele dentare?',
+      name: 'Ce sunt fațetele dentare?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Fatetele dentare sunt folii subtiri de ceramica sau compozit aplicate pe fata vizibila a dintelui, acoperind imperfectiunile si oferind un aspect uniform si natural.',
+        text: 'Lamele subțiri, fixate pe fața dintelui, care pot corecta forma, culoarea sau mici imperfecțiuni.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Care e diferenta dintre fatete ceramice si compozit?',
+      name: 'Care e diferența dintre fațetele ceramice și cele din compozit?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Fatetele ceramice sunt realizate in laborator, au aspect mai natural si durabilitate mai mare. Fatetele compozit se realizeaza direct in cabinet, intr-o singura sedinta, si sunt reversibile.',
+        text: 'Cele ceramice se realizează pe baza unei amprente digitale, iar cele din compozit se modelează direct pe dinte. Medicul îți recomandă varianta potrivită după examinare.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Fatetele dentare dor?',
+      name: 'Cât costă fațetele dentare la Pitești?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Procedura se realizeaza sub anestezie locala. Dupa aplicare poate aparea o sensibilitate usoara care dispare in cateva zile.',
+        text: 'Prețul se stabilește la consultație, în funcție de numărul de dinți și de materialul ales. Consultația este gratuită.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Cat dureaza tratamentul cu fatete?',
+      name: 'Doare montarea fațetelor?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Fatetele compozit se realizeaza intr-o singura sedinta. Fatetele ceramice necesita 2 sedinte — una pentru scanare digitala si una pentru aplicare, dupa realizarea in laborator.',
+        text: 'Dacă este necesar, se folosește anestezie locală. Medicul îți explică ce poți simți.',
       },
     },
     {
       '@type': 'Question',
-      name: 'Fatetele dentare sunt permanente?',
+      name: 'Cât durează tratamentul cu fațete?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Fatetele ceramice sunt ireversibile — odata aplicate, dintele necesita fateta permanent. Fatetele compozit sunt reversibile si pot fi indepartate fara afectarea dintelui.',
+        text: 'Depinde de numărul de dinți și de materialul ales. Medicul îți spune la consultație câte ședințe sunt necesare.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Pot face fațete dacă scrâșnesc din dinți?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Medicul evaluează situația și, dacă este cazul, poate recomanda o gutieră de protecție.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Consultația este gratuită?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Da. Dacă medicul consideră necesară o radiografie panoramică, aceasta se taxează separat (100 lei).',
       },
     },
   ],
 }
 
-const TIPURI = [
-  {
-    titlu: 'Fațete ceramice (porțelan)',
-    text: 'Realizate în laborator din ceramică de înaltă calitate. Aspect identic cu dintele natural, rezistență mare la colorare și durabilitate crescută.',
-    avantaje: [
-      'Aspect cel mai natural',
-      'Rezistente la colorare (cafea, tutun, vin)',
-      'Durabilitate crescută',
-      'Biocompatibile',
-    ],
-    nota: '2 ședințe — scanare digitală + aplicare',
-  },
-  {
-    titlu: 'Fațete compozit (rășină)',
-    text: 'Realizate direct în cabinet, modelate pe dinte. Variantă rapidă și reversibilă.',
-    avantaje: [
-      'Realizate într-o singură ședință',
-      'Reversibile',
-      'Cost mai accesibil',
-    ],
-    nota: '1 ședință — rezultat imediat',
-  },
-]
-
-const INDICATII = [
-  'Pete și decolorări care nu răspund la albire',
-  'Dinți mici sau neuniformi',
-  'Spații între dinți (diasteme)',
-  'Dinți ușor crăpați sau ciobiți',
-  'Dinți cu formă neregulată',
-]
-
-const CONTRAINDICATII: ReactNode[] = [
-  <><Link href="/servicii/obturatii" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">Carii</Link> active sau <Link href="/servicii/parodontologie" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">boală parodontală</Link> netratată — se tratează mai întâi</>,
-  <><Link href="/servicii/urgente-stomatologice" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">Bruxism</Link> sever netratat</>,
-  'Smalț insuficient',
-]
-
-const PASI = [
-  {
-    nr: '01',
-    titlu: 'Consultație gratuită',
-    text: 'Evaluăm starea dinților, discutăm așteptările și stabilim tipul de fațetă potrivit.',
-  },
-  {
-    nr: '02',
-    titlu: 'Pregătirea dinților',
-    text: 'Pentru ceramică — îndepărtarea unui strat minim de smalț. Pentru compozit — minimală sau inexistentă.',
-  },
-  {
-    nr: '03',
-    titlu: 'Scanare digitală sau modelare',
-    text: 'Pentru ceramică — scanare digitală trimisă la laborator. Pentru compozit — modelare directă în cabinet.',
-  },
-  {
-    nr: '04',
-    titlu: 'Aplicarea fațetelor',
-    text: 'Fixare cu adeziv special, ajustări finale. Rezultat imediat sau la a doua ședință.',
-  },
-]
-
-const FAQ_ITEMS = [
+const FAQ_ITEMS: { q: string; a: string | ReactNode }[] = [
   {
     q: 'Ce sunt fațetele dentare?',
-    a: 'Fațetele dentare sunt folii subțiri de ceramică sau compozit aplicate pe fața vizibilă a dintelui, acoperind imperfecțiunile și oferind un aspect uniform și natural.',
+    a: 'Lamele subțiri, fixate pe fața dintelui, care pot corecta forma, culoarea sau mici imperfecțiuni.',
   },
   {
-    q: 'Care e diferența dintre fațete ceramice și compozit?',
-    a: 'Fațetele ceramice sunt realizate în laborator, au aspect mai natural și durabilitate mai mare. Fațetele compozit se realizează direct în cabinet, într-o singură ședință, și sunt reversibile.',
+    q: 'Care e diferența dintre fațetele ceramice și cele din compozit?',
+    a: 'Cele ceramice se realizează pe baza unei amprente digitale, iar cele din compozit se modelează direct pe dinte. Medicul îți recomandă varianta potrivită după examinare.',
   },
   {
-    q: 'Fațetele dentare dor?',
-    a: 'Procedura se realizează sub anestezie locală. După aplicare poate apărea o sensibilitate ușoară care dispare în câteva zile.',
+    q: 'Cât costă fațetele dentare la Pitești?',
+    a: 'Prețul se stabilește la consultație, în funcție de numărul de dinți și de materialul ales. Consultația este gratuită.',
+  },
+  {
+    q: 'Doare montarea fațetelor?',
+    a: 'Dacă este necesar, se folosește anestezie locală. Medicul îți explică ce poți simți.',
   },
   {
     q: 'Cât durează tratamentul cu fațete?',
-    a: 'Fațetele compozit se realizează într-o singură ședință. Fațetele ceramice necesită 2 ședințe — una pentru scanare digitală și una pentru aplicare, după realizarea în laborator.',
+    a: 'Depinde de numărul de dinți și de materialul ales. Medicul îți spune la consultație câte ședințe sunt necesare.',
   },
   {
-    q: 'Fațetele dentare sunt permanente?',
-    a: 'Fațetele ceramice sunt ireversibile — odată aplicate, dintele necesită fațetă permanent. Fațetele compozit sunt reversibile și pot fi îndepărtate fără afectarea dintelui.',
+    q: 'Pot face fațete dacă scrâșnesc din dinți?',
+    a: (
+      <>
+        Medicul evaluează situația și, dacă este cazul, poate recomanda o{' '}
+        <Link
+          href="/blog/gutiera-bruxism-pitesti"
+          className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200"
+        >
+          gutieră de protecție
+        </Link>
+        .
+      </>
+    ),
+  },
+  {
+    q: 'Consultația este gratuită?',
+    a: 'Da. Dacă medicul consideră necesară o radiografie panoramică, aceasta se taxează separat (100 lei).',
   },
 ]
+
+const WA_URL =
+  'https://wa.me/40754219011?text=' +
+  encodeURIComponent('Bună ziua! Sunt interesat de fațete dentare și aș dori să programez o consultație la ARA DENT STUDIO.')
 
 export default function FateteDentarePage() {
   return (
@@ -195,7 +173,7 @@ export default function FateteDentarePage() {
               Fațete Dentare în Pitești
             </h1>
             <p className="font-jost font-light text-lg text-bark-dark mb-10">
-              Transformă aspectul zâmbetului fără intervenții majore
+              Ceramice sau din compozit, după evaluarea cazului tău
             </p>
             <Link
               href="#programare"
@@ -206,103 +184,271 @@ export default function FateteDentarePage() {
           </div>
         </section>
 
-        {/* Descriere */}
+        {/* A. Intro */}
         <section className="py-20 px-6 bg-cream">
           <div className="container-site max-w-3xl">
             <div className="space-y-5 font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
               <p>
-                Fațetele dentare sunt una dintre cele mai eficiente soluții de estetică dentară — transformă aspectul zâmbetului fără intervenții majore, cu rezultate naturale și durabile.
+                Fațetele dentare se realizează la ARA DENT STUDIO din Pitești în variantele ceramice și din compozit, după o evaluare atentă a cazului tău. Consultația este gratuită, iar tu afli ce soluție ți se potrivește înainte să începi tratamentul.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* B. Ce sunt fațetele dentare */}
+        <section className="py-16 px-6 bg-offwhite">
+          <div className="container-site max-w-3xl">
+            <h2 className="font-playfair text-3xl lg:text-4xl text-forest-dark mb-8">
+              Ce sunt fațetele dentare
+            </h2>
+            <div className="space-y-5 font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
+              <p>
+                O fațetă dentară este o lamelă subțire de ceramică sau compozit care se fixează pe suprafața din față a dintelui și poate corecta forma, culoarea sau mici imperfecțiuni. Spre deosebire de o coroană dentară — care acoperă dintele complet — fațeta acoperă doar suprafața frontală, păstrând structura naturală a dintelui în mare parte intactă.
               </p>
               <p>
-                Spre deosebire de o coroană dentară care acoperă dintele complet, fațeta acoperă doar suprafața frontală, păstrând structura naturală a dintelui în mare parte intactă.
+                Fațetele nu sunt potrivite pentru orice caz. Decizia se ia după examinare clinică, ținând cont de starea dinților, a gingiilor și de ce îți dorești.
               </p>
             </div>
           </div>
         </section>
 
-        {/* Tipuri */}
-        <section className="py-16 px-6 bg-offwhite">
-          <div className="container-site">
-            <h2 className="font-playfair text-3xl text-forest-dark mb-10 text-center">
-              Tipuri de fațete dentare
+        {/* C. Ceramice și compozit */}
+        <section className="py-16 px-6 bg-cream">
+          <div className="container-site max-w-3xl">
+            <h2 className="font-playfair text-3xl lg:text-4xl text-forest-dark mb-8">
+              Fațete ceramice și fațete din compozit
             </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-              {TIPURI.map((tip) => (
-                <div key={tip.titlu} className="bg-cream border border-bark-light/30 rounded-sm p-8">
-                  <div className="w-8 h-[2px] bg-gold mb-5" />
-                  <h3 className="font-playfair text-xl text-forest-dark mb-3">{tip.titlu}</h3>
-                  <p className="font-jost font-light text-[14px] text-bark-dark leading-relaxed mb-5">
-                    {tip.text}
+            <div className="space-y-10">
+
+              <div>
+                <h3 className="font-playfair text-2xl text-forest-dark mb-4">
+                  Fațete ceramice
+                </h3>
+                <div className="space-y-4 font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
+                  <p>
+                    Fațetele ceramice se realizează pe baza unei amprente digitale, luată cu scanner-ul intraoral, și se fixează pe dinte după ce sunt confecționate în laborator. Oferă un aspect identic cu dintele natural și rezistă bine la colorare în timp.
                   </p>
-                  <ul className="space-y-2 mb-6">
-                    {tip.avantaje.map((av) => (
-                      <li key={av} className="flex items-start gap-2 font-jost text-[14px] text-bark-dark">
-                        <span className="text-gold mt-0.5">•</span>
-                        {av}
-                      </li>
-                    ))}
-                  </ul>
-                  <p className="font-jost text-[12px] uppercase tracking-wider text-gold border-t border-bark-light/30 pt-4">
-                    {tip.nota}
+                  <p>
+                    Odată aplicate, fațetele ceramice sunt ireversibile — dintele va necesita fațetă permanent. De aceea, decizia se ia în urma unei examinări atente, iar medicul îți explică ce presupune pregătirea dintelui.
                   </p>
                 </div>
-              ))}
+              </div>
+
+              <div>
+                <h3 className="font-playfair text-2xl text-forest-dark mb-4">
+                  Fațete din compozit
+                </h3>
+                <div className="space-y-4 font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
+                  <p>
+                    Materialul compozit se modelează direct pe dinte, în cabinet. Este o variantă mai rapidă și reversibilă — fațetele din compozit pot fi îndepărtate fără a afecta dintele.
+                  </p>
+                  <p>
+                    Se potrivesc cazurilor în care dorești o corecție estetică cu o intervenție minimală, iar medicul consideră că este soluția adecvată după evaluare.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+            <p className="mt-8 font-jost font-light text-[15px] text-bark-dark leading-relaxed italic">
+              Alegerea materialului depinde de starea dintelui, de ce îți dorești și de recomandarea medicului. Citește și{' '}
+              <Link
+                href="/blog/fatete-dentare-pitesti"
+                className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200 not-italic"
+              >
+                ghidul nostru despre tipurile de fațete
+              </Link>
+              {' '}pentru mai multe detalii.
+            </p>
+          </div>
+        </section>
+
+        {/* D. Când se recomandă */}
+        <section className="py-16 px-6 bg-offwhite">
+          <div className="container-site max-w-3xl">
+            <h2 className="font-playfair text-3xl lg:text-4xl text-forest-dark mb-8">
+              Când se recomandă fațetele dentare
+            </h2>
+            <ul className="space-y-4 font-jost font-light text-[16px] text-bark-dark leading-[1.9] mb-8">
+              <li className="flex gap-3">
+                <span className="mt-2 w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
+                <span>Dinți ciobiți sau uzați, fără afectarea nervului.</span>
+              </li>
+              <li className="flex gap-3">
+                <span className="mt-2 w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
+                <span>Spații mici între dinți (diasteme) pe care dorești să le închizi.</span>
+              </li>
+              <li className="flex gap-3">
+                <span className="mt-2 w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
+                <span>Dinți cu formă neregulată sau dimensiune disproporționată față de celelalte.</span>
+              </li>
+              <li className="flex gap-3">
+                <span className="mt-2 w-1.5 h-1.5 rounded-full bg-gold flex-shrink-0" />
+                <span>Pete sau decolorări care nu dispar la igienizare profesională.</span>
+              </li>
+            </ul>
+            <div className="space-y-4 font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
+              <p>
+                Fațetele nu sunt singura soluție. În funcție de caz, medicul poate recomanda o{' '}
+                <Link
+                  href="/servicii/obturatii"
+                  className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200"
+                >
+                  obturație
+                </Link>
+                {' '}sau o{' '}
+                <Link
+                  href="/servicii/protetica-dentara"
+                  className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200"
+                >
+                  coroană dentară
+                </Link>
+                , în funcție de starea dintelui.
+              </p>
+              <p>
+                Dinții și gingiile trebuie să fie sănătoși înainte de tratament. Eventualele carii sau{' '}
+                <Link
+                  href="/servicii/parodontologie"
+                  className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200"
+                >
+                  afecțiuni parodontale
+                </Link>
+                {' '}se tratează mai întâi, la fel și smalțul insuficient poate contraindica fațetele ceramice.
+              </p>
             </div>
           </div>
         </section>
 
-        {/* Indicatii */}
+        {/* E. Cum decurge tratamentul */}
         <section className="py-16 px-6 bg-cream">
           <div className="container-site max-w-3xl">
-            <h2 className="font-playfair text-3xl text-forest-dark mb-8">
-              Când se recomandă fațetele
+            <h2 className="font-playfair text-3xl lg:text-4xl text-forest-dark mb-8">
+              Cum decurge tratamentul cu fațete
             </h2>
-            <ul className="space-y-3">
-              {INDICATII.map((item) => (
-                <li key={item} className="flex items-start gap-3 font-jost font-light text-[15px] text-bark-dark">
-                  <span className="text-gold text-lg mt-0.5 flex-shrink-0">•</span>
-                  {item}
-                </li>
-              ))}
-            </ul>
+            <ol className="space-y-6 font-jost font-light text-[16px] text-bark-dark leading-[1.9] mb-6">
+              <li className="flex gap-5">
+                <span className="flex-shrink-0 w-8 h-8 rounded-sm bg-forest text-cream font-jost font-medium text-sm flex items-center justify-center">
+                  1
+                </span>
+                <div>
+                  <span className="font-medium text-forest-dark">Consultația gratuită</span>{' '}
+                  — examen clinic și discuție despre ce îți dorești. Medicul îți explică ce soluție se potrivește cazului tău.
+                </div>
+              </li>
+              <li className="flex gap-5">
+                <span className="flex-shrink-0 w-8 h-8 rounded-sm bg-forest text-cream font-jost font-medium text-sm flex items-center justify-center">
+                  2
+                </span>
+                <div>
+                  <span className="font-medium text-forest-dark">Evaluarea imagistică</span>{' '}
+                  — dacă medicul consideră necesar, se face o radiografie panoramică (taxată separat, 100 lei).
+                </div>
+              </li>
+              <li className="flex gap-5">
+                <span className="flex-shrink-0 w-8 h-8 rounded-sm bg-forest text-cream font-jost font-medium text-sm flex items-center justify-center">
+                  3
+                </span>
+                <div>
+                  <span className="font-medium text-forest-dark">Alegerea materialului</span>{' '}
+                  — ceramic sau compozit, în funcție de starea dinților, de așteptări și de recomandarea medicului.
+                </div>
+              </li>
+              <li className="flex gap-5">
+                <span className="flex-shrink-0 w-8 h-8 rounded-sm bg-forest text-cream font-jost font-medium text-sm flex items-center justify-center">
+                  4
+                </span>
+                <div>
+                  <span className="font-medium text-forest-dark">Pregătirea dinților</span>{' '}
+                  — medicul îți explică ce presupune în funcție de materialul ales.
+                </div>
+              </li>
+              <li className="flex gap-5">
+                <span className="flex-shrink-0 w-8 h-8 rounded-sm bg-forest text-cream font-jost font-medium text-sm flex items-center justify-center">
+                  5
+                </span>
+                <div>
+                  <span className="font-medium text-forest-dark">Realizarea fațetelor</span>{' '}
+                  — amprentă digitală cu scanner intraoral pentru cele ceramice; modelare directă pe dinte pentru cele din compozit.
+                </div>
+              </li>
+              <li className="flex gap-5">
+                <span className="flex-shrink-0 w-8 h-8 rounded-sm bg-forest text-cream font-jost font-medium text-sm flex items-center justify-center">
+                  6
+                </span>
+                <div>
+                  <span className="font-medium text-forest-dark">Fixarea și verificarea</span>{' '}
+                  — fațetele se fixează cu adeziv special, cu ajustări finale și verificarea rezultatului împreună cu medicul.
+                </div>
+              </li>
+              <li className="flex gap-5">
+                <span className="flex-shrink-0 w-8 h-8 rounded-sm bg-forest text-cream font-jost font-medium text-sm flex items-center justify-center">
+                  7
+                </span>
+                <div>
+                  <span className="font-medium text-forest-dark">Control și recomandări</span>{' '}
+                  — medicul îți explică cum să îngrijești fațetele și stabilește controlul următor.
+                </div>
+              </li>
+            </ol>
+            <p className="font-jost font-light text-[15px] text-bark-dark leading-relaxed italic">
+              Numărul de ședințe depinde de material și de caz — medicul îți spune la consultație la ce să te aștepți.
+            </p>
           </div>
         </section>
 
-        {/* Contraindicatii */}
+        {/* F. Cum îți îngrijești fațetele */}
         <section className="py-16 px-6 bg-offwhite">
           <div className="container-site max-w-3xl">
-            <h2 className="font-playfair text-3xl text-forest-dark mb-8">
-              Când fațetele NU sunt soluția potrivită
+            <h2 className="font-playfair text-3xl lg:text-4xl text-forest-dark mb-8">
+              Cum îți îngrijești fațetele
             </h2>
-            <ul className="space-y-3">
-              {CONTRAINDICATII.map((item, idx) => (
-                <li key={idx} className="flex items-start gap-3 font-jost font-light text-[15px] text-bark-dark">
-                  <span className="text-bark text-lg mt-0.5 flex-shrink-0">–</span>
-                  {item}
-                </li>
-              ))}
-            </ul>
+            <div className="space-y-5 font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
+              <p>
+                Igiena corectă acasă — periaj delicat și ață dentară — menține fațetele în stare bună. Controalele periodice și{' '}
+                <Link
+                  href="/blog/detartraj-igienizare-dentara-pitesti"
+                  className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200"
+                >
+                  igienizarea profesională
+                </Link>
+                {' '}la clinică completează îngrijirea de acasă și ajută la depistarea timpurie a oricărei probleme.
+              </p>
+              <p>
+                Dacă scrâșnești din dinți în timpul somnului, medicul poate recomanda o{' '}
+                <Link
+                  href="/blog/gutiera-bruxism-pitesti"
+                  className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200"
+                >
+                  gutieră de protecție
+                </Link>
+                {' '}pentru a preveni uzura fațetelor.
+              </p>
+              <p>
+                Medicul îți explică la consultație și la control ce obiceiuri să eviți și la ce să fii atent în funcție de tipul de fațetă ales.
+              </p>
+            </div>
           </div>
         </section>
 
-        {/* Procedura */}
-        <section className="py-20 px-6 bg-cream">
+        {/* G. Cât costă */}
+        <section className="py-16 px-6 bg-cream">
           <div className="container-site max-w-3xl">
-            <h2 className="font-playfair text-3xl text-forest-dark mb-10">
-              Cum decurge tratamentul la ARA DENT STUDIO
+            <h2 className="font-playfair text-3xl lg:text-4xl text-forest-dark mb-8">
+              Cât costă fațetele dentare
             </h2>
-            <div className="space-y-6">
-              {PASI.map((pas) => (
-                <div key={pas.nr} className="flex gap-6 items-start">
-                  <span className="font-playfair text-3xl text-gold/40 leading-none flex-shrink-0 w-10 text-right">
-                    {pas.nr}
-                  </span>
-                  <div className="border-l border-bark-light/40 pl-6 pb-6">
-                    <h3 className="font-playfair text-xl text-forest-dark mb-2">{pas.titlu}</h3>
-                    <p className="font-jost font-light text-[15px] text-bark-dark leading-relaxed">{pas.text}</p>
-                  </div>
-                </div>
-              ))}
+            <div className="space-y-5 font-jost font-light text-[16px] text-bark-dark leading-[1.9]">
+              <p>
+                Prețul fațetelor se stabilește la consultație, în funcție de numărul de dinți și de materialul ales. Consultația este gratuită, iar tu afli costul înainte să începi tratamentul.
+              </p>
+              <p>
+                Radiografia panoramică, dacă este necesară, se taxează separat (100 lei). Găsești{' '}
+                <Link
+                  href="/preturi"
+                  className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200"
+                >
+                  lista de prețuri
+                </Link>
+                {' '}pe pagina dedicată.
+              </p>
             </div>
           </div>
         </section>
@@ -311,11 +457,11 @@ export default function FateteDentarePage() {
         <CTAWhatsApp
           title="Vrei să afli dacă fațetele sunt potrivite pentru tine?"
           subtitle="Consultație gratuită — evaluăm dinții tăi."
-          waUrl={'https://wa.me/40754219011?text=' + encodeURIComponent('Bună ziua! Sunt interesat de fațete dentare și aș dori să programez o consultație.')}
+          waUrl={WA_URL}
         />
 
-        {/* FAQ */}
-        <section className="py-20 px-6 bg-offwhite">
+        {/* H. FAQ */}
+        <section className="py-20 px-6 bg-cream">
           <div className="container-site max-w-3xl">
             <h2 className="font-playfair text-3xl text-forest-dark mb-10">
               Întrebări frecvente
@@ -328,13 +474,13 @@ export default function FateteDentarePage() {
         <section id="programare" className="py-20 px-6 bg-forest">
           <div className="container-site max-w-2xl text-center">
             <h2 className="font-playfair italic text-4xl text-cream mb-4">
-              Descoperă cum arată zâmbetul tău ideal
+              Programează consultația gratuită
             </h2>
             <p className="font-jost font-light text-forest-light mb-10">
-              Consultație gratuită — evaluăm situația ta și îți explicăm opțiunile disponibile.
+              Echipa ARA DENT STUDIO evaluează situația ta și îți explică opțiunile disponibile — fără presiune, fără obligații.
             </p>
             <a
-              href="https://wa.me/40754219011?text=Bun%C4%83%20ziua!%20Doresc%20o%20consulta%C8%9Bie%20pentru%20fa%C8%9Bete%20dentare."
+              href={WA_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 font-jost text-sm uppercase tracking-wider bg-[#25D366] text-white px-8 py-4 rounded-sm hover:bg-[#1ebe5d] transition-all duration-300"
@@ -344,6 +490,9 @@ export default function FateteDentarePage() {
               </svg>
               Programează pe WhatsApp
             </a>
+            <p className="mt-4 font-jost font-light text-[13px] text-forest-light/80">
+              Program: luni–vineri, 09:00–18:00
+            </p>
           </div>
         </section>
 
