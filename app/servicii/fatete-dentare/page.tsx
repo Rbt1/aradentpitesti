@@ -130,10 +130,10 @@ const FAQ_ITEMS: { q: string; a: string | ReactNode }[] = [
       <>
         Medicul evaluează situația și, dacă este cazul, poate recomanda o{' '}
         <Link
-          href="/blog/gutiera-bruxism-pitesti"
+          href="/blog/bruxism-scrasnitul-dintilor-pitesti"
           className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200"
         >
-          gutieră de protecție
+          ghidul nostru despre bruxism
         </Link>
         .
       </>
@@ -415,10 +415,10 @@ export default function FateteDentarePage() {
               <p>
                 Dacă scrâșnești din dinți în timpul somnului, medicul poate recomanda o{' '}
                 <Link
-                  href="/blog/gutiera-bruxism-pitesti"
+                  href="/blog/bruxism-scrasnitul-dintilor-pitesti"
                   className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200"
                 >
-                  gutieră de protecție
+                  ghidul nostru despre bruxism
                 </Link>
                 {' '}pentru a preveni uzura fațetelor.
               </p>

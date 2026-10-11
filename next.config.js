@@ -22,6 +22,11 @@ const nextConfig = {
         destination: '/blog/cat-costa-implant-dentar-pitesti-2026',
         permanent: true,
       },
+      {
+        source: '/blog/gutiera-bruxism-pitesti',
+        destination: '/blog/bruxism-scrasnitul-dintilor-pitesti',
+        permanent: true,
+      },
     ]
   },
 }

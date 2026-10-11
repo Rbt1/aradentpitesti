@@ -970,7 +970,7 @@ export const articole: Articol[] = [
     Fisuri microscopice in smalt permit patrunderea stimulilor termici spre nerv.</p>
 
     <p><strong>5. Bruxism (scrasnitul dintilor)</strong><br/>
-    Uzura smaltului prin scrasnit expune dentina progresiv.</p>
+    Uzura smaltului prin scrasnit expune dentina progresiv. Afla mai multe in <a href="/blog/bruxism-scrasnitul-dintilor-pitesti">ghidul nostru despre bruxism</a>.</p>
 
     <p><strong>6. Dupa detartraj sau albire</strong><br/>
     Sensibilitate temporara, normala, dispare in cateva zile.</p>
@@ -1068,72 +1068,117 @@ export const articole: Articol[] = [
   },
   {
     slug: 'bruxism-scrasnitul-dintilor-pitesti',
-    title: 'Bruxism in Pitesti — cauze, simptome si tratament',
-    metaDescription: 'Bruxism in Pitesti — cauze, simptome si tratament. Gutiera ocluzala personalizata la ARA DENT STUDIO. Consultatie gratuita. Dr. Robert Lungu.',
-    excerpt: 'Scrasnitul dintilor in somn e una dintre cele mai frecvente probleme dentare — si una dintre cele mai ignorate. Afla cauzele, simptomele si cum se trateaza.',
+    title: 'Bruxism: cauze, simptome și tratament în Pitești',
+    metaDescription: 'Ghid despre bruxism, adică scrâșnitul și încleștarea dinților: simptome, cauze, gutieră și tratament, la ARA DENT STUDIO din Pitești.',
+    excerpt: 'Bruxismul înseamnă scrâșnirea sau încleștarea dinților în somn sau în stare de veghe. Află cauzele, simptomele și ce se poate face — inclusiv gutiera ocluzală.',
     date: '2026-08-25',
     continut: `
-    <p>Scrasnitul dintilor in somn e una dintre cele mai frecvente probleme dentare — si una dintre cele mai ignorate, tocmai pentru ca apare noaptea, fara ca pacientul sa-si dea seama. Pana cand apar simptomele vizibile, dintii pot fi deja afectati semnificativ.</p>
+    <p>Bruxismul înseamnă scrâșnirea sau încleștarea dinților — în somn sau în stare de veghe — fără ca persoana să își dea seama în mod conștient. În timp, poate uza smalțul, poate ciobi dinții și poate cauza dureri de maxilar sau dureri de cap. La ARA DENT STUDIO din Pitești, consultația este gratuită.</p>
 
     <h2>Ce este bruxismul</h2>
-    <p>Bruxismul este strangerea sau scrasnitul involuntar al dintilor, cel mai frecvent in timpul somnului (bruxism nocturn), dar poate aparea si in stare de veghe (bruxism diurn). Nu e un obicei constient — e o disfunctie neuromusculara care se produce fara controlul pacientului.</p>
+    <p>Bruxismul este strângerea sau scrâșnirea involuntară a dinților. Apare cel mai frecvent în somn — <strong>bruxism nocturn</strong> — dar poate fi prezent și în stare de veghe, de obicei în perioadele de stres sau concentrare intensă: acesta se numește <strong>bruxism diurn</strong> și se manifestă mai des prin încleștare decât prin scrâșnit propriu-zis.</p>
+    <p>Bruxismul nocturn tinde să fie mai sever, deoarece persoana nu controlează intensitatea forțelor exercitate în somn. Ambele forme pot produce uzura dinților și disconfort la nivelul maxilarului. Nu este un obicei conștient — este o disfuncție a musculaturii masticatorii pe care persoana nu o controlează voluntar. Uneori, o predispoziție genetică poate contribui la apariția lui.</p>
 
-    <h2>Cauzele bruxismului</h2>
-    <p>Nu exista o cauza unica — bruxismul e de obicei rezultatul mai multor factori combinati:</p>
+    <h2>Simptome: cum știi dacă ai bruxism</h2>
+    <p>Mulți pacienți nu știu că scrâșnesc — îi anunță partenerul de pat sau medicul la control. Câteva semne la care să fii atent:</p>
     <ul>
-      <li><strong>Stres si anxietate</strong> — cel mai frecvent declansator. Tensiunea acumulata in timpul zilei se descarca prin musculatura masticatorie in somn</li>
-      <li><strong>Ocluzie dentara incorecta</strong> — dinti care nu se inchid corect creeaza tensiune in articulatia temporomandibulara</li>
-      <li><strong>Tulburari de somn</strong> — bruxismul e frecvent asociat cu apneea de somn</li>
-      <li><strong>Factori genetici</strong> — tendinta de a scrasnii dintii se poate mosteni</li>
-      <li><strong>Consumul de cofeina, alcool sau tutun</strong> — agraveaza episoadele nocturne</li>
-      <li><strong>Anumite medicamente</strong> — antidepresivele de tip SSRI pot declansa sau agrava bruxismul</li>
+      <li>Uzura sau ciobirea dinților — suprafețele devin mai plate, dinții par mai scurți față de forma lor naturală</li>
+      <li><a href="/blog/de-ce-dor-dintii-la-rece">Sensibilitate dentară</a> crescută la rece sau cald, apărută progresiv fără o altă cauză aparentă</li>
+      <li>Dureri de maxilar sau la nivelul articulației temporo-mandibulare (ATM), mai ales dimineața</li>
+      <li>Dureri de cap sau de față frecvente la trezire</li>
+      <li>Zgomotul scrâșnitului observat de partener în somn</li>
+      <li>Senzație de oboseală sau tensiune în mușchii maxilarului după trezire</li>
+      <li>Modificarea formei dinților frontali, vizibilă în oglindă sau sesizată de medic la control</li>
     </ul>
+    <p>Unele semne — în special uzura dentară și starea articulației — se evaluează la examen clinic. Diagnosticul se pune de medic, nu doar din simptomele raportate de pacient. Un control la timp ajută la limitarea daunelor, deoarece smalțul uzat nu se mai reface.</p>
 
-    <h2>Simptomele — cum iti dai seama ca ai bruxism</h2>
-    <p>Majoritatea pacientilor nu stiu ca scrasnesc — ii anunta partenerul de pat sau medicul stomatolog la control.</p>
-    <p><strong>Semne clinice vizibile:</strong></p>
+    <h2>Cauze</h2>
+    <p>Nu există o cauză unică a bruxismului. Stresul și calitatea somnului sunt cei mai frecvent citați factori declanșatori — tensiunea acumulată în timpul zilei se poate descărca prin musculatura masticatorie în somn. Anumite obiceiuri pot agrava episoadele nocturne: consumul de cofeină sau alcool seara, fumatul. Uneori intervin și factori legați de mușcătură sau de ocluzie dentară — dinții care nu se ocluzează corect pot crea tensiune suplimentară la nivelul articulației. Bruxismul este, de cele mai multe ori, rezultatul mai multor factori combinați.</p>
+    <p>Stabilirea factorilor individuali se face prin examinare și discuție cu medicul. Cauzele variază de la o persoană la alta.</p>
+
+    <h2>Cum se stabilește diagnosticul</h2>
+    <p>La consultația gratuită, medicul examinează suprafețele dentare, starea mușchilor masticatori și articulația temporo-mandibulară. Dacă este necesar, poate recomanda o radiografie panoramică — taxată separat, 100 lei.</p>
+    <p>Pe baza examinării, medicul stabilește dacă este nevoie de tratament, de ce tip și în ce ordine de prioritate. Nu orice scrâșnit din dinți necesită intervenție imediată — decizia se ia individual, în funcție de gradul de uzură și de simptome.</p>
+
+    <h2>Tratament: ce se poate face</h2>
+    <p>Tratamentul are două direcții principale: protejarea dinților de uzura în curs și reducerea factorilor declanșatori.</p>
+    <p><strong>Gutiera ocluzală</strong> este cea mai frecventă recomandare. Protejează dinții și lucrările protetice de forțele generate de scrâșnit, relaxează musculatura masticatorie și poate reduce durerile matinale. Nu elimină cauza bruxismului, dar previne daunele suplimentare — mai multe detalii în secțiunea de mai jos.</p>
+    <p><strong>Controlul factorilor declanșatori</strong> — reducerea stresului, un program de somn mai regulat, limitarea cofeinei seara — poate contribui la scăderea frecvenței și intensității episoadelor.</p>
+    <p><strong>Colaborarea cu alți specialiști</strong> poate fi recomandată uneori, în funcție de cauza identificată de medic.</p>
+    <p>Dacă dinții s-au uzat sau s-au ciobit, aceștia pot fi refăcuți prin <a href="/servicii/obturatii">obturații</a> sau, în cazurile mai complexe, prin <a href="/servicii/protetica-dentara">lucrări protetice</a>. Medicul îți explică ordinea de prioritate la consultație.</p>
+
+    <h2>Gutiera ocluzală: când ai nevoie și cum se realizează</h2>
+    <p>Gutiera ocluzală este un dispozitiv transparent, realizat personalizat după dinții tăi, purtat de obicei noaptea. Absoarbe și redistribuie forțele generate de scrâșnit, protejând smalțul, articulația temporo-mandibulară și orice lucrări protetice existente.</p>
+    <p><strong>Este recomandată în trei situații principale:</strong></p>
     <ul>
-      <li>Uzura suprafetelor dentare — dintii devin mai scurti, mai plati</li>
-      <li>Fisuri sau fracturi dentare fara traumatism aparent</li>
-      <li>Sensibilitate dentara crescuta la rece si cald</li>
-      <li>Modificarea formei dintilor frontali</li>
+      <li><strong>Bruxism confirmat</strong> — uzura vizibilă a suprafețelor dentare, dureri matinale de cap sau de maxilar, scrâșnet observat de partener</li>
+      <li><strong>Protecție pentru lucrări protetice</strong> — dacă ai implanturi, fațete ceramice, coroane sau punți dentare și scrâșnești din dinți, gutiera devine parte importantă a planului de îngrijire, pentru a preveni compromiterea lucrărilor</li>
+      <li><strong>Disfuncție temporo-mandibulară (ATM)</strong> — dureri sau zgomote în articulația maxilarului, limitarea deschiderii gurii, dureri de cap recurente de origine musculară</li>
     </ul>
-    <p><strong>Simptome resimtite de pacient:</strong></p>
+    <p><strong>Cum se realizează la ARA DENT STUDIO:</strong> gutiera se face pe baza unei scanări digitale cu scanner-ul intraoral — fără materiale de amprentare clasice, fără disconfort. Tipul și protocolul de purtare se stabilesc individual, după evaluare.</p>
+    <p><strong>Câte ore se poartă:</strong> în bruxismul nocturn, gutiera se poartă în somn; în bruxismul diurn, medicul poate recomanda purtarea și în perioadele de stres intens. Protocolul exact îl stabilește medicul la consultație.</p>
+    <p><strong>Îngrijirea gutierei:</strong> clătire cu apă rece după fiecare utilizare; periaj ușor cu periuță moale, fără pastă abrazivă; depozitare în cutia dedicată, departe de căldură; control periodic la cabinet pentru verificarea uzurii.</p>
+
+    <h2>Ce poți face acasă</h2>
+    <p>Câteva obiceiuri pot reduce frecvența sau intensitatea episoadelor de bruxism:</p>
     <ul>
-      <li>Durere sau tensiune in muschii masticatori dimineata</li>
-      <li>Dureri de cap frecvente, mai ales la trezire</li>
-      <li>Durere sau zgomote in articulatia temporomandibulara (ATM)</li>
-      <li>Senzatie de oboseala a maxilarului</li>
-      <li>Perturbarea somnului partenerului din cauza zgomotului</li>
+      <li>Activități de relaxare înainte de culcare și evitarea ecranelor cu o oră înainte de somn</li>
+      <li>Un program de somn regulat — ore fixe de culcare și trezire</li>
+      <li>Evitarea mestecatului de gumă și a obiceiului de a roade unghii sau obiecte — mențin musculatura masticatorie în tensiune constantă</li>
+      <li>Limitarea cofeinei seara</li>
     </ul>
+    <p>Despre suplimente — inclusiv magneziu, recomandat uneori pentru relaxare musculară: suplimentele nu înlocuiesc evaluarea medicală și nu tratează cauza bruxismului. Discută cu medicul înainte să iei orice supliment.</p>
 
-    <h2>Ce se intampla daca nu tratezi bruxismul</h2>
-    <p>Bruxismul netratat produce daune progresive si ireversibile:</p>
+    <h2>Când să mergi la medic</h2>
+    <p>Nu orice scrâșnet din dinți este o urgență, dar câteva semne merită un control la timp:</p>
     <ul>
-      <li><strong>Uzura smaltului</strong> — odata pierdut, smaltul nu se reface</li>
-      <li><strong>Fracturi dentare</strong> — dintii slabiti de uzura se sparg mai usor</li>
-      <li><strong>Probleme la nivelul ATM</strong> — articulatia temporomandibulara se poate deteriora, ducand la dureri cronice si limitarea deschiderii gurii</li>
-      <li><strong>Compromiterea lucrarilor protetice</strong> — coroanele, fatetele si implanturile sunt expuse unor forte mult mai mari decat cele pentru care au fost proiectate</li>
+      <li>Dinți care par mai scurți sau mai plați decât înainte</li>
+      <li>Sensibilitate dentară apărută progresiv, fără o altă cauză aparentă</li>
+      <li>Dureri de maxilar sau de față dimineața</li>
+      <li>Dureri de cap frecvente la trezire</li>
+      <li>Ai lucrări protetice (implanturi, fațete, coroane) și scrâșnești din dinți</li>
     </ul>
+    <p>Controlul timpuriu ajută la prevenirea uzurii avansate și la alegerea celei mai simple și mai puțin invazive soluții.</p>
 
-    <h2>Tratamentul bruxismului la ARA DENT STUDIO</h2>
-    <p><strong>Gutiera ocluzala</strong> este tratamentul principal pentru bruxism — un dispozitiv transparent, realizat personalizat, care se poarta noaptea si protejeaza dintii de fortele de scrasnit.</p>
-    <p>Ce face gutiera:</p>
-    <ul>
-      <li>Absoarbe si redistribuie fortele de scrasnit</li>
-      <li>Protejeaza smaltul si lucrarile protetice existente</li>
-      <li>Relaxeaza musculatura masticatorie</li>
-      <li>Reduce durerile matinale de cap si maxilar</li>
-    </ul>
-    <p>Gutiera nu vindeca bruxismul — il controleaza si previne daunele. La ARA DENT STUDIO, gutiera se realizeaza pe baza unei scanari digitale cu scannerul intraoral, pentru o potrivire perfecta.</p>
-    <p>In functie de severitatea cazului, Dr. Robert Lungu poate recomanda si tehnici de relaxare, managementul stresului sau colaborarea cu un specialist in medicina somnului pentru cazurile asociate cu apnee.</p>
+    <h2>Cât costă</h2>
+    <p>Consultația este gratuită. Dacă medicul consideră necesară o radiografie panoramică, aceasta se taxează separat (100 lei). Costul gutierei se stabilește după evaluare, în funcție de tipul recomandat. Găsești <a href="/preturi">lista de prețuri</a> pe pagina dedicată.</p>
 
-    <h2>Bruxismul si lucrarile protetice</h2>
-    <p>Daca ai implanturi, coroane sau fatete dentare si scrasnesti din dinti, gutiera devine <strong>obligatorie</strong> — nu optionala. Fortele generate de bruxism pot compromite orice lucrare protetica, oricat de bine executata.</p>
-
-    <h2>Consultatie la ARA DENT STUDIO Pitesti</h2>
-    <p>Consultatie gratuita. Radiografie panoramica: 100 lei. Dr. Robert Lungu evalueaza starea dintilor, gradul de uzura si iti recomanda tratamentul potrivit.</p>
+    <p>La ARA DENT STUDIO, programează-te pe <a href="https://wa.me/40754219011">WhatsApp</a> — consultație gratuită. Program: luni–vineri, 09:00–18:00.</p>
   `,
+    faq: [
+      {
+        q: 'Ce este bruxismul?',
+        a: 'Bruxismul înseamnă scrâșnirea sau încleștarea involuntară a dinților, care apare cel mai frecvent în somn (bruxism nocturn) sau în stare de veghe (bruxism diurn).',
+      },
+      {
+        q: 'Poate fi tratat bruxismul?',
+        a: 'Bruxismul se poate controla, iar dinții pot fi protejați. Abordarea depinde de cauze și se stabilește după examinare.',
+      },
+      {
+        q: 'Cum știu dacă am bruxism?',
+        a: 'Uzura dinților, dureri de maxilar sau de cap dimineața și zgomotul scrâșnetului observat de partener sunt semne frecvente. Diagnosticul îl pune medicul la examen clinic.',
+      },
+      {
+        q: 'Cum opresc scrâșnitul din dinți?',
+        a: 'Nu există o soluție unică. Medicul evaluează cauza și poate recomanda o gutieră și măsuri de reducere a factorilor declanșatori.',
+      },
+      {
+        q: 'Ce este gutiera ocluzală?',
+        a: 'O piesă transparentă, realizată personalizat, purtată de obicei noaptea, care protejează dinții și lucrările protetice de uzura cauzată de scrâșnit.',
+      },
+      {
+        q: 'Gutiera vindecă bruxismul?',
+        a: 'Gutiera nu elimină cauza, dar protejează dinții de uzură. Factorii declanșatori pot fi reduși prin modificarea obiceiurilor și, uneori, colaborarea cu alți specialiști.',
+      },
+      {
+        q: 'Poate bruxismul să strice dinții?',
+        a: 'Da, uzura progresivă poate afecta smalțul, poate cauza fracturi și poate compromite lucrările protetice. Un control la timp ajută la prevenirea deteriorării avansate.',
+      },
+      {
+        q: 'Consultația este gratuită?',
+        a: 'Da. Dacă medicul consideră necesară o radiografie panoramică, aceasta se taxează separat (100 lei).',
+      },
+    ],
   },
   {
     slug: 'urgente-dentare-noaptea-weekend',
@@ -1181,73 +1226,6 @@ export const articole: Articol[] = [
     <p>Programul nostru este Luni–Vineri 09:00–18:00. Nu avem program de noapte sau in weekend.</p>
     <p>Daca ai o urgenta care poate astepta pana luni, scrie-ne pe WhatsApp oricand — iti confirmam prima programare disponibila si te asteptam.</p>
     <p>Daca urgenta nu poate astepta si nu prezinti semnele grave descrise mai sus, cel mai apropiat serviciu de garda stomatologica din Pitesti poate fi o optiune pentru calmarea durerii acute.</p>
-  `,
-  },
-  {
-    slug: 'gutiera-bruxism-pitesti',
-    title: 'Gutiera pentru bruxism — cand ai nevoie si cum se realizeaza',
-    metaDescription: 'Gutiera ocluzala pentru bruxism in Pitesti — cand e necesara, cum se realizeaza cu scanner intraoral si cum protejeaza dintii. ARA DENT STUDIO.',
-    excerpt: 'Daca medicul ti-a recomandat o gutiera sau ai descoperit ca scrasnesti din dinti in somn, afla cand e cu adevarat necesara si ce presupune realizarea ei.',
-    date: '2026-08-27',
-    continut: `
-    <p>Daca medicul stomatolog ti-a recomandat o gutiera sau ai descoperit ca scrasnesti din dinti in somn, probabil te intrebi daca e cu adevarat necesara si ce presupune. Iata tot ce trebuie sa stii.</p>
-
-    <h2>Ce este gutiera ocluzala</h2>
-    <p>Gutiera ocluzala (numita si gutiera de bruxism sau gutiera de relaxare) este un dispozitiv transparent, realizat personalizat din rasina acrilica sau material termoplastic, care se poarta peste dinti pentru a proteja smaltul si lucrarile protetice de fortele generate de scrasnit.</p>
-    <p>Nu e o proteza — e un dispozitiv de protectie si relaxare musculara.</p>
-
-    <h2>Cand ai nevoie de gutiera</h2>
-    <p><strong>Bruxism confirmat:</strong></p>
-    <ul>
-      <li>Scrasnit nocturn confirmat de partener sau de medic</li>
-      <li>Uzura vizibila a suprafetelor dentare</li>
-      <li>Dureri matinale de cap sau de maxilar</li>
-      <li>Tensiune in muschii masticatori</li>
-    </ul>
-    <p><strong>Protectie pentru lucrari protetice:</strong></p>
-    <ul>
-      <li>Ai implanturi dentare si scrasnesti din dinti</li>
-      <li>Ai fatete ceramice — gutiera devine obligatorie</li>
-      <li>Ai coroane sau punti dentare</li>
-      <li>Urmeaza sa faci lucrari protetice</li>
-    </ul>
-    <p><strong>Disfunctie temporomandibulara (ATM):</strong></p>
-    <ul>
-      <li>Dureri sau zgomote in articulatia maxilarului</li>
-      <li>Limitarea deschiderii gurii</li>
-      <li>Dureri de cap recurente de origine musculara</li>
-    </ul>
-
-    <h2>Cum se realizeaza gutiera la ARA DENT STUDIO</h2>
-    <p>La ARA DENT STUDIO, gutiera se realizeaza pe baza unei <strong>scanari digitale cu scannerul intraoral</strong> — fara materiale de amprentare clasice, fara disconfort.</p>
-    <p>Numarul de sedinte necesare depinde de complexitatea cazului si de tipul de gutiera recomandat. Dr. Robert Lungu stabileste la consultatie protocolul potrivit pentru situatia ta specifica.</p>
-
-    <h2>Cate ore pe zi se poarta gutiera</h2>
-    <p>Depinde de tipul de bruxism si de recomandarea medicului:</p>
-    <ul>
-      <li><strong>Bruxism nocturn</strong> — gutiera se poarta exclusiv in timpul somnului</li>
-      <li><strong>Bruxism diurn</strong> — gutiera poate fi recomandata si in timpul zilei, in perioadele de stres sau concentrare intensa</li>
-      <li><strong>Disfunctie ATM</strong> — protocolul de purtare e stabilit individual</li>
-    </ul>
-
-    <h2>Cum ingrijesti gutiera</h2>
-    <ul>
-      <li>Clatire cu apa rece dupa fiecare utilizare</li>
-      <li>Periaj usor cu periuta moale — fara pasta de dinti abraziva</li>
-      <li>Depozitare in cutia dedicata, ferit de caldura</li>
-      <li>Control periodic la cabinet pentru verificarea uzurii</li>
-    </ul>
-
-    <h2>Gutiera nu inlocuieste tratamentul cauzei</h2>
-    <p>Gutiera protejeaza dintii — nu trateaza cauza bruxismului. In functie de factorul declansator, Dr. Robert Lungu poate recomanda si:</p>
-    <ul>
-      <li>Tehnici de management al stresului</li>
-      <li>Consultul unui specialist in medicina somnului pentru cazurile asociate cu apnee</li>
-      <li>Reechilibrare ocluzala daca bruxismul e cauzat de ocluzie incorecta</li>
-    </ul>
-
-    <h2>Consultatie la ARA DENT STUDIO Pitesti</h2>
-    <p>Consultatie gratuita. Radiografie panoramica: 100 lei. Evaluam gradul de uzura dentara, starea articulatiei temporomandibulare si stabilim daca gutiera e solutia potrivita pentru tine.</p>
   `,
   },
   {
