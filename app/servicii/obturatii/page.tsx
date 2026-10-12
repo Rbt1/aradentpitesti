@@ -131,6 +131,10 @@ export default function OburatiiPage() {
                 <Link href="/blog/odontoterapie-ce-este-si-cand-ai-nevoie" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">ghidul nostru despre odontoterapie</Link>
                 {' '}pentru o prezentare completă a tratamentului.
               </p>
+              <p>
+                Dacă nu ești sigur dacă ai nevoie de o obturație, o fațetă sau o coroană, citește{' '}
+                <Link href="/blog/restaurare-dentara-metode-cand-se-recomanda" className="text-forest underline underline-offset-2 hover:text-gold transition-colors duration-200">cum alegi între obturație, fațetă și coroană</Link>.
+              </p>
             </div>
           </div>
         </section>

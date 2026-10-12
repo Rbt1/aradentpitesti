@@ -1731,7 +1731,7 @@ export const articole: Articol[] = [
 
     <h2>Restaurare cu obturație, fațetă sau coroană</h2>
     <p>Instrumentul principal al odontoterapiei restaurative este obturația — pentru carii mici și medii, este de obicei cea mai simplă și rapidă soluție. Când afectarea este mai extinsă sau există și o componentă estetică, medicul poate propune alte variante.</p>
-    <p>Fațetele dentare pot fi indicate pentru dinți ciobiți sau modificări de formă și culoare — mai multe detalii pe pagina <a href="/servicii/fatete-dentare">fațete dentare</a>. Coroana dentară este aleasă atunci când dintele a suferit pierderi mari de substanță și nu mai poate fi restaurat cu o obturație simplă. Alegerea depinde de evaluarea individuală.</p>
+    <p>Fațetele dentare pot fi indicate pentru dinți ciobiți sau modificări de formă și culoare — mai multe detalii pe pagina <a href="/servicii/fatete-dentare">fațete dentare</a>. Coroana dentară este aleasă atunci când dintele a suferit pierderi mari de substanță și nu mai poate fi restaurat cu o obturație simplă. Alegerea depinde de evaluarea individuală. Citește <a href="/blog/restaurare-dentara-metode-cand-se-recomanda">ghidul nostru despre restaurarea dentară</a> pentru o comparație detaliată a metodelor.</p>
 
     <h2>Cât costă</h2>
     <p>Consultația este gratuită. O obturație pe o suprafață costă <strong>200 lei</strong>. Dacă medicul consideră necesară o radiografie panoramică, aceasta se taxează separat: <strong>100 lei</strong>. Costul final depinde de numărul de suprafețe afectate și de complexitatea cazului și se stabilește după evaluare. Consultă <a href="/preturi">lista completă de prețuri</a>.</p>
@@ -1907,6 +1907,117 @@ export const articole: Articol[] = [
       {
         q: 'Consultația este gratuită?',
         a: 'Da. Dacă medicul consideră necesară o radiografie panoramică pentru evaluare, aceasta se taxează separat: 100 lei.',
+      },
+    ],
+  },
+  {
+    slug: 'restaurare-dentara-metode-cand-se-recomanda',
+    title: 'Restaurare dentară: metode și când se recomandă',
+    metaDescription: 'Ghid despre restaurarea dentară — obturație, fațetă sau coroană: când se recomandă fiecare și cum alegi metoda potrivită, la ARA DENT STUDIO din Pitești.',
+    excerpt: 'Restaurarea dentară reface forma, funcția și aspectul unui dinte afectat de carie, uzură, ciobire sau fractură. Află care sunt metodele disponibile — obturație, fațetă sau coroană — și cum alegi varianta potrivită.',
+    date: '2026-10-12',
+    continut: `
+    <p>Restaurarea dentară reface forma, funcția și aspectul unui dinte afectat de carie, uzură, ciobire sau fractură. Principalele metode utilizate sunt <a href="/servicii/obturatii">obturațiile dentare</a>, fațetele și coroanele, iar alegerea depinde de cât din structura dintelui a mai rămas și de situația clinică individuală. La ARA DENT STUDIO din Pitești, consultația este gratuită.</p>
+
+    <h2>Ce înseamnă restaurarea dentară</h2>
+    <p>Restaurarea dentară se aplică ori de câte ori un dinte a pierdut o parte din structura sa — din cauza cariei, a unui traumatism, a uzurii în timp sau a ciobirii — și trebuie refăcut pentru a-și recăpăta funcția și aspectul. Nu orice problemă dentară necesită restaurare: afecțiunile gingiei și ale osului alveolar intră în sfera parodontologiei, iar tratamentul de canal intervine când afectarea a ajuns la nivelul nervului. Pentru ce înseamnă tratamentul cariilor și care este diferența față de alte ramuri ale stomatologiei, citește <a href="/blog/odontoterapie-ce-este-si-cand-ai-nevoie">ghidul nostru despre odontoterapie</a>.</p>
+
+    <h2>Metodele de restaurare</h2>
+
+    <h3>Obturația</h3>
+    <p>Obturația este metoda uzuală pentru cariile mici și medii, în care structura rămasă a dintelui este suficientă pentru o restaurare directă. Materialul compozit — nuanțat identic cu culoarea dintelui — este aplicat în zona afectată, modelat și șlefuit pentru a reda forma originală. Procedura se efectuează de obicei într-o singură ședință și produce un rezultat funcțional și estetic.</p>
+
+    <h3>Fațeta</h3>
+    <p>Fațeta este o lamelă subțire, ceramică sau din compozit, fixată pe fața vizibilă a dintelui. Este folosită uneori pentru dinți ciobiți, uzați sau cu modificări de formă și culoare pe care o obturație simplă nu le poate corecta în mod satisfăcător. Mai multe detalii despre procedură, materiale și îngrijire pe pagina de <a href="/servicii/fatete-dentare">fațete dentare</a>.</p>
+
+    <h3>Coroana</h3>
+    <p>Coroana acoperă întregul dinte, refăcând forma, funcția și aspectul acestuia în cazurile cu pierdere extinsă de substanță dentară. Este recomandată uneori după un tratament de canal, când dintele este fragilizat și are nevoie de protecție completă, sau atunci când structura rămasă nu mai poate susține o obturație sau o fațetă. Materialele moderne — de exemplu zirconiul — oferă rezistență ridicată și aspect natural. Detalii despre <a href="/servicii/protetica-dentara">lucrări protetice</a> pe pagina dedicată.</p>
+
+    <h2>Cum alegi metoda potrivită</h2>
+    <p>Alegerea metodei nu se face după preferință personală, ci după evaluarea clinică. Câțiva factori care influențează decizia:</p>
+    <ul>
+      <li>Cât din structura dintelui a mai rămas intact — cu cât pierderea de substanță e mai mare, cu atât e nevoie de o restaurare mai extinsă</li>
+      <li>Poziția dintelui — dinții frontali sunt mai solicitați estetic, iar cei laterali sunt expuși unor forțe masticatorii mai mari</li>
+      <li>Aspectul dorit — dacă există și o componentă estetică, aceasta influențează alegerea materialului și a metodei</li>
+      <li>Starea gingiei și a dinților vecini — o gingie afectată se tratează de obicei înainte de orice restaurare</li>
+      <li>Obiceiuri care uzează dinții, precum <a href="/blog/bruxism-scrasnitul-dintilor-pitesti">bruxismul</a> — scrâșnitul sau încleștarea dinților — care pot influența alegerea materialului și pot necesita protecție suplimentară</li>
+    </ul>
+    <p>Nu există o singură metodă potrivită pentru toți. Medicul stabilește varianta optimă după examinarea individuală.</p>
+
+    <h2>Când se recomandă fiecare metodă</h2>
+    <div style="overflow-x: auto;">
+      <table>
+        <thead>
+          <tr>
+            <th>Metodă</th>
+            <th>De obicei se recomandă când</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Obturație</strong></td>
+            <td>Dintele a pierdut substanță din cauza cariei, dar structura rămasă este suficientă pentru o restaurare directă</td>
+          </tr>
+          <tr>
+            <td><strong>Fațetă</strong></td>
+            <td>Dintele prezintă modificări de formă, culoare sau ciobiri pe fața vizibilă, cu substanță dentară relativ intactă</td>
+          </tr>
+          <tr>
+            <td><strong>Coroană</strong></td>
+            <td>Dintele a suferit pierderi mari de substanță, uneori după un tratament de canal, sau necesită protecție integrală</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Decizia finală aparține medicului, după examinare.</p>
+
+    <h2>Etapele unei restaurări dentare</h2>
+    <ol>
+      <li><strong>Consultația gratuită și examenul clinic</strong> — medicul evaluează dintele, gradul de afectare și variantele disponibile pentru situația ta specifică.</li>
+      <li><strong>Imagistica</strong> — dacă medicul consideră necesar, se face o radiografie panoramică, taxată separat (100 lei).</li>
+      <li><strong>Anestezie locală</strong>, dacă este nevoie, pentru confortul pe durata procedurii.</li>
+      <li><strong>Pregătirea dintelui</strong> — îndepărtarea țesutului afectat sau prepararea suprafeței, în funcție de metoda aleasă.</li>
+      <li><strong>Realizarea restaurării</strong> — obturație directă, fațetă sau coroană, conform planului stabilit la consultație.</li>
+      <li><strong>Verificarea mușcăturii și recomandări de întreținere</strong> — pentru un rezultat stabil și longeviv.</li>
+    </ol>
+    <p>Numărul de ședințe depinde de metodă și de caz. O obturație se realizează de obicei într-o singură vizită; fațetele și coroanele necesită de obicei mai multe ședințe, incluzând scanarea sau amprentarea și proba lucrării.</p>
+
+    <h2>Cum îți păstrezi restaurările</h2>
+    <p>Igiena orală corectă — periaj de două ori pe zi și utilizarea aței dentare sau a periei interdentare — este baza pentru orice tip de restaurare. Igienizarea profesională periodică îndepărtează tartrul și depozitele pe care periajul casnic nu le poate elimina complet — mai multe detalii în articolul despre <a href="/blog/detartraj-igienizare-dentara-pitesti">detartraj și igienizare dentară în Pitești</a>. Obiceiuri precum roaderea unghiilor, mestecarea obiectelor tari sau scrâșnitul din dinți exercită forțe suplimentare atât pe dinți, cât și pe restaurări — dacă ai astfel de obiceiuri, medicul îți poate recomanda măsuri de protecție specifice situației tale. Controalele periodice permit depistarea timpurie a eventualelor probleme, înainte ca acestea să necesite intervenții mai complexe.</p>
+
+    <h2>Cât costă</h2>
+    <p>Consultația este gratuită. O obturație pe o suprafață costă <strong>200 lei</strong>; dacă medicul consideră necesară o radiografie panoramică, aceasta se taxează separat (<strong>100 lei</strong>). Costul fațetelor și al coroanelor se stabilește după evaluare, în funcție de situația clinică și de numărul de dinți implicați. Găsești detalii pe <a href="/preturi">lista de prețuri</a>.</p>
+
+    <p>La ARA DENT STUDIO, programarea se face direct pe <a href="https://wa.me/40754219011">WhatsApp</a> — consultație gratuită. Program: luni–vineri, 09:00–18:00.</p>
+  `,
+    faq: [
+      {
+        q: 'Ce este restaurarea dentară?',
+        a: 'Refacerea formei, funcției și aspectului unui dinte afectat de carie, uzură, ciobire sau fractură, prin obturație, fațetă sau coroană.',
+      },
+      {
+        q: 'Care sunt metodele de restaurare dentară?',
+        a: 'Obturația, fațeta și coroana. Medicul recomandă metoda potrivită după examinare.',
+      },
+      {
+        q: 'Cum aleg între obturație, fațetă și coroană?',
+        a: 'Alegerea depinde de cât din dinte a rămas, de poziția lui, de aspectul dorit și de starea dinților vecini. Medicul o stabilește după examinare.',
+      },
+      {
+        q: 'Cât ține o restaurare dentară?',
+        a: 'Depinde de metodă, de material, de igienă, de obiceiuri (de exemplu scrâșnitul din dinți) și de controalele periodice. Nu putem promite o durată fixă.',
+      },
+      {
+        q: 'Doare o restaurare dentară?',
+        a: 'Dacă este necesar, se folosește anestezie locală. După aceea poate apărea un disconfort redus, gestionat conform recomandărilor medicului.',
+      },
+      {
+        q: 'Cât costă o obturație?',
+        a: '200 lei pe o suprafață. Costul final se stabilește după evaluare.',
+      },
+      {
+        q: 'Consultația este gratuită?',
+        a: 'Da. Dacă medicul consideră necesară o radiografie panoramică, aceasta se taxează separat (100 lei).',
       },
     ],
   },
